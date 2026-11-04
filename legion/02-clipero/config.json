@@ -1,0 +1,35 @@
+{
+  "idioma_audiencia": "es",
+
+  "max_fuentes_por_ciclo": 5,
+  "_max_fuentes_por_ciclo": "Primero las de los perfiles del usuario. Las que no entren se analizan en el ciclo siguiente si siguen dentro de la ventana.",
+  "max_clips_por_ciclo": 30,
+  "_max_clips_por_ciclo": "Solo es un tope de seguridad (unas 2 h de corte). El criterio es cortar todos los momentos que superen umbral_produccion; lo que pase del tope queda propuesto para el ciclo siguiente.",
+  "presupuesto_por_ciclo": {
+    "busquedas_youtube": 15,
+    "busquedas_web": 12,
+    "lecturas_web": 8
+  },
+
+  "fuente": {
+    "duracion_min_seg": 480,
+    "max_edad_dias": 7,
+    "tipos": ["podcasts", "entrevistas", "streams", "debates", "conferencias", "programas de TV o radio subidos a YouTube", "clips largos de Twitch o Kick"]
+  },
+  "clip": {
+    "duracion_min_seg": 15,
+    "duracion_max_seg": 75,
+    "duracion_ideal_seg": [25, 45],
+    "modo": "desenfoque"
+  },
+  "umbral_produccion": 65,
+
+  "fuentes_autorizadas": [
+    {
+      "canal": "Lalo Ocampo",
+      "url": "https://www.youtube.com/channel/UCmCfH4NmlvNvpW4NtrMN3gw",
+      "condiciones": "El usuario confirmó el 2026-11-02 que tiene permiso del artista para recortar sus videos. Sus clips llevan derechos autorizado."
+    }
+  ],
+  "_fuentes_autorizadas": "Canales propios o con programa de clips que autoriza a clipers. Formato: { \"canal\": \"...\", \"url\": \"...\", \"condiciones\": \"...\" }. Se priorizan y sus clips se marcan como autorizados."
+}

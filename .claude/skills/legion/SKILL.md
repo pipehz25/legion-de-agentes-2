@@ -1,0 +1,22 @@
+---
+name: legion
+description: Ejecuta la cadena completa de la Legión en orden - 01 Cazador Viral; cuando termina, 02 Clipero, que usa las oportunidades recién publicadas por el 01; y al final 03 Publicador, que prepara los clips nuevos y sube los aprobados. Pensado para /loop, p. ej. `/loop 6h /legion`. Acepta un enfoque opcional que se pasa al Cazador Viral.
+---
+
+# Cadena de la Legión
+
+Actúas como orquestador. Ejecuta los agentes **en orden, uno detrás de otro**, cada uno como subagente con la herramienta Agent. No hagas su trabajo en este contexto.
+
+| Paso | `subagent_type` | `prompt` |
+|------|-----------------|----------|
+| 1 | `cazador-viral` | `Ejecuta un ciclo completo según tu procedimiento. Enfoque pedido por el usuario (puede estar vacío): $ARGUMENTS` |
+| 2 | `clipero` | `Ejecuta un ciclo completo según tu procedimiento. El Cazador Viral acaba de terminar su ciclo: sus oportunidades están en salidas/cazador-viral/oportunidades.json.` |
+| 3 | `publicador` | `Ejecuta un ciclo completo según tu procedimiento. El Clipero acaba de terminar su ciclo: sus clips están en salidas/clipero/clips.json. Instrucción del usuario: ninguna.` |
+
+Reglas:
+- No lances un paso hasta que el anterior haya terminado.
+- Si el paso 1 falla, lanza igualmente el paso 2, que trabajará con las últimas oportunidades disponibles, y dilo en el resumen.
+- Si el paso 2 falla, lanza igualmente el paso 3, que publicará lo que ya estaba aprobado.
+- Si un tipo de subagente no está disponible, usa `general-purpose` con el prompt `Lee .claude/agents/<tipo>.md y actúa como ese agente: <prompt del paso>`.
+- Al terminar todos los pasos, sube a GitHub (si la carpeta es un repo git con remoto): `git add datos salidas`, `git commit -m "Legion: <lo más destacado, en pocas palabras>"` (sin commit si no hay cambios) y `git push`. Si el push falla, no fuerces nada y avísalo en el resumen.
+- Después muestra un solo resumen: hasta 5 líneas por agente y la ruta de cada informe. Si el Publicador dejó clips pendientes de aprobación, incluye el comando para aprobarlos.

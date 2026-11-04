@@ -1,0 +1,53 @@
+{
+  "regiones": [
+    { "nombre": "Colombia", "geo": "CO", "trends24": "colombia" },
+    { "nombre": "México", "geo": "MX", "trends24": "mexico" },
+    { "nombre": "Argentina", "geo": "AR", "trends24": "argentina" },
+    { "nombre": "España", "geo": "ES", "trends24": "spain" },
+    { "nombre": "Estados Unidos", "geo": "US", "trends24": "united-states" }
+  ],
+  "x_mundial": true,
+  "x_snapshots": 24,
+  "wikipedia": { "idiomas": ["es", "en"], "top": 40 },
+  "youtube": { "max_por_region": 25 },
+  "twitch": { "idiomas": ["es", "en"], "max_streams": 20, "juegos_para_clips": 5 },
+  "retener_snapshots": 60,
+
+  "idioma_audiencia": "es",
+  "nichos": [
+    "música urbana: cantantes jóvenes",
+    "empresarios exitosos y emprendimiento",
+    "streamers y creadores"
+  ],
+  "_nichos": "Enfoque fijado por el usuario el 2026-11-01: contenido cool de estos perfiles y de otros del mismo estilo. Lo que no encaje aquí no se trae.",
+  "perfiles": {
+    "música urbana: cantantes jóvenes": ["Maluma", "J Balvin", "Kris R", "Blessd", "Ryan Castro", "Peso Pluma"],
+    "empresarios exitosos y emprendimiento": [
+      "Sebastián Suárez (instagram.com/sebastiansuaarez0)",
+      "Santiago Ospina, \"el de la X\" (instagram.com/sospinagu)",
+      "Diego Ramírez, RR Autos (instagram.com/rrautosdiego)"
+    ],
+    "streamers y creadores": ["Westcol", "Lonche (streamer de México)"]
+  },
+  "_perfiles": "Lista del usuario. El Cazador resuelve sus cuentas y añade similares en datos/cazador-viral/perfiles.json.",
+  "max_similares_por_ciclo": 2,
+  "excluir": [
+    "reality shows y concursos de televisión (La Granja VIP, La Casa de los Famosos y similares) y todo lo que salga de ellos",
+    "chisme y farándula de televisión",
+    "casos judiciales, detenciones y escándalos legales de famosos o presentadores (como el caso de Inés Gómez Mont)"
+  ],
+  "plataformas": ["tiktok", "youtube", "instagram", "facebook", "x", "twitch", "kick", "reddit"],
+
+  "presupuesto_por_ciclo": {
+    "busquedas_web": 20,
+    "lecturas_web": 20,
+    "busquedas_youtube": 15,
+    "revisiones_de_canal": 20,
+    "candidatos_a_descomponer": 12,
+    "formatos_hibridos": 4
+  },
+  "ventana_fuentes_horas": 36,
+  "umbral_oportunidad": 60,
+  "umbral_hibridacion": 70,
+  "cadencia_recomendada": "6h"
+}

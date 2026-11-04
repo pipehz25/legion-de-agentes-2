@@ -1,0 +1,25 @@
+# Ejecutables compartidos y modelo de transcripcion: se instalan con herramientas/instalar.ps1
+herramientas/bin/
+herramientas/modelos/
+
+# Instantaneas crudas de cada ciclo del Cazador Viral: se regeneran y pesan mucho con el tiempo
+datos/*/crudo/
+
+# Cache de transcripciones del Clipero: contenido de terceros, se regenera con `analizar`
+datos/clipero/fuentes/
+
+# Video e imagenes de los clips (solo se versiona meta.json) y su carpeta temporal
+salidas/clipero/clips/**/*.mp4
+salidas/clipero/clips/**/*.jpg
+salidas/**/trabajo/
+
+# Configuracion personal de Claude Code
+.claude/settings.local.json
+
+# Marca de subida en curso del Publicador: solo sobrevive si una subida se corta a medias
+datos/publicador/envios/*.enviando
+
+# Credenciales que alguien deje por error en el proyecto (las del Publicador viven en %USERPROFILE%\.legion)
+*.env
+cookies*.txt
+credenciales*.json
