@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-revuelto-beneficio-tributario",
+    "url_fuente":  "https://www.youtube.com/watch?v=KhuFp9eIyVU",
+    "video_id":  "KhuFp9eIyVU",
+    "inicio":  293.98,
+    "fin":  339.95,
+    "inicio_hms":  "0:04:53",
+    "duracion_seg":  46,
+    "gancho":  "El beneficio tributario del Lambo híbrido",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  155,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -12.97,
+                  "entrada_tp":  -0.42,
+                  "salida_lufs":  -13.83,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-revuelto-beneficio-tributario/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-revuelto-beneficio-tributario/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-revuelto-beneficio-tributario/revision.jpg",
+    "creado":  "2026-11-05T23:23:02.2348576-05:00"
+}

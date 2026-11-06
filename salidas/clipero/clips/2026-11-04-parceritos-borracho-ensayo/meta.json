@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-parceritos-borracho-ensayo",
+    "url_fuente":  "https://www.youtube.com/watch?v=4hGozORt3Ds",
+    "video_id":  "4hGozORt3Ds",
+    "inicio":  491.41,
+    "fin":  550.34,
+    "inicio_hms":  "0:08:11",
+    "duracion_seg":  58.9,
+    "gancho":  "Llegó borracho al ensayo de Un poeta",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  193,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.13,
+                  "entrada_tp":  -3.32,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -1.19
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-borracho-ensayo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-parceritos-borracho-ensayo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-parceritos-borracho-ensayo/revision.jpg",
+    "creado":  "2026-11-04T17:09:58.1896012-05:00"
+}

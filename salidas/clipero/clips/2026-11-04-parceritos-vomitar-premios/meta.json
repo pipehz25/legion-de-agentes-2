@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-parceritos-vomitar-premios",
+    "url_fuente":  "https://www.youtube.com/watch?v=4hGozORt3Ds",
+    "video_id":  "4hGozORt3Ds",
+    "inicio":  403.49,
+    "fin":  434.06,
+    "inicio_hms":  "0:06:43",
+    "duracion_seg":  30.6,
+    "gancho":  "Corrió hasta vomitar y le predijeron premios",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  98,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.68,
+                  "entrada_tp":  -4.91,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -1.23
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-vomitar-premios/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-parceritos-vomitar-premios/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-parceritos-vomitar-premios/revision.jpg",
+    "creado":  "2026-11-04T17:24:44.1872299-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-parceritos-fracaso-objetividad",
+    "url_fuente":  "https://www.youtube.com/watch?v=4hGozORt3Ds",
+    "video_id":  "4hGozORt3Ds",
+    "inicio":  1098.61,
+    "fin":  1138.98,
+    "inicio_hms":  "0:18:18",
+    "duracion_seg":  40.4,
+    "gancho":  "¿Qué se necesita para aceptar el fracaso?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  112,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.71,
+                  "entrada_tp":  -3.54,
+                  "salida_lufs":  -14.97,
+                  "salida_tp":  -1.03
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-fracaso-objetividad/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-parceritos-fracaso-objetividad/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-parceritos-fracaso-objetividad/revision.jpg",
+    "creado":  "2026-11-04T17:28:18.8254844-05:00"
+}

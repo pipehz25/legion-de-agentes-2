@@ -1,24 +1,757 @@
 {
-    "generado":  "2026-11-03T22:20:00-05:00",
-    "ciclo":  5,
+    "generado":  "2026-11-06T01:30:00-05:00",
+    "ciclo":  7,
     "clips":  [
-                  { "id": "2026-11-03-awooween-fuegos-final", "estado": "listo", "tipo": "emotivo", "puntaje": 74, "gancho": "Fuegos artificiales en el Awooween de Ryan Castro", "archivo": "salidas/clipero/clips/2026-11-03-awooween-fuegos-final/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-03-awooween-fuegos-final/ficha.md", "duracion_seg": 45.0, "fuente": { "url": "https://youtu.be/Z1VUghXaEIM?t=2618", "canal": "La Vuelta Reacciones", "inicio": 2618, "fin": 2663 }, "oportunidad_cazador": "tema-awooween-ryan-castro-campin", "orden_en_fuente": 1, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-04" },
-                  { "id": "2026-11-03-awooween-estadio-lleno", "estado": "listo", "tipo": "reaccion", "puntaje": 70, "gancho": "Así se vivió el Awooween en El Campín", "archivo": "salidas/clipero/clips/2026-11-03-awooween-estadio-lleno/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-03-awooween-estadio-lleno/ficha.md", "duracion_seg": 45.0, "fuente": { "url": "https://youtu.be/Z1VUghXaEIM?t=903", "canal": "La Vuelta Reacciones", "inicio": 903, "fin": 948 }, "oportunidad_cazador": "tema-awooween-ryan-castro-campin", "orden_en_fuente": 2, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-04" },
-                  { "id": "2026-11-03-awooween-a-todo-volumen", "estado": "listo", "tipo": "reaccion", "puntaje": 69, "gancho": "El Campín a todo volumen en el Awooween", "archivo": "salidas/clipero/clips/2026-11-03-awooween-a-todo-volumen/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-03-awooween-a-todo-volumen/ficha.md", "duracion_seg": 45.0, "fuente": { "url": "https://youtu.be/Z1VUghXaEIM?t=1553", "canal": "La Vuelta Reacciones", "inicio": 1553, "fin": 1598 }, "oportunidad_cazador": "tema-awooween-ryan-castro-campin", "orden_en_fuente": 3, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-04" },
-                  { "id": "2026-11-03-awooween-arranque", "estado": "propuesto", "tipo": "reaccion", "puntaje": 59, "gancho": "El arranque del Awooween en El Campín", "archivo": "salidas/clipero/clips/2026-11-03-awooween-arranque/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-03-awooween-arranque/ficha.md", "duracion_seg": 44.5, "fuente": { "url": "https://youtu.be/Z1VUghXaEIM?t=20", "canal": "La Vuelta Reacciones", "inicio": 20.5, "fin": 65 }, "oportunidad_cazador": "tema-awooween-ryan-castro-campin", "orden_en_fuente": 4, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-04" },
-                  { "id": "2026-11-02-westcol-ganga-chanty", "estado": "listo", "tipo": "humor", "puntaje": 68, "gancho": "Westcol: la ganga sin su líder", "archivo": "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/ficha.md", "duracion_seg": 45.9, "fuente": { "url": "https://youtu.be/8L8CP3xe3Qo?t=182", "canal": "WestcolClips", "inicio": 181.97, "fin": 227.82 }, "oportunidad_cazador": null, "orden_en_fuente": 5, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-05" },
-                  { "id": "2026-11-02-westcol-8-anos-sin-irse", "estado": "listo", "tipo": "revelacion", "puntaje": 74, "gancho": "Westcol vuelve: «nunca me había ido tanto»", "archivo": "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/ficha.md", "duracion_seg": 44.1, "fuente": { "url": "https://youtu.be/8L8CP3xe3Qo?t=6", "canal": "WestcolClips", "inicio": 6.89, "fin": 50.94 }, "oportunidad_cazador": null, "orden_en_fuente": 1, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-05" },
-                  { "id": "2026-11-02-westcol-motosierra-carton", "estado": "listo", "tipo": "revelacion", "puntaje": 73, "gancho": "Westcol: castigado por una motosierra de cartón", "archivo": "salidas/clipero/clips/2026-11-02-westcol-motosierra-carton/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-motosierra-carton/ficha.md", "duracion_seg": 62.8, "fuente": { "url": "https://youtu.be/OqsKq4thcZA?t=571", "canal": "Clipskick04", "inicio": 571.41, "fin": 634.2 }, "oportunidad_cazador": null, "orden_en_fuente": 1, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-04" },
-                  { "id": "2026-11-02-westcol-disfraz-presidente", "estado": "listo", "tipo": "humor", "puntaje": 72, "gancho": "El disfraz que Westcol no usó", "archivo": "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/ficha.md", "duracion_seg": 32.1, "fuente": { "url": "https://youtu.be/MBotzCroy1Q?t=1303", "canal": "juan diego mm", "inicio": 1303.45, "fin": 1335.54 }, "oportunidad_cazador": null, "orden_en_fuente": 1, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-05" },
-                  { "id": "2026-11-02-lonche-seis-cifras", "estado": "listo", "tipo": "revelacion", "puntaje": 72, "gancho": "Lonche: «seis cifras a la semana»", "archivo": "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/ficha.md", "duracion_seg": 52.0, "fuente": { "url": "https://youtu.be/XMLQv5JNuK0?t=429", "canal": "Clipskick04", "inicio": 429.81, "fin": 481.78 }, "oportunidad_cazador": null, "orden_en_fuente": 1, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-06" },
-                  { "id": "2026-11-02-westcol-cuerpo-35-anos", "estado": "listo", "tipo": "humor", "puntaje": 71, "gancho": "Westcol: «Mi cuerpo tiene 35 años»", "archivo": "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/ficha.md", "duracion_seg": 44.8, "fuente": { "url": "https://youtu.be/MBotzCroy1Q?t=1405", "canal": "juan diego mm", "inicio": 1405.09, "fin": 1449.86 }, "oportunidad_cazador": null, "orden_en_fuente": 2, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-06" },
-                  { "id": "2026-11-02-lonche-sueno-americano", "estado": "listo", "tipo": "frase", "puntaje": 71, "gancho": "Lonche y su «sueño americano»", "archivo": "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/ficha.md", "duracion_seg": 43.2, "fuente": { "url": "https://youtu.be/TGZYr7VNzio?t=2568", "canal": "Lonche PRIME", "inicio": 2568.57, "fin": 2611.7 }, "oportunidad_cazador": null, "orden_en_fuente": 1, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-06" },
-                  { "id": "2026-11-02-westcol-que-sigue-lonche", "estado": "listo", "tipo": "frase", "puntaje": 70, "gancho": "Westcol: «¿Qué sigue después de Lonche?»", "archivo": "salidas/clipero/clips/2026-11-02-westcol-que-sigue-lonche/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-que-sigue-lonche/ficha.md", "duracion_seg": 23.3, "fuente": { "url": "https://youtu.be/8L8CP3xe3Qo?t=227", "canal": "WestcolClips", "inicio": 227.93, "fin": 251.22 }, "oportunidad_cazador": null, "orden_en_fuente": 2, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-05" },
-                  { "id": "2026-11-02-westcol-tweet-conejita", "estado": "listo", "tipo": "humor", "puntaje": 70, "gancho": "Westcol y el tuit de la conejita", "archivo": "salidas/clipero/clips/2026-11-02-westcol-tweet-conejita/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-tweet-conejita/ficha.md", "duracion_seg": 55.4, "fuente": { "url": "https://youtu.be/MBotzCroy1Q?t=1144", "canal": "juan diego mm", "inicio": 1144.97, "fin": 1200.3 }, "oportunidad_cazador": null, "orden_en_fuente": 3, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-04" },
-                  { "id": "2026-11-02-westcol-deje-la-hierba", "estado": "listo", "tipo": "revelacion", "puntaje": 67, "gancho": "Westcol: «Yo dejé la hierba»", "archivo": "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/ficha.md", "duracion_seg": 50.9, "fuente": { "url": "https://youtu.be/OqsKq4thcZA?t=510", "canal": "Clipskick04", "inicio": 510.81, "fin": 561.7 }, "oportunidad_cazador": null, "orden_en_fuente": 2, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-05" },
-                  { "id": "2026-11-02-westcol-w-sound-700mil", "estado": "listo", "tipo": "revelacion", "puntaje": 68, "gancho": "Westcol presume los números de la W", "archivo": "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/ficha.md", "duracion_seg": 61.0, "fuente": { "url": "https://youtu.be/8L8CP3xe3Qo?t=96", "canal": "WestcolClips", "inicio": 96.53, "fin": 157.54 }, "oportunidad_cazador": null, "orden_en_fuente": 3, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-06" },
-                  { "id": "2026-11-02-lonche-taco-bell", "estado": "propuesto", "tipo": "frase", "puntaje": 64, "gancho": "Lonche: los mejores tacos son de Taco Bell", "archivo": "salidas/clipero/clips/2026-11-02-lonche-taco-bell/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-lonche-taco-bell/ficha.md", "duracion_seg": 16.9, "fuente": { "url": "https://youtu.be/TGZYr7VNzio?t=1249", "canal": "Lonche PRIME", "inicio": 1249.13, "fin": 1266.02 }, "oportunidad_cazador": null, "orden_en_fuente": 2, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-06" },
-                  { "id": "2026-11-02-westcol-w-sound-espana", "estado": "listo", "tipo": "humor", "puntaje": 67, "gancho": "Westcol: ¿por qué la W pegó en España?", "archivo": "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/clip.mp4", "ficha": "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/ficha.md", "duracion_seg": 63.6, "fuente": { "url": "https://youtu.be/8L8CP3xe3Qo?t=672", "canal": "WestcolClips", "inicio": 672.81, "fin": 736.38 }, "oportunidad_cazador": null, "orden_en_fuente": 4, "derechos": "sin_verificar", "plataformas": ["tiktok", "instagram", "youtube"], "ventana_hasta": "2026-11-06" },
+                  {
+                      "id":  "2026-11-05-westcol-robot-sin-seguridad",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  83,
+                      "gancho":  "Westcol le quitará la seguridad al robot",
+                      "archivo":  "salidas/clipero/clips/2026-11-05-westcol-robot-sin-seguridad/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-05-westcol-robot-sin-seguridad/ficha.md",
+                      "duracion_seg":  60.4,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=40",
+                                     "canal":  "WestCOL",
+                                     "inicio":  40.49,
+                                     "fin":  100.9
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-05-westcol-negocio-blessd-discoteca",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  83,
+                      "gancho":  "Westcol cuenta el negocio que hizo con Blessd",
+                      "archivo":  "salidas/clipero/clips/2026-11-05-westcol-negocio-blessd-discoteca/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-05-westcol-negocio-blessd-discoteca/ficha.md",
+                      "duracion_seg":  54.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LgnQHaFVvyo?t=994",
+                                     "canal":  "WestCOL",
+                                     "inicio":  994.37,
+                                     "fin":  1048.66
+                                 },
+                      "oportunidad_cazador":  "tema-stream-fighters-5",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-05-maluma-bebe-capo",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  81,
+                      "gancho":  "Maluma: en Argentina le tiraron un bebé",
+                      "archivo":  "salidas/clipero/clips/2026-11-05-maluma-bebe-capo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-05-maluma-bebe-capo/ficha.md",
+                      "duracion_seg":  47.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/iNxDQVDIer8?t=2933",
+                                     "canal":  "LUZU TV",
+                                     "inicio":  2933.87,
+                                     "fin":  2980.92
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-08"
+                  },
+                  {
+                      "id":  "2026-11-05-westcol-robot-ascensor",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  80,
+                      "gancho":  "La primera vez del robot en un ascensor",
+                      "archivo":  "salidas/clipero/clips/2026-11-05-westcol-robot-ascensor/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-05-westcol-robot-ascensor/ficha.md",
+                      "duracion_seg":  38.4,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=968",
+                                     "canal":  "WestCOL",
+                                     "inicio":  968.93,
+                                     "fin":  1007.38
+                                 },
+                      "oportunidad_cazador":  "formato-robot-humanoide-en-la-calle",
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-05-westcol-dinero-parqueado",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  80,
+                      "gancho":  "A Westcol le desespera el dinero parqueado",
+                      "archivo":  "salidas/clipero/clips/2026-11-05-westcol-dinero-parqueado/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-05-westcol-dinero-parqueado/ficha.md",
+                      "duracion_seg":  28.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LgnQHaFVvyo?t=923",
+                                     "canal":  "WestCOL",
+                                     "inicio":  923.73,
+                                     "fin":  952.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10"
+                  },
+                  {
+                      "id":  "2026-11-05-westcol-regateo-revuelto",
+                      "estado":  "listo",
+                      "tipo":  "confrontacion",
+                      "puntaje":  79,
+                      "gancho":  "Regateando el Lamborghini de un millón de dólares",
+                      "archivo":  "salidas/clipero/clips/2026-11-05-westcol-regateo-revuelto/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-05-westcol-regateo-revuelto/ficha.md",
+                      "duracion_seg":  54.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/KhuFp9eIyVU?t=832",
+                                     "canal":  "WestCOL",
+                                     "inicio":  832.19,
+                                     "fin":  886.5
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10"
+                  },
+                  {
+                      "id":  "2026-11-05-revuelto-beneficio-tributario",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  76,
+                      "gancho":  "El beneficio tributario del Lambo híbrido",
+                      "archivo":  "salidas/clipero/clips/2026-11-05-revuelto-beneficio-tributario/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-05-revuelto-beneficio-tributario/ficha.md",
+                      "duracion_seg":  46,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/KhuFp9eIyVU?t=293",
+                                     "canal":  "WestCOL",
+                                     "inicio":  293.98,
+                                     "fin":  339.95
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10"
+                  },
+                  {
+                      "id":  "2026-11-05-westcol-precio-lambo-bajara",
+                      "estado":  "listo",
+                      "tipo":  "prediccion",
+                      "puntaje":  75,
+                      "gancho":  "Westcol predice cuánto bajará el Lambo",
+                      "archivo":  "salidas/clipero/clips/2026-11-05-westcol-precio-lambo-bajara/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-05-westcol-precio-lambo-bajara/ficha.md",
+                      "duracion_seg":  39.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LgnQHaFVvyo?t=515",
+                                     "canal":  "WestCOL",
+                                     "inicio":  515.49,
+                                     "fin":  554.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-10"
+                  },
+                  {
+                      "id":  "2026-11-05-westcol-batisenal-w",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  75,
+                      "gancho":  "Westcol quiere una batiseñal en Medellín",
+                      "archivo":  "salidas/clipero/clips/2026-11-05-westcol-batisenal-w/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-05-westcol-batisenal-w/ficha.md",
+                      "duracion_seg":  25.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/LgnQHaFVvyo?t=65",
+                                     "canal":  "WestCOL",
+                                     "inicio":  65.37,
+                                     "fin":  90.62
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-09"
+                  },
+                  {
+                      "id":  "2026-11-05-westcol-robot-piquete",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  75,
+                      "gancho":  "Westcol: su robot tiene más piquete",
+                      "archivo":  "salidas/clipero/clips/2026-11-05-westcol-robot-piquete/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-05-westcol-robot-piquete/ficha.md",
+                      "duracion_seg":  26.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Xrwm98iaWY8?t=2643",
+                                     "canal":  "WestCOL",
+                                     "inicio":  2643.89,
+                                     "fin":  2670.5
+                                 },
+                      "oportunidad_cazador":  "formato-robot-humanoide-en-la-calle",
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-05-maluma-loco-por-girar",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  75,
+                      "gancho":  "Maluma: que no me escuche mi mujer",
+                      "archivo":  "salidas/clipero/clips/2026-11-05-maluma-loco-por-girar/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-05-maluma-loco-por-girar/ficha.md",
+                      "duracion_seg":  55.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/iNxDQVDIer8?t=3059",
+                                     "canal":  "LUZU TV",
+                                     "inicio":  3059.97,
+                                     "fin":  3115.42
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-08"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-decimas-abuelo",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  79,
+                      "gancho":  "Lokillo le escribió estas décimas a su abuelo",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-decimas-abuelo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-decimas-abuelo/ficha.md",
+                      "duracion_seg":  66.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=2162",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  2162.77,
+                                     "fin":  2229.62
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-filosofo-o-reggaetonero",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  77,
+                      "gancho":  "¿Filósofo, poeta o reggaetonero?",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-filosofo-o-reggaetonero/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-filosofo-o-reggaetonero/ficha.md",
+                      "duracion_seg":  53.4,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=1360",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  1360.81,
+                                     "fin":  1414.21
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-billete-diomedes",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "¿Quién debería estar en los billetes?",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-billete-diomedes/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-billete-diomedes/ficha.md",
+                      "duracion_seg":  55.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=1798",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  1798.69,
+                                     "fin":  1854.37
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-billete-popo",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  71,
+                      "gancho":  "La pregunta más profunda para un filósofo",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-billete-popo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-billete-popo/ficha.md",
+                      "duracion_seg":  58.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=2101",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  2101.73,
+                                     "fin":  2160.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-poeta-corre-feo",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "Le preguntan a Ubeimar Ríos por qué corre así",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-poeta-corre-feo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-poeta-corre-feo/ficha.md",
+                      "duracion_seg":  16.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=294",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  294.13,
+                                     "fin":  310.66
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  5,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-flor-abeja",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  71,
+                      "gancho":  "Así hacían poesía Los Parceritos",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-flor-abeja/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-flor-abeja/ficha.md",
+                      "duracion_seg":  27.4,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=1597",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  1597.61,
+                                     "fin":  1624.98
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  6,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-borracho-ensayo",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  71,
+                      "gancho":  "Llegó borracho al ensayo de Un poeta",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-borracho-ensayo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-borracho-ensayo/ficha.md",
+                      "duracion_seg":  58.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=491",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  491.41,
+                                     "fin":  550.34
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  7,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-profesor-sobra",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  70,
+                      "gancho":  "¿Qué profesor sobra en los colegios?",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-profesor-sobra/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-profesor-sobra/ficha.md",
+                      "duracion_seg":  30.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=2494",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  2494.29,
+                                     "fin":  2524.82
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  8,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-novela-mas-corta",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "La novela más corta del mundo",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-novela-mas-corta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-novela-mas-corta/ficha.md",
+                      "duracion_seg":  31,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=2038",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  2038.21,
+                                     "fin":  2069.22
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  9,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-el-paseo",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  68,
+                      "gancho":  "¿La mejor película colombiana de la historia?",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-el-paseo/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-el-paseo/ficha.md",
+                      "duracion_seg":  21.4,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=153",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  153.45,
+                                     "fin":  174.86
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  10,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-poesia-protesta",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  67,
+                      "gancho":  "Poesía de protesta, versión Parceritos",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-poesia-protesta/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-poesia-protesta/ficha.md",
+                      "duracion_seg":  37.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=1995",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  1995.41,
+                                     "fin":  2032.58
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  11,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-poema-cuarto-oscuro",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  66,
+                      "gancho":  "Ubeimar Ríos recita un texto inédito",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-poema-cuarto-oscuro/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-poema-cuarto-oscuro/ficha.md",
+                      "duracion_seg":  43.4,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=1498",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  1498.89,
+                                     "fin":  1542.22
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  12,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-vomitar-premios",
+                      "estado":  "listo",
+                      "tipo":  "historia",
+                      "puntaje":  66,
+                      "gancho":  "Corrió hasta vomitar y le predijeron premios",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-vomitar-premios/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-vomitar-premios/ficha.md",
+                      "duracion_seg":  30.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=403",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  403.49,
+                                     "fin":  434.06
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  13,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-04-parceritos-fracaso-objetividad",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  65,
+                      "gancho":  "¿Qué se necesita para aceptar el fracaso?",
+                      "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-fracaso-objetividad/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-04-parceritos-fracaso-objetividad/ficha.md",
+                      "duracion_seg":  40.4,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/4hGozORt3Ds?t=1098",
+                                     "canal":  "Los Parceritos",
+                                     "inicio":  1098.61,
+                                     "fin":  1138.98
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  14,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-19"
+                  },
+                  {
+                      "id":  "2026-11-03-awooween-fuegos-final",
+                      "estado":  "listo",
+                      "tipo":  "emotivo",
+                      "puntaje":  74,
+                      "gancho":  "Fuegos artificiales en el Awooween de Ryan Castro",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-awooween-fuegos-final/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-awooween-fuegos-final/ficha.md",
+                      "duracion_seg":  45.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Z1VUghXaEIM?t=2618",
+                                     "canal":  "La Vuelta Reacciones",
+                                     "inicio":  2618,
+                                     "fin":  2663
+                                 },
+                      "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-03-awooween-estadio-lleno",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  70,
+                      "gancho":  "Así se vivió el Awooween en El Campín",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-awooween-estadio-lleno/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-awooween-estadio-lleno/ficha.md",
+                      "duracion_seg":  45.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Z1VUghXaEIM?t=903",
+                                     "canal":  "La Vuelta Reacciones",
+                                     "inicio":  903,
+                                     "fin":  948
+                                 },
+                      "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-03-awooween-a-todo-volumen",
+                      "estado":  "listo",
+                      "tipo":  "reaccion",
+                      "puntaje":  69,
+                      "gancho":  "El Campín a todo volumen en el Awooween",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-awooween-a-todo-volumen/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-awooween-a-todo-volumen/ficha.md",
+                      "duracion_seg":  45.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Z1VUghXaEIM?t=1553",
+                                     "canal":  "La Vuelta Reacciones",
+                                     "inicio":  1553,
+                                     "fin":  1598
+                                 },
+                      "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-03-awooween-arranque",
+                      "estado":  "propuesto",
+                      "tipo":  "reaccion",
+                      "puntaje":  59,
+                      "gancho":  "El arranque del Awooween en El Campín",
+                      "archivo":  "salidas/clipero/clips/2026-11-03-awooween-arranque/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-03-awooween-arranque/ficha.md",
+                      "duracion_seg":  44.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/Z1VUghXaEIM?t=20",
+                                     "canal":  "La Vuelta Reacciones",
+                                     "inicio":  20.5,
+                                     "fin":  65
+                                 },
+                      "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-02-lonche-seis-cifras",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  72,
+                      "gancho":  "Lonche: «seis cifras a la semana»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-lonche-seis-cifras/ficha.md",
+                      "duracion_seg":  52.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/XMLQv5JNuK0?t=429",
+                                     "canal":  "Clipskick04",
+                                     "inicio":  429.81,
+                                     "fin":  481.78
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-06"
+                  },
                   {
                       "id":  "2026-11-02-toxico-intro-celos-aire",
                       "estado":  "listo",
@@ -43,6 +776,156 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-02-lonche-sueno-americano",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  71,
+                      "gancho":  "Lonche y su «sueño americano»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-lonche-sueno-americano/ficha.md",
+                      "duracion_seg":  43.2,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/TGZYr7VNzio?t=2568",
+                                     "canal":  "Lonche PRIME",
+                                     "inicio":  2568.57,
+                                     "fin":  2611.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-06"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-disfraz-presidente",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  72,
+                      "gancho":  "El disfraz que Westcol no usó",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-disfraz-presidente/ficha.md",
+                      "duracion_seg":  32.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/MBotzCroy1Q?t=1303",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  1303.45,
+                                     "fin":  1335.54
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-05"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-8-anos-sin-irse",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  74,
+                      "gancho":  "Westcol vuelve: «nunca me había ido tanto»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-8-anos-sin-irse/ficha.md",
+                      "duracion_seg":  44.1,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=6",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  6.89,
+                                     "fin":  50.94
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-05"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-motosierra-carton",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  73,
+                      "gancho":  "Westcol: castigado por una motosierra de cartón",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-motosierra-carton/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-motosierra-carton/ficha.md",
+                      "duracion_seg":  62.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/OqsKq4thcZA?t=571",
+                                     "canal":  "Clipskick04",
+                                     "inicio":  571.41,
+                                     "fin":  634.2
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-deje-la-hierba",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  67,
+                      "gancho":  "Westcol: «Yo dejé la hierba»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-deje-la-hierba/ficha.md",
+                      "duracion_seg":  50.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/OqsKq4thcZA?t=510",
+                                     "canal":  "Clipskick04",
+                                     "inicio":  510.81,
+                                     "fin":  561.7
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-05"
+                  },
+                  {
+                      "id":  "2026-11-02-lonche-taco-bell",
+                      "estado":  "propuesto",
+                      "tipo":  "frase",
+                      "puntaje":  64,
+                      "gancho":  "Lonche: los mejores tacos son de Taco Bell",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-lonche-taco-bell/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-lonche-taco-bell/ficha.md",
+                      "duracion_seg":  16.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/TGZYr7VNzio?t=1249",
+                                     "canal":  "Lonche PRIME",
+                                     "inicio":  1249.13,
+                                     "fin":  1266.02
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-06"
                   },
                   {
                       "id":  "2026-11-02-toxico-coro-eres-mia",
@@ -70,6 +953,56 @@
                       "ventana_hasta":  "2026-11-14"
                   },
                   {
+                      "id":  "2026-11-02-westcol-que-sigue-lonche",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  70,
+                      "gancho":  "Westcol: «¿Qué sigue después de Lonche?»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-que-sigue-lonche/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-que-sigue-lonche/ficha.md",
+                      "duracion_seg":  23.3,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=227",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  227.93,
+                                     "fin":  251.22
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-05"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-cuerpo-35-anos",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  71,
+                      "gancho":  "Westcol: «Mi cuerpo tiene 35 años»",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-cuerpo-35-anos/ficha.md",
+                      "duracion_seg":  44.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/MBotzCroy1Q?t=1405",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  1405.09,
+                                     "fin":  1449.86
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-06"
+                  },
+                  {
                       "id":  "2026-11-02-toxico-celos-completo",
                       "estado":  "listo",
                       "tipo":  "frase",
@@ -93,6 +1026,81 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-14"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-tweet-conejita",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  70,
+                      "gancho":  "Westcol y el tuit de la conejita",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-tweet-conejita/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-tweet-conejita/ficha.md",
+                      "duracion_seg":  55.4,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/MBotzCroy1Q?t=1144",
+                                     "canal":  "juan diego mm",
+                                     "inicio":  1144.97,
+                                     "fin":  1200.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-04"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-w-sound-700mil",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  68,
+                      "gancho":  "Westcol presume los números de la W",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-700mil/ficha.md",
+                      "duracion_seg":  61.0,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=96",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  96.53,
+                                     "fin":  157.54
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-06"
+                  },
+                  {
+                      "id":  "2026-11-02-westcol-w-sound-espana",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  67,
+                      "gancho":  "Westcol: ¿por qué la W pegó en España?",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-w-sound-espana/ficha.md",
+                      "duracion_seg":  63.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=672",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  672.81,
+                                     "fin":  736.38
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  4,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-06"
                   },
                   {
                       "id":  "2026-11-02-toxico-verso-mando-la-ubi",
@@ -120,79 +1128,29 @@
                       "ventana_hasta":  "2026-11-14"
                   },
                   {
-                      "id":  "2026-11-01-kris-r-critica-trap-bogota",
+                      "id":  "2026-11-02-westcol-ganga-chanty",
                       "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  73,
-                      "gancho":  "Su crítica al concierto de Kris R",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-critica-trap-bogota/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-critica-trap-bogota/ficha.md",
-                      "duracion_seg":  41.8,
+                      "tipo":  "humor",
+                      "puntaje":  68,
+                      "gancho":  "Westcol: la ganga sin su líder",
+                      "archivo":  "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-02-westcol-ganga-chanty/ficha.md",
+                      "duracion_seg":  45.9,
                       "fuente":  {
-                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=0",
-                                     "canal":  "ElWerik Podcast",
-                                     "inicio":  0,
-                                     "fin":  41.74
+                                     "url":  "https://youtu.be/8L8CP3xe3Qo?t=182",
+                                     "canal":  "WestcolClips",
+                                     "inicio":  181.97,
+                                     "fin":  227.82
                                  },
                       "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
+                      "orden_en_fuente":  5,
                       "derechos":  "sin_verificar",
                       "plataformas":  [
                                           "tiktok",
                                           "instagram",
                                           "youtube"
                                       ],
-                      "ventana_hasta":  "2026-11-08"
-                  },
-                  {
-                      "id":  "2026-11-01-awooween-invitados-sorpresa",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  73,
-                      "gancho":  "Los invitados que nadie esperaba en el Awooween",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-awooween-invitados-sorpresa/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-awooween-invitados-sorpresa/ficha.md",
-                      "duracion_seg":  18.9,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/GBvB5F-zSMc?t=807",
-                                     "canal":  "Danigoals",
-                                     "inicio":  807.53,
-                                     "fin":  826.38
-                                 },
-                      "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
-                      "id":  "2026-11-01-kris-r-musica-cada-semana",
-                      "estado":  "listo",
-                      "tipo":  "consejo",
-                      "puntaje":  72,
-                      "gancho":  "Así se pegó Kris R",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-musica-cada-semana/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-musica-cada-semana/ficha.md",
-                      "duracion_seg":  59.8,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=431",
-                                     "canal":  "ElWerik Podcast",
-                                     "inicio":  431.53,
-                                     "fin":  491.34
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  2,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-20"
+                      "ventana_hasta":  "2026-11-05"
                   },
                   {
                       "id":  "2026-11-01-chanty-freestyle-dame-hombro",
@@ -217,31 +1175,6 @@
                                           "instagram"
                                       ],
                       "ventana_hasta":  "2026-11-08"
-                  },
-                  {
-                      "id":  "2026-11-01-kris-r-primer-estadio",
-                      "estado":  "listo",
-                      "tipo":  "prediccion",
-                      "puntaje":  71,
-                      "gancho":  "De 20 personas… ¿a su primer estadio?",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-primer-estadio/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-primer-estadio/ficha.md",
-                      "duracion_seg":  36.7,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=551",
-                                     "canal":  "ElWerik Podcast",
-                                     "inicio":  551.61,
-                                     "fin":  588.3
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  3,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-20"
                   },
                   {
                       "id":  "2026-11-01-blessd-jet-como-bus",
@@ -269,6 +1202,80 @@
                       "ventana_hasta":  "2026-11-05"
                   },
                   {
+                      "id":  "2026-11-01-chanty-blessd-anuel",
+                      "estado":  "listo",
+                      "tipo":  "humor",
+                      "puntaje":  66,
+                      "gancho":  "Disfrazado de cantante y le preguntan: ¿Anuel?",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-chanty-blessd-anuel/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-chanty-blessd-anuel/ficha.md",
+                      "duracion_seg":  21.6,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/zRs0PqfAeWs?t=630",
+                                     "canal":  "The Chanty",
+                                     "inicio":  630.43,
+                                     "fin":  652
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-11-01-awooween-invitados-sorpresa",
+                      "estado":  "listo",
+                      "tipo":  "revelacion",
+                      "puntaje":  73,
+                      "gancho":  "Los invitados que nadie esperaba en el Awooween",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-awooween-invitados-sorpresa/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-awooween-invitados-sorpresa/ficha.md",
+                      "duracion_seg":  18.9,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/GBvB5F-zSMc?t=807",
+                                     "canal":  "Danigoals",
+                                     "inicio":  807.53,
+                                     "fin":  826.38
+                                 },
+                      "oportunidad_cazador":  "tema-awooween-ryan-castro-campin",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-03"
+                  },
+                  {
+                      "id":  "2026-11-01-kris-r-critica-trap-bogota",
+                      "estado":  "listo",
+                      "tipo":  "frase",
+                      "puntaje":  73,
+                      "gancho":  "Su crítica al concierto de Kris R",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-critica-trap-bogota/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-critica-trap-bogota/ficha.md",
+                      "duracion_seg":  41.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=0",
+                                     "canal":  "ElWerik Podcast",
+                                     "inicio":  0,
+                                     "fin":  41.74
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-08"
+                  },
+                  {
                       "id":  "2026-11-01-chanty-fotografo-100mil-fotos",
                       "estado":  "listo",
                       "tipo":  "emotivo",
@@ -292,6 +1299,56 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-05"
+                  },
+                  {
+                      "id":  "2026-11-01-kris-r-musica-cada-semana",
+                      "estado":  "listo",
+                      "tipo":  "consejo",
+                      "puntaje":  72,
+                      "gancho":  "Así se pegó Kris R",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-musica-cada-semana/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-musica-cada-semana/ficha.md",
+                      "duracion_seg":  59.8,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=431",
+                                     "canal":  "ElWerik Podcast",
+                                     "inicio":  431.53,
+                                     "fin":  491.34
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-20"
+                  },
+                  {
+                      "id":  "2026-11-01-kris-r-primer-estadio",
+                      "estado":  "listo",
+                      "tipo":  "prediccion",
+                      "puntaje":  71,
+                      "gancho":  "De 20 personas… ¿a su primer estadio?",
+                      "archivo":  "salidas/clipero/clips/2026-11-01-kris-r-primer-estadio/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-11-01-kris-r-primer-estadio/ficha.md",
+                      "duracion_seg":  36.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/hSV5nuZ5w_I?t=551",
+                                     "canal":  "ElWerik Podcast",
+                                     "inicio":  551.61,
+                                     "fin":  588.3
+                                 },
+                      "oportunidad_cazador":  null,
+                      "orden_en_fuente":  3,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-20"
                   },
                   {
                       "id":  "2026-11-01-kris-r-avion-musica-desechable",
@@ -319,30 +1376,6 @@
                       "ventana_hasta":  "2026-11-08"
                   },
                   {
-                      "id":  "2026-11-01-chanty-blessd-anuel",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  66,
-                      "gancho":  "Disfrazado de cantante y le preguntan: ¿Anuel?",
-                      "archivo":  "salidas/clipero/clips/2026-11-01-chanty-blessd-anuel/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-11-01-chanty-blessd-anuel/ficha.md",
-                      "duracion_seg":  21.6,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/zRs0PqfAeWs?t=630",
-                                     "canal":  "The Chanty",
-                                     "inicio":  630.43,
-                                     "fin":  652
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
                       "id":  "2026-11-01-kris-r-almighty-miedo",
                       "estado":  "listo",
                       "tipo":  "humor",
@@ -366,58 +1399,6 @@
                                           "youtube"
                                       ],
                       "ventana_hasta":  "2026-11-08"
-                  },
-                  {
-                      "id":  "2026-10-31-alvarez-puga-deportacion",
-                      "estado":  "descartado",
-                      "tipo":  "revelacion",
-                      "puntaje":  76,
-                      "gancho":  "Álvarez Puga: ¿deportación o extradición?",
-                      "archivo":  "salidas/clipero/clips/2026-10-31-alvarez-puga-deportacion/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-31-alvarez-puga-deportacion/ficha.md",
-                      "duracion_seg":  60.5,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/UdupORUvULE?t=7955",
-                                     "canal":  "SinEmbargo Al Aire",
-                                     "inicio":  7955.77,
-                                     "fin":  8016.22
-                                 },
-                      "oportunidad_cazador":  "tema-ines-gomez-mont-detencion",
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-02",
-                      "motivo_descarte":  "El usuario descarta los clips de Inés Gómez Mont el 2026-11-02: no encajan con el enfoque nuevo."
-                  },
-                  {
-                      "id":  "2026-10-31-gomez-mont-amparo-cuentas",
-                      "estado":  "descartado",
-                      "tipo":  "revelacion",
-                      "puntaje":  75,
-                      "gancho":  "¿Por qué les descongelaron las cuentas en 2025?",
-                      "archivo":  "salidas/clipero/clips/2026-10-31-gomez-mont-amparo-cuentas/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-31-gomez-mont-amparo-cuentas/ficha.md",
-                      "duracion_seg":  53.7,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/UdupORUvULE?t=7774",
-                                     "canal":  "SinEmbargo Al Aire",
-                                     "inicio":  7774.33,
-                                     "fin":  7827.98
-                                 },
-                      "oportunidad_cazador":  "tema-ines-gomez-mont-detencion",
-                      "orden_en_fuente":  2,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-02",
-                      "motivo_descarte":  "El usuario descarta los clips de Inés Gómez Mont el 2026-11-02: no encajan con el enfoque nuevo."
                   },
                   {
                       "id":  "2026-10-31-granja-bebeshita-votos-kevyn",
@@ -447,6 +1428,32 @@
                       "motivo_descarte":  "El usuario descarta los videos de La Granja el 2026-11-01."
                   },
                   {
+                      "id":  "2026-10-31-alvarez-puga-deportacion",
+                      "estado":  "descartado",
+                      "tipo":  "revelacion",
+                      "puntaje":  76,
+                      "gancho":  "Álvarez Puga: ¿deportación o extradición?",
+                      "archivo":  "salidas/clipero/clips/2026-10-31-alvarez-puga-deportacion/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-31-alvarez-puga-deportacion/ficha.md",
+                      "duracion_seg":  60.5,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/UdupORUvULE?t=7955",
+                                     "canal":  "SinEmbargo Al Aire",
+                                     "inicio":  7955.77,
+                                     "fin":  8016.22
+                                 },
+                      "oportunidad_cazador":  "tema-ines-gomez-mont-detencion",
+                      "orden_en_fuente":  1,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-02",
+                      "motivo_descarte":  "El usuario descarta los clips de Inés Gómez Mont el 2026-11-02: no encajan con el enfoque nuevo."
+                  },
+                  {
                       "id":  "2026-10-31-granja-burlas-cara-a-cara",
                       "estado":  "descartado",
                       "tipo":  "confrontacion",
@@ -472,6 +1479,32 @@
                                       ],
                       "ventana_hasta":  "2026-11-02",
                       "motivo_descarte":  "El usuario descarta los videos de La Granja el 2026-11-01."
+                  },
+                  {
+                      "id":  "2026-10-31-gomez-mont-amparo-cuentas",
+                      "estado":  "descartado",
+                      "tipo":  "revelacion",
+                      "puntaje":  75,
+                      "gancho":  "¿Por qué les descongelaron las cuentas en 2025?",
+                      "archivo":  "salidas/clipero/clips/2026-10-31-gomez-mont-amparo-cuentas/clip.mp4",
+                      "ficha":  "salidas/clipero/clips/2026-10-31-gomez-mont-amparo-cuentas/ficha.md",
+                      "duracion_seg":  53.7,
+                      "fuente":  {
+                                     "url":  "https://youtu.be/UdupORUvULE?t=7774",
+                                     "canal":  "SinEmbargo Al Aire",
+                                     "inicio":  7774.33,
+                                     "fin":  7827.98
+                                 },
+                      "oportunidad_cazador":  "tema-ines-gomez-mont-detencion",
+                      "orden_en_fuente":  2,
+                      "derechos":  "sin_verificar",
+                      "plataformas":  [
+                                          "tiktok",
+                                          "instagram",
+                                          "youtube"
+                                      ],
+                      "ventana_hasta":  "2026-11-02",
+                      "motivo_descarte":  "El usuario descarta los clips de Inés Gómez Mont el 2026-11-02: no encajan con el enfoque nuevo."
                   },
                   {
                       "id":  "2026-10-31-granja-kevyn-no-me-salves",
@@ -526,531 +1559,6 @@
                                       ],
                       "ventana_hasta":  "2026-11-01",
                       "motivo_descarte":  "El usuario descarta los videos de La Granja el 2026-11-01."
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-pelea-feid",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  68,
-                      "gancho":  "Blessd habla de su pelea con Feid",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-pelea-feid/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-pelea-feid/ficha.md",
-                      "duracion_seg":  60.6,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=6030",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  6030.29,
-                                     "fin":  6090.86
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  10,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-01"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-vendedor-controles",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  66,
-                      "gancho":  "Así vendía Blessd controles en la calle",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-vendedor-controles/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-vendedor-controles/ficha.md",
-                      "duracion_seg":  24.5,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=388",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  388.97,
-                                     "fin":  413.46
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  21,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-04"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-prestamo-primera-cancion",
-                      "estado":  "listo",
-                      "tipo":  "historia",
-                      "puntaje":  69,
-                      "gancho":  "Le pidió 2 millones prestados a su jefe",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-prestamo-primera-cancion/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-prestamo-primera-cancion/ficha.md",
-                      "duracion_seg":  64,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=3179",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  3179.37,
-                                     "fin":  3243.3
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  18,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-ryan-mismo-nivel",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  66,
-                      "gancho":  "¿Blessd o Ryan Castro: quién está arriba?",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-ryan-mismo-nivel/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-ryan-mismo-nivel/ficha.md",
-                      "duracion_seg":  52.2,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=6106",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  6106.05,
-                                     "fin":  6158.14
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  20,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-04"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-bando-progreso",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  68,
-                      "gancho":  "Blessd: ¿cuál es su bando?",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-bando-progreso/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-bando-progreso/ficha.md",
-                      "duracion_seg":  22.1,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=5210",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  5210.05,
-                                     "fin":  5232.06
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  9,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-10-31"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-recuerdo-pirlo",
-                      "estado":  "listo",
-                      "tipo":  "emotivo",
-                      "puntaje":  70,
-                      "gancho":  "El mejor recuerdo de Blessd con Pirlo",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-recuerdo-pirlo/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-recuerdo-pirlo/ficha.md",
-                      "duracion_seg":  46.5,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=5236",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  5236.05,
-                                     "fin":  5282.54
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  11,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-01"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-ego-progresar",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  71,
-                      "gancho":  "¿Desde cuándo el ego es más importante?",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-ego-progresar/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-ego-progresar/ficha.md",
-                      "duracion_seg":  38.2,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=4832",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  4832.93,
-                                     "fin":  4871.1
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  16,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-centro-de-menores",
-                      "estado":  "listo",
-                      "tipo":  "historia",
-                      "puntaje":  66,
-                      "gancho":  "Sus 16 días en un centro de menores",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-centro-de-menores/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-centro-de-menores/ficha.md",
-                      "duracion_seg":  42.2,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=864",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  864.57,
-                                     "fin":  906.78
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  19,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-04"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-ryan-castro-los-mismos",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  68,
-                      "gancho":  "¿Diez años con los mismos en el reggaetón?",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-ryan-castro-los-mismos/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-ryan-castro-los-mismos/ficha.md",
-                      "duracion_seg":  45.2,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=3520",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  3520.37,
-                                     "fin":  3565.5
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  15,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-miles-de-suenos",
-                      "estado":  "listo",
-                      "tipo":  "emotivo",
-                      "puntaje":  70,
-                      "gancho":  "Miles de sueños y cero ayudas",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-miles-de-suenos/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-miles-de-suenos/ficha.md",
-                      "duracion_seg":  19.4,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=4643",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  4643.69,
-                                     "fin":  4663.1
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  17,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-edificios-frutas",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  71,
-                      "gancho":  "¿Cuánto valen los edificios de Blessd?",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-edificios-frutas/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-edificios-frutas/ficha.md",
-                      "duracion_seg":  41,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=336",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  336.33,
-                                     "fin":  377.3
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  14,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-mujeres-mueven-plata",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  73,
-                      "gancho":  "¿Por qué Blessd le canta a las mujeres?",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-mujeres-mueven-plata/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-mujeres-mueven-plata/ficha.md",
-                      "duracion_seg":  24,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=2811",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  2811.21,
-                                     "fin":  2835.18
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  12,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-verso-ziploc",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  74,
-                      "gancho":  "¿Quién escribió el verso de Ziploc?",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-verso-ziploc/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-verso-ziploc/ficha.md",
-                      "duracion_seg":  16.2,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=4781",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  4781.69,
-                                     "fin":  4797.94
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  6,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-10-31"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-esquina-fumar",
-                      "estado":  "listo",
-                      "tipo":  "humor",
-                      "puntaje":  71,
-                      "gancho":  "La señora no lo dejaba fumar ahí…",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-esquina-fumar/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-esquina-fumar/ficha.md",
-                      "duracion_seg":  17.9,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=210",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  210.65,
-                                     "fin":  228.54
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  13,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-jara-50-50",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  75,
-                      "gancho":  "Blessd y su socio: 50/50 sin firmar nada",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-jara-50-50/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-jara-50-50/ficha.md",
-                      "duracion_seg":  31.5,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=2401",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  2401.69,
-                                     "fin":  2433.14
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  7,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-error-adolescencia",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  76,
-                      "gancho":  "Lo que Blessd casi nunca cuenta",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-error-adolescencia/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-error-adolescencia/ficha.md",
-                      "duracion_seg":  45.2,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=807",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  807.73,
-                                     "fin":  852.9
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  5,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-que-peso-le-quito",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  78,
-                      "gancho":  "Blessd sobre Pirlo: \u0027¿Qué peso le puedo quitar?\u0027",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-que-peso-le-quito/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-que-peso-le-quito/ficha.md",
-                      "duracion_seg":  26.7,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=4689",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  4689.29,
-                                     "fin":  4715.98
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  2,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-10-31"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-donde-haya-plata",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  78,
-                      "gancho":  "Blessd: \u0027Donde haya plata estoy yo\u0027",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-donde-haya-plata/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-donde-haya-plata/ficha.md",
-                      "duracion_seg":  40.8,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=4128",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  4128.93,
-                                     "fin":  4169.62
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  3,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-11-03"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-valle-medellin",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  74,
-                      "gancho":  "Blessd y Pirlo: ¿Valle contra Medellín?",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-valle-medellin/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-valle-medellin/ficha.md",
-                      "duracion_seg":  17.3,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=5149",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  5149.65,
-                                     "fin":  5166.94
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  8,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-10-31"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-tregua-pirlo",
-                      "estado":  "listo",
-                      "tipo":  "revelacion",
-                      "puntaje":  76,
-                      "gancho":  "¿Habrá tregua entre Blessd y Pirlo?",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-tregua-pirlo/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-tregua-pirlo/ficha.md",
-                      "duracion_seg":  58.7,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=5502",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  5502.69,
-                                     "fin":  5561.38
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  1,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-10-31"
-                  },
-                  {
-                      "id":  "2026-10-29-blessd-trap-ser-calle",
-                      "estado":  "listo",
-                      "tipo":  "frase",
-                      "puntaje":  76,
-                      "gancho":  "¿Hay que ser calle para cantar trap?",
-                      "archivo":  "salidas/clipero/clips/2026-10-29-blessd-trap-ser-calle/clip.mp4",
-                      "ficha":  "salidas/clipero/clips/2026-10-29-blessd-trap-ser-calle/ficha.md",
-                      "duracion_seg":  40.8,
-                      "fuente":  {
-                                     "url":  "https://youtu.be/LYEB5ioD_pY?t=4941",
-                                     "canal":  "Kerry Kambell",
-                                     "inicio":  4941.41,
-                                     "fin":  4982.18
-                                 },
-                      "oportunidad_cazador":  null,
-                      "orden_en_fuente":  4,
-                      "derechos":  "sin_verificar",
-                      "plataformas":  [
-                                          "tiktok",
-                                          "instagram",
-                                          "youtube"
-                                      ],
-                      "ventana_hasta":  "2026-10-31"
                   }
               ]
 }

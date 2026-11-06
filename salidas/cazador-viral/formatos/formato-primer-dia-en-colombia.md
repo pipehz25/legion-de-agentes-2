@@ -1,0 +1,30 @@
+# Día 1 en Colombia: las 3 primeras reacciones del recién llegado
+
+- **Fórmula:** gancho de resultado primero ("Por fin en Colombia"; estructural) + lista de 3 primeras reacciones del outsider (estructural) + arquetipo recién llegado frente a anfitrión que presume (estructural) + tema "Samulx llega a Colombia" (perecedero, emergente) + participación "¿qué le enseñarías primero?" (estructural).
+- **Patrones base:** `tema-samulx-llega-a-colombia` (emergente en youtube-co) y `tema-stream-fighters-5` (emergente), que es el motivo del viaje. El tour de casa es pariente del candidato `formato-tour-del-setup-streamer`.
+- **Palanca:** aprovechar la actualidad con un formato estable (llegada + lista de 3) y cruce de genes (gancho de resultado primero + estructura de lista + arquetipo outsider).
+- **Por qué debería funcionar:**
+  - La llegada es lo que más rinde del día en el nicho. ['POR FIN ESTOY EN COLOMBIA CONOCIENDO LA CASA DE WEST'](https://www.youtube.com/watch?v=hD58PIkuFVA) (canal de Samulx) lleva 43.218 vistas en 4,5 h (9.604/h). Medido el 06-nov.
+  - Los recortes del reencuentro rinden por encima de lo normal en sus canales: [ElReyWithTheClips](https://www.youtube.com/watch?v=6w5HrPESPrY) va a 2.697/h, 3,4 veces su recorte anterior, y [Live Samulx](https://www.youtube.com/watch?v=9kJkUgmxh10) a 5.217/h. Seis canales lo recortaron en 6 h.
+  - El juego de la llegada también rinde: ['Que harías por la VISA'](https://www.youtube.com/watch?v=2XgP-WLx1vI) (Live Samulx) lleva 15.439 vistas en 12,3 h (1.255/h).
+  - Nadie lo ha empaquetado como lista corta de reacciones: todo lo publicado son recortes largos de 10-26 min.
+- **Plataformas objetivo y duración:** TikTok, Reels y Shorts; vertical de 30-45 s.
+- **Ventana estimada:** hasta el 08-nov para el tema de Samulx (72 h desde la llegada); la plantilla vuelve a servir cada vez que un creador o artista llegue a Colombia (por ejemplo, otros peleadores de Stream Fighters 5 antes del 14-nov). Confianza: media.
+- **Guion esqueleto:**
+  - 0-2 s (gancho): el abrazo del reencuentro con el texto "DÍA 1 EN COLOMBIA: lo primero que lo sorprendió".
+  - Desarrollo (3-35 s): tres reacciones numeradas, cada una de 6-10 s con su tarjeta ("1. La casa de Westcol", "2. …", "3. …"). Solo momentos reales del directo, cortados por el Clipero, con la frase literal del streamer en subtítulo.
+  - Final (35-45 s): el payoff ("y vino a esto: pelea en Stream Fighters 5") y la pregunta "¿Qué le enseñarías primero de Colombia? Comenta".
+- **Título, descripción y hashtags sugeridos:**
+  - Título: "Día 1 de Samulx en Colombia: sus 3 primeras reacciones"
+  - Descripción: "Llegó a Medellín, conoció la casa de Westcol y soltó la noticia. ¿Qué le enseñarías tú primero?"
+  - Hashtags: #Samulx #Westcol #LaGanga #Medellin #StreamFighters5
+- **Tres variantes por nicho:**
+  - **Streamers:** la de arriba, con Samulx; se repite con cualquier peleador de fuera que llegue a Bogotá antes del 14-nov.
+  - **Música urbana:** "Día 1 en Medellín" de un artista que llega a grabar o a dar un concierto (por ejemplo, un invitado de Blessd o de la W Sound): tres reacciones del artista en su directo o en su vlog.
+  - **Empresarios:** "Día 1 en RR Autos": un recién llegado (cliente, streamer) ve el Revuelto por primera vez y Diego RR le explica tres cifras (precio, potencia y mantenimiento). Combina con el candidato `formato-matematica-del-lujo`.
+- **Riesgos:**
+  - Derechos: no uses clips de otros canales sin que el Clipero los corte de la fuente; nada de la música de fondo de los directos.
+  - Sensibilidad: el juego de la visa puede caer en estereotipos sobre migrantes o países; no lo uses si alguna respuesta se burla de alguien.
+  - Precisión: no se sabe de dónde viene Samulx ni contra quién pelea; no lo afirmes. Tampoco digas que es "Incógnito".
+  - Dependencia del gen perecedero: después del 08-nov el tema se apaga, pero la plantilla "Día 1 en…" sigue sirviendo con otra llegada.
+- **Cómo saber si funcionó:** a las 24 h, al menos 3 veces la mediana de vistas de la cuenta y comentarios que respondan a la pregunta en al menos el 1 % de las vistas; retención de al menos el 55 % a los 3 s.

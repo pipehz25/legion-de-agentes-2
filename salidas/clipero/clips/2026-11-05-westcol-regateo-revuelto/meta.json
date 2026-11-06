@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-regateo-revuelto",
+    "url_fuente":  "https://www.youtube.com/watch?v=KhuFp9eIyVU",
+    "video_id":  "KhuFp9eIyVU",
+    "inicio":  832.19,
+    "fin":  886.5,
+    "inicio_hms":  "0:13:52",
+    "duracion_seg":  54.3,
+    "gancho":  "Regateando el Lamborghini de un millón de dólares",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  150,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.7,
+                  "limitador":  true,
+                  "entrada_lufs":  -24.5,
+                  "entrada_tp":  -10.87,
+                  "salida_lufs":  -14.92,
+                  "salida_tp":  -1.07
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-regateo-revuelto/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-regateo-revuelto/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-regateo-revuelto/revision.jpg",
+    "creado":  "2026-11-05T23:17:19.5293232-05:00"
+}

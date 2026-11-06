@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-parceritos-billete-popo",
+    "url_fuente":  "https://www.youtube.com/watch?v=4hGozORt3Ds",
+    "video_id":  "4hGozORt3Ds",
+    "inicio":  2101.73,
+    "fin":  2160.3,
+    "inicio_hms":  "0:35:01",
+    "duracion_seg":  58.6,
+    "gancho":  "La pregunta más profunda para un filósofo",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  175,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -12.34,
+                  "entrada_tp":  0,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -1.66
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-billete-popo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-parceritos-billete-popo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-parceritos-billete-popo/revision.jpg",
+    "creado":  "2026-11-04T17:02:22.1817254-05:00"
+}

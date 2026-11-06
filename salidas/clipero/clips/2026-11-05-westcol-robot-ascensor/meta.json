@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-robot-ascensor",
+    "url_fuente":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+    "video_id":  "Xrwm98iaWY8",
+    "inicio":  968.93,
+    "fin":  1007.38,
+    "inicio_hms":  "0:16:08",
+    "duracion_seg":  38.4,
+    "gancho":  "La primera vez del robot en un ascensor",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  93,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -8.94,
+                  "entrada_tp":  0.84,
+                  "salida_lufs":  -13.86,
+                  "salida_tp":  -4.24
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-robot-ascensor/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-robot-ascensor/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-robot-ascensor/revision.jpg",
+    "creado":  "2026-11-05T23:06:33.5364242-05:00"
+}

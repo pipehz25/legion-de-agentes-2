@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-parceritos-poeta-corre-feo",
+    "url_fuente":  "https://www.youtube.com/watch?v=4hGozORt3Ds",
+    "video_id":  "4hGozORt3Ds",
+    "inicio":  294.13,
+    "fin":  310.66,
+    "inicio_hms":  "0:04:54",
+    "duracion_seg":  16.5,
+    "gancho":  "Le preguntan a Ubeimar Ríos por qué corre así",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  52,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.21,
+                  "entrada_tp":  -3.49,
+                  "salida_lufs":  -13.9,
+                  "salida_tp":  -1.28
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-poeta-corre-feo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-parceritos-poeta-corre-feo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-parceritos-poeta-corre-feo/revision.jpg",
+    "creado":  "2026-11-04T16:58:26.3975511-05:00"
+}

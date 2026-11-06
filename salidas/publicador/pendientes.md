@@ -1,152 +1,1119 @@
 # Pendientes de aprobación del Publicador
 
-## Nuevos: «Tóxico», de Lalo Ocampo (2026-11-02 20:57)
+Actualizado: 2026-11-06 00:40 (-05:00) · ciclo 3 · modo `aprobacion`
 
-Hay 4 clips del video oficial de «Tóxico» (canal Lalo Ocampo, estrenado el 31-oct-2026) y **12 envíos (TikTok, Instagram y YouTube), todos pendientes de aprobación**. Ventana: hasta el **2026-11-14**. Como comparten ventana, van en el orden de publicación que sugiere el Clipero.
+Hay **40 clips y 119 envíos pendientes de aprobación** (TikTok, Instagram y YouTube). Van ordenados por ventana, de la que cierra antes a la que cierra después, y, si la ventana es la misma, por puntaje. El modo es `aprobacion`, así que no se publica nada hasta que lo apruebes.
 
-- **Derechos:** `autorizado` (confirmaste el 2-nov que tienes permiso del artista). El modo es `aprobacion`: no sale nada sin tu aprobación. La canción está distribuida (tiene pista en "Release - Topic"), así que YouTube podría reclamarla por Content ID aunque tengas permiso. Si pasa, el artista o su distribuidora pueden liberar tu canal.
-- **Sonido oficial (es música):** en **TikTok e Instagram** conviene publicar con el **sonido oficial de «Tóxico»** si existe en la app. El Clipero no pudo comprobar si existe.
-  - **TikTok** está en modo borrador: el video llega a tu bandeja y eliges el sonido al terminar la publicación en la app.
-  - **Instagram** por API publica al momento con el audio del clip y no deja elegir el sonido. Si quieres el sonido oficial, súbelo a mano desde la app en vez de aprobar `:instagram`.
-- **Calendario sugerido por el Clipero** (un clip al día; TikTok y Reels de 19:00 a 21:00, Shorts el mismo día): 3-nov `intro-celos-aire`, 4-nov `coro-eres-mia`, 5-nov `celos-completo` y 6-nov `verso-mando-la-ubi`. `intro-celos-aire` y `celos-completo` comparten dos líneas, así que es mejor no publicarlos seguidos.
-- **Plataformas:**
-  - **TikTok** está lista (cuenta Legión Urbana, destino `borrador`, 4 al día como máximo). Ha rechazado envíos recientes por tener demasiados borradores pendientes (`spam_risk_too_many_pending_share`; el último, el 2-nov a las 00:28). Antes de aprobar, vacía la bandeja: publica o descarta lo que haya, incluidos los 2 de Inés Gómez Mont.
-  - **YouTube e Instagram** no tienen credenciales ni están activas. Se pueden aprobar por adelantado y se subirán cuando se activen, si la ventana sigue abierta. YouTube sube en `private`; Instagram publica en público.
-- **Validación:** los textos cumplen los límites de plataformas.md §7 (lo comprobé leyendo los envíos). En este paso no se subió ni se simuló nada.
+## Antes de aprobar
 
-### 1. 2026-11-02-toxico-intro-celos-aire
+- **Ninguna plataforma tiene credenciales en esta PC.** El script devuelve `sin_credenciales` en las cuatro. TikTok sigue activa en `config.json`, pero en esta copia del proyecto hay que volver a autorizarla. Hazlo en tu propia ventana de PowerShell, desde la carpeta del proyecto:
+  `powershell -NoProfile -ExecutionPolicy Bypass -File legion/03-publicador/publicar.ps1 autorizar -Plataforma tiktok`
+  YouTube e Instagram tampoco tienen credenciales ni están activas (`plataformas.md` §3 y §5). Puedes aprobar por adelantado: lo aprobado se sube cuando la plataforma esté lista, si la ventana sigue abierta.
+- **Faltan videos.** Los clips del 2026-11-01 al 2026-11-03 no tienen `clip.mp4` en esta copia. Se pueden aprobar, pero para subirlos hay que volver a generarlos o copiarlos. Los del 2026-11-04 y el 2026-11-05 sí tienen el video.
+- **Cinco ventanas cierran hoy, 6-nov:** `lonche-seis-cifras`, `westcol-cuerpo-35-anos`, `lonche-sueno-americano`, `westcol-w-sound-700mil` y `westcol-w-sound-espana`. A ninguno le queda video en esta copia.
+- **Derechos:** salvo los 4 de «Tóxico» (`autorizado`), todo es `sin_verificar`. Solo se publica si lo apruebas expresamente, y siempre lleva el crédito a la fuente con el minuto.
+- **TikTok, en modo borrador:** el video llega a tu bandeja y el texto se pega en la app. Como mucho caben 5 borradores pendientes por API cada 24 h, así que publica o descarta los que ya tengas antes de aprobar más.
+- **Vencidos este ciclo (83 entradas):** son los envíos de Instagram y YouTube de los clips de Blessd del 29-oct y los clips nuevos cuya ventana ya había pasado (Awooween, varios de Westcol del 2-nov, el jet de Blessd, The Chanty, el fotógrafo). Siguen en `datos/publicador/envios/`. Una aprobación expresa los vuelve a activar.
 
-- **Gancho:** Lalo Ocampo estrena «Tóxico» · **Tipo:** `frase` · **Puntaje:** 68 · **Duración:** 19,6 s · **Ventana hasta:** 2026-11-14
-- **Derechos:** `autorizado`
-- **Video:** [clip.mp4](../clipero/clips/2026-11-02-toxico-intro-celos-aire/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-toxico-intro-celos-aire/ficha.md)
-- **Fuente:** https://youtu.be/bip8ttg-VeE?t=0 (canal Lalo Ocampo, minuto 0:00)
-- **Hora sugerida por el Clipero (estimación):** TikTok y Reels, 3-nov de 19:00 a 21:00 · Shorts, el mismo día
-- **Sonido:** en TikTok e Instagram, usa el sonido oficial de «Tóxico» si existe en la app.
-- **Revisa:** la voz entra a los 9,4 s. Los primeros 8,5 s son instrumentales y los cubre el texto de arriba. El audio no viene saturado.
+## Clips
+
+### 1. 2026-11-02-lonche-seis-cifras
+
+- **Gancho:** Lonche: «seis cifras a la semana» · **Tipo:** `revelacion` · **Puntaje:** 72 · **Duración:** 52,0 s · **Ventana hasta:** 2026-11-06
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-lonche-seis-cifras/ficha.md)
+- **Fuente:** https://youtu.be/XMLQv5JNuK0?t=429 (Clipskick04, minuto 7:09)
+- **Aprobar:** `/publicador aprobar 2026-11-02-lonche-seis-cifras`
 
 #### TikTok
 
-Envío: `datos/publicador/envios/2026-11-02-toxico-intro-celos-aire__tiktok.json` · llega a tu bandeja como borrador: pega este texto en la app.
+Envío: `datos/publicador/envios/2026-11-02-lonche-seis-cifras__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-02-lonche-seis-cifras:tiktok`
 
 ```text
-Lalo Ocampo estrena «Tóxico»: celos hasta del aire.
+Lonche: "solamente hay un número uno y es el que gana más"
 
-¿Celos del aire: romántico o tóxico? ¿De qué tienes celos tú? Te leo.
+¿Para ustedes el número uno es el que más gana o el que más gente mueve?
 
-Crédito: Lalo Ocampo, «Tóxico» (video oficial, 31-oct-2026). Canción completa (minuto 0:00): https://youtu.be/bip8ttg-VeE?t=0
+Crédito: directo de Lonche en Kick (lonchedehuevito), vía canal Clipskick04, «LONCHE REACCIONANDO A VÍCTOR MENDIVIL Y OMAR CAMACHO». Momento original desde el minuto 7:09: https://youtu.be/XMLQv5JNuK0?t=429
 
-#LaloOcampo #Tóxico #Celos #MúsicaUrbana #NuevaMúsica
+#Lonche #Kick #Streamer #LaFES #México
 ```
 
 #### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-11-02-toxico-intro-celos-aire__instagram.json` · cuando Instagram esté activa, se publica al momento y en público.
+Envío: `datos/publicador/envios/2026-11-02-lonche-seis-cifras__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-02-lonche-seis-cifras:instagram`
 
 ```text
-"Yo tengo celos del aire porque acaricia tu piel": así arranca «Tóxico», de Lalo Ocampo.
+"Con mis seis cifras a la semana estoy bien": Lonche
 
-Los primeros 20 segundos del video oficial, estrenado el 31 de octubre. ¿Celos del aire: romántico o tóxico? ¿De qué tienes celos tú?
+Para Lonche no hay discusión sobre quién es el número uno: "el que gana más". Reta a los demás a enseñar cuánto les paga Kick y dice que lo suyo son "seis cifras a la semana… cuando chambeo". Es lo que él afirma; no está comprobado.
 
-Crédito: Lalo Ocampo, «Tóxico» (video oficial). Canción completa (minuto 0:00): https://youtu.be/bip8ttg-VeE?t=0
+¿Para ustedes el número uno es el que más gana o el que más gente mueve?
 
-#LaloOcampo #Tóxico #Celos #MúsicaUrbana #Estreno
+Crédito: directo de Lonche en Kick (lonchedehuevito), vía canal Clipskick04, «LONCHE REACCIONANDO A VÍCTOR MENDIVIL Y OMAR CAMACHO». Momento original desde el minuto 7:09: https://youtu.be/XMLQv5JNuK0?t=429
+
+#Lonche #Kick #Streamer #LaFES #México
 ```
 
 #### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-11-02-toxico-intro-celos-aire__youtube.json` · privacidad `private`
+Envío: `datos/publicador/envios/2026-11-02-lonche-seis-cifras__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-02-lonche-seis-cifras:youtube`
 
-**Título:** Lalo Ocampo - Tóxico (los primeros 20 segundos)
-
-**Etiquetas:** Lalo Ocampo, Tóxico, Lalo Ocampo Tóxico, Tóxico video oficial, celos, música urbana, nueva música, estreno
+**Título:** Lonche habla de cuánto gana en Kick: "seis cifras a la semana"
 
 **Descripción:**
 
 ```text
-Así empieza «Tóxico», lo nuevo de Lalo Ocampo (video oficial, 31-oct-2026): "Yo tengo celos del aire porque acaricia tu piel". ¿Celos del aire: romántico o tóxico?
+Para Lonche no hay discusión sobre quién es el número uno: "el que gana más". Reta a los demás a enseñar cuánto les paga Kick y dice que lo suyo son "seis cifras a la semana… cuando chambeo". Es lo que él afirma; no está comprobado.
 
-Crédito: canal Lalo Ocampo, «Tóxico» (video oficial). Canción completa desde el minuto 0:00: https://youtu.be/bip8ttg-VeE?t=0
+¿Para ustedes el número uno es el que más gana o el que más gente mueve?
 
-#LaloOcampo #Tóxico #MúsicaUrbana #Estreno
+Crédito: directo de Lonche en Kick (lonchedehuevito), vía canal Clipskick04, «LONCHE REACCIONANDO A VÍCTOR MENDIVIL Y OMAR CAMACHO». Momento original desde el minuto 7:09: https://youtu.be/XMLQv5JNuK0?t=429
+
+#Lonche #Kick #Streamer #LaFES
 ```
 
-**Aprobar:** `/publicador aprobar 2026-11-02-toxico-intro-celos-aire` · solo una: `/publicador aprobar 2026-11-02-toxico-intro-celos-aire:tiktok` (o `:instagram`, `:youtube`)
+**Etiquetas:** Lonche, Lonche Kick, streamer, La FES, Kick, México
 
-### 2. 2026-11-02-toxico-coro-eres-mia
+### 2. 2026-11-02-westcol-cuerpo-35-anos
 
-- **Gancho:** El coro más tóxico · **Tipo:** `frase` (coro) · **Puntaje:** 76 · **Duración:** 21,7 s · **Ventana hasta:** 2026-11-14
-- **Derechos:** `autorizado`
-- **Video:** [clip.mp4](../clipero/clips/2026-11-02-toxico-coro-eres-mia/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-toxico-coro-eres-mia/ficha.md)
-- **Fuente:** https://youtu.be/bip8ttg-VeE?t=84 (canal Lalo Ocampo, minuto 1:24)
-- **Hora sugerida por el Clipero (estimación):** TikTok y Reels, 4-nov de 19:00 a 21:00 · Shorts, el mismo día
-- **Sonido:** en TikTok e Instagram, usa el sonido oficial de «Tóxico» si existe en la app.
-- **Revisa:**
-  - Escucha el audio: la entrada del máster llega a +1,83 dBTP y puede haber distorsión. Si usas el sonido oficial, este audio no se usa.
-  - La letra dice "pobre cabrón" y sale en los subtítulos. Algunas plataformas limitan el alcance por palabrotas.
+- **Gancho:** Westcol: «Mi cuerpo tiene 35 años» · **Tipo:** `humor` · **Puntaje:** 71 · **Duración:** 44,8 s · **Ventana hasta:** 2026-11-06
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-westcol-cuerpo-35-anos/ficha.md)
+- **Fuente:** https://youtu.be/MBotzCroy1Q?t=1405 (juan diego mm, minuto 23:25)
+- **Aprobar:** `/publicador aprobar 2026-11-02-westcol-cuerpo-35-anos`
 
 #### TikTok
 
-Envío: `datos/publicador/envios/2026-11-02-toxico-coro-eres-mia__tiktok.json` · llega a tu bandeja como borrador: pega este texto en la app.
+Envío: `datos/publicador/envios/2026-11-02-westcol-cuerpo-35-anos__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-02-westcol-cuerpo-35-anos:tiktok`
 
 ```text
-"Eres mía y de nadie más": el coro de «Tóxico», de Lalo Ocampo.
+Westcol, 25 años: "mi cuerpo realmente tiene 35" 😂
 
-Etiqueta a tu tóxico o a tu tóxica.
+¿Cuántos años tiene su cuerpo de verdad?
 
-Crédito: Lalo Ocampo, «Tóxico» (video oficial, 31-oct-2026). Canción completa (minuto 1:24): https://youtu.be/bip8ttg-VeE?t=84
+Crédito: directo "IM BACK" de Westcol en Kick (2-nov-2026), vía canal juan diego mm, «WESTCOL HABLANDO DE TODO Y HABLA DEL DISFRAZ QUE QUERÍA USAR». Momento original desde el minuto 23:25: https://youtu.be/MBotzCroy1Q?t=1405
 
-#LaloOcampo #Tóxico #EresMía #MúsicaUrbana #NuevaMúsica
+#Westcol #Humor #Streamer #Kick #Colombia
 ```
 
 #### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-11-02-toxico-coro-eres-mia__instagram.json` · cuando Instagram esté activa, se publica al momento y en público.
+Envío: `datos/publicador/envios/2026-11-02-westcol-cuerpo-35-anos__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-02-westcol-cuerpo-35-anos:instagram`
 
 ```text
-El coro de «Tóxico», de Lalo Ocampo: "Porque eres mía y de nadie más".
+"No tengo hombro, no tengo rodilla y no tengo muela": Westcol
 
-Lo nuevo de Lalo Ocampo, del video oficial estrenado el 31 de octubre. Etiqueta a tu tóxico o a tu tóxica.
+Tanta tecnología y nadie inventa lo que Westcol quiere: una pastillita que te quite un año. Con 25 años, bromea con que su cuerpo "realmente tiene 35": "no tengo hombro, no tengo rodilla y en este momento no tengo muela".
 
-Crédito: Lalo Ocampo, «Tóxico» (video oficial). Canción completa (minuto 1:24): https://youtu.be/bip8ttg-VeE?t=84
+¿Cuántos años tiene su cuerpo de verdad?
 
-#LaloOcampo #Tóxico #EresMía #MúsicaUrbana #Estreno
+Crédito: directo "IM BACK" de Westcol en Kick (2-nov-2026), vía canal juan diego mm, «WESTCOL HABLANDO DE TODO Y HABLA DEL DISFRAZ QUE QUERÍA USAR». Momento original desde el minuto 23:25: https://youtu.be/MBotzCroy1Q?t=1405
+
+#Westcol #Humor #Streamer #Kick #Colombia
 ```
 
 #### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-11-02-toxico-coro-eres-mia__youtube.json` · privacidad `private`
+Envío: `datos/publicador/envios/2026-11-02-westcol-cuerpo-35-anos__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-02-westcol-cuerpo-35-anos:youtube`
 
-**Título:** Lalo Ocampo - Tóxico (coro): "Porque eres mía y de nadie más"
-
-**Etiquetas:** Lalo Ocampo, Tóxico, Lalo Ocampo Tóxico, Tóxico coro, eres mía y de nadie más, música urbana, nueva música, estreno
+**Título:** Westcol quiere una pastilla para quitarse un año 😂
 
 **Descripción:**
 
 ```text
-El coro de «Tóxico», lo nuevo de Lalo Ocampo (video oficial, 31-oct-2026). ¿A quién se la dedicas?
+Tanta tecnología y nadie inventa lo que Westcol quiere: una pastillita que te quite un año. Con 25 años, bromea con que su cuerpo "realmente tiene 35": "no tengo hombro, no tengo rodilla y en este momento no tengo muela".
 
-Crédito: canal Lalo Ocampo, «Tóxico» (video oficial). Canción completa desde el minuto 1:24: https://youtu.be/bip8ttg-VeE?t=84
+¿Cuántos años tiene su cuerpo de verdad?
 
-#LaloOcampo #Tóxico #EresMía #MúsicaUrbana
+Crédito: directo "IM BACK" de Westcol en Kick (2-nov-2026), vía canal juan diego mm, «WESTCOL HABLANDO DE TODO Y HABLA DEL DISFRAZ QUE QUERÍA USAR». Momento original desde el minuto 23:25: https://youtu.be/MBotzCroy1Q?t=1405
+
+#Westcol #Humor #Streamer #Kick
 ```
 
-**Aprobar:** `/publicador aprobar 2026-11-02-toxico-coro-eres-mia` · solo una: `/publicador aprobar 2026-11-02-toxico-coro-eres-mia:tiktok` (o `:instagram`, `:youtube`)
+**Etiquetas:** Westcol, humor, streamer, Kick, Colombia, Westcol directo
 
-### 3. 2026-11-02-toxico-celos-completo
+### 3. 2026-11-02-lonche-sueno-americano
+
+- **Gancho:** Lonche y su «sueño americano» · **Tipo:** `frase` · **Puntaje:** 71 · **Duración:** 43,2 s · **Ventana hasta:** 2026-11-06
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-lonche-sueno-americano/ficha.md)
+- **Fuente:** https://youtu.be/TGZYr7VNzio?t=2568 (Lonche PRIME, minuto 42:48)
+- **Aprobar:** `/publicador aprobar 2026-11-02-lonche-sueno-americano`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-02-lonche-sueno-americano__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-02-lonche-sueno-americano:tiktok`
+
+```text
+Lonche: "el día que mi comunidad se sienta feliz por un chisme, ese día me retiro"
+
+¿Qué es para ustedes el sueño americano?
+
+Crédito: directo IRL de Lonche en Kick, vía canal Lonche PRIME, «ASÍ es VIVIR un DÍA de CHILL en LOS ANGELES | Lonche». Momento original desde el minuto 42:48: https://youtu.be/TGZYr7VNzio?t=2568
+
+#Lonche #SueñoAmericano #LaFES #Kick #México
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-02-lonche-sueno-americano__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-02-lonche-sueno-americano:instagram`
+
+```text
+"Soy un mexicano más cumpliendo el verdadero sueño americano": Lonche
+
+Lonche le habla a su comunidad, la FES: "el día que se sienta feliz por yo haber creado un chisme, ese día me retiro". Lo que sí tienen que presumir: los carros, ser reconocidos y ser "buenas personas". "Soy un mexicano más como ustedes que se le está cumpliendo el verdadero sueño americano".
+
+¿Qué es para ustedes el sueño americano?
+
+Crédito: directo IRL de Lonche en Kick, vía canal Lonche PRIME, «ASÍ es VIVIR un DÍA de CHILL en LOS ANGELES | Lonche». Momento original desde el minuto 42:48: https://youtu.be/TGZYr7VNzio?t=2568
+
+#Lonche #SueñoAmericano #LaFES #Kick #México
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-02-lonche-sueno-americano__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-02-lonche-sueno-americano:youtube`
+
+**Título:** Lonche a la FES: de qué sí deben sentirse orgullosos
+
+**Descripción:**
+
+```text
+Lonche le habla a su comunidad, la FES: "el día que se sienta feliz por yo haber creado un chisme, ese día me retiro". Lo que sí tienen que presumir: los carros, ser reconocidos y ser "buenas personas". "Soy un mexicano más como ustedes que se le está cumpliendo el verdadero sueño americano".
+
+¿Qué es para ustedes el sueño americano?
+
+Crédito: directo IRL de Lonche en Kick, vía canal Lonche PRIME, «ASÍ es VIVIR un DÍA de CHILL en LOS ANGELES | Lonche». Momento original desde el minuto 42:48: https://youtu.be/TGZYr7VNzio?t=2568
+
+#Lonche #SueñoAmericano #LaFES #Kick
+```
+
+**Etiquetas:** Lonche, sueño americano, La FES, Kick, streamer, México
+
+### 4. 2026-11-02-westcol-w-sound-700mil
+
+- **Gancho:** Westcol presume los números de la W · **Tipo:** `revelacion` · **Puntaje:** 68 · **Duración:** 61,0 s · **Ventana hasta:** 2026-11-06
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-westcol-w-sound-700mil/ficha.md)
+- **Fuente:** https://youtu.be/8L8CP3xe3Qo?t=96 (WestcolClips, minuto 1:36)
+- **Aprobar:** `/publicador aprobar 2026-11-02-westcol-w-sound-700mil`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-02-westcol-w-sound-700mil__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-02-westcol-w-sound-700mil:tiktok`
+
+```text
+Westcol: la nueva W Sound hizo 700.000 streams en un día "y apenas está empezando"
+
+¿Ya la escucharon? ¿Se va más lejos que la otra?
+
+Crédito: directo "IM BACK" de Westcol en Kick (2-nov-2026), vía canal WestcolClips, «ESTOY DE REGRESO - HABLANDO DEL ACCIDENTE AÉREO EN FLORIDA Y DEL ÉXITO DE LA W SOUND CON HADES66». Momento original desde el minuto 1:36: https://youtu.be/8L8CP3xe3Qo?t=96
+
+#Westcol #WSound #Hades66 #Spotify #MúsicaUrbana
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-02-westcol-w-sound-700mil__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-02-westcol-w-sound-700mil:instagram`
+
+```text
+La W Sound con Hades66 y sus números, según Westcol
+
+Westcol saca la calculadora: según él, un éxito colombiano tuvo su mejor día en Spotify con 487.000 streams y la W Sound con Hades66 hizo 700.000 "ayer, creo", y "apenas está empezando". Son cifras que él dice, sin comprobar.
+
+¿Ya la escucharon? ¿Se va más lejos que la otra?
+
+Crédito: directo "IM BACK" de Westcol en Kick (2-nov-2026), vía canal WestcolClips, «ESTOY DE REGRESO - HABLANDO DEL ACCIDENTE AÉREO EN FLORIDA Y DEL ÉXITO DE LA W SOUND CON HADES66». Momento original desde el minuto 1:36: https://youtu.be/8L8CP3xe3Qo?t=96
+
+#Westcol #WSound #Hades66 #Spotify #MúsicaUrbana
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-02-westcol-w-sound-700mil__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-02-westcol-w-sound-700mil:youtube`
+
+**Título:** Westcol presume los números de la W Sound con Hades66
+
+**Descripción:**
+
+```text
+Westcol saca la calculadora: según él, un éxito colombiano tuvo su mejor día en Spotify con 487.000 streams y la W Sound con Hades66 hizo 700.000 "ayer, creo", y "apenas está empezando". Son cifras que él dice, sin comprobar.
+
+¿Ya la escucharon? ¿Se va más lejos que la otra?
+
+Crédito: directo "IM BACK" de Westcol en Kick (2-nov-2026), vía canal WestcolClips, «ESTOY DE REGRESO - HABLANDO DEL ACCIDENTE AÉREO EN FLORIDA Y DEL ÉXITO DE LA W SOUND CON HADES66». Momento original desde el minuto 1:36: https://youtu.be/8L8CP3xe3Qo?t=96
+
+#Westcol #WSound #Hades66 #Spotify
+```
+
+**Etiquetas:** Westcol, W Sound, Hades66, Westcol Hades66, Spotify, música urbana
+
+### 5. 2026-11-02-westcol-w-sound-espana
+
+- **Gancho:** Westcol: ¿por qué la W pegó en España? · **Tipo:** `humor` · **Puntaje:** 67 · **Duración:** 63,6 s · **Ventana hasta:** 2026-11-06
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-westcol-w-sound-espana/ficha.md)
+- **Fuente:** https://youtu.be/8L8CP3xe3Qo?t=672 (WestcolClips, minuto 11:12)
+- **Aprobar:** `/publicador aprobar 2026-11-02-westcol-w-sound-espana`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-02-westcol-w-sound-espana__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-02-westcol-w-sound-espana:tiktok`
+
+```text
+Westcol tiene una teoría de por qué la W Sound pegó en España 😂
+
+España, ¿es verdad lo que dice?
+
+Crédito: directo "IM BACK" de Westcol en Kick (2-nov-2026), vía canal WestcolClips, «ESTOY DE REGRESO - HABLANDO DEL ACCIDENTE AÉREO EN FLORIDA Y DEL ÉXITO DE LA W SOUND CON HADES66». Momento original desde el minuto 11:12: https://youtu.be/8L8CP3xe3Qo?t=672
+
+#Westcol #WSound #Hades66 #España #MúsicaUrbana
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-02-westcol-w-sound-espana__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-02-westcol-w-sound-espana:instagram`
+
+```text
+"Los españoles son personas con muchos modales": Westcol no entiende el éxito de la W en España
+
+La W Sound con Hades66 está más pegada en España que en cualquier otro lugar, dice Westcol, y no se lo explica: "los españoles que conozco son personas con muchos modales". Su teoría, en broma, tiene muchos pitidos. Y el remate: a un colombiano no le extraña, "ya acostumbrados a Kris R".
+
+España, ¿es verdad lo que dice?
+
+Crédito: directo "IM BACK" de Westcol en Kick (2-nov-2026), vía canal WestcolClips, «ESTOY DE REGRESO - HABLANDO DEL ACCIDENTE AÉREO EN FLORIDA Y DEL ÉXITO DE LA W SOUND CON HADES66». Momento original desde el minuto 11:12: https://youtu.be/8L8CP3xe3Qo?t=672
+
+#Westcol #WSound #Hades66 #España #MúsicaUrbana
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-02-westcol-w-sound-espana__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-02-westcol-w-sound-espana:youtube`
+
+**Título:** ¿Por qué la W Sound pegó en España? La teoría de Westcol
+
+**Descripción:**
+
+```text
+La W Sound con Hades66 está más pegada en España que en cualquier otro lugar, dice Westcol, y no se lo explica: "los españoles que conozco son personas con muchos modales". Su teoría, en broma, tiene muchos pitidos. Y el remate: a un colombiano no le extraña, "ya acostumbrados a Kris R".
+
+España, ¿es verdad lo que dice?
+
+Crédito: directo "IM BACK" de Westcol en Kick (2-nov-2026), vía canal WestcolClips, «ESTOY DE REGRESO - HABLANDO DEL ACCIDENTE AÉREO EN FLORIDA Y DEL ÉXITO DE LA W SOUND CON HADES66». Momento original desde el minuto 11:12: https://youtu.be/8L8CP3xe3Qo?t=672
+
+#Westcol #WSound #Hades66 #España
+```
+
+**Etiquetas:** Westcol, W Sound, Hades66, España, música urbana, humor
+
+### 6. 2026-11-05-maluma-bebe-capo
+
+- **Gancho:** Maluma: en Argentina le tiraron un bebé · **Tipo:** `historia` · **Puntaje:** 81 · **Duración:** 47,1 s · **Ventana hasta:** 2026-11-08
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-05-maluma-bebe-capo/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-05-maluma-bebe-capo/ficha.md)
+- **Fuente:** https://youtu.be/iNxDQVDIer8?t=2933 (LUZU TV, minuto 48:53)
+- **Aprobar:** `/publicador aprobar 2026-11-05-maluma-bebe-capo`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-05-maluma-bebe-capo__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-05-maluma-bebe-capo:tiktok`
+
+```text
+Maluma cuenta que en Argentina le pusieron un bebé en el carro 😳
+
+¿Qué es lo más loco que has visto hacer a un fan?
+
+Crédito: canal LUZU TV, «#FMLUZU | MALUMA NOS LLAMÓ EN VIVO + FERBO EN CONTRA DE DOMI…». Momento original desde el minuto 48:53: https://youtu.be/iNxDQVDIer8?t=2933
+
+#Maluma #FMLuzu #Luzu #Argentina #Fans
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-05-maluma-bebe-capo__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-05-maluma-bebe-capo:instagram`
+
+```text
+"Me tiraron un bebé de 6 meses al capó" – Maluma
+
+Maluma llamó en vivo a FM Luzu y contó lo que le pasó al salir de un restaurante en Argentina: miles de fans afuera y un bebé de unos 6 meses sobre el capó de su carro.
+
+¿Qué es lo más loco que has visto hacer a un fan?
+
+Crédito: canal LUZU TV, «#FMLUZU | MALUMA NOS LLAMÓ EN VIVO + FERBO EN CONTRA DE DOMI…». Momento original desde el minuto 48:53: https://youtu.be/iNxDQVDIer8?t=2933
+
+#Maluma #FMLuzu #Luzu #Argentina #Fans
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-05-maluma-bebe-capo__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-05-maluma-bebe-capo:youtube`
+
+**Título:** Maluma cuenta su anécdota más loca con fans en Argentina
+
+**Descripción:**
+
+```text
+Maluma llamó en vivo a FM Luzu y contó lo que le pasó al salir de un restaurante en Argentina: miles de fans afuera y un bebé de unos 6 meses sobre el capó de su carro.
+
+¿Qué es lo más loco que has visto hacer a un fan?
+
+Crédito: canal LUZU TV, «#FMLUZU | MALUMA NOS LLAMÓ EN VIVO + FERBO EN CONTRA DE DOMI…». Momento original desde el minuto 48:53: https://youtu.be/iNxDQVDIer8?t=2933
+
+#Maluma #FMLuzu #Luzu #Argentina
+```
+
+**Etiquetas:** Maluma, FM Luzu, Luzu TV, Maluma Argentina, Maluma fans, anécdota
+
+### 7. 2026-11-05-maluma-loco-por-girar
+
+- **Gancho:** Maluma: que no me escuche mi mujer · **Tipo:** `frase` · **Puntaje:** 75 · **Duración:** 55,5 s · **Ventana hasta:** 2026-11-08
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-05-maluma-loco-por-girar/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-05-maluma-loco-por-girar/ficha.md)
+- **Fuente:** https://youtu.be/iNxDQVDIer8?t=3059 (LUZU TV, minuto 50:59)
+- **Aprobar:** `/publicador aprobar 2026-11-05-maluma-loco-por-girar`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-05-maluma-loco-por-girar__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-05-maluma-loco-por-girar:tiktok`
+
+```text
+Maluma: "Que no me escuche mi mujer…" 🎤
+
+¿Te pasa lo mismo con tu trabajo?
+
+Crédito: canal LUZU TV, «#FMLUZU | MALUMA NOS LLAMÓ EN VIVO + FERBO EN CONTRA DE DOMI…». Momento original desde el minuto 50:59: https://youtu.be/iNxDQVDIer8?t=3059
+
+#Maluma #FMLuzu #Gira #Papá #Música
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-05-maluma-loco-por-girar__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-05-maluma-loco-por-girar:instagram`
+
+```text
+Maluma confiesa que extraña los escenarios
+
+En FM Luzu, Maluma se sincera: ama a su familia, pero "estoy loco por salir de la casa e irme a girar… para ser un buen padre hay que trabajar de manera individual".
+
+¿Te pasa lo mismo con tu trabajo?
+
+Crédito: canal LUZU TV, «#FMLUZU | MALUMA NOS LLAMÓ EN VIVO + FERBO EN CONTRA DE DOMI…». Momento original desde el minuto 50:59: https://youtu.be/iNxDQVDIer8?t=3059
+
+#Maluma #FMLuzu #Gira #Papá #Música
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-05-maluma-loco-por-girar__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-05-maluma-loco-por-girar:youtube`
+
+**Título:** Maluma, entre ser papá y volver a girar por el mundo
+
+**Descripción:**
+
+```text
+En FM Luzu, Maluma se sincera: ama a su familia, pero "estoy loco por salir de la casa e irme a girar… para ser un buen padre hay que trabajar de manera individual".
+
+¿Te pasa lo mismo con tu trabajo?
+
+Crédito: canal LUZU TV, «#FMLUZU | MALUMA NOS LLAMÓ EN VIVO + FERBO EN CONTRA DE DOMI…». Momento original desde el minuto 50:59: https://youtu.be/iNxDQVDIer8?t=3059
+
+#Maluma #FMLuzu #Gira #Papá
+```
+
+**Etiquetas:** Maluma, FM Luzu, Luzu TV, Maluma gira, Maluma papá, música
+
+### 8. 2026-11-01-kris-r-critica-trap-bogota
+
+- **Gancho:** Su crítica al concierto de Kris R · **Tipo:** `frase` · **Puntaje:** 73 · **Duración:** 41,8 s · **Ventana hasta:** 2026-11-08
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-01-kris-r-critica-trap-bogota/ficha.md)
+- **Fuente:** https://youtu.be/hSV5nuZ5w_I?t=0 (ElWerik Podcast, minuto 0:00)
+- **Aprobar:** `/publicador aprobar 2026-11-01-kris-r-critica-trap-bogota`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-01-kris-r-critica-trap-bogota__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-01-kris-r-critica-trap-bogota:tiktok`
+
+```text
+"Nadie le abrió": la crítica de un podcast de Bogotá al concierto de Kris R
+
+¿El artista grande debe abrirle la tarima a los nuevos de la ciudad?
+
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 0:00: https://youtu.be/hSV5nuZ5w_I?t=0
+
+#KrisR #Trap #TrapColombiano #Bogotá #MovistarArena
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-01-kris-r-critica-trap-bogota__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-01-kris-r-critica-trap-bogota:instagram`
+
+```text
+¿Kris R debió darle la tarima a los artistas de Bogotá?
+
+Un podcast de Bogotá le pone un pero al concierto de Kris R en el Movistar Arena: el año pasado abrieron artistas de la ciudad y este año "nadie le abrió". Es la opinión de los podcasters. ¿Le debía esa tarima a la escena local o no era su responsabilidad?
+
+¿El artista grande debe abrirle la tarima a los nuevos de la ciudad?
+
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 0:00: https://youtu.be/hSV5nuZ5w_I?t=0
+
+#KrisR #Trap #TrapColombiano #Bogotá #MovistarArena
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-01-kris-r-critica-trap-bogota__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-01-kris-r-critica-trap-bogota:youtube`
+
+**Título:** La crítica al concierto de Kris R en el Movistar Arena | ElWerik Podcast
+
+**Descripción:**
+
+```text
+Un podcast de Bogotá le pone un pero al concierto de Kris R en el Movistar Arena: el año pasado abrieron artistas de la ciudad y este año "nadie le abrió". Es la opinión de los podcasters. ¿Le debía esa tarima a la escena local o no era su responsabilidad?
+
+¿El artista grande debe abrirle la tarima a los nuevos de la ciudad?
+
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 0:00: https://youtu.be/hSV5nuZ5w_I?t=0
+
+#KrisR #Trap #TrapColombiano #Bogotá
+```
+
+**Etiquetas:** Kris R, trap, trap colombiano, Bogotá, Movistar Arena, ElWerik Podcast
+
+### 9. 2026-11-01-chanty-freestyle-dame-hombro
+
+- **Gancho:** Freestyle de 'dame hombro' en El Poblado · **Tipo:** `humor` · **Puntaje:** 72 · **Duración:** 37,3 s · **Ventana hasta:** 2026-11-08
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-01-chanty-freestyle-dame-hombro/ficha.md)
+- **Fuente:** https://youtu.be/1TF93cD11g0?t=764 (The Chanty, minuto 12:44)
+- **Aprobar:** `/publicador aprobar 2026-11-01-chanty-freestyle-dame-hombro`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-01-chanty-freestyle-dame-hombro__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-01-chanty-freestyle-dame-hombro:tiktok`
+
+```text
+Le dijo "dame hombro" a The Chanty y le improvisó esto en plena calle
+
+¿A quién le dirías "dame hombro"? Etiquétalo
+
+Crédito: canal The Chanty, «FIESTA DE DISFRACES COMO JUSTIN BIEBER». Momento original desde el minuto 12:44: https://youtu.be/1TF93cD11g0?t=764
+
+#DameHombro #TheChanty #Freestyle #Medellín #ElPoblado
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-01-chanty-freestyle-dame-hombro__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-01-chanty-freestyle-dame-hombro:instagram`
+
+```text
+"Dame hombro, voy para dentro": el freestyle que le soltó a The Chanty
+
+Un rapero de la calle en El Poblado le improvisa a The Chanty, disfrazado de Justin Bieber, con el "dame hombro" del momento. ¿Qué nota le pones?
+
+¿A quién le dirías "dame hombro"? Etiquétalo
+
+Crédito: canal The Chanty, «FIESTA DE DISFRACES COMO JUSTIN BIEBER». Momento original desde el minuto 12:44: https://youtu.be/1TF93cD11g0?t=764
+
+#DameHombro #TheChanty #Freestyle #Medellín #ElPoblado
+```
+
+### 10. 2026-11-01-kris-r-avion-musica-desechable
+
+- **Gancho:** Escuchó la canción… y lo bajaron del avión · **Tipo:** `historia` · **Puntaje:** 67 · **Duración:** 42,3 s · **Ventana hasta:** 2026-11-08
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-01-kris-r-avion-musica-desechable/ficha.md)
+- **Fuente:** https://youtu.be/hSV5nuZ5w_I?t=384 (ElWerik Podcast, minuto 6:24)
+- **Aprobar:** `/publicador aprobar 2026-11-01-kris-r-avion-musica-desechable`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-01-kris-r-avion-musica-desechable__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-01-kris-r-avion-musica-desechable:tiktok`
+
+```text
+Se perdió 2 semanas y media, volvió y su canción favorita ya no sonaba
+
+¿Qué canción pegada dejaste de oír en dos semanas?
+
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 6:24: https://youtu.be/hSV5nuZ5w_I?t=384
+
+#Música #MúsicaUrbana #Trap #IndustriaMusical #Podcast
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-01-kris-r-avion-musica-desechable__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-01-kris-r-avion-musica-desechable:instagram`
+
+```text
+"Me di cuenta de que la música es muy desechable"
+
+Se sentó en el avión con su canción nueva favorita en los audífonos, y lo bajaron. Dos semanas y media después, nadie la estaba escuchando. "Ahí me di cuenta de que la música es muy desechable".
+
+¿Qué canción pegada dejaste de oír en dos semanas?
+
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 6:24: https://youtu.be/hSV5nuZ5w_I?t=384
+
+#Música #MúsicaUrbana #Trap #IndustriaMusical #Podcast
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-01-kris-r-avion-musica-desechable__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-01-kris-r-avion-musica-desechable:youtube`
+
+**Título:** La historia del avión que le cambió la idea de la música | ElWerik Podcast
+
+**Descripción:**
+
+```text
+Se sentó en el avión con su canción nueva favorita en los audífonos, y lo bajaron. Dos semanas y media después, nadie la estaba escuchando. "Ahí me di cuenta de que la música es muy desechable".
+
+¿Qué canción pegada dejaste de oír en dos semanas?
+
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 6:24: https://youtu.be/hSV5nuZ5w_I?t=384
+
+#Música #MúsicaUrbana #Trap #IndustriaMusical
+```
+
+**Etiquetas:** música, música urbana, trap, industria musical, ElWerik Podcast, podcast
+
+### 11. 2026-11-01-kris-r-almighty-miedo
+
+- **Gancho:** Le dio miedo saludar a Almighty · **Tipo:** `humor` · **Puntaje:** 66 · **Duración:** 17,6 s · **Ventana hasta:** 2026-11-08
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-01-kris-r-almighty-miedo/ficha.md)
+- **Fuente:** https://youtu.be/hSV5nuZ5w_I?t=253 (ElWerik Podcast, minuto 4:13)
+- **Aprobar:** `/publicador aprobar 2026-11-01-kris-r-almighty-miedo`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-01-kris-r-almighty-miedo__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-01-kris-r-almighty-miedo:tiktok`
+
+```text
+Pasó al lado de Almighty en el backstage y no lo saludó: "Me dio miedo" 😅
+
+¿Tú lo habrías saludado?
+
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 4:13: https://youtu.be/hSV5nuZ5w_I?t=253
+
+#Almighty #KrisR #Backstage #Trap #MúsicaUrbana
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-01-kris-r-almighty-miedo__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-01-kris-r-almighty-miedo:instagram`
+
+```text
+"Pasé por el lado de Almighty, no lo saludé, me dio miedo"
+
+En el backstage del concierto de Kris R se cruzó con Almighty y no se atrevió a saludarlo. "Yo soy más precavido cuando los artistas no me conocen".
+
+¿Tú lo habrías saludado?
+
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 4:13: https://youtu.be/hSV5nuZ5w_I?t=253
+
+#Almighty #KrisR #Backstage #Trap #MúsicaUrbana
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-01-kris-r-almighty-miedo__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-01-kris-r-almighty-miedo:youtube`
+
+**Título:** Le dio miedo saludar a Almighty en el concierto de Kris R | ElWerik Podcast
+
+**Descripción:**
+
+```text
+En el backstage del concierto de Kris R se cruzó con Almighty y no se atrevió a saludarlo. "Yo soy más precavido cuando los artistas no me conocen".
+
+¿Tú lo habrías saludado?
+
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 4:13: https://youtu.be/hSV5nuZ5w_I?t=253
+
+#Almighty #KrisR #Backstage #Trap
+```
+
+**Etiquetas:** Almighty, Kris R, backstage, trap, ElWerik Podcast, música urbana
+
+### 12. 2026-11-05-westcol-batisenal-w
+
+- **Gancho:** Westcol quiere una batiseñal en Medellín · **Tipo:** `revelacion` · **Puntaje:** 75 · **Duración:** 25,3 s · **Ventana hasta:** 2026-11-09
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-05-westcol-batisenal-w/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-05-westcol-batisenal-w/ficha.md)
+- **Fuente:** https://youtu.be/LgnQHaFVvyo?t=65 (WestCOL, minuto 1:05)
+- **Aprobar:** `/publicador aprobar 2026-11-05-westcol-batisenal-w`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-batisenal-w__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-05-westcol-batisenal-w:tiktok`
+
+```text
+Westcol quiere una "batiseñal" con la W en el cielo de Medellín 🦇
+
+¿Se la aprueban?
+
+Crédito: canal WestCOL, «ESTE ES MI NUEVO SET-UP | WESTCOL». Momento original desde el minuto 1:05: https://youtu.be/LgnQHaFVvyo?t=65
+
+#Westcol #Medellín #Kick #Streamers #W
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-batisenal-w__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-05-westcol-batisenal-w:instagram`
+
+```text
+Cuando Westcol prenda stream, la W en el cielo
+
+"Quiero hacer una batiseñal, que la W se ponga en el cielo… que cuando Westcol prenda stream se active la W". La idea de Westcol para Medellín.
+
+¿Se la aprueban?
+
+Crédito: canal WestCOL, «ESTE ES MI NUEVO SET-UP | WESTCOL». Momento original desde el minuto 1:05: https://youtu.be/LgnQHaFVvyo?t=65
+
+#Westcol #Medellín #Kick #Streamers #W
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-batisenal-w__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-05-westcol-batisenal-w:youtube`
+
+**Título:** La idea más loca de Westcol: una batiseñal de la W en Medellín
+
+**Descripción:**
+
+```text
+"Quiero hacer una batiseñal, que la W se ponga en el cielo… que cuando Westcol prenda stream se active la W". La idea de Westcol para Medellín.
+
+¿Se la aprueban?
+
+Crédito: canal WestCOL, «ESTE ES MI NUEVO SET-UP | WESTCOL». Momento original desde el minuto 1:05: https://youtu.be/LgnQHaFVvyo?t=65
+
+#Westcol #Medellín #Kick #Streamers
+```
+
+**Etiquetas:** Westcol, batiseñal, Medellín, Kick, streamers, la W
+
+### 13. 2026-11-05-westcol-dinero-parqueado
+
+- **Gancho:** A Westcol le desespera el dinero parqueado · **Tipo:** `frase` · **Puntaje:** 80 · **Duración:** 28,6 s · **Ventana hasta:** 2026-11-10
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-05-westcol-dinero-parqueado/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-05-westcol-dinero-parqueado/ficha.md)
+- **Fuente:** https://youtu.be/LgnQHaFVvyo?t=923 (WestCOL, minuto 15:23)
+- **Aprobar:** `/publicador aprobar 2026-11-05-westcol-dinero-parqueado`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-dinero-parqueado__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-05-westcol-dinero-parqueado:tiktok`
+
+```text
+Por qué Westcol no se compra el Lamborghini (todavía) 💸
+
+¿Lambo o invertir?
+
+Crédito: canal WestCOL, «ESTE ES MI NUEVO SET-UP | WESTCOL». Momento original desde el minuto 15:23: https://youtu.be/LgnQHaFVvyo?t=923
+
+#Westcol #Lamborghini #Inversión #Dinero #Emprendimiento
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-dinero-parqueado__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-05-westcol-dinero-parqueado:instagram`
+
+```text
+"3.000 millones parqueados que podrían ser 10.000" 💸
+
+Westcol explica qué lo frena para comprar el Lamborghini: "si tengo un Lambo de 3.000 millones parqueado, esos 3.000 millones los pudiera estar generando para hacer 6.000, 10.000. Así es que se hace plata".
+
+¿Lambo o invertir?
+
+Crédito: canal WestCOL, «ESTE ES MI NUEVO SET-UP | WESTCOL». Momento original desde el minuto 15:23: https://youtu.be/LgnQHaFVvyo?t=923
+
+#Westcol #Lamborghini #Inversión #Dinero #Emprendimiento
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-dinero-parqueado__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-05-westcol-dinero-parqueado:youtube`
+
+**Título:** Westcol explica por qué no deja la plata quieta en un carro
+
+**Descripción:**
+
+```text
+Westcol explica qué lo frena para comprar el Lamborghini: "si tengo un Lambo de 3.000 millones parqueado, esos 3.000 millones los pudiera estar generando para hacer 6.000, 10.000. Así es que se hace plata".
+
+¿Lambo o invertir?
+
+Crédito: canal WestCOL, «ESTE ES MI NUEVO SET-UP | WESTCOL». Momento original desde el minuto 15:23: https://youtu.be/LgnQHaFVvyo?t=923
+
+#Westcol #Lamborghini #Inversión #Dinero
+```
+
+**Etiquetas:** Westcol, Westcol Lamborghini, inversión, dinero, emprendimiento, finanzas
+
+### 14. 2026-11-05-westcol-regateo-revuelto
+
+- **Gancho:** Regateando el Lamborghini de un millón de dólares · **Tipo:** `confrontacion` · **Puntaje:** 79 · **Duración:** 54,3 s · **Ventana hasta:** 2026-11-10
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-05-westcol-regateo-revuelto/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-05-westcol-regateo-revuelto/ficha.md)
+- **Fuente:** https://youtu.be/KhuFp9eIyVU?t=832 (WestCOL, minuto 13:52)
+- **Aprobar:** `/publicador aprobar 2026-11-05-westcol-regateo-revuelto`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-regateo-revuelto__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-05-westcol-regateo-revuelto:tiktok`
+
+```text
+"Háblame en dólares, yo no hablo en dinero pobre" 😂 El regateo por el Lamborghini Revuelto
+
+¿Cuánto descuento le darías a la ganga?
+
+Crédito: canal WestCOL, «FUI A VER MI PROXIMO SUPER AUTO 🔥 | WESTCOL». Momento original desde el minuto 13:52: https://youtu.be/KhuFp9eIyVU?t=832
+
+#Westcol #Lamborghini #Revuelto #RRAutos #Medellín
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-regateo-revuelto__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-05-westcol-regateo-revuelto:instagram`
+
+```text
+Así se regatea un Lamborghini de 1,1 millones de dólares
+
+En RR Autos, con el Lamborghini Revuelto: "¿cuánto cuesta?" "3.670" "Háblame en dólares, yo no hablo en dinero pobre". Y luego, el descuento de la ganga: 10 %, 30 %, publicidad todo el año… todo en tono de broma.
+
+¿Cuánto descuento le darías a la ganga?
+
+Crédito: canal WestCOL, «FUI A VER MI PROXIMO SUPER AUTO 🔥 | WESTCOL». Momento original desde el minuto 13:52: https://youtu.be/KhuFp9eIyVU?t=832
+
+#Westcol #Lamborghini #Revuelto #RRAutos #Medellín
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-regateo-revuelto__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-05-westcol-regateo-revuelto:youtube`
+
+**Título:** Piden el "descuento de la ganga" por el Lamborghini Revuelto
+
+**Descripción:**
+
+```text
+En RR Autos, con el Lamborghini Revuelto: "¿cuánto cuesta?" "3.670" "Háblame en dólares, yo no hablo en dinero pobre". Y luego, el descuento de la ganga: 10 %, 30 %, publicidad todo el año… todo en tono de broma.
+
+¿Cuánto descuento le darías a la ganga?
+
+Crédito: canal WestCOL, «FUI A VER MI PROXIMO SUPER AUTO 🔥 | WESTCOL». Momento original desde el minuto 13:52: https://youtu.be/KhuFp9eIyVU?t=832
+
+#Westcol #Lamborghini #Revuelto #RRAutos
+```
+
+**Etiquetas:** Westcol, Lamborghini Revuelto, Westcol Lamborghini, RR Autos, regateo, carros de lujo
+
+### 15. 2026-11-05-revuelto-beneficio-tributario
+
+- **Gancho:** El beneficio tributario del Lambo híbrido · **Tipo:** `consejo` · **Puntaje:** 76 · **Duración:** 46,0 s · **Ventana hasta:** 2026-11-10
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-05-revuelto-beneficio-tributario/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-05-revuelto-beneficio-tributario/ficha.md)
+- **Fuente:** https://youtu.be/KhuFp9eIyVU?t=293 (WestCOL, minuto 4:53)
+- **Aprobar:** `/publicador aprobar 2026-11-05-revuelto-beneficio-tributario`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-05-revuelto-beneficio-tributario__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-05-revuelto-beneficio-tributario:tiktok`
+
+```text
+Por qué un Lamborghini híbrido puede ser "una compra de negocio", según su vendedor
+
+¿Te lo comprarías por los impuestos?
+
+Crédito: canal WestCOL, «FUI A VER MI PROXIMO SUPER AUTO 🔥 | WESTCOL». Momento original desde el minuto 4:53: https://youtu.be/KhuFp9eIyVU?t=293
+
+#Westcol #Lamborghini #Revuelto #Impuestos #Empresa
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-05-revuelto-beneficio-tributario__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-05-revuelto-beneficio-tributario:instagram`
+
+```text
+El beneficio tributario del Lamborghini Revuelto, según su vendedor
+
+En RR Autos le explican a Westcol el beneficio tributario de comprar el Revuelto a nombre de una empresa que facture: "5 % del IVA y el 50 % del valor del carro en la renta a 12 años". Westcol: "A mí me serviría, porque yo facturo". Es lo que se dice en el video, no asesoría tributaria.
+
+¿Te lo comprarías por los impuestos?
+
+Crédito: canal WestCOL, «FUI A VER MI PROXIMO SUPER AUTO 🔥 | WESTCOL». Momento original desde el minuto 4:53: https://youtu.be/KhuFp9eIyVU?t=293
+
+#Westcol #Lamborghini #Revuelto #Impuestos #Empresa
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-05-revuelto-beneficio-tributario__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-05-revuelto-beneficio-tributario:youtube`
+
+**Título:** Westcol escucha el beneficio tributario del Lamborghini Revuelto
+
+**Descripción:**
+
+```text
+En RR Autos le explican a Westcol el beneficio tributario de comprar el Revuelto a nombre de una empresa que facture: "5 % del IVA y el 50 % del valor del carro en la renta a 12 años". Westcol: "A mí me serviría, porque yo facturo". Es lo que se dice en el video, no asesoría tributaria.
+
+¿Te lo comprarías por los impuestos?
+
+Crédito: canal WestCOL, «FUI A VER MI PROXIMO SUPER AUTO 🔥 | WESTCOL». Momento original desde el minuto 4:53: https://youtu.be/KhuFp9eIyVU?t=293
+
+#Westcol #Lamborghini #Revuelto #Impuestos
+```
+
+**Etiquetas:** Westcol, Lamborghini Revuelto, beneficio tributario, impuestos, empresa, RR Autos
+
+### 16. 2026-11-05-westcol-precio-lambo-bajara
+
+- **Gancho:** Westcol predice cuánto bajará el Lambo · **Tipo:** `prediccion` · **Puntaje:** 75 · **Duración:** 39,2 s · **Ventana hasta:** 2026-11-10
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-05-westcol-precio-lambo-bajara/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-05-westcol-precio-lambo-bajara/ficha.md)
+- **Fuente:** https://youtu.be/LgnQHaFVvyo?t=515 (WestCOL, minuto 8:35)
+- **Aprobar:** `/publicador aprobar 2026-11-05-westcol-precio-lambo-bajara`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-precio-lambo-bajara__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-05-westcol-precio-lambo-bajara:tiktok`
+
+```text
+Westcol: "Ese Lambo va a bajar a 2.000 millones en 2 o 3 meses"
+
+Comenta si crees que baja; en 3 meses lo vemos
+
+Crédito: canal WestCOL, «ESTE ES MI NUEVO SET-UP | WESTCOL». Momento original desde el minuto 8:35: https://youtu.be/LgnQHaFVvyo?t=515
+
+#Westcol #Lamborghini #Revuelto #Carros #Colombia
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-precio-lambo-bajara__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-05-westcol-precio-lambo-bajara:instagram`
+
+```text
+La predicción de Westcol sobre el precio del Lamborghini Revuelto
+
+Westcol no se compra todavía el Lamborghini Revuelto: en su opinión, su precio en Colombia va a bajar a 2.000 millones de pesos "en 2 o 3 meses", cuando empiecen a traer más. ¿Tiene razón?
+
+Comenta si crees que baja; en 3 meses lo vemos
+
+Crédito: canal WestCOL, «ESTE ES MI NUEVO SET-UP | WESTCOL». Momento original desde el minuto 8:35: https://youtu.be/LgnQHaFVvyo?t=515
+
+#Westcol #Lamborghini #Revuelto #Carros #Colombia
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-precio-lambo-bajara__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-05-westcol-precio-lambo-bajara:youtube`
+
+**Título:** ¿Bajará el Lamborghini Revuelto? Westcol cree que sí
+
+**Descripción:**
+
+```text
+Westcol no se compra todavía el Lamborghini Revuelto: en su opinión, su precio en Colombia va a bajar a 2.000 millones de pesos "en 2 o 3 meses", cuando empiecen a traer más. ¿Tiene razón?
+
+Comenta si crees que baja; en 3 meses lo vemos
+
+Crédito: canal WestCOL, «ESTE ES MI NUEVO SET-UP | WESTCOL». Momento original desde el minuto 8:35: https://youtu.be/LgnQHaFVvyo?t=515
+
+#Westcol #Lamborghini #Revuelto #Carros
+```
+
+**Etiquetas:** Westcol, Lamborghini Revuelto, precio Lamborghini, carros, Colombia, predicción
+
+### 17. 2026-11-05-westcol-negocio-blessd-discoteca
+
+- **Gancho:** Westcol cuenta el negocio que hizo con Blessd · **Tipo:** `historia` · **Puntaje:** 83 · **Duración:** 54,3 s · **Ventana hasta:** 2026-11-14
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-05-westcol-negocio-blessd-discoteca/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-05-westcol-negocio-blessd-discoteca/ficha.md)
+- **Fuente:** https://youtu.be/LgnQHaFVvyo?t=994 (WestCOL, minuto 16:34)
+- **Revisa:** La ficha pide escuchar antes de publicar la palabra "Tahoe" (la camioneta) en los subtítulos. Blessd no sale en el clip: lo cuenta Westcol.
+- **Aprobar:** `/publicador aprobar 2026-11-05-westcol-negocio-blessd-discoteca`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-negocio-blessd-discoteca__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-05-westcol-negocio-blessd-discoteca:tiktok`
+
+```text
+Westcol cuenta que le dio su camioneta a Blessd a cambio de 3 canciones 💸
+
+¿Fue buen negocio para los dos?
+
+Crédito: canal WestCOL, «ESTE ES MI NUEVO SET-UP | WESTCOL». Momento original desde el minuto 16:34: https://youtu.be/LgnQHaFVvyo?t=994
+
+#Westcol #Blessd #StreamFighters #Medellín #Kick
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-negocio-blessd-discoteca__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-05-westcol-negocio-blessd-discoteca:instagram`
+
+```text
+El negocio de Westcol con Blessd en su discoteca 💸
+
+Westcol cuenta cómo hacía negocios con artistas en su discoteca: a Blessd ("el Bendito") le dio su camioneta a cambio de cantar tres canciones. A pocos días de enfrentarse en Stream Fighters 5.
+
+¿Fue buen negocio para los dos?
+
+Crédito: canal WestCOL, «ESTE ES MI NUEVO SET-UP | WESTCOL». Momento original desde el minuto 16:34: https://youtu.be/LgnQHaFVvyo?t=994
+
+#Westcol #Blessd #StreamFighters #Medellín #Kick
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-negocio-blessd-discoteca__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-05-westcol-negocio-blessd-discoteca:youtube`
+
+**Título:** Westcol cuenta el negocio que hizo con Blessd en su discoteca
+
+**Descripción:**
+
+```text
+Westcol cuenta cómo hacía negocios con artistas en su discoteca: a Blessd ("el Bendito") le dio su camioneta a cambio de cantar tres canciones. A pocos días de enfrentarse en Stream Fighters 5.
+
+¿Fue buen negocio para los dos?
+
+Crédito: canal WestCOL, «ESTE ES MI NUEVO SET-UP | WESTCOL». Momento original desde el minuto 16:34: https://youtu.be/LgnQHaFVvyo?t=994
+
+#Westcol #Blessd #StreamFighters #Medellín
+```
+
+**Etiquetas:** Westcol, Blessd, Westcol Blessd, Stream Fighters 5, discoteca, negocios
+
+### 18. 2026-11-05-westcol-robot-sin-seguridad
+
+- **Gancho:** Westcol le quitará la seguridad al robot · **Tipo:** `revelacion` · **Puntaje:** 83 · **Duración:** 60,4 s · **Ventana hasta:** 2026-11-14
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-05-westcol-robot-sin-seguridad/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-05-westcol-robot-sin-seguridad/ficha.md)
+- **Fuente:** https://youtu.be/Xrwm98iaWY8?t=40 (WestCOL, minuto 0:40)
+- **Aprobar:** `/publicador aprobar 2026-11-05-westcol-robot-sin-seguridad`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-robot-sin-seguridad__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-05-westcol-robot-sin-seguridad:tiktok`
+
+```text
+Westcol va a quitarle la seguridad a su robot para Stream Fighters 🤖
+
+¿Lo dejarías pelear sin seguridad?
+
+Crédito: canal WestCOL, «SAQUE A LA CALLE POR PRIMERA VEZ A MI ROBOT DE $100.000 | WESTCOL». Momento original desde el minuto 0:40: https://youtu.be/Xrwm98iaWY8?t=40
+
+#Westcol #StreamFighters #Robot #Kick #Streamers
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-robot-sin-seguridad__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-05-westcol-robot-sin-seguridad:instagram`
+
+```text
+"Va a quedar más peligroso que RoboCop" 🤖
+
+Westcol cuenta que van a venir técnicos a quitarle las medidas de seguridad a su robot, que lo usará en Stream Fighters y que, según le contó un socio, otro robot "le arrancó un dedo a un trabajador". ¿Es buena idea?
+
+¿Lo dejarías pelear sin seguridad?
+
+Crédito: canal WestCOL, «SAQUE A LA CALLE POR PRIMERA VEZ A MI ROBOT DE $100.000 | WESTCOL». Momento original desde el minuto 0:40: https://youtu.be/Xrwm98iaWY8?t=40
+
+#Westcol #StreamFighters #Robot #Kick #Streamers
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-robot-sin-seguridad__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-05-westcol-robot-sin-seguridad:youtube`
+
+**Título:** Westcol va a quitarle la seguridad a su robot de 100.000 dólares
+
+**Descripción:**
+
+```text
+Westcol cuenta que van a venir técnicos a quitarle las medidas de seguridad a su robot, que lo usará en Stream Fighters y que, según le contó un socio, otro robot "le arrancó un dedo a un trabajador". ¿Es buena idea?
+
+¿Lo dejarías pelear sin seguridad?
+
+Crédito: canal WestCOL, «SAQUE A LA CALLE POR PRIMERA VEZ A MI ROBOT DE $100.000 | WESTCOL». Momento original desde el minuto 0:40: https://youtu.be/Xrwm98iaWY8?t=40
+
+#Westcol #StreamFighters #Robot #Kick
+```
+
+**Etiquetas:** Westcol, Westcol robot, Stream Fighters 5, robot humanoide, Kick, streamers Colombia
+
+### 19. 2026-11-05-westcol-robot-ascensor
+
+- **Gancho:** La primera vez del robot en un ascensor · **Tipo:** `humor` · **Puntaje:** 80 · **Duración:** 38,4 s · **Ventana hasta:** 2026-11-14
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-05-westcol-robot-ascensor/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-05-westcol-robot-ascensor/ficha.md)
+- **Fuente:** https://youtu.be/Xrwm98iaWY8?t=968 (WestCOL, minuto 16:08)
+- **Aprobar:** `/publicador aprobar 2026-11-05-westcol-robot-ascensor`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-robot-ascensor__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-05-westcol-robot-ascensor:tiktok`
+
+```text
+Metieron el robot de Westcol en un ascensor… "si empieza a dar puño aquí, morimos todos"
+
+¿Te subirías a ese ascensor?
+
+Crédito: canal WestCOL, «SAQUE A LA CALLE POR PRIMERA VEZ A MI ROBOT DE $100.000 | WESTCOL». Momento original desde el minuto 16:08: https://youtu.be/Xrwm98iaWY8?t=968
+
+#Westcol #Robot #StreamFighters #Kick #Humor
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-robot-ascensor__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-05-westcol-robot-ascensor:instagram`
+
+```text
+El robot de Westcol en un ascensor 😳🤖
+
+Westcol sube a su robot humanoide a un ascensor del centro comercial: "eso pesa demasiado… si empieza a dar puño aquí, morimos todos". Y el robot manda un puñito.
+
+¿Te subirías a ese ascensor?
+
+Crédito: canal WestCOL, «SAQUE A LA CALLE POR PRIMERA VEZ A MI ROBOT DE $100.000 | WESTCOL». Momento original desde el minuto 16:08: https://youtu.be/Xrwm98iaWY8?t=968
+
+#Westcol #Robot #StreamFighters #Kick #Humor
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-robot-ascensor__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-05-westcol-robot-ascensor:youtube`
+
+**Título:** Westcol sube a su robot humanoide a un ascensor
+
+**Descripción:**
+
+```text
+Westcol sube a su robot humanoide a un ascensor del centro comercial: "eso pesa demasiado… si empieza a dar puño aquí, morimos todos". Y el robot manda un puñito.
+
+¿Te subirías a ese ascensor?
+
+Crédito: canal WestCOL, «SAQUE A LA CALLE POR PRIMERA VEZ A MI ROBOT DE $100.000 | WESTCOL». Momento original desde el minuto 16:08: https://youtu.be/Xrwm98iaWY8?t=968
+
+#Westcol #Robot #StreamFighters #Kick
+```
+
+**Etiquetas:** Westcol, Westcol robot, robot humanoide, robot ascensor, Stream Fighters, humor
+
+### 20. 2026-11-02-toxico-celos-completo
 
 - **Gancho:** Celos hasta del aire · **Tipo:** `frase` · **Puntaje:** 78 · **Duración:** 21,2 s · **Ventana hasta:** 2026-11-14
-- **Derechos:** `autorizado`
-- **Video:** [clip.mp4](../clipero/clips/2026-11-02-toxico-celos-completo/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-toxico-celos-completo/ficha.md)
-- **Fuente:** https://youtu.be/bip8ttg-VeE?t=126 (canal Lalo Ocampo, minuto 2:06)
-- **Hora sugerida por el Clipero (estimación):** TikTok y Reels, 5-nov de 19:00 a 21:00 · Shorts, el mismo día
-- **Sonido:** en TikTok e Instagram, usa el sonido oficial de «Tóxico» si existe en la app. Si existe, este es el mejor tramo para proponer como audio: el gancho entero en 21 s.
-- **Revisa:**
-  - Escucha el audio: la entrada llega a +0,51 dBTP.
-  - Repite dos líneas ("del aire" y "de la luna") de `intro-celos-aire`: publícalos separados.
+- **Derechos:** `autorizado`: confirmaste que tienes permiso del artista.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-toxico-celos-completo/ficha.md)
+- **Fuente:** https://youtu.be/bip8ttg-VeE?t=126 (Lalo Ocampo, minuto 2:06)
+- **Revisa:** Música: en TikTok conviene usar el sonido oficial de «Tóxico» si existe en la app (se elige al terminar el borrador en la app). Escuchar el audio del clip: la entrada llega a +0,51 dBTP. Repite dos líneas de intro-celos-aire: publicarlos separados.
+- **Revisa:** Música: en Instagram conviene usar el sonido oficial de «Tóxico» si existe en la app. La API publica al momento con el audio del clip y no permite elegir sonido: para usarlo hay que publicar a mano desde la app. Escuchar el audio del clip: la entrada llega a +0,51 dBTP. Repite dos líneas de intro-celos-aire: publicarlos separados.
+- **Revisa:** Escuchar el audio del clip: la entrada llega a +0,51 dBTP. Repite dos líneas de intro-celos-aire: publicarlos separados.
+- **Aprobar:** `/publicador aprobar 2026-11-02-toxico-celos-completo`
 
 #### TikTok
 
-Envío: `datos/publicador/envios/2026-11-02-toxico-celos-completo__tiktok.json` · llega a tu bandeja como borrador: pega este texto en la app.
+Envío: `datos/publicador/envios/2026-11-02-toxico-celos-completo__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-02-toxico-celos-completo:tiktok`
 
 ```text
 Celos del aire, de la luna y del sol | Lalo Ocampo - Tóxico
@@ -160,7 +1127,7 @@ Crédito: Lalo Ocampo, «Tóxico» (video oficial, 31-oct-2026). Canción comple
 
 #### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-11-02-toxico-celos-completo__instagram.json` · cuando Instagram esté activa, se publica al momento y en público.
+Envío: `datos/publicador/envios/2026-11-02-toxico-celos-completo__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-02-toxico-celos-completo:instagram`
 
 ```text
 Dedícasela a tu persona celosa: «Tóxico», de Lalo Ocampo.
@@ -174,11 +1141,9 @@ Crédito: Lalo Ocampo, «Tóxico» (video oficial, 31-oct-2026). Canción comple
 
 #### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-11-02-toxico-celos-completo__youtube.json` · privacidad `private`
+Envío: `datos/publicador/envios/2026-11-02-toxico-celos-completo__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-02-toxico-celos-completo:youtube`
 
 **Título:** Lalo Ocampo - Tóxico (los celos): "Yo tengo celos del aire"
-
-**Etiquetas:** Lalo Ocampo, Tóxico, Lalo Ocampo Tóxico, celos del aire, canción de celos, música urbana, nueva música, estreno
 
 **Descripción:**
 
@@ -190,25 +1155,137 @@ Crédito: canal Lalo Ocampo, «Tóxico» (video oficial). Canción completa desd
 #LaloOcampo #Tóxico #Celos #MúsicaUrbana
 ```
 
-**Aprobar:** `/publicador aprobar 2026-11-02-toxico-celos-completo` · solo una: `/publicador aprobar 2026-11-02-toxico-celos-completo:tiktok` (o `:instagram`, `:youtube`)
+**Etiquetas:** Lalo Ocampo, Tóxico, Lalo Ocampo Tóxico, celos del aire, canción de celos, música urbana, nueva música, estreno
 
-### 4. 2026-11-02-toxico-verso-mando-la-ubi
+### 21. 2026-11-02-toxico-coro-eres-mia
 
-> **Escúchalo antes de aprobar.** A los 19 s del clip (1:11 de la fuente) hay una palabra que no se entiende. Los subtítulos automáticos decían "Nadie se mi amor" y el clip la muestra como "Nadie (…) mi amor". Confirma también si dice "Más que sea tóxico" o "Más que ser tóxico". Por esa duda, los textos no citan esa línea, aunque la ficha la usaba: citan "Mando la ubi y espero la respuesta".
-
-- **Gancho:** POV: tu novio es tóxico · **Tipo:** `frase` (primer verso) · **Puntaje:** 72 · **Duración:** 31,4 s · **Ventana hasta:** 2026-11-14
-- **Derechos:** `autorizado`
-- **Video:** [clip.mp4](../clipero/clips/2026-11-02-toxico-verso-mando-la-ubi/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-toxico-verso-mando-la-ubi/ficha.md)
-- **Fuente:** https://youtu.be/bip8ttg-VeE?t=52 (canal Lalo Ocampo, minuto 0:52)
-- **Hora sugerida por el Clipero (estimación):** TikTok y Reels, 6-nov de 19:00 a 21:00, después de escuchar el tramo dudoso · Shorts, el mismo día
-- **Sonido:** en TikTok e Instagram, usa el sonido oficial de «Tóxico» si existe en la app.
-- **Revisa:**
-  - Escucha el audio: la entrada llega a +1,3 dBTP y puede haber distorsión.
-  - Tono: la letra describe celos controladores ("Mando la ubi y espero la respuesta", "No salgas sola"). Los textos lo tratan con ironía (POV), nunca como un consejo de pareja.
+- **Gancho:** El coro más tóxico · **Tipo:** `frase` · **Puntaje:** 76 · **Duración:** 21,7 s · **Ventana hasta:** 2026-11-14
+- **Derechos:** `autorizado`: confirmaste que tienes permiso del artista.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-toxico-coro-eres-mia/ficha.md)
+- **Fuente:** https://youtu.be/bip8ttg-VeE?t=84 (Lalo Ocampo, minuto 1:24)
+- **Revisa:** Música: en TikTok conviene usar el sonido oficial de «Tóxico» si existe en la app (se elige al terminar el borrador en la app). Escuchar el audio del clip: la entrada llega a +1,83 dBTP (posible distorsión). La letra dice 'pobre cabrón' en los subtítulos: puede limitar el alcance.
+- **Revisa:** Música: en Instagram conviene usar el sonido oficial de «Tóxico» si existe en la app. La API publica al momento con el audio del clip y no permite elegir sonido: para usarlo hay que publicar a mano desde la app. Escuchar el audio del clip: la entrada llega a +1,83 dBTP (posible distorsión). La letra dice 'pobre cabrón' en los subtítulos: puede limitar el alcance.
+- **Revisa:** Escuchar el audio del clip: la entrada llega a +1,83 dBTP (posible distorsión). La letra dice 'pobre cabrón' en los subtítulos: puede limitar el alcance.
+- **Aprobar:** `/publicador aprobar 2026-11-02-toxico-coro-eres-mia`
 
 #### TikTok
 
-Envío: `datos/publicador/envios/2026-11-02-toxico-verso-mando-la-ubi__tiktok.json` · llega a tu bandeja como borrador: pega este texto en la app.
+Envío: `datos/publicador/envios/2026-11-02-toxico-coro-eres-mia__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-02-toxico-coro-eres-mia:tiktok`
+
+```text
+"Eres mía y de nadie más": el coro de «Tóxico», de Lalo Ocampo.
+
+Etiqueta a tu tóxico o a tu tóxica.
+
+Crédito: Lalo Ocampo, «Tóxico» (video oficial, 31-oct-2026). Canción completa (minuto 1:24): https://youtu.be/bip8ttg-VeE?t=84
+
+#LaloOcampo #Tóxico #EresMía #MúsicaUrbana #NuevaMúsica
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-coro-eres-mia__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-02-toxico-coro-eres-mia:instagram`
+
+```text
+El coro de «Tóxico», de Lalo Ocampo: "Porque eres mía y de nadie más".
+
+Lo nuevo de Lalo Ocampo, del video oficial estrenado el 31 de octubre. Etiqueta a tu tóxico o a tu tóxica.
+
+Crédito: Lalo Ocampo, «Tóxico» (video oficial). Canción completa (minuto 1:24): https://youtu.be/bip8ttg-VeE?t=84
+
+#LaloOcampo #Tóxico #EresMía #MúsicaUrbana #Estreno
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-coro-eres-mia__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-02-toxico-coro-eres-mia:youtube`
+
+**Título:** Lalo Ocampo - Tóxico (coro): "Porque eres mía y de nadie más"
+
+**Descripción:**
+
+```text
+El coro de «Tóxico», lo nuevo de Lalo Ocampo (video oficial, 31-oct-2026). ¿A quién se la dedicas?
+
+Crédito: canal Lalo Ocampo, «Tóxico» (video oficial). Canción completa desde el minuto 1:24: https://youtu.be/bip8ttg-VeE?t=84
+
+#LaloOcampo #Tóxico #EresMía #MúsicaUrbana
+```
+
+**Etiquetas:** Lalo Ocampo, Tóxico, Lalo Ocampo Tóxico, Tóxico coro, eres mía y de nadie más, música urbana, nueva música, estreno
+
+### 22. 2026-11-05-westcol-robot-piquete
+
+- **Gancho:** Westcol: su robot tiene más piquete · **Tipo:** `humor` · **Puntaje:** 75 · **Duración:** 26,6 s · **Ventana hasta:** 2026-11-14
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-05-westcol-robot-piquete/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-05-westcol-robot-piquete/ficha.md)
+- **Fuente:** https://youtu.be/Xrwm98iaWY8?t=2643 (WestCOL, minuto 44:03)
+- **Aprobar:** `/publicador aprobar 2026-11-05-westcol-robot-piquete`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-robot-piquete__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-05-westcol-robot-piquete:tiktok`
+
+```text
+"No hay nadie que tenga más piquete que ese robot" – Westcol 🤖
+
+¿Quién tiene más piquete, el robot o Westcol?
+
+Crédito: canal WestCOL, «SAQUE A LA CALLE POR PRIMERA VEZ A MI ROBOT DE $100.000 | WESTCOL». Momento original desde el minuto 44:03: https://youtu.be/Xrwm98iaWY8?t=2643
+
+#Westcol #Robot #Piquete #Medellín #Kick
+```
+
+#### Instagram Reels
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-robot-piquete__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-05-westcol-robot-piquete:instagram`
+
+```text
+El robot de Westcol con outfit de lujo en el centro comercial
+
+Con el robot vestido de marca y un iPhone en la mano, Westcol lo tiene claro: "No hay nadie que tenga más piquete que ese robot en este momento en el mundo".
+
+¿Quién tiene más piquete, el robot o Westcol?
+
+Crédito: canal WestCOL, «SAQUE A LA CALLE POR PRIMERA VEZ A MI ROBOT DE $100.000 | WESTCOL». Momento original desde el minuto 44:03: https://youtu.be/Xrwm98iaWY8?t=2643
+
+#Westcol #Robot #Piquete #Medellín #Kick
+```
+
+#### YouTube Shorts
+
+Envío: `datos/publicador/envios/2026-11-05-westcol-robot-piquete__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-05-westcol-robot-piquete:youtube`
+
+**Título:** Westcol pasea su robot vestido de marca en el centro comercial
+
+**Descripción:**
+
+```text
+Con el robot vestido de marca y un iPhone en la mano, Westcol lo tiene claro: "No hay nadie que tenga más piquete que ese robot en este momento en el mundo".
+
+¿Quién tiene más piquete, el robot o Westcol?
+
+Crédito: canal WestCOL, «SAQUE A LA CALLE POR PRIMERA VEZ A MI ROBOT DE $100.000 | WESTCOL». Momento original desde el minuto 44:03: https://youtu.be/Xrwm98iaWY8?t=2643
+
+#Westcol #Robot #Piquete #Medellín
+```
+
+**Etiquetas:** Westcol, Westcol robot, robot humanoide, piquete, Medellín, humor
+
+### 23. 2026-11-02-toxico-verso-mando-la-ubi
+
+- **Gancho:** POV: tu novio es tóxico · **Tipo:** `frase` · **Puntaje:** 72 · **Duración:** 31,4 s · **Ventana hasta:** 2026-11-14
+- **Derechos:** `autorizado`: confirmaste que tienes permiso del artista.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-toxico-verso-mando-la-ubi/ficha.md)
+- **Fuente:** https://youtu.be/bip8ttg-VeE?t=52 (Lalo Ocampo, minuto 0:52)
+- **Revisa:** ESCUCHAR ANTES DE APROBAR: a los 19 s del clip (1:11 de la fuente) una palabra no se entiende (subtítulos: 'Nadie (…) mi amor') y falta confirmar 'Más que sea tóxico' o 'Más que ser tóxico'; los textos no citan esa línea. Entrada de audio a +1,3 dBTP. Música: en TikTok conviene usar el sonido oficial de «Tóxico» si existe en la app (se elige al terminar el borrador en la app).
+- **Revisa:** ESCUCHAR ANTES DE APROBAR: a los 19 s del clip (1:11 de la fuente) una palabra no se entiende (subtítulos: 'Nadie (…) mi amor') y falta confirmar 'Más que sea tóxico' o 'Más que ser tóxico'; los textos no citan esa línea. Entrada de audio a +1,3 dBTP. Música: en Instagram conviene usar el sonido oficial de «Tóxico» si existe en la app; la API publica al momento con el audio del clip y no permite elegir sonido: para usarlo hay que publicar a mano desde la app.
+- **Revisa:** ESCUCHAR ANTES DE APROBAR: a los 19 s del clip (1:11 de la fuente) una palabra no se entiende (subtítulos: 'Nadie (…) mi amor') y falta confirmar 'Más que sea tóxico' o 'Más que ser tóxico'; los textos no citan esa línea. Entrada de audio a +1,3 dBTP.
+- **Aprobar:** `/publicador aprobar 2026-11-02-toxico-verso-mando-la-ubi`
+
+#### TikTok
+
+Envío: `datos/publicador/envios/2026-11-02-toxico-verso-mando-la-ubi__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-02-toxico-verso-mando-la-ubi:tiktok`
 
 ```text
 POV: tu novio es tóxico y te manda la ubi | Lalo Ocampo - Tóxico
@@ -222,7 +1299,7 @@ Crédito: Lalo Ocampo, «Tóxico» (video oficial, 31-oct-2026). Canción comple
 
 #### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-11-02-toxico-verso-mando-la-ubi__instagram.json` · cuando Instagram esté activa, se publica al momento y en público.
+Envío: `datos/publicador/envios/2026-11-02-toxico-verso-mando-la-ubi__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-02-toxico-verso-mando-la-ubi:instagram`
 
 ```text
 "Mando la ubi y espero la respuesta": el primer verso de «Tóxico», de Lalo Ocampo.
@@ -236,11 +1313,9 @@ Crédito: Lalo Ocampo, «Tóxico» (video oficial). Canción completa (minuto 0:
 
 #### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-11-02-toxico-verso-mando-la-ubi__youtube.json` · privacidad `private`
+Envío: `datos/publicador/envios/2026-11-02-toxico-verso-mando-la-ubi__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-02-toxico-verso-mando-la-ubi:youtube`
 
 **Título:** Lalo Ocampo - Tóxico: "Mando la ubi y espero la respuesta"
-
-**Etiquetas:** Lalo Ocampo, Tóxico, Lalo Ocampo Tóxico, novio tóxico, mando la ubi, música urbana, nueva música, estreno
 
 **Descripción:**
 
@@ -252,1443 +1327,996 @@ Crédito: canal Lalo Ocampo, «Tóxico» (video oficial). Canción completa desd
 #LaloOcampo #Tóxico #NovioTóxico #MúsicaUrbana
 ```
 
-**Aprobar:** `/publicador aprobar 2026-11-02-toxico-verso-mando-la-ubi` · solo una: `/publicador aprobar 2026-11-02-toxico-verso-mando-la-ubi:tiktok` (o `:instagram`, `:youtube`)
+**Etiquetas:** Lalo Ocampo, Tóxico, Lalo Ocampo Tóxico, novio tóxico, mando la ubi, música urbana, nueva música, estreno
 
-### Comandos para «Tóxico»
+### 24. 2026-11-02-toxico-intro-celos-aire
 
-- Un clip en sus 3 plataformas: `/publicador aprobar <clip-id>`. El comando exacto está al final de cada clip.
-- Los cuatro a la vez: `/publicador aprobar 2026-11-02-toxico-intro-celos-aire 2026-11-02-toxico-coro-eres-mia 2026-11-02-toxico-celos-completo 2026-11-02-toxico-verso-mando-la-ubi`
-- Solo una plataforma: `/publicador aprobar <clip-id>:<plataforma>` (`tiktok`, `instagram` o `youtube`).
-- `/publicador aprobar todo` aprueba **todo** lo pendiente, incluidos los envíos antiguos de Instagram y YouTube de Blessd (`sin_verificar`). Para aprobar solo «Tóxico», usa los comandos de arriba.
-- Rechazar: `/publicador rechazar <clip-id> <motivo>` o `/publicador rechazar <clip-id>:<plataforma> <motivo>`.
-- Cambiar un texto: `/publicador cambia el título de YouTube de <clip-id> por ...`.
+- **Gancho:** Lalo Ocampo estrena «Tóxico» · **Tipo:** `frase` · **Puntaje:** 68 · **Duración:** 19,6 s · **Ventana hasta:** 2026-11-14
+- **Derechos:** `autorizado`: confirmaste que tienes permiso del artista.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-02-toxico-intro-celos-aire/ficha.md)
+- **Fuente:** https://youtu.be/bip8ttg-VeE?t=0 (Lalo Ocampo, minuto 0:00)
+- **Revisa:** Música: en TikTok conviene usar el sonido oficial de «Tóxico» si existe en la app (se elige al terminar el borrador en la app). La voz entra a los 9,4 s.
+- **Revisa:** Música: en Instagram conviene usar el sonido oficial de «Tóxico» si existe en la app. La API publica al momento con el audio del clip y no permite elegir sonido: para usarlo hay que publicar a mano desde la app.
+- **Aprobar:** `/publicador aprobar 2026-11-02-toxico-intro-celos-aire`
 
----
+#### TikTok
 
-## Pendientes anteriores
-
-> **Actualización 2026-11-02 20:30: clips de Inés Gómez Mont rechazados.** Por tu instrucción, `2026-10-31-alvarez-puga-deportacion` y `2026-10-31-gomez-mont-amparo-cuentas` quedan **rechazados** (motivo: no encajan con el enfoque nuevo de contenido). Ya no están pendientes de aprobación en ninguna plataforma y el script bloquea cualquier subida nueva (`datos/publicador/descartados.json`).
->
-> **Tienes que borrarlos tú desde la app de TikTok:** los dos siguen como **borradores en tu bandeja de TikTok** (se enviaron el 1-nov a las 22:20 y 22:21). La API de TikTok no permite eliminar borradores, así que hay que descartarlos a mano en la app y **no publicarlos**. En [revision-pendientes-2026-11-02.md](revision-pendientes-2026-11-02.md) aparecen aún en la lista de "notificación enviada": ahí ya no cuentan como pendientes.
->
-> Los 10 clips nuevos del Clipero del 2026-11-01 todavía no se han preparado: se prepararán en el próximo ciclo normal, cuando termines de revisarlos.
-
-> Actualizacion 2026-11-02: el usuario confirma que ya publico todos los videos. No reenviar sin nueva instruccion. Solicita borrar los pendientes de TikTok, pero la conexion disponible no permite hacerlo; no se elimino contenido. Ver [revision de estados](revision-pendientes-2026-11-02.md). Los estados siguientes son historicos.
-
-Generado: 2026-10-29T21:00:39-05:00 · ciclo 2 · modo `aprobacion` · simulación en config.json: `false` (las subidas son reales)
-
-**TikTok ya está aprobado en los 21 clips.** Quedan **42 envíos por aprobar: Instagram y YouTube** de esos 21 clips. Van ordenados por ventana (la más cercana primero) y, a igualdad, por puntaje.
-
-## Ahora mismo en tu bandeja de TikTok
-
-Estos clips se subieron como **borrador** (destino `borrador` en config.json): **no están publicados**. TikTok te avisa en la app; abre la notificación, pega el texto (la API no lo envía), revisa portada y sonido, y publícalo cuando quieras.
-
-### 2026-10-29-blessd-que-peso-le-quito
-
-- **Gancho:** Blessd sobre Pirlo: '¿Qué peso le puedo quitar?' · **Puntaje:** 78 · **Ventana hasta:** 2026-10-31
-- **Estado:** en tu bandeja (borrador) · subido el 29-oct 20:53
-- **Hora sugerida por el Clipero para publicarlo (estimación):** 30-oct 07:00-08:00
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-que-peso-le-quito/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-que-peso-le-quito/ficha.md)
-
-Texto para pegar en TikTok:
+Envío: `datos/publicador/envios/2026-11-02-toxico-intro-celos-aire__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-02-toxico-intro-celos-aire:tiktok`
 
 ```text
-Blessd: "¿Qué peso le puedo quitar a alguien? Yo hago mi plata".
+Lalo Ocampo estrena «Tóxico»: celos hasta del aire.
 
-¿Le crees? Comenta.
+¿Celos del aire: romántico o tóxico? ¿De qué tienes celos tú? Te leo.
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:18:09): https://youtu.be/LYEB5ioD_pY?t=4689
+Crédito: Lalo Ocampo, «Tóxico» (video oficial, 31-oct-2026). Canción completa (minuto 0:00): https://youtu.be/bip8ttg-VeE?t=0
 
-#Blessd #Pirlo #Pirlo420 #MúsicaUrbana #Colombia
+#LaloOcampo #Tóxico #Celos #MúsicaUrbana #NuevaMúsica
 ```
 
-### 2026-10-29-blessd-tregua-pirlo
+#### Instagram Reels
 
-- **Gancho:** ¿Habrá tregua entre Blessd y Pirlo? · **Puntaje:** 76 · **Ventana hasta:** 2026-10-31
-- **Estado:** en tu bandeja (borrador) · subido el 29-oct 20:54
-- **Hora sugerida por el Clipero para publicarlo (estimación):** 29-oct 20:00-21:30
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-tregua-pirlo/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-tregua-pirlo/ficha.md)
-
-Texto para pegar en TikTok:
+Envío: `datos/publicador/envios/2026-11-02-toxico-intro-celos-aire__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-02-toxico-intro-celos-aire:instagram`
 
 ```text
-¿Tregua entre Blessd y Pirlo? Esto respondió.
+"Yo tengo celos del aire porque acaricia tu piel": así arranca «Tóxico», de Lalo Ocampo.
 
-¿Crees que vuelvan a grabar juntos? Comenta.
+Los primeros 20 segundos del video oficial, estrenado el 31 de octubre. ¿Celos del aire: romántico o tóxico? ¿De qué tienes celos tú?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:31:42): https://youtu.be/LYEB5ioD_pY?t=5502
+Crédito: Lalo Ocampo, «Tóxico» (video oficial). Canción completa (minuto 0:00): https://youtu.be/bip8ttg-VeE?t=0
 
-#Blessd #Pirlo #Pirlo420 #TrapColombiano #MúsicaUrbana
+#LaloOcampo #Tóxico #Celos #MúsicaUrbana #Estreno
 ```
 
-### 2026-10-29-blessd-trap-ser-calle
+#### YouTube Shorts
 
-- **Gancho:** ¿Hay que ser calle para cantar trap? · **Puntaje:** 76 · **Ventana hasta:** 2026-10-31
-- **Estado:** en tu bandeja (borrador) · subido el 29-oct 20:55
-- **Hora sugerida por el Clipero para publicarlo (estimación):** 30-oct 18:00 (calendario del Clipero, ciclo 2)
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-trap-ser-calle/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-trap-ser-calle/ficha.md)
+Envío: `datos/publicador/envios/2026-11-02-toxico-intro-celos-aire__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-02-toxico-intro-celos-aire:youtube`
 
-Texto para pegar en TikTok:
-
-```text
-Blessd: "Cualquiera puede inventarse una historia". ¿Hay que ser calle para cantar trap?
-
-¿Hay que vivirlo para cantarlo? Sí o no.
-
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:22:21): https://youtu.be/LYEB5ioD_pY?t=4941
-
-#Blessd #TrapColombiano #MúsicaUrbana #Medellín #Podcast
-```
-
-### 2026-10-29-blessd-valle-medellin
-
-- **Gancho:** Blessd y Pirlo: ¿Valle contra Medellín? · **Puntaje:** 74 · **Ventana hasta:** 2026-10-31
-- **Estado:** TikTok lo está procesando; llegará a tu bandeja · subido el 29-oct 20:56
-- **Hora sugerida por el Clipero para publicarlo (estimación):** 31-oct 16:00 (calendario del Clipero, ciclo 2)
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-valle-medellin/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-valle-medellin/ficha.md)
-
-Texto para pegar en TikTok:
-
-```text
-Blessd: "El problema no es del Valle y de Medellín".
-
-¿Rivalidad entre ciudades o entre ellos dos? Comenta desde dónde nos ves.
-
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:25:49): https://youtu.be/LYEB5ioD_pY?t=5149
-
-#Blessd #Pirlo #Medellín #Cali #TrapColombiano
-```
-
-## Cola de TikTok (aprobados; se suben solos)
-
-Se suben como mucho 4 al día (`max_por_dia`) entre las 08:00 y las 23:00, por ventana y puntaje. Fechas previstas si el loop sigue corriendo:
-
-| Día previsto | Clips (puntaje · ventana hasta) |
-|---|---|
-| 30-oct | `verso-ziploc` (74 · 2026-10-31), `bando-progreso` (68 · 2026-10-31), `recuerdo-pirlo` (70 · 2026-11-01), `pelea-feid` (68 · 2026-11-01) |
-| 31-oct | `donde-haya-plata` (78 · 2026-11-03), `error-adolescencia` (76 · 2026-11-03), `jara-50-50` (75 · 2026-11-03), `mujeres-mueven-plata` (73 · 2026-11-03) |
-| 1-nov | `esquina-fumar` (71 · 2026-11-03), `edificios-frutas` (71 · 2026-11-03), `ego-progresar` (71 · 2026-11-03), `miles-de-suenos` (70 · 2026-11-03) |
-| 2-nov | `prestamo-primera-cancion` (69 · 2026-11-03), `ryan-castro-los-mismos` (68 · 2026-11-03), `centro-de-menores` (66 · 2026-11-04), `vendedor-controles` (66 · 2026-11-04) |
-| 3-nov | `ryan-mismo-nivel` (66 · 2026-11-04) |
-
-**Recomendación:** termina los borradores de la bandeja antes de que lleguen los siguientes, porque TikTok limita los borradores pendientes por cuenta. Si se llega al límite, el ciclo lo registra como error y lo vuelve a intentar en el siguiente.
-
-## Antes de aprobar Instagram y YouTube
-
-- **Derechos:** todos son `sin_verificar` (canal Kerry Kambell, sin permiso confirmado). Aviso de plataformas.md §9: contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **YouTube e Instagram:** sin credenciales y sin activar. Se pueden aprobar por adelantado; se subirán cuando estén activas, si la ventana sigue abierta.
-- **Instagram** no admite borradores: lo aprobado se publica al momento y en público. **YouTube** sube en `private` (privacidad de config.json).
-- Para cambiar un texto, pídelo en la instrucción; por ejemplo: `/publicador cambia el título de YouTube de <clip-id> por ...`.
-
-| # | Clip | Gancho | Puntaje | Ventana hasta | TikTok | Instagram | YouTube |
-|---|---|---|---|---|---|---|---|
-| 1 | `2026-10-29-blessd-que-peso-le-quito` | Blessd sobre Pirlo: '¿Qué peso le puedo quitar?' | 78 | 2026-10-31 | en bandeja (borrador) | pendiente | pendiente |
-| 2 | `2026-10-29-blessd-tregua-pirlo` | ¿Habrá tregua entre Blessd y Pirlo? | 76 | 2026-10-31 | en bandeja (borrador) | pendiente | pendiente |
-| 3 | `2026-10-29-blessd-trap-ser-calle` | ¿Hay que ser calle para cantar trap? | 76 | 2026-10-31 | en bandeja (borrador) | pendiente | pendiente |
-| 4 | `2026-10-29-blessd-verso-ziploc` | ¿Quién escribió el verso de Ziploc? | 74 | 2026-10-31 | en cola (30-oct) | pendiente | pendiente |
-| 5 | `2026-10-29-blessd-valle-medellin` | Blessd y Pirlo: ¿Valle contra Medellín? | 74 | 2026-10-31 | subido, procesando | pendiente | pendiente |
-| 6 | `2026-10-29-blessd-bando-progreso` | Blessd: ¿cuál es su bando? | 68 | 2026-10-31 | en cola (30-oct) | pendiente | pendiente |
-| 7 | `2026-10-29-blessd-recuerdo-pirlo` | El mejor recuerdo de Blessd con Pirlo | 70 | 2026-11-01 | en cola (30-oct) | pendiente | pendiente |
-| 8 | `2026-10-29-blessd-pelea-feid` | Blessd habla de su pelea con Feid | 68 | 2026-11-01 | en cola (30-oct) | pendiente | pendiente |
-| 9 | `2026-10-29-blessd-donde-haya-plata` | Blessd: 'Donde haya plata estoy yo' | 78 | 2026-11-03 | en cola (31-oct) | pendiente | pendiente |
-| 10 | `2026-10-29-blessd-error-adolescencia` | Lo que Blessd casi nunca cuenta | 76 | 2026-11-03 | en cola (31-oct) | pendiente | pendiente |
-| 11 | `2026-10-29-blessd-jara-50-50` | Blessd y su socio: 50/50 sin firmar nada | 75 | 2026-11-03 | en cola (31-oct) | pendiente | pendiente |
-| 12 | `2026-10-29-blessd-mujeres-mueven-plata` | ¿Por qué Blessd le canta a las mujeres? | 73 | 2026-11-03 | en cola (31-oct) | pendiente | pendiente |
-| 13 | `2026-10-29-blessd-esquina-fumar` | La señora no lo dejaba fumar ahí… | 71 | 2026-11-03 | en cola (1-nov) | pendiente | pendiente |
-| 14 | `2026-10-29-blessd-edificios-frutas` | ¿Cuánto valen los edificios de Blessd? | 71 | 2026-11-03 | en cola (1-nov) | pendiente | pendiente |
-| 15 | `2026-10-29-blessd-ego-progresar` | ¿Desde cuándo el ego es más importante? | 71 | 2026-11-03 | en cola (1-nov) | pendiente | pendiente |
-| 16 | `2026-10-29-blessd-miles-de-suenos` | Miles de sueños y cero ayudas | 70 | 2026-11-03 | en cola (1-nov) | pendiente | pendiente |
-| 17 | `2026-10-29-blessd-prestamo-primera-cancion` | Le pidió 2 millones prestados a su jefe | 69 | 2026-11-03 | en cola (2-nov) | pendiente | pendiente |
-| 18 | `2026-10-29-blessd-ryan-castro-los-mismos` | ¿Diez años con los mismos en el reggaetón? | 68 | 2026-11-03 | en cola (2-nov) | pendiente | pendiente |
-| 19 | `2026-10-29-blessd-centro-de-menores` | Sus 16 días en un centro de menores | 66 | 2026-11-04 | en cola (2-nov) | pendiente | pendiente |
-| 20 | `2026-10-29-blessd-ryan-mismo-nivel` | ¿Blessd o Ryan Castro: quién está arriba? | 66 | 2026-11-04 | en cola (3-nov) | pendiente | pendiente |
-| 21 | `2026-10-29-blessd-vendedor-controles` | Así vendía Blessd controles en la calle | 66 | 2026-11-04 | en cola (2-nov) | pendiente | pendiente |
-
----
-
-## 1. 2026-10-29-blessd-que-peso-le-quito
-
-- **Gancho:** Blessd sobre Pirlo: '¿Qué peso le puedo quitar?'
-- **Tipo:** `frase` · **Puntaje:** 78 · **Duración:** 26.7 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-10-31
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-que-peso-le-quito/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-que-peso-le-quito/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=4689 (canal Kerry Kambell, minuto 1:18:09)
-- **Hora sugerida por el Clipero (estimación):** TikTok 30-oct 07:00-08:00 · Reels 30-oct 13:00 · Shorts 30-oct 18:00
-- **Revisa:** escucha el audio antes de aprobar: la cifra (1.200-1.500 millones de pesos) se corrigió según Publimetro e Infobae porque los subtítulos automáticos decían otra cosa. Hay procesos judiciales alrededor de Blessd: el texto no sugiere culpa ni inocencia.
-
-### TikTok
-
-**TikTok: en tu bandeja como borrador** (subido el 29-oct 20:53). Aún no está publicado: pega este texto al terminar la publicación desde la app.
-
-```text
-Blessd: "¿Qué peso le puedo quitar a alguien? Yo hago mi plata".
-
-¿Le crees? Comenta.
-
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:18:09): https://youtu.be/LYEB5ioD_pY?t=4689
-
-#Blessd #Pirlo #Pirlo420 #MúsicaUrbana #Colombia
-```
-
-### Instagram Reels
-
-Envío: `datos/publicador/envios/2026-10-29-blessd-que-peso-le-quito__instagram.json` · validación `-Simular`: válido
-
-```text
-Blessd cuenta cuánto le pagan por cantar en El Salvador.
-
-Sobre Pirlo, dice que lo único que quería era que "se pegara y le fuera bien": "¿Qué peso le puedo quitar a alguien? Yo hago mi plata". Según cuenta, por cantar en El Salvador le dan entre 1.200 y 1.500 millones de pesos. ¿Le crees?
-
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:18:09): https://youtu.be/LYEB5ioD_pY?t=4689
-
-#Blessd #Pirlo #Pirlo420 #MúsicaUrbana #Colombia
-```
-
-### YouTube Shorts
-
-Envío: `datos/publicador/envios/2026-10-29-blessd-que-peso-le-quito__youtube.json` · validación `-Simular`: válido
-
-**Título:** Blessd sobre Pirlo: "Yo hago mi plata" | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Pirlo, Blessd Pirlo, Blessd El Salvador, cuánto cobra Blessd, Kerry Kambell, Sinvergüenza Podcast, música urbana
+**Título:** Lalo Ocampo - Tóxico (los primeros 20 segundos)
 
 **Descripción:**
 
 ```text
-Sobre el conflicto con Pirlo, Blessd dice que lo único que quería era que "se pegara y le fuera bien": "¿Qué peso le puedo quitar a alguien? Yo hago mi plata". Y, según cuenta, por cantar en El Salvador le dan entre 1.200 y 1.500 millones de pesos.
+Así empieza «Tóxico», lo nuevo de Lalo Ocampo (video oficial, 31-oct-2026): "Yo tengo celos del aire porque acaricia tu piel". ¿Celos del aire: romántico o tóxico?
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 1:18:09: https://youtu.be/LYEB5ioD_pY?t=4689
+Crédito: canal Lalo Ocampo, «Tóxico» (video oficial). Canción completa desde el minuto 0:00: https://youtu.be/bip8ttg-VeE?t=0
 
-#Blessd #Pirlo #KerryKambell #MúsicaUrbana
+#LaloOcampo #Tóxico #MúsicaUrbana #Estreno
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-que-peso-le-quito` · solo una: `/publicador aprobar 2026-10-29-blessd-que-peso-le-quito:instagram` o `/publicador aprobar 2026-10-29-blessd-que-peso-le-quito:youtube`
+**Etiquetas:** Lalo Ocampo, Tóxico, Lalo Ocampo Tóxico, Tóxico video oficial, celos, música urbana, nueva música, estreno
 
----
+### 25. 2026-11-04-parceritos-decimas-abuelo
 
-## 2. 2026-10-29-blessd-tregua-pirlo
+- **Gancho:** Lokillo le escribió estas décimas a su abuelo · **Tipo:** `emotivo` · **Puntaje:** 79 · **Duración:** 66,9 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-decimas-abuelo/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-decimas-abuelo/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=2162 (Los Parceritos, minuto 36:02)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-decimas-abuelo`
 
-- **Gancho:** ¿Habrá tregua entre Blessd y Pirlo?
-- **Tipo:** `revelacion` · **Puntaje:** 76 · **Duración:** 58.7 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-10-31
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-tregua-pirlo/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-tregua-pirlo/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=5502 (canal Kerry Kambell, minuto 1:31:42)
-- **Hora sugerida por el Clipero (estimación):** TikTok 29-oct 20:00-21:30 · Reels 30-oct 12:00-13:00 · Shorts 30-oct 18:00
-- **Revisa:** La prensa ya publicó la cita: es la ventana más corta. Hay una denuncia en la Fiscalía de por medio: el texto no va más allá de lo que dice. Subtítulos automáticos con errores menores ("entan", "un buen real").
+#### TikTok
 
-### TikTok
-
-**TikTok: en tu bandeja como borrador** (subido el 29-oct 20:54). Aún no está publicado: pega este texto al terminar la publicación desde la app.
+Envío: `datos/publicador/envios/2026-11-04-parceritos-decimas-abuelo__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-decimas-abuelo:tiktok`
 
 ```text
-¿Tregua entre Blessd y Pirlo? Esto respondió.
+Lokillo le escribió esto a su abuelo antes de que muriera 🕊️
 
-¿Crees que vuelvan a grabar juntos? Comenta.
+¿Qué le dirías a tu abuelo si pudieras?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:31:42): https://youtu.be/LYEB5ioD_pY?t=5502
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 36:02: https://youtu.be/4hGozORt3Ds?t=2162
 
-#Blessd #Pirlo #Pirlo420 #TrapColombiano #MúsicaUrbana
+#LosParceritos #Lokillo #Décimas #Trova #Poesía
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-tregua-pirlo__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-decimas-abuelo__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-decimas-abuelo:instagram`
 
 ```text
-Blessd sobre una tregua con Pirlo: "Son cosas personales".
+Las décimas de Lokillo para su abuelo 🕊️
 
-En el Sinvergüenza Podcast le preguntan si musicalmente puede haber una tregua. Dice que cada parte da su versión, que "quizás uno también se haya equivocado" y que "como hombre se hablan las cosas". ¿Tregua sí o no?
+En pleno capítulo de humor, Lokillo pide un momento: "no es humor". Lee las décimas que escribió mientras miraba a su abuelo postrado en una cama, poco antes de que muriera.
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:31:42): https://youtu.be/LYEB5ioD_pY?t=5502
+¿Qué le dirías a tu abuelo si pudieras?
 
-#Blessd #Pirlo #Pirlo420 #TrapColombiano #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 36:02: https://youtu.be/4hGozORt3Ds?t=2162
+
+#LosParceritos #Lokillo #Décimas #Trova #Poesía
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-tregua-pirlo__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-decimas-abuelo__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-decimas-abuelo:youtube`
 
-**Título:** Blessd responde si habrá tregua con Pirlo | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Pirlo, Pirlo 420, Blessd Pirlo, tregua Blessd Pirlo, Kerry Kambell, Sinvergüenza Podcast, trap colombiano, música urbana
+**Título:** Lokillo lee las décimas que le escribió a su abuelo
 
 **Descripción:**
 
 ```text
-Le preguntan a Blessd si musicalmente puede haber una tregua con Pirlo. Responde que "son cosas personales", que "quizás uno también se haya equivocado" y que, si un día lo buscan para arreglar, "como hombre se hablan las cosas".
+En pleno capítulo de humor, Lokillo pide un momento: "no es humor". Lee las décimas que escribió mientras miraba a su abuelo postrado en una cama, poco antes de que muriera.
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 1:31:42: https://youtu.be/LYEB5ioD_pY?t=5502
+¿Qué le dirías a tu abuelo si pudieras?
 
-#Blessd #Pirlo #KerryKambell #TrapColombiano
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 36:02: https://youtu.be/4hGozORt3Ds?t=2162
+
+#LosParceritos #Lokillo #Décimas #Trova
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-tregua-pirlo` · solo una: `/publicador aprobar 2026-10-29-blessd-tregua-pirlo:instagram` o `/publicador aprobar 2026-10-29-blessd-tregua-pirlo:youtube`
+**Etiquetas:** Los Parceritos, Lokillo, décimas, trova, abuelo, poesía
 
----
+### 26. 2026-11-04-parceritos-filosofo-o-reggaetonero
 
-## 3. 2026-10-29-blessd-trap-ser-calle
+- **Gancho:** ¿Filósofo, poeta o reggaetonero? · **Tipo:** `humor` · **Puntaje:** 77 · **Duración:** 53,4 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-filosofo-o-reggaetonero/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-filosofo-o-reggaetonero/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=1360 (Los Parceritos, minuto 22:40)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-filosofo-o-reggaetonero`
 
-- **Gancho:** ¿Hay que ser calle para cantar trap?
-- **Tipo:** `frase` · **Puntaje:** 76 · **Duración:** 40.8 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-10-31
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-trap-ser-calle/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-trap-ser-calle/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=4941 (canal Kerry Kambell, minuto 1:22:21)
-- **Hora sugerida por el Clipero (estimación):** TikTok 30-oct 18:00 (calendario del Clipero, ciclo 2) · Shorts 30-oct 12:00-14:00 · Reels 30-oct 19:00
-- **Revisa:** Subtítulos automáticos con errores menores ("sentís", "sentíse"). El clip incluye la salvedad "y hay otros que la viven".
+#### TikTok
 
-### TikTok
-
-**TikTok: en tu bandeja como borrador** (subido el 29-oct 20:55). Aún no está publicado: pega este texto al terminar la publicación desde la app.
+Envío: `datos/publicador/envios/2026-11-04-parceritos-filosofo-o-reggaetonero__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-filosofo-o-reggaetonero:tiktok`
 
 ```text
-Blessd: "Cualquiera puede inventarse una historia". ¿Hay que ser calle para cantar trap?
+¿Filósofo, poeta o reguetonero? El profe de Un poeta adivina 😂
 
-¿Hay que vivirlo para cantarlo? Sí o no.
+¿Cuál adivinaste tú?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:22:21): https://youtu.be/LYEB5ioD_pY?t=4941
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 22:40: https://youtu.be/4hGozORt3Ds?t=1360
 
-#Blessd #TrapColombiano #MúsicaUrbana #Medellín #Podcast
+#LosParceritos #UbeimarRios #UnPoeta #Filosofia #Humor
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-trap-ser-calle__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-filosofo-o-reggaetonero__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-filosofo-o-reggaetonero:instagram`
 
 ```text
-¿Para cantar trap hay que vivirlo? Esto responde Blessd.
+Le leen frases a Ubeimar Ríos: ¿Nietzsche, Pizarnik o un reguetonero?
 
-Para él no hace falta ser calle: "cualquiera puede inventarse una historia o sentir una historia". Hay traperos que cuentan lo que escuchan en el barrio y otros que sí lo viven. ¿Estás de acuerdo?
+Juego en Los Parceritos con Ubeimar Ríos, profe de filosofía y protagonista de 'Un poeta': le leen una frase y tiene que decir si la dijo un filósofo, un poeta o un reguetonero. Nietzsche "del Grupo Niche", Alejandra Pizarnik… y la tercera.
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:22:21): https://youtu.be/LYEB5ioD_pY?t=4941
+¿Cuál adivinaste tú?
 
-#Blessd #TrapColombiano #MúsicaUrbana #Medellín #Podcast
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 22:40: https://youtu.be/4hGozORt3Ds?t=1360
+
+#LosParceritos #UbeimarRios #UnPoeta #Filosofia #Humor
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-trap-ser-calle__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-filosofo-o-reggaetonero__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-filosofo-o-reggaetonero:youtube`
 
-**Título:** Blessd: ¿hay que ser calle para cantar trap? | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, trap colombiano, ser calle, trap, Kerry Kambell, Sinvergüenza Podcast, música urbana, Medellín
+**Título:** ¿Filósofo, poeta o reguetonero? Le leen frases a Ubeimar Ríos 😂
 
 **Descripción:**
 
 ```text
-Para Blessd no hace falta ser calle para cantar trap, porque "cualquiera puede inventarse una historia o sentir una historia". Hay traperos que cuentan lo que escuchan en el barrio y otros que sí lo viven, y el ego de sentirse en la película es, según él, "lo que mata a todo el mundo".
+Juego en Los Parceritos con Ubeimar Ríos, profe de filosofía y protagonista de 'Un poeta': le leen una frase y tiene que decir si la dijo un filósofo, un poeta o un reguetonero. Nietzsche "del Grupo Niche", Alejandra Pizarnik… y la tercera.
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 1:22:21: https://youtu.be/LYEB5ioD_pY?t=4941
+¿Cuál adivinaste tú?
 
-#Blessd #TrapColombiano #KerryKambell #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 22:40: https://youtu.be/4hGozORt3Ds?t=1360
+
+#LosParceritos #UbeimarRios #UnPoeta #Filosofia
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-trap-ser-calle` · solo una: `/publicador aprobar 2026-10-29-blessd-trap-ser-calle:instagram` o `/publicador aprobar 2026-10-29-blessd-trap-ser-calle:youtube`
+**Etiquetas:** Los Parceritos, Ubeimar Ríos, Un poeta, Lokillo, filosofía, humor
 
----
+### 27. 2026-11-04-parceritos-billete-diomedes
 
-## 4. 2026-10-29-blessd-verso-ziploc
+- **Gancho:** ¿Quién debería estar en los billetes? · **Tipo:** `humor` · **Puntaje:** 72 · **Duración:** 55,7 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-billete-diomedes/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-billete-diomedes/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=1798 (Los Parceritos, minuto 29:58)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-billete-diomedes`
 
-- **Gancho:** ¿Quién escribió el verso de Ziploc?
-- **Tipo:** `frase` · **Puntaje:** 74 · **Duración:** 16.2 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-10-31
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-verso-ziploc/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-verso-ziploc/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=4781 (canal Kerry Kambell, minuto 1:19:41)
-- **Hora sugerida por el Clipero (estimación):** TikTok 31-oct 07:00-08:00 · Reels 31-oct 13:00 · Shorts 31-oct 18:00
-- **Revisa:** Es la versión de Blessd, no un hecho comprobado: el texto lo presenta como afirmación suya. El clip termina antes de lo que dice sobre Pirlo.
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 30-oct). Envío: `datos/publicador/envios/2026-10-29-blessd-verso-ziploc__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-04-parceritos-billete-diomedes__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-billete-diomedes:tiktok`
 
 ```text
-Blessd: "El verso de Ziploc es mío, 100%".
+¿Quién debería estar en el billete de 100.000? 😂
 
-¿Le crees? Sí o no.
+¿A quién pondrías tú en el billete de 100.000?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:19:41): https://youtu.be/LYEB5ioD_pY?t=4781
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 29:58: https://youtu.be/4hGozORt3Ds?t=1798
 
-#Blessd #Pirlo #Ziploc #TrapColombiano #MúsicaUrbana
+#LosParceritos #UbeimarRios #GomezJattin #Diomedes #Humor
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-verso-ziploc__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-billete-diomedes__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-billete-diomedes:instagram`
 
 ```text
-Blessd responde a los que dicen que le escriben las canciones.
+El poeta propone a Raúl Gómez Jattin… y Los Parceritos a Diomedes
 
-"Eso de que las canciones, que a mí me escriban, todo eso es falso". Reta a hacer un en vivo para mostrar cómo graba y asegura que el verso de "Ziploc", su canción con Pirlo, es suyo al 100%. ¿Le crees?
+Ubeimar Ríos, el profe de 'Un poeta', pone en el billete de 100.000 al poeta que más despreciaba el dinero, Raúl Gómez Jattin, y recita "Los habitantes de mi aldea dicen que soy un hombre despreciable y peligroso…". La respuesta de Los Parceritos: Diomedes, "porque ese no lo cambiaba nadie".
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:19:41): https://youtu.be/LYEB5ioD_pY?t=4781
+¿A quién pondrías tú en el billete de 100.000?
 
-#Blessd #Pirlo #Ziploc #TrapColombiano #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 29:58: https://youtu.be/4hGozORt3Ds?t=1798
+
+#LosParceritos #UbeimarRios #GomezJattin #Diomedes #Humor
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-verso-ziploc__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-billete-diomedes__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-billete-diomedes:youtube`
 
-**Título:** Blessd sobre Ziploc: "Eso lo grabé yo" | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Pirlo, Ziploc, Blessd Ziploc, Blessd Pirlo, Kerry Kambell, Sinvergüenza Podcast, trap colombiano
+**Título:** ¿Quién debería ir en los billetes de Colombia? 😂
 
 **Descripción:**
 
 ```text
-"Eso de que las canciones, que a mí me escriban, todo eso es falso". Blessd reta a hacer un en vivo para mostrar cómo graba y asegura que el verso de "Ziploc", su canción con Pirlo, es suyo: "El verso de Ziploc es mío, 100%".
+Ubeimar Ríos, el profe de 'Un poeta', pone en el billete de 100.000 al poeta que más despreciaba el dinero, Raúl Gómez Jattin, y recita "Los habitantes de mi aldea dicen que soy un hombre despreciable y peligroso…". La respuesta de Los Parceritos: Diomedes, "porque ese no lo cambiaba nadie".
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 1:19:41: https://youtu.be/LYEB5ioD_pY?t=4781
+¿A quién pondrías tú en el billete de 100.000?
 
-#Blessd #Pirlo #Ziploc #TrapColombiano
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 29:58: https://youtu.be/4hGozORt3Ds?t=1798
+
+#LosParceritos #UbeimarRios #GomezJattin #Diomedes
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-verso-ziploc` · solo una: `/publicador aprobar 2026-10-29-blessd-verso-ziploc:instagram` o `/publicador aprobar 2026-10-29-blessd-verso-ziploc:youtube`
+**Etiquetas:** Los Parceritos, Ubeimar Ríos, Gómez Jattin, Diomedes, billetes Colombia, humor
 
----
+### 28. 2026-11-04-parceritos-poeta-corre-feo
 
-## 5. 2026-10-29-blessd-valle-medellin
+- **Gancho:** Le preguntan a Ubeimar Ríos por qué corre así · **Tipo:** `humor` · **Puntaje:** 72 · **Duración:** 16,5 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-poeta-corre-feo/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-poeta-corre-feo/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=294 (Los Parceritos, minuto 4:54)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-poeta-corre-feo`
 
-- **Gancho:** Blessd y Pirlo: ¿Valle contra Medellín?
-- **Tipo:** `frase` · **Puntaje:** 74 · **Duración:** 17.3 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-10-31
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-valle-medellin/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-valle-medellin/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=5149 (canal Kerry Kambell, minuto 1:25:49)
-- **Hora sugerida por el Clipero (estimación):** TikTok 31-oct 16:00 (calendario del Clipero, ciclo 2) · Shorts 30-oct 20:00-22:00 · Reels 31-oct 12:00
-- **Revisa:** Los subtítulos dicen "Steven"; su nombre real es Stiven. "Emanuel" es Pirlo (Blessd lo dice en 1:07:08 de la entrevista).
+#### TikTok
 
-### TikTok
-
-**TikTok: subido; TikTok lo está procesando** (29-oct 20:56). Llegará a tu bandeja como borrador: pega este texto al terminar la publicación desde la app.
+Envío: `datos/publicador/envios/2026-11-04-parceritos-poeta-corre-feo__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-poeta-corre-feo:tiktok`
 
 ```text
-Blessd: "El problema no es del Valle y de Medellín".
+"¿Por qué corre tan feo?" 😂 Le preguntan al protagonista de Un poeta
 
-¿Rivalidad entre ciudades o entre ellos dos? Comenta desde dónde nos ves.
+¿Ya viste Un poeta?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:25:49): https://youtu.be/LYEB5ioD_pY?t=5149
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 4:54: https://youtu.be/4hGozORt3Ds?t=294
 
-#Blessd #Pirlo #Medellín #Cali #TrapColombiano
+#LosParceritos #UbeimarRios #UnPoeta #CineColombiano #Humor
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-valle-medellin__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-poeta-corre-feo__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-poeta-corre-feo:instagram`
 
 ```text
-Blessd sobre Pirlo: "El problema no es del Valle y de Medellín".
+La carrera de Un poeta, explicada por su protagonista
 
-Dice que el problema es entre él y Emanuel (Pirlo) y pide no involucrar a los artistas nuevos. ¿Crees que la rivalidad es entre ciudades o entre ellos dos?
+La pregunta "muy importante" de Los Parceritos a Ubeimar Ríos, protagonista de 'Un poeta': ¿por qué corre tan feo? "Porque no sé correr, hermano… y ahí Simón me puso a correr".
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:25:49): https://youtu.be/LYEB5ioD_pY?t=5149
+¿Ya viste Un poeta?
 
-#Blessd #Pirlo #Medellín #Cali #TrapColombiano
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 4:54: https://youtu.be/4hGozORt3Ds?t=294
+
+#LosParceritos #UbeimarRios #UnPoeta #CineColombiano #Humor
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-valle-medellin__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-poeta-corre-feo__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-poeta-corre-feo:youtube`
 
-**Título:** Blessd: el problema con Pirlo no es Valle contra Medellín | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Pirlo, Blessd Pirlo, Valle, Medellín, Cali, trap colombiano, Kerry Kambell, Sinvergüenza Podcast
+**Título:** ¿Por qué corre así el poeta? 😂 | Los Parceritos
 
 **Descripción:**
 
 ```text
-"El problema no es del Valle y de Medellín": Blessd dice que el problema es entre él y Emanuel (Pirlo) y pide no involucrar a los artistas nuevos.
+La pregunta "muy importante" de Los Parceritos a Ubeimar Ríos, protagonista de 'Un poeta': ¿por qué corre tan feo? "Porque no sé correr, hermano… y ahí Simón me puso a correr".
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 1:25:49: https://youtu.be/LYEB5ioD_pY?t=5149
+¿Ya viste Un poeta?
 
-#Blessd #Pirlo #Medellín #Cali #TrapColombiano
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 4:54: https://youtu.be/4hGozORt3Ds?t=294
+
+#LosParceritos #UbeimarRios #UnPoeta #CineColombiano
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-valle-medellin` · solo una: `/publicador aprobar 2026-10-29-blessd-valle-medellin:instagram` o `/publicador aprobar 2026-10-29-blessd-valle-medellin:youtube`
+**Etiquetas:** Los Parceritos, Ubeimar Ríos, Un poeta, cine colombiano, Lokillo, humor
 
----
+### 29. 2026-11-04-parceritos-flor-abeja
 
-## 6. 2026-10-29-blessd-bando-progreso
+- **Gancho:** Así hacían poesía Los Parceritos · **Tipo:** `humor` · **Puntaje:** 71 · **Duración:** 27,4 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-flor-abeja/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-flor-abeja/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=1597 (Los Parceritos, minuto 26:37)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-flor-abeja`
 
-- **Gancho:** Blessd: ¿cuál es su bando?
-- **Tipo:** `frase` · **Puntaje:** 68 · **Duración:** 22.1 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-10-31
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-bando-progreso/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-bando-progreso/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=5210 (canal Kerry Kambell, minuto 1:26:50)
-- **Hora sugerida por el Clipero (estimación):** TikTok 31-oct 19:00-20:00 · Reels 1-nov 12:00 · Shorts 1-nov 18:00
-- **Revisa:** Frescura baja: el propio podcast usa esta respuesta en su avance. No se verificó si Los Extraditables es un sello o su grupo.
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 30-oct). Envío: `datos/publicador/envios/2026-10-29-blessd-bando-progreso__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-04-parceritos-flor-abeja__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-flor-abeja:tiktok`
 
 ```text
-Blessd: "Yo no voy al bando de la mediocridad".
+Los Parceritos intentan hacer poesía bonita… 😂
 
-¿Cuál es tu bando? Comenta.
+Termina tú el verso 👇
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:26:50): https://youtu.be/LYEB5ioD_pY?t=5210
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 26:37: https://youtu.be/4hGozORt3Ds?t=1597
 
-#Blessd #LosExtraditables #TrapColombiano #MúsicaUrbana
+#LosParceritos #Lokillo #Trova #Poesia #Humor
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-bando-progreso__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-flor-abeja__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-flor-abeja:instagram`
 
 ```text
-¿Cuál es el bando de Blessd? Esto respondió.
+"Si tú fueras una flor y yo una abeja…" 😂
 
-Dice que su bando, Los Extraditables, es para trabajar, para hacer plata, para que tengan su carro y su empresa: "Yo voy al progreso". ¿Cuál es tu bando?
+Los Parceritos le explican al profe que en sus inicios hacían trovas bonitas, con figuras literarias… y lo demuestran.
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:26:50): https://youtu.be/LYEB5ioD_pY?t=5210
+Termina tú el verso 👇
 
-#Blessd #LosExtraditables #TrapColombiano #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 26:37: https://youtu.be/4hGozORt3Ds?t=1597
+
+#LosParceritos #Lokillo #Trova #Poesia #Humor
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-bando-progreso__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-flor-abeja__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-flor-abeja:youtube`
 
-**Título:** Blessd responde cuál es su bando | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Los Extraditables, bando, Blessd bando, Kerry Kambell, Sinvergüenza Podcast, trap colombiano, música urbana
+**Título:** Cuando un trovador intenta ser romántico 😂 | Los Parceritos
 
 **Descripción:**
 
 ```text
-Le preguntan si "el Bendito" tiene un bando. Blessd responde que su bando, Los Extraditables, es para trabajar y para hacer plata: "Yo voy al progreso". "Yo no voy al bando de la mediocridad y de las mentiras y el creerme bandido cuando soy artista".
+Los Parceritos le explican al profe que en sus inicios hacían trovas bonitas, con figuras literarias… y lo demuestran.
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 1:26:50: https://youtu.be/LYEB5ioD_pY?t=5210
+Termina tú el verso 👇
 
-#Blessd #LosExtraditables #KerryKambell #TrapColombiano
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 26:37: https://youtu.be/4hGozORt3Ds?t=1597
+
+#LosParceritos #Lokillo #Trova #Poesia
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-bando-progreso` · solo una: `/publicador aprobar 2026-10-29-blessd-bando-progreso:instagram` o `/publicador aprobar 2026-10-29-blessd-bando-progreso:youtube`
+**Etiquetas:** Los Parceritos, Lokillo, trova, poesía, humor, Colombia
 
----
+### 30. 2026-11-04-parceritos-billete-popo
 
-## 7. 2026-10-29-blessd-recuerdo-pirlo
+- **Gancho:** La pregunta más profunda para un filósofo · **Tipo:** `humor` · **Puntaje:** 71 · **Duración:** 58,6 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-billete-popo/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-billete-popo/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=2101 (Los Parceritos, minuto 35:01)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-billete-popo`
 
-- **Gancho:** El mejor recuerdo de Blessd con Pirlo
-- **Tipo:** `emotivo` · **Puntaje:** 70 · **Duración:** 46.5 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-01
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-recuerdo-pirlo/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-recuerdo-pirlo/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=5236 (canal Kerry Kambell, minuto 1:27:16)
-- **Hora sugerida por el Clipero (estimación):** TikTok 1-nov 07:00-08:00 · Reels 1-nov 13:00 · Shorts 1-nov 18:00
-- **Revisa:** No presentarlo como reconciliación: en la misma entrevista descarta la tregua.
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 30-oct). Envío: `datos/publicador/envios/2026-10-29-blessd-recuerdo-pirlo__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-04-parceritos-billete-popo__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-billete-popo:tiktok`
 
 ```text
-Le piden a Blessd un buen recuerdo con Pirlo. Esto contó.
+La pregunta más profunda que le han hecho a un filósofo 😂
 
-¿Volverán a juntarse algún día?
+¿Tú lo sacarías? Sé sincero
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:27:16): https://youtu.be/LYEB5ioD_pY?t=5236
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 35:01: https://youtu.be/4hGozORt3Ds?t=2101
 
-#Blessd #Pirlo #Pirlo420 #Ziploc #MúsicaUrbana
+#LosParceritos #Lokillo #UbeimarRios #Humor #Comedia
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-recuerdo-pirlo__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-billete-popo__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-billete-popo:instagram`
 
 ```text
-El recuerdo que Blessd eligió de Pirlo: el balcón y "Ziploc".
+Se te cae un billete en la taza… ¿lo sacas?
 
-Elige el día en que lo recogieron en el aeropuerto, llegaron a la casa, salieron al balcón y pusieron "Ziploc". ¿Y todavía lo escucha? "Uno por ahí a veces también lo escucha".
+"Voy a poner preguntas más de literatura, más profundas y más poéticas": si estás en el baño y se te cae un billete de 5.000 en la taza, ¿metes la mano? El profe de filosofía responde: "depende si lo necesito mucho".
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:27:16): https://youtu.be/LYEB5ioD_pY?t=5236
+¿Tú lo sacarías? Sé sincero
 
-#Blessd #Pirlo #Pirlo420 #Ziploc #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 35:01: https://youtu.be/4hGozORt3Ds?t=2101
+
+#LosParceritos #Lokillo #UbeimarRios #Humor #Comedia
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-recuerdo-pirlo__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-billete-popo__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-billete-popo:youtube`
 
-**Título:** ¿Blessd todavía escucha a Pirlo? | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Pirlo, Pirlo 420, Ziploc, Blessd Pirlo, Kerry Kambell, Sinvergüenza Podcast, música urbana
+**Título:** ¿Sacarías el billete? La pregunta de Los Parceritos al profe 😂
 
 **Descripción:**
 
 ```text
-Le piden a Blessd un buen recuerdo con Pirlo y elige el día en que lo recogieron en el aeropuerto, llegaron a la casa, salieron al balcón y pusieron "Ziploc". ¿Y todavía lo escucha? "Uno por ahí a veces también lo escucha".
+"Voy a poner preguntas más de literatura, más profundas y más poéticas": si estás en el baño y se te cae un billete de 5.000 en la taza, ¿metes la mano? El profe de filosofía responde: "depende si lo necesito mucho".
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 1:27:16: https://youtu.be/LYEB5ioD_pY?t=5236
+¿Tú lo sacarías? Sé sincero
 
-#Blessd #Pirlo #Ziploc #KerryKambell
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 35:01: https://youtu.be/4hGozORt3Ds?t=2101
+
+#LosParceritos #Lokillo #UbeimarRios #Humor
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-recuerdo-pirlo` · solo una: `/publicador aprobar 2026-10-29-blessd-recuerdo-pirlo:instagram` o `/publicador aprobar 2026-10-29-blessd-recuerdo-pirlo:youtube`
+**Etiquetas:** Los Parceritos, Lokillo, Ubeimar Ríos, humor, comedia, Colombia
 
----
+### 31. 2026-11-04-parceritos-borracho-ensayo
 
-## 8. 2026-10-29-blessd-pelea-feid
+- **Gancho:** Llegó borracho al ensayo de Un poeta · **Tipo:** `historia` · **Puntaje:** 71 · **Duración:** 58,9 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-borracho-ensayo/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-borracho-ensayo/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=491 (Los Parceritos, minuto 8:11)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-borracho-ensayo`
 
-- **Gancho:** Blessd habla de su pelea con Feid
-- **Tipo:** `revelacion` · **Puntaje:** 68 · **Duración:** 60.6 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-01
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-pelea-feid/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-pelea-feid/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=6030 (canal Kerry Kambell, minuto 1:40:30)
-- **Hora sugerida por el Clipero (estimación):** TikTok 31-oct 21:00 · Reels 1-nov 12:00 · Shorts 1-nov 19:00
-- **Revisa:** La pelea ya se conocía (enero de 2026). El texto no da detalles que él no dice ni lo presenta como un nuevo ataque.
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 30-oct). Envío: `datos/publicador/envios/2026-10-29-blessd-pelea-feid__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-04-parceritos-borracho-ensayo__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-borracho-ensayo:tiktok`
 
 ```text
-Blessd sobre Feid: "Fue una pelea entre dos hombres".
+El protagonista de Un poeta llegó borracho al ensayo… y el director lo grabó
 
-¿Se arreglarán algún día?
+¿Qué harías tú si te graban así?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:40:30): https://youtu.be/LYEB5ioD_pY?t=6030
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 8:11: https://youtu.be/4hGozORt3Ds?t=491
 
-#Blessd #Feid #Ferxxo #Reggaetón #MúsicaUrbana
+#LosParceritos #UbeimarRios #UnPoeta #SimonMesa #CineColombiano
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-pelea-feid__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-borracho-ensayo__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-borracho-ensayo:instagram`
 
 ```text
-¿Blessd y Feid ya están bien? Esto respondió.
+Llegó borracho al ensayo y eso era justo lo que el director quería 🍺
 
-Confirma que nunca han hablado: "así quedó y así va a quedar". Hoy dice que no tiene problema con nadie: "Que Dios lo bendiga". ¿Se arreglarán algún día?
+Después de una marcha de profesores, Ubeimar Ríos llegó "totalmente borracho" al ensayo de la escena de la carrera de 'Un poeta'. Lo regañaron… y días después el director, Simón Mesa, le enseñó el video: "lo que necesito es que en la película esté así, pero sin tomarse un solo trago".
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:40:30): https://youtu.be/LYEB5ioD_pY?t=6030
+¿Qué harías tú si te graban así?
 
-#Blessd #Feid #Ferxxo #Reggaetón #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 8:11: https://youtu.be/4hGozORt3Ds?t=491
+
+#LosParceritos #UbeimarRios #UnPoeta #SimonMesa #CineColombiano
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-pelea-feid__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-borracho-ensayo__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-borracho-ensayo:youtube`
 
-**Título:** Blessd habla de su pelea con Feid | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Feid, Ferxxo, Blessd Feid, reggaetón, Kerry Kambell, Sinvergüenza Podcast, música urbana
+**Título:** La historia del ensayo borracho de Un poeta
 
 **Descripción:**
 
 ```text
-Le preguntan por sus diferencias con Feid y Blessd lo confirma: nunca han hablado, "fue una pelea entre dos hombres" y "así quedó y así va a quedar". Hoy dice que no tiene problema con nadie: "Que Dios lo bendiga".
+Después de una marcha de profesores, Ubeimar Ríos llegó "totalmente borracho" al ensayo de la escena de la carrera de 'Un poeta'. Lo regañaron… y días después el director, Simón Mesa, le enseñó el video: "lo que necesito es que en la película esté así, pero sin tomarse un solo trago".
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 1:40:30: https://youtu.be/LYEB5ioD_pY?t=6030
+¿Qué harías tú si te graban así?
 
-#Blessd #Feid #Ferxxo #Reggaetón
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 8:11: https://youtu.be/4hGozORt3Ds?t=491
+
+#LosParceritos #UbeimarRios #UnPoeta #SimonMesa
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-pelea-feid` · solo una: `/publicador aprobar 2026-10-29-blessd-pelea-feid:instagram` o `/publicador aprobar 2026-10-29-blessd-pelea-feid:youtube`
+**Etiquetas:** Los Parceritos, Ubeimar Ríos, Un poeta, Simón Mesa, cine colombiano, anécdota
 
----
+### 32. 2026-11-04-parceritos-novela-mas-corta
 
-## 9. 2026-10-29-blessd-donde-haya-plata
+- **Gancho:** La novela más corta del mundo · **Tipo:** `humor` · **Puntaje:** 70 · **Duración:** 31,0 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-novela-mas-corta/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-novela-mas-corta/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=2038 (Los Parceritos, minuto 33:58)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-novela-mas-corta`
 
-- **Gancho:** Blessd: 'Donde haya plata estoy yo'
-- **Tipo:** `frase` · **Puntaje:** 78 · **Duración:** 40.8 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-03
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-donde-haya-plata/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-donde-haya-plata/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=4128 (canal Kerry Kambell, minuto 1:08:48)
-- **Hora sugerida por el Clipero (estimación):** TikTok 30-oct 12:00-13:00 · Reels 30-oct 19:00 · Shorts 31-oct 12:00
-- **Revisa:** Las cifras que dice en el clip ("100 palos", "600 millones") no llevan unidad: el texto no las usa.
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 31-oct). Envío: `datos/publicador/envios/2026-10-29-blessd-donde-haya-plata__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-04-parceritos-novela-mas-corta__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-novela-mas-corta:tiktok`
 
 ```text
-Blessd: "Yo no soy cantante de trap, pero…"
+La novela más corta del mundo cabe en 6 palabras
 
-¿Artista o negociante? Comenta.
+Escribe tu novela en 6 palabras 👇
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:08:48): https://youtu.be/LYEB5ioD_pY?t=4128
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 33:58: https://youtu.be/4hGozORt3Ds?t=2038
 
-#Blessd #PesoPluma #Trap #Reggaetón #MúsicaUrbana
+#LosParceritos #UbeimarRios #Literatura #Humor #Colombia
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-donde-haya-plata__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-novela-mas-corta__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-novela-mas-corta:instagram`
 
 ```text
-"Donde haya plata estoy yo": Blessd y los géneros.
+"Soy hijo de mi hermano. Esa es mi tragedia" 😳
 
-Dice que no es cantante de trap, pero que con su talento puede hacer un corrido con Peso Pluma, un trap como "Yogurcito" o un reggaetón como "Mírame": "No me importa que me encasillen como trapero, merenguero, bachatero o punkero". ¿Artista o negociante?
+Para el billete de 2.000, el profe propone a Carlos Mario Garcés, autor, según cuenta, de "la novela más corta del mundo": "Soy hijo de mi hermano. Esa es mi tragedia". Los Parceritos le encuentran otra lectura.
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:08:48): https://youtu.be/LYEB5ioD_pY?t=4128
+Escribe tu novela en 6 palabras 👇
 
-#Blessd #PesoPluma #Yogurcito #Reggaetón #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 33:58: https://youtu.be/4hGozORt3Ds?t=2038
+
+#LosParceritos #UbeimarRios #Literatura #Humor #Colombia
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-donde-haya-plata__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-novela-mas-corta__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-novela-mas-corta:youtube`
 
-**Título:** Blessd: "Donde haya plata estoy yo" | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Peso Pluma, Yogurcito, Mírame Blessd, trap, reggaetón, Kerry Kambell, Sinvergüenza Podcast
+**Título:** ¿La conocías? La novela más corta del mundo | Los Parceritos
 
 **Descripción:**
 
 ```text
-Blessd dice que no es cantante de trap, pero que con su talento puede hacer cualquier género: un corrido con Peso Pluma, un trap como "Yogurcito" o un reggaetón como "Mírame". "Donde haya plata estoy yo".
+Para el billete de 2.000, el profe propone a Carlos Mario Garcés, autor, según cuenta, de "la novela más corta del mundo": "Soy hijo de mi hermano. Esa es mi tragedia". Los Parceritos le encuentran otra lectura.
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 1:08:48: https://youtu.be/LYEB5ioD_pY?t=4128
+Escribe tu novela en 6 palabras 👇
 
-#Blessd #PesoPluma #Trap #Reggaetón #KerryKambell
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 33:58: https://youtu.be/4hGozORt3Ds?t=2038
+
+#LosParceritos #UbeimarRios #Literatura #Humor
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-donde-haya-plata` · solo una: `/publicador aprobar 2026-10-29-blessd-donde-haya-plata:instagram` o `/publicador aprobar 2026-10-29-blessd-donde-haya-plata:youtube`
+**Etiquetas:** Los Parceritos, Ubeimar Ríos, novela más corta, literatura, humor, Colombia
 
----
+### 33. 2026-11-04-parceritos-profesor-sobra
 
-## 10. 2026-10-29-blessd-error-adolescencia
+- **Gancho:** ¿Qué profesor sobra en los colegios? · **Tipo:** `frase` · **Puntaje:** 70 · **Duración:** 30,6 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-profesor-sobra/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-profesor-sobra/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=2494 (Los Parceritos, minuto 41:34)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-profesor-sobra`
 
-- **Gancho:** Lo que Blessd casi nunca cuenta
-- **Tipo:** `revelacion` · **Puntaje:** 76 · **Duración:** 45.2 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-03
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-error-adolescencia/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-error-adolescencia/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=807 (canal Kerry Kambell, minuto 0:13:27)
-- **Hora sugerida por el Clipero (estimación):** TikTok 30-oct 21:00 · Reels 31-oct 12:00 · Shorts 31-oct 18:00
-- **Revisa:** Confesión sobre su adolescencia (microtráfico siendo menor de edad). No tiene relación con su proceso penal actual y el texto no la establece. La continuación es 2026-10-29-blessd-centro-de-menores.
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 31-oct). Envío: `datos/publicador/envios/2026-10-29-blessd-error-adolescencia__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-04-parceritos-profesor-sobra__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-profesor-sobra:tiktok`
 
 ```text
-Blessd confiesa lo que casi nunca cuenta: "errores de la vida que casi nunca hablo".
+"Sobra el profesor que lleva 40 años con el mismo librito"
 
-¿Sabías esto de Blessd?
+¿Tuviste un profe así?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:13:27): https://youtu.be/LYEB5ioD_pY?t=807
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 41:34: https://youtu.be/4hGozORt3Ds?t=2494
 
-#Blessd #MúsicaUrbana #Colombia #Historias
+#LosParceritos #UbeimarRios #Educacion #Profesores #UnPoeta
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-error-adolescencia__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-profesor-sobra__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-profesor-sobra:instagram`
 
 ```text
-Blessd: "Errores de la vida que casi nunca hablo".
+Un profe de filosofía dice qué profesores sobran (y se incluye)
 
-Cuenta que siendo menor de edad lo cogieron por microtráfico. ¿Tuvo "calle de película"? Lo niega: "Ni que fuera Jean-Claude Van Damme". No manejaba una pandilla ni andaba enfierrado. ¿Sabías esto?
+Ubeimar Ríos, profe de filosofía pensionado y protagonista de 'Un poeta': sobra el profesor "que lleva 40 años con el mismo librito amarillo" y los que no están contextualizados. Aclara que no todos son así, y se incluye: "no sé inglés".
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:13:27): https://youtu.be/LYEB5ioD_pY?t=807
+¿Tuviste un profe así?
 
-#Blessd #MúsicaUrbana #Colombia #Historias
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 41:34: https://youtu.be/4hGozORt3Ds?t=2494
+
+#LosParceritos #UbeimarRios #Educacion #Profesores #UnPoeta
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-error-adolescencia__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-profesor-sobra__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-profesor-sobra:youtube`
 
-**Título:** Lo que Blessd casi nunca cuenta de su adolescencia | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Blessd historia, Blessd pasado, Kerry Kambell, Sinvergüenza Podcast, música urbana, Colombia
+**Título:** ¿Qué profesor sobra en los colegios? Responde un profe de filosofía
 
 **Descripción:**
 
 ```text
-Blessd cuenta que siendo menor de edad lo cogieron por microtráfico: "errores de la vida que casi nunca hablo". Cuando le preguntan si tuvo "calle de película", lo niega: no manejaba una pandilla ni andaba enfierrado.
+Ubeimar Ríos, profe de filosofía pensionado y protagonista de 'Un poeta': sobra el profesor "que lleva 40 años con el mismo librito amarillo" y los que no están contextualizados. Aclara que no todos son así, y se incluye: "no sé inglés".
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 0:13:27: https://youtu.be/LYEB5ioD_pY?t=807
+¿Tuviste un profe así?
 
-#Blessd #KerryKambell #MúsicaUrbana #Historias
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 41:34: https://youtu.be/4hGozORt3Ds?t=2494
+
+#LosParceritos #UbeimarRios #Educacion #Profesores
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-error-adolescencia` · solo una: `/publicador aprobar 2026-10-29-blessd-error-adolescencia:instagram` o `/publicador aprobar 2026-10-29-blessd-error-adolescencia:youtube`
+**Etiquetas:** Los Parceritos, Ubeimar Ríos, educación, profesores, colegio, Un poeta
 
----
+### 34. 2026-11-04-parceritos-el-paseo
 
-## 11. 2026-10-29-blessd-jara-50-50
+- **Gancho:** ¿La mejor película colombiana de la historia? · **Tipo:** `humor` · **Puntaje:** 68 · **Duración:** 21,4 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-el-paseo/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-el-paseo/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=153 (Los Parceritos, minuto 2:33)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-el-paseo`
 
-- **Gancho:** Blessd y su socio: 50/50 sin firmar nada
-- **Tipo:** `revelacion` · **Puntaje:** 75 · **Duración:** 31.5 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-03
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-jara-50-50/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-jara-50-50/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=2401 (canal Kerry Kambell, minuto 0:40:01)
-- **Hora sugerida por el Clipero (estimación):** TikTok 31-oct 12:00-13:00 · Reels 31-oct 19:00 · Shorts 1-nov 12:00
-- **Revisa:** Blessd y Jara enfrentan juntos un proceso judicial: el texto no lo menciona ni lo relaciona con el clip.
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 31-oct). Envío: `datos/publicador/envios/2026-10-29-blessd-jara-50-50__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-04-parceritos-el-paseo__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-el-paseo:tiktok`
 
 ```text
-Blessd y su socio van 50/50… y nunca firmaron un papel.
+¿La mejor película colombiana? "Las cinco que he visto son El paseo" 😂
 
-¿Harías 50/50 sin firmar con tu mejor amigo?
+¿Cuál es para ti la mejor película colombiana?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:40:01): https://youtu.be/LYEB5ioD_pY?t=2401
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 2:33: https://youtu.be/4hGozORt3Ds?t=153
 
-#Blessd #DímeloJara #Lealtad #MúsicaUrbana
+#LosParceritos #UbeimarRios #UnPoeta #ElPaseo #CineColombiano
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-jara-50-50__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-el-paseo__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-el-paseo:instagram`
 
 ```text
-Blessd y Jara: "Nunca hemos firmado un papel, nada, solo lealtad".
+El protagonista de Un poeta y El paseo 1, 2, 3, 4…
 
-Blessd cuenta que él y su socio Santiago son "el 50% de Blessd" cada uno y que van 50 y 50 sin contrato. ¿Harías un negocio así con tu mejor amigo?
+Los Parceritos le dicen a Ubeimar Ríos que 'Un poeta' es la mejor película de la historia del cine colombiano. Su respuesta: "habré visto cuatro o cinco películas colombianas… y las cinco son El paseo".
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:40:01): https://youtu.be/LYEB5ioD_pY?t=2401
+¿Cuál es para ti la mejor película colombiana?
 
-#Blessd #DímeloJara #Lealtad #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 2:33: https://youtu.be/4hGozORt3Ds?t=153
+
+#LosParceritos #UbeimarRios #UnPoeta #ElPaseo #CineColombiano
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-jara-50-50__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-el-paseo__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-el-paseo:youtube`
 
-**Título:** Blessd y su socio: 50/50 sin firmar nada | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Dímelo Jara, Jara, Blessd socio, 50/50, Kerry Kambell, Sinvergüenza Podcast, música urbana
+**Título:** ¿Un poeta es la mejor película colombiana? Responde su protagonista
 
 **Descripción:**
 
 ```text
-Blessd cuenta que él y su socio Santiago, Jara, son "el 50% de Blessd" cada uno: van 50 y 50 y "nunca hemos firmado un papel, nada, solo lealtad".
+Los Parceritos le dicen a Ubeimar Ríos que 'Un poeta' es la mejor película de la historia del cine colombiano. Su respuesta: "habré visto cuatro o cinco películas colombianas… y las cinco son El paseo".
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 0:40:01: https://youtu.be/LYEB5ioD_pY?t=2401
+¿Cuál es para ti la mejor película colombiana?
 
-#Blessd #DímeloJara #KerryKambell #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 2:33: https://youtu.be/4hGozORt3Ds?t=153
+
+#LosParceritos #UbeimarRios #UnPoeta #ElPaseo
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-jara-50-50` · solo una: `/publicador aprobar 2026-10-29-blessd-jara-50-50:instagram` o `/publicador aprobar 2026-10-29-blessd-jara-50-50:youtube`
+**Etiquetas:** Los Parceritos, Ubeimar Ríos, Un poeta, El paseo, cine colombiano, humor
 
----
+### 35. 2026-11-04-parceritos-poesia-protesta
 
-## 12. 2026-10-29-blessd-mujeres-mueven-plata
+- **Gancho:** Poesía de protesta, versión Parceritos · **Tipo:** `humor` · **Puntaje:** 67 · **Duración:** 37,2 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-poesia-protesta/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-poesia-protesta/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=1995 (Los Parceritos, minuto 33:15)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-poesia-protesta`
 
-- **Gancho:** ¿Por qué Blessd le canta a las mujeres?
-- **Tipo:** `frase` · **Puntaje:** 73 · **Duración:** 24 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-03
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-mujeres-mueven-plata/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-mujeres-mueven-plata/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=2811 (canal Kerry Kambell, minuto 0:46:51)
-- **Hora sugerida por el Clipero (estimación):** TikTok 1-nov 12:00-13:00 · Reels 1-nov 19:00 · Shorts 2-nov 12:00
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 31-oct). Envío: `datos/publicador/envios/2026-10-29-blessd-mujeres-mueven-plata__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-04-parceritos-poesia-protesta__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-poesia-protesta:tiktok`
 
 ```text
-Blessd: "Lo que mueve la música y lo que mueve la plata son las mujeres".
+Poesía de protesta vs. poesía de Los Parceritos 😂
 
-¿Tiene razón? Comenta.
+¿Con cuál te quedas?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:46:51): https://youtu.be/LYEB5ioD_pY?t=2811
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 33:15: https://youtu.be/4hGozORt3Ds?t=1995
 
-#Blessd #Reggaetón #IndustriaMusical #MúsicaUrbana
+#LosParceritos #UbeimarRios #Poesia #Humor #Colombia
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-mujeres-mueven-plata__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-poesia-protesta__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-poesia-protesta:instagram`
 
 ```text
-Por qué Blessd nunca hizo free hablando de pistolas.
+El profe recita poesía de protesta… y la respuesta de Los Parceritos
 
-"Lo que mueve la música y lo que mueve la plata son las mujeres": ella se paga la boleta y, si tiene novio, le pide que la lleve. ¿Tiene razón?
+El profe recita a Carlos Enrique Ortiz, "Caliche": "mientras un hombre más sangra en la zanja amordazado, un político más habla…". Los Parceritos responden con su propia escuela.
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:46:51): https://youtu.be/LYEB5ioD_pY?t=2811
+¿Con cuál te quedas?
 
-#Blessd #Reggaetón #IndustriaMusical #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 33:15: https://youtu.be/4hGozORt3Ds?t=1995
+
+#LosParceritos #UbeimarRios #Poesia #Humor #Colombia
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-mujeres-mueven-plata__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-poesia-protesta__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-poesia-protesta:youtube`
 
-**Título:** Blessd explica por qué le canta a las mujeres | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, reggaetón, industria musical, Blessd mujeres, Kerry Kambell, Sinvergüenza Podcast, música urbana
+**Título:** Poesía de protesta, versión Los Parceritos 😂
 
 **Descripción:**
 
 ```text
-Blessd cuenta que nunca ha hecho free hablando "de barras, de pistolas y de calle": "Lo que mueve la música y lo que mueve la plata son las mujeres". Ella se paga la boleta y, si tiene novio, le pide que la lleve.
+El profe recita a Carlos Enrique Ortiz, "Caliche": "mientras un hombre más sangra en la zanja amordazado, un político más habla…". Los Parceritos responden con su propia escuela.
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 0:46:51: https://youtu.be/LYEB5ioD_pY?t=2811
+¿Con cuál te quedas?
 
-#Blessd #Reggaetón #IndustriaMusical #KerryKambell
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 33:15: https://youtu.be/4hGozORt3Ds?t=1995
+
+#LosParceritos #UbeimarRios #Poesia #Humor
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-mujeres-mueven-plata` · solo una: `/publicador aprobar 2026-10-29-blessd-mujeres-mueven-plata:instagram` o `/publicador aprobar 2026-10-29-blessd-mujeres-mueven-plata:youtube`
+**Etiquetas:** Los Parceritos, Ubeimar Ríos, poesía, poesía de protesta, humor, Colombia
 
----
+### 36. 2026-11-04-parceritos-vomitar-premios
 
-## 13. 2026-10-29-blessd-esquina-fumar
+- **Gancho:** Corrió hasta vomitar y le predijeron premios · **Tipo:** `historia` · **Puntaje:** 66 · **Duración:** 30,6 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-vomitar-premios/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-vomitar-premios/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=403 (Los Parceritos, minuto 6:43)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-vomitar-premios`
 
-- **Gancho:** La señora no lo dejaba fumar ahí…
-- **Tipo:** `humor` · **Puntaje:** 71 · **Duración:** 17.9 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-03
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-esquina-fumar/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-esquina-fumar/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=210 (canal Kerry Kambell, minuto 0:03:30)
-- **Hora sugerida por el Clipero (estimación):** TikTok 1-nov 19:00-20:00 · Reels 2-nov 12:00 · Shorts 2-nov 18:00
-- **Revisa:** No identifica a la señora (persona privada).
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 1-nov). Envío: `datos/publicador/envios/2026-10-29-blessd-esquina-fumar__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-04-parceritos-vomitar-premios__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-vomitar-premios:tiktok`
 
 ```text
-No lo dejaban fumar en esa esquina… y se la terminaron comprando.
+Corrió hasta vomitar… y le predijeron premios 🏆
 
-¿Qué comprarías tú por pura revancha?
+¿Se cumplió la predicción?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:03:30): https://youtu.be/LYEB5ioD_pY?t=210
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 6:43: https://youtu.be/4hGozORt3Ds?t=403
 
-#Blessd #Medellín #Superación #Humor #MúsicaUrbana
+#LosParceritos #UbeimarRios #UnPoeta #CineColombiano #Cannes
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-esquina-fumar__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-vomitar-premios__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-vomitar-premios:instagram`
 
 ```text
-La señora no lo dejaba fumar en esa esquina… y terminaron comprándosela.
+"Llore lo que quiera, pero se va a ganar varios premios"
 
-De joven, Blessd y sus amigos se parchaban a fumar ahí. Él le dijo que algún día le iba a comprar eso para fumar ahí. ¿Qué comprarías tú por pura revancha?
+Rodando la carrera de 'Un poeta', Ubeimar Ríos ya no podía más: 70 personas gritándole "¡poeta, poeta!", terminó vomitando junto a un árbol y llorando del esfuerzo. Entonces la tercera asistente de dirección le dijo que iba a ganar premios como mejor actor.
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:03:30): https://youtu.be/LYEB5ioD_pY?t=210
+¿Se cumplió la predicción?
 
-#Blessd #Medellín #Superación #Humor #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 6:43: https://youtu.be/4hGozORt3Ds?t=403
+
+#LosParceritos #UbeimarRios #UnPoeta #CineColombiano #Cannes
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-esquina-fumar__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-vomitar-premios__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-vomitar-premios:youtube`
 
-**Título:** Blessd y la esquina donde no lo dejaban fumar | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Blessd historia, Blessd humor, Medellín, Kerry Kambell, Sinvergüenza Podcast, superación, música urbana
+**Título:** Así se grabó la carrera de Un poeta, según su protagonista
 
 **Descripción:**
 
 ```text
-De joven, Blessd y sus amigos se parchaban a fumar en una esquina y a la señora de la casa no le gustaba. Él le dijo que algún día le iba a comprar eso para fumar ahí… y se lo terminaron comprando.
+Rodando la carrera de 'Un poeta', Ubeimar Ríos ya no podía más: 70 personas gritándole "¡poeta, poeta!", terminó vomitando junto a un árbol y llorando del esfuerzo. Entonces la tercera asistente de dirección le dijo que iba a ganar premios como mejor actor.
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 0:03:30: https://youtu.be/LYEB5ioD_pY?t=210
+¿Se cumplió la predicción?
 
-#Blessd #KerryKambell #Medellín #Superación
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 6:43: https://youtu.be/4hGozORt3Ds?t=403
+
+#LosParceritos #UbeimarRios #UnPoeta #CineColombiano
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-esquina-fumar` · solo una: `/publicador aprobar 2026-10-29-blessd-esquina-fumar:instagram` o `/publicador aprobar 2026-10-29-blessd-esquina-fumar:youtube`
+**Etiquetas:** Los Parceritos, Ubeimar Ríos, Un poeta, cine colombiano, rodaje, anécdota
 
----
+### 37. 2026-11-04-parceritos-poema-cuarto-oscuro
 
-## 14. 2026-10-29-blessd-edificios-frutas
+- **Gancho:** Ubeimar Ríos recita un texto inédito · **Tipo:** `emotivo` · **Puntaje:** 66 · **Duración:** 43,4 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-poema-cuarto-oscuro/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-poema-cuarto-oscuro/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=1498 (Los Parceritos, minuto 24:58)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-poema-cuarto-oscuro`
 
-- **Gancho:** ¿Cuánto valen los edificios de Blessd?
-- **Tipo:** `revelacion` · **Puntaje:** 71 · **Duración:** 41 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-03
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-edificios-frutas/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-edificios-frutas/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=336 (canal Kerry Kambell, minuto 0:05:36)
-- **Hora sugerida por el Clipero (estimación):** TikTok 1-nov 21:00 · Reels 2-nov 13:00 · Shorts 2-nov 19:00
-- **Revisa:** La cifra es una estimación suya ("por ahí 2 millones"): el texto no dice que tenga 2 millones de dólares. Publicarlo separado de 2026-10-29-blessd-vendedor-controles.
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 1-nov). Envío: `datos/publicador/envios/2026-10-29-blessd-edificios-frutas__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-04-parceritos-poema-cuarto-oscuro__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-poema-cuarto-oscuro:tiktok`
 
 ```text
-De vender frutas a las 2 de la mañana a dos edificios.
+El protagonista de Un poeta recita un texto suyo inédito
 
-¿Cuál fue tu primer trabajo?
+¿Qué es para ti la poesía?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:05:36): https://youtu.be/LYEB5ioD_pY?t=336
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 24:58: https://youtu.be/4hGozORt3Ds?t=1498
 
-#Blessd #Superación #Medellín #MúsicaUrbana
+#LosParceritos #UbeimarRios #UnPoeta #Poesia #Colombia
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-edificios-frutas__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-poema-cuarto-oscuro__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-poema-cuarto-oscuro:instagram`
 
 ```text
-¿Cuánto valen los edificios de Blessd? "Por ahí 2 millones" de dólares, calcula él.
+"La poesía, dicen, es como un cuarto a oscuras…" — Ubeimar Ríos
 
-Cuando le preguntan si alguna vez se vio así, recuerda que vendía frutas y verduras en la plaza desde las 2 de la mañana con su abuela: "Eso es lo que me va a tocar a mí". ¿Cuál fue tu primer trabajo?
+Le piden un texto que se quedó en el archivo y Ubeimar Ríos lo recita: "La poesía, dicen, es como un cuarto a oscuras…".
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:05:36): https://youtu.be/LYEB5ioD_pY?t=336
+¿Qué es para ti la poesía?
 
-#Blessd #Superación #Medellín #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 24:58: https://youtu.be/4hGozORt3Ds?t=1498
+
+#LosParceritos #UbeimarRios #UnPoeta #Poesia #Colombia
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-edificios-frutas__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-poema-cuarto-oscuro__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-poema-cuarto-oscuro:youtube`
 
-**Título:** ¿Cuánto valen los edificios de Blessd? | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Blessd edificios, Blessd historia, superación, Medellín, Kerry Kambell, Sinvergüenza Podcast
+**Título:** Ubeimar Ríos recita un texto inédito | Los Parceritos
 
 **Descripción:**
 
 ```text
-Blessd calcula que sus dos edificios valen "por ahí 2 millones" de dólares. Y cuando le preguntan si alguna vez se vio así, recuerda que vendía frutas y verduras en la plaza desde las 2 de la mañana con su abuela.
+Le piden un texto que se quedó en el archivo y Ubeimar Ríos lo recita: "La poesía, dicen, es como un cuarto a oscuras…".
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 0:05:36: https://youtu.be/LYEB5ioD_pY?t=336
+¿Qué es para ti la poesía?
 
-#Blessd #Superación #Medellín #KerryKambell
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 24:58: https://youtu.be/4hGozORt3Ds?t=1498
+
+#LosParceritos #UbeimarRios #UnPoeta #Poesia
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-edificios-frutas` · solo una: `/publicador aprobar 2026-10-29-blessd-edificios-frutas:instagram` o `/publicador aprobar 2026-10-29-blessd-edificios-frutas:youtube`
+**Etiquetas:** Los Parceritos, Ubeimar Ríos, Un poeta, poesía, texto inédito, Colombia
 
----
+### 38. 2026-11-04-parceritos-fracaso-objetividad
 
-## 15. 2026-10-29-blessd-ego-progresar
+- **Gancho:** ¿Qué se necesita para aceptar el fracaso? · **Tipo:** `frase` · **Puntaje:** 65 · **Duración:** 40,4 s · **Ventana hasta:** 2026-11-19
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** [clip.mp4](../clipero/clips/2026-11-04-parceritos-fracaso-objetividad/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-11-04-parceritos-fracaso-objetividad/ficha.md)
+- **Fuente:** https://youtu.be/4hGozORt3Ds?t=1098 (Los Parceritos, minuto 18:18)
+- **Aprobar:** `/publicador aprobar 2026-11-04-parceritos-fracaso-objetividad`
 
-- **Gancho:** ¿Desde cuándo el ego es más importante?
-- **Tipo:** `frase` · **Puntaje:** 71 · **Duración:** 38.2 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-03
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-ego-progresar/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-ego-progresar/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=4832 (canal Kerry Kambell, minuto 1:20:32)
-- **Hora sugerida por el Clipero (estimación):** TikTok 2-nov 12:00-13:00 · Reels 2-nov 19:00 · Shorts 3-nov 12:00
-- **Revisa:** Que el intro vaya en el próximo álbum de Kris R es lo que dice Blessd; Kris R no lo ha confirmado. El texto lo atribuye a Blessd.
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 1-nov). Envío: `datos/publicador/envios/2026-10-29-blessd-ego-progresar__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-04-parceritos-fracaso-objetividad__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-04-parceritos-fracaso-objetividad:tiktok`
 
 ```text
-Blessd: "¿Desde cuándo el ego es más importante que progresar en familia?"
+¿Qué se necesita para aceptar el fracaso? Una palabra
 
-¿Ego o familia? Comenta.
+¿Estás de acuerdo?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:20:32): https://youtu.be/LYEB5ioD_pY?t=4832
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 18:18: https://youtu.be/4hGozORt3Ds?t=1098
 
-#Blessd #KrisR #TrapColombiano #MúsicaUrbana
+#LosParceritos #UbeimarRios #UnPoeta #Filosofia #Fracaso
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-ego-progresar__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-fracaso-objetividad__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-04-parceritos-fracaso-objetividad:instagram`
 
 ```text
-Blessd le pasó a Kris R un intro y un coro: "Métame en el publishing y coja eso".
+"Yo soy fracasado en literatura" — el protagonista de Un poeta
 
-Según cuenta, era algo que había hecho para Los Extraditables y ahora va en el próximo álbum de Kris R. ¿Su razón? "¿Desde cuándo el ego es más importante que progresar en familia?"
+Ubeimar Ríos sobre lo que comparte con Óscar, su personaje en 'Un poeta': ser profe, el trago… y el fracaso en la literatura. ¿Qué se necesita para aceptar el fracaso? "Objetividad".
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:20:32): https://youtu.be/LYEB5ioD_pY?t=4832
+¿Estás de acuerdo?
 
-#Blessd #KrisR #TrapColombiano #MúsicaUrbana
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 18:18: https://youtu.be/4hGozORt3Ds?t=1098
+
+#LosParceritos #UbeimarRios #UnPoeta #Filosofia #Fracaso
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-ego-progresar__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-04-parceritos-fracaso-objetividad__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-04-parceritos-fracaso-objetividad:youtube`
 
-**Título:** Blessd: "¿Desde cuándo el ego es más importante que progresar en familia?"
-
-**Etiquetas:** Blessd, Kris R, Blessd Kris R, Los Extraditables, trap colombiano, Kerry Kambell, Sinvergüenza Podcast, música urbana
+**Título:** La respuesta de un filósofo sobre el fracaso | Ubeimar Ríos
 
 **Descripción:**
 
 ```text
-Blessd cuenta que el intro y el coro que le pasó a Kris R para su próximo álbum eran algo que había hecho para Los Extraditables, y que se los dio sin problema: "Métame en el publishing y coja eso". "Jamás el ego debe ser más grande que tener vínculos de amistad, hermandad y dinero con sus amigos".
+Ubeimar Ríos sobre lo que comparte con Óscar, su personaje en 'Un poeta': ser profe, el trago… y el fracaso en la literatura. ¿Qué se necesita para aceptar el fracaso? "Objetividad".
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 1:20:32: https://youtu.be/LYEB5ioD_pY?t=4832
+¿Estás de acuerdo?
 
-#Blessd #KrisR #TrapColombiano #KerryKambell
+Crédito: canal Los Parceritos, «LOS PARCERITOS - CAP. 13: EL POETA». Momento original desde el minuto 18:18: https://youtu.be/4hGozORt3Ds?t=1098
+
+#LosParceritos #UbeimarRios #UnPoeta #Filosofia
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-ego-progresar` · solo una: `/publicador aprobar 2026-10-29-blessd-ego-progresar:instagram` o `/publicador aprobar 2026-10-29-blessd-ego-progresar:youtube`
+**Etiquetas:** Los Parceritos, Ubeimar Ríos, Un poeta, filosofía, fracaso, reflexión
 
----
+### 39. 2026-11-01-kris-r-musica-cada-semana
 
-## 16. 2026-10-29-blessd-miles-de-suenos
+- **Gancho:** Así se pegó Kris R · **Tipo:** `consejo` · **Puntaje:** 72 · **Duración:** 59,8 s · **Ventana hasta:** 2026-11-20
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-01-kris-r-musica-cada-semana/ficha.md)
+- **Fuente:** https://youtu.be/hSV5nuZ5w_I?t=431 (ElWerik Podcast, minuto 7:11)
+- **Aprobar:** `/publicador aprobar 2026-11-01-kris-r-musica-cada-semana`
 
-- **Gancho:** Miles de sueños y cero ayudas
-- **Tipo:** `emotivo` · **Puntaje:** 70 · **Duración:** 19.4 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-03
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-miles-de-suenos/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-miles-de-suenos/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=4643 (canal Kerry Kambell, minuto 1:17:23)
-- **Hora sugerida por el Clipero (estimación):** TikTok 2-nov 19:00-20:00 · Reels 3-nov 07:00 · Shorts 3-nov 12:00
-- **Revisa:** El clip no menciona a Pirlo y el texto tampoco.
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 1-nov). Envío: `datos/publicador/envios/2026-10-29-blessd-miles-de-suenos__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-01-kris-r-musica-cada-semana__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-01-kris-r-musica-cada-semana:tiktok`
 
 ```text
-Miles de sueños y cero ayudas: por qué a Blessd le gusta ayudar a los nuevos.
+3 palos en una canción y desaparecer: el error de los artistas nuevos, según ElWerik Podcast
 
-¿Quién te ayudó cuando nadie creía en ti?
+Si estás empezando: ¿un tema caro o música cada semana?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:17:23): https://youtu.be/LYEB5ioD_pY?t=4643
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 7:11: https://youtu.be/hSV5nuZ5w_I?t=431
 
-#Blessd #Motivación #Superación #MúsicaUrbana
+#KrisR #Trap #ArtistasNuevos #MúsicaIndependiente #MúsicaUrbana
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-miles-de-suenos__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-01-kris-r-musica-cada-semana__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-01-kris-r-musica-cada-semana:instagram`
 
 ```text
-Blessd: "Yo me he visto sin un peso".
+Así se pegó Kris R, según quien dice conocerlo desde el principio
 
-"Yo me he visto qué es tener miles de sueños y cero ayudas". Por eso, dice, le gusta ayudar a los que empiezan. ¿Quién te ayudó cuando nadie creía en ti?
+En ElWerik Podcast cuentan cómo se pegó Kris R, según quien dice conocerlo desde el principio: una camarita, música cada semana y un catálogo que se fue armando. ¿Y el error de los nuevos? Invertir 3 millones en un tema y desaparecer cuatro o cinco meses.
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:17:23): https://youtu.be/LYEB5ioD_pY?t=4643
+Si estás empezando: ¿un tema caro o música cada semana?
 
-#Blessd #Motivación #Superación #MúsicaUrbana
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 7:11: https://youtu.be/hSV5nuZ5w_I?t=431
+
+#KrisR #Trap #ArtistasNuevos #MúsicaIndependiente #MúsicaUrbana
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-miles-de-suenos__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-01-kris-r-musica-cada-semana__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-01-kris-r-musica-cada-semana:youtube`
 
-**Título:** Blessd: "Yo me he visto sin un peso" | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, motivación, superación, Blessd frases, Kerry Kambell, Sinvergüenza Podcast, música urbana
+**Título:** Cómo se pegó Kris R, según ElWerik Podcast: música cada semana
 
 **Descripción:**
 
 ```text
-"Yo me he visto sin un peso. Yo me he visto qué es tener miles de sueños y cero ayudas". Blessd explica por qué le gusta ayudar a los artistas que empiezan.
+En ElWerik Podcast cuentan cómo se pegó Kris R, según quien dice conocerlo desde el principio: una camarita, música cada semana y un catálogo que se fue armando. ¿Y el error de los nuevos? Invertir 3 millones en un tema y desaparecer cuatro o cinco meses.
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 1:17:23: https://youtu.be/LYEB5ioD_pY?t=4643
+Si estás empezando: ¿un tema caro o música cada semana?
 
-#Blessd #Motivación #Superación #KerryKambell
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 7:11: https://youtu.be/hSV5nuZ5w_I?t=431
+
+#KrisR #Trap #ArtistasNuevos #MúsicaIndependiente
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-miles-de-suenos` · solo una: `/publicador aprobar 2026-10-29-blessd-miles-de-suenos:instagram` o `/publicador aprobar 2026-10-29-blessd-miles-de-suenos:youtube`
+**Etiquetas:** Kris R, trap, artistas nuevos, música independiente, ElWerik Podcast, industria musical
 
----
+### 40. 2026-11-01-kris-r-primer-estadio
 
-## 17. 2026-10-29-blessd-prestamo-primera-cancion
+- **Gancho:** De 20 personas… ¿a su primer estadio? · **Tipo:** `prediccion` · **Puntaje:** 71 · **Duración:** 36,7 s · **Ventana hasta:** 2026-11-20
+- **Derechos:** `sin_verificar`: contenido de terceros sin permiso confirmado. Solo se publica con tu aprobación expresa y siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
+- **Video:** clip.mp4: el archivo no está en esta copia del proyecto (no es un error: la entrada se puede aprobar igual, pero para subirlo hace falta el video) · **Ficha:** [ficha.md](../clipero/clips/2026-11-01-kris-r-primer-estadio/ficha.md)
+- **Fuente:** https://youtu.be/hSV5nuZ5w_I?t=551 (ElWerik Podcast, minuto 9:11)
+- **Aprobar:** `/publicador aprobar 2026-11-01-kris-r-primer-estadio`
 
-- **Gancho:** Le pidió 2 millones prestados a su jefe
-- **Tipo:** `historia` · **Puntaje:** 69 · **Duración:** 64 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-03
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-prestamo-primera-cancion/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-prestamo-primera-cancion/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=3179 (canal Kerry Kambell, minuto 0:52:59)
-- **Hora sugerida por el Clipero (estimación):** TikTok 2-nov 21:00 · Reels 3-nov 13:00 · Shorts 3-nov 19:00
-- **Revisa:** Dura 64 s, por encima del ideal, para no cortar la historia. El jefe es una persona privada y no se le nombra.
+#### TikTok
 
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 2-nov). Envío: `datos/publicador/envios/2026-10-29-blessd-prestamo-primera-cancion__tiktok.json`
+Envío: `datos/publicador/envios/2026-11-01-kris-r-primer-estadio__tiktok.json` · TikTok está en modo borrador: el video llega a tu bandeja y este texto se pega en la app. · `/publicador aprobar 2026-11-01-kris-r-primer-estadio:tiktok`
 
 ```text
-Así consiguió Blessd la plata para su primera canción.
+Lo vio con 20 personas en una discoteca. Ahora predice su primer estadio
 
-¿Le habrías prestado la plata?
+¿Kris R llena un estadio en 2027? Sí o no
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:52:59): https://youtu.be/LYEB5ioD_pY?t=3179
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 9:11: https://youtu.be/hSV5nuZ5w_I?t=551
 
-#Blessd #Superación #Emprendimiento #MúsicaUrbana
+#KrisR #Trap #TrapColombiano #MovistarArena #MúsicaUrbana
 ```
 
-### Instagram Reels
+#### Instagram Reels
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-prestamo-primera-cancion__instagram.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-01-kris-r-primer-estadio__instagram.json` · cuando Instagram esté activa, se publica al momento y en público. · `/publicador aprobar 2026-11-01-kris-r-primer-estadio:instagram`
 
 ```text
-Blessd a su jefe: "Esta es la oportunidad de mi vida".
+¿Kris R llena un estadio el año que viene? Un podcaster cree que sí
 
-Trabajaba en una tienda de ropa y le pidió 2 millones de pesos prestados para sacar su primera canción. El jefe no le creía… hasta que insistió: "me los prestó". ¿Le habrías prestado la plata?
+"Una primera vez fue una discoteca allá en Medellín, 20 personas". Después 200, después el Royal Center, y este año el Movistar. En ElWerik Podcast se atreven a predecir: el año que viene, su primer estadio. Es su opinión, no un anuncio. ¿Lo logra?
 
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:52:59): https://youtu.be/LYEB5ioD_pY?t=3179
+¿Kris R llena un estadio en 2027? Sí o no
 
-#Blessd #Superación #Emprendimiento #MúsicaUrbana
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 9:11: https://youtu.be/hSV5nuZ5w_I?t=551
+
+#KrisR #Trap #TrapColombiano #MovistarArena #MúsicaUrbana
 ```
 
-### YouTube Shorts
+#### YouTube Shorts
 
-Envío: `datos/publicador/envios/2026-10-29-blessd-prestamo-primera-cancion__youtube.json` · validación `-Simular`: válido
+Envío: `datos/publicador/envios/2026-11-01-kris-r-primer-estadio__youtube.json` · privacidad `private` · `/publicador aprobar 2026-11-01-kris-r-primer-estadio:youtube`
 
-**Título:** Blessd le pidió prestado a su jefe para su primera canción | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Blessd historia, primera canción, superación, emprendimiento, Kerry Kambell, Sinvergüenza Podcast
+**Título:** De una discoteca de 20 personas al Movistar: la subida de Kris R | ElWerik Podcast
 
 **Descripción:**
 
 ```text
-Cuando trabajaba en una tienda de ropa, Blessd le pidió 2 millones de pesos prestados a su jefe para sacar su primera canción: "Esta es la oportunidad de mi vida". El jefe dudaba, porque los únicos eran Balvin, Maluma y Karol… hasta que insistió.
+"Una primera vez fue una discoteca allá en Medellín, 20 personas". Después 200, después el Royal Center, y este año el Movistar. En ElWerik Podcast se atreven a predecir: el año que viene, su primer estadio. Es su opinión, no un anuncio. ¿Lo logra?
 
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 0:52:59: https://youtu.be/LYEB5ioD_pY?t=3179
+¿Kris R llena un estadio en 2027? Sí o no
 
-#Blessd #Superación #Emprendimiento #KerryKambell
+Crédito: canal ElWerik Podcast, «KRIS R y el TRAP DE BOGOTÁ: crítica al CONCIERTO y lo que pasó en el BACKSTAGE». Momento original desde el minuto 9:11: https://youtu.be/hSV5nuZ5w_I?t=551
+
+#KrisR #Trap #TrapColombiano #MovistarArena
 ```
 
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-prestamo-primera-cancion` · solo una: `/publicador aprobar 2026-10-29-blessd-prestamo-primera-cancion:instagram` o `/publicador aprobar 2026-10-29-blessd-prestamo-primera-cancion:youtube`
-
----
-
-## 18. 2026-10-29-blessd-ryan-castro-los-mismos
-
-- **Gancho:** ¿Diez años con los mismos en el reggaetón?
-- **Tipo:** `frase` · **Puntaje:** 68 · **Duración:** 45.2 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-03
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-ryan-castro-los-mismos/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-ryan-castro-los-mismos/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=3520 (canal Kerry Kambell, minuto 0:58:40)
-- **Hora sugerida por el Clipero (estimación):** TikTok 2-nov 07:00-08:00 · Reels 2-nov 13:00 · Shorts 2-nov 18:00
-- **Revisa:** Separarlo al menos un día de 2026-10-29-blessd-ryan-mismo-nivel. Un nombre que no se pudo identificar sale como "(…)" en los subtítulos.
-
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 2-nov). Envío: `datos/publicador/envios/2026-10-29-blessd-ryan-castro-los-mismos__tiktok.json`
-
-```text
-Blessd: "Llevaban más de 10 años donde eran los mismos".
-
-¿Quién cambió el reggaetón colombiano? Comenta.
-
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:58:40): https://youtu.be/LYEB5ioD_pY?t=3520
-
-#Blessd #RyanCastro #Lejanía #Reggaetón #MúsicaUrbana
-```
-
-### Instagram Reels
-
-Envío: `datos/publicador/envios/2026-10-29-blessd-ryan-castro-los-mismos__instagram.json` · validación `-Simular`: válido
-
-```text
-Para Blessd, "Lejanía" con Ryan Castro cambió la etapa de la música urbana.
-
-"Llevaban más de 10 años donde eran los mismos: Karol, Maluma, Balvin". Reconoce que ya venían Feid y Manuel Turizo, "pero no había un movimiento". ¿Estás de acuerdo?
-
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:58:40): https://youtu.be/LYEB5ioD_pY?t=3520
-
-#Blessd #RyanCastro #Lejanía #Reggaetón #MúsicaUrbana
-```
-
-### YouTube Shorts
-
-Envío: `datos/publicador/envios/2026-10-29-blessd-ryan-castro-los-mismos__youtube.json` · validación `-Simular`: válido
-
-**Título:** Blessd: ¿10 años con los mismos en el reggaetón? | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Ryan Castro, Lejanía, Karol G, Maluma, J Balvin, Feid, reggaetón colombiano, Kerry Kambell, Sinvergüenza Podcast
-
-**Descripción:**
-
-```text
-Para Blessd, "Lejanía" con Ryan Castro fue lo que cambió la etapa de la música urbana: "Llevaban más de 10 años donde eran los mismos: Karol, Maluma, Balvin". Reconoce que ya venían Feid y Manuel Turizo, "pero no había un movimiento".
-
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 0:58:40: https://youtu.be/LYEB5ioD_pY?t=3520
-
-#Blessd #RyanCastro #Lejanía #Reggaetón
-```
-
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-ryan-castro-los-mismos` · solo una: `/publicador aprobar 2026-10-29-blessd-ryan-castro-los-mismos:instagram` o `/publicador aprobar 2026-10-29-blessd-ryan-castro-los-mismos:youtube`
-
----
-
-## 19. 2026-10-29-blessd-centro-de-menores
-
-- **Gancho:** Sus 16 días en un centro de menores
-- **Tipo:** `historia` · **Puntaje:** 66 · **Duración:** 42.2 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-04
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-centro-de-menores/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-centro-de-menores/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=864 (canal Kerry Kambell, minuto 0:14:24)
-- **Hora sugerida por el Clipero (estimación):** TikTok 3-nov 12:00-13:00 · Reels 3-nov 19:00 · Shorts 4-nov 12:00
-- **Revisa:** Es la continuación de 2026-10-29-blessd-error-adolescencia: conviene publicarlo después. No tiene relación con su proceso penal actual. El tramo central de los subtítulos automáticos es confuso.
-
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 2-nov). Envío: `datos/publicador/envios/2026-10-29-blessd-centro-de-menores__tiktok.json`
-
-```text
-Los 16 días de Blessd en un centro de menores.
-
-¿Qué momento te hizo cambiar a ti?
-
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:14:24): https://youtu.be/LYEB5ioD_pY?t=864
-
-#Blessd #Historias #SegundaOportunidad #MúsicaUrbana
-```
-
-### Instagram Reels
-
-Envío: `datos/publicador/envios/2026-10-29-blessd-centro-de-menores__instagram.json` · validación `-Simular`: válido
-
-```text
-Blessd cuenta sus 16 días en un centro de menores.
-
-Lo dejaron en El Redentor esperando sentencia: la comida, la celda, uno mirando a ver quién le quita las cosas… "No, pa, esto no es lo mío". ¿Qué momento te hizo cambiar a ti?
-
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:14:24): https://youtu.be/LYEB5ioD_pY?t=864
-
-#Blessd #Historias #SegundaOportunidad #MúsicaUrbana
-```
-
-### YouTube Shorts
-
-Envío: `datos/publicador/envios/2026-10-29-blessd-centro-de-menores__youtube.json` · validación `-Simular`: válido
-
-**Título:** Blessd y sus 16 días en un centro de menores | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Blessd historia, El Redentor, centro de menores, segunda oportunidad, Kerry Kambell, Sinvergüenza Podcast
-
-**Descripción:**
-
-```text
-Blessd cuenta que lo dejaron 16 días en El Redentor, un centro de menores, esperando sentencia. La comida, la celda, uno mirando a ver quién le quita las cosas… "No, pa, esto no es lo mío".
-
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 0:14:24: https://youtu.be/LYEB5ioD_pY?t=864
-
-#Blessd #Historias #SegundaOportunidad #KerryKambell
-```
-
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-centro-de-menores` · solo una: `/publicador aprobar 2026-10-29-blessd-centro-de-menores:instagram` o `/publicador aprobar 2026-10-29-blessd-centro-de-menores:youtube`
-
----
-
-## 20. 2026-10-29-blessd-ryan-mismo-nivel
-
-- **Gancho:** ¿Blessd o Ryan Castro: quién está arriba?
-- **Tipo:** `frase` · **Puntaje:** 66 · **Duración:** 52.2 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-04
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-ryan-mismo-nivel/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-ryan-mismo-nivel/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=6106 (canal Kerry Kambell, minuto 1:41:46)
-- **Hora sugerida por el Clipero (estimación):** TikTok 3-nov 19:00-20:00 · Reels 4-nov 12:00 · Shorts 4-nov 18:00
-- **Revisa:** Separarlo al menos un día de 2026-10-29-blessd-ryan-castro-los-mismos. No presentarlo como rivalidad.
-
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 3-nov). Envío: `datos/publicador/envios/2026-10-29-blessd-ryan-mismo-nivel__tiktok.json`
-
-```text
-Blessd sobre Ryan Castro: "Nunca me he sentido por encima de él".
-
-¿Team Blessd o Team Ryan?
-
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:41:46): https://youtu.be/LYEB5ioD_pY?t=6106
-
-#Blessd #RyanCastro #Reggaetón #MúsicaUrbana
-```
-
-### Instagram Reels
-
-Envío: `datos/publicador/envios/2026-10-29-blessd-ryan-mismo-nivel__instagram.json` · validación `-Simular`: válido
-
-```text
-Blessd y Ryan Castro: "La hicimos real sin ser un dúo".
-
-"Cada uno por su lado la rompió y la sigue rompiendo". ¿Quién está más arriba? "Siempre he sentido que estamos al mismo nivel". ¿Team Blessd o Team Ryan?
-
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 1:41:46): https://youtu.be/LYEB5ioD_pY?t=6106
-
-#Blessd #RyanCastro #Reggaetón #MúsicaUrbana
-```
-
-### YouTube Shorts
-
-Envío: `datos/publicador/envios/2026-10-29-blessd-ryan-mismo-nivel__youtube.json` · validación `-Simular`: válido
-
-**Título:** ¿Blessd o Ryan Castro? Esto respondió Blessd | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Ryan Castro, Blessd Ryan Castro, reggaetón, dancehall, Kerry Kambell, Sinvergüenza Podcast, música urbana
-
-**Descripción:**
-
-```text
-Sobre el boom de Ryan Castro y él: "La hicimos real sin ser un dúo. Cada uno por su lado la rompió y la sigue rompiendo". ¿Quién está más arriba? "Nunca me he sentido por encima de él. Siempre he sentido que estamos al mismo nivel".
-
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 1:41:46: https://youtu.be/LYEB5ioD_pY?t=6106
-
-#Blessd #RyanCastro #Reggaetón #KerryKambell
-```
-
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-ryan-mismo-nivel` · solo una: `/publicador aprobar 2026-10-29-blessd-ryan-mismo-nivel:instagram` o `/publicador aprobar 2026-10-29-blessd-ryan-mismo-nivel:youtube`
-
----
-
-## 21. 2026-10-29-blessd-vendedor-controles
-
-- **Gancho:** Así vendía Blessd controles en la calle
-- **Tipo:** `humor` · **Puntaje:** 66 · **Duración:** 24.5 s
-- **Derechos:** `sin_verificar`. Aviso (§9): contenido de terceros sin permiso confirmado. Solo se publica con aprobación expresa, siempre con crédito a la fuente. Riesgos: reclamaciones de Content ID (los ingresos pasan al titular), bloqueo del video o avisos por derechos de autor que pueden llevar al cierre de la cuenta.
-- **Ventana hasta:** 2026-11-04
-- **Video:** [clip.mp4](../clipero/clips/2026-10-29-blessd-vendedor-controles/clip.mp4) · **Ficha:** [ficha.md](../clipero/clips/2026-10-29-blessd-vendedor-controles/ficha.md)
-- **Fuente:** https://youtu.be/LYEB5ioD_pY?t=388 (canal Kerry Kambell, minuto 0:06:28)
-- **Hora sugerida por el Clipero (estimación):** TikTok 3-nov 21:00 · Reels 4-nov 13:00 · Shorts 4-nov 19:00
-- **Revisa:** Publicarlo separado de 2026-10-29-blessd-edificios-frutas.
-
-### TikTok
-
-**TikTok: aprobado, en cola** (subida prevista: 2-nov). Envío: `datos/publicador/envios/2026-10-29-blessd-vendedor-controles__tiktok.json`
-
-```text
-Blessd imita cómo vendía controles en moto.
-
-¿Le comprarías un control?
-
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:06:28): https://youtu.be/LYEB5ioD_pY?t=388
-
-#Blessd #Humor #Rebusque #MúsicaUrbana
-```
-
-### Instagram Reels
-
-Envío: `datos/publicador/envios/2026-10-29-blessd-vendedor-controles__instagram.json` · validación `-Simular`: válido
-
-```text
-"Llegaron los controles": el Blessd vendedor.
-
-Antes de la música vendía controles en los pueblos, en moto con su primo y perifoneando. Aquí repite el discurso de venta. ¿Le comprarías un control?
-
-Crédito: Kerry Kambell, Sinvergüenza Podcast. Entrevista completa (minuto 0:06:28): https://youtu.be/LYEB5ioD_pY?t=388
-
-#Blessd #Humor #Rebusque #MúsicaUrbana
-```
-
-### YouTube Shorts
-
-Envío: `datos/publicador/envios/2026-10-29-blessd-vendedor-controles__youtube.json` · validación `-Simular`: válido
-
-**Título:** Antes de cantar, Blessd vendía controles así | Sinvergüenza Podcast
-
-**Etiquetas:** Blessd, Blessd humor, Blessd vendedor, rebusque, Kerry Kambell, Sinvergüenza Podcast, música urbana
-
-**Descripción:**
-
-```text
-Antes de la música, Blessd vendía controles en los pueblos, en moto con su primo y perifoneando. Aquí repite el discurso de venta: "Llegaron los controles, control para el DVD, para el equipo, el cable dos por uno…"
-
-Crédito: canal Kerry Kambell, Sinvergüenza Podcast. Entrevista completa desde el minuto 0:06:28: https://youtu.be/LYEB5ioD_pY?t=388
-
-#Blessd #Humor #Rebusque #KerryKambell
-```
-
-Aprobar lo que falta (Instagram y YouTube): `/publicador aprobar 2026-10-29-blessd-vendedor-controles` · solo una: `/publicador aprobar 2026-10-29-blessd-vendedor-controles:instagram` o `/publicador aprobar 2026-10-29-blessd-vendedor-controles:youtube`
-
----
+**Etiquetas:** Kris R, trap, trap colombiano, Movistar Arena, ElWerik Podcast, estadio
 
 ## Comandos
 
-- `/publicador aprobar <clip-id>`: aprueba todas las plataformas de ese clip (TikTok ya está aprobado, así que aprueba Instagram y YouTube).
-- `/publicador aprobar <clip-id>:<plataforma>`: aprueba solo una (`instagram` o `youtube`).
-- `/publicador aprobar todo`: aprueba todo lo pendiente (los 42 envíos de Instagram y YouTube de esta lista y los 12 de «Tóxico» de arriba).
-- `/publicador rechazar <clip-id> <motivo>`: lo descarta con el motivo. Para descartar solo una plataforma: `/publicador rechazar <clip-id>:<plataforma> <motivo>`.
+- Aprobar todas las plataformas de un clip: `/publicador aprobar <clip-id>`
+- Aprobar una sola plataforma: `/publicador aprobar <clip-id>:<plataforma>` (por ejemplo, `/publicador aprobar 2026-11-05-maluma-bebe-capo:tiktok`)
+- Aprobar todo lo pendiente: `/publicador aprobar todo`
+- Rechazar: `/publicador rechazar <clip-id> <motivo>`
+- Cambiar un texto: por ejemplo, `/publicador cambia el título de YouTube de <clip-id> por ...`

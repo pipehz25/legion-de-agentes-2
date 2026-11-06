@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-maluma-loco-por-girar",
+    "url_fuente":  "https://www.youtube.com/watch?v=iNxDQVDIer8",
+    "video_id":  "iNxDQVDIer8",
+    "inicio":  3059.97,
+    "fin":  3115.42,
+    "inicio_hms":  "0:50:59",
+    "duracion_seg":  55.5,
+    "gancho":  "Maluma: que no me escuche mi mujer",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  169,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.82,
+                  "entrada_tp":  -6.92,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -1.1
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-maluma-loco-por-girar/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-maluma-loco-por-girar/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-maluma-loco-por-girar/revision.jpg",
+    "creado":  "2026-11-05T23:34:50.2627562-05:00"
+}

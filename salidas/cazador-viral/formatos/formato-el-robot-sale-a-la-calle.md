@@ -1,0 +1,31 @@
+# El robot de 100.000 dólares sale a la calle: ¿cómo reacciona la gente?
+
+- **Fórmula:** gancho de cifra anómala en la miniatura ("MI ROBOT DE $100.000"; estructural) + estructura de "experimento social en la calle" con reacciones de desconocidos (estructural) + tema Stream Fighters 5, la pelea de robots de Westcol contra Blessd (perecedero, emergente) + participación con pregunta binaria "¿le darías la mano o saldrías corriendo?" (estructural).
+- **Patrones base:** `formato-robot-humanoide-en-la-calle` (semilla en youtube-co; pico o saturación en tiktok-en, con el Rizzbot de 2025) y `tema-stream-fighters-5` (emergente en youtube-co).
+- **Palanca:** arbitraje de idioma (el robot humanoide paseando entre la gente ya funcionó en inglés y en español solo lo ha hecho Westcol) + aprovechar la actualidad con un formato estable (la previa del 14-nov).
+- **Por qué debería funcionar:**
+  - ['SAQUE A LA CALLE POR PRIMERA VEZ A MI ROBOT DE $100.000 | WESTCOL'](https://www.youtube.com/watch?v=Xrwm98iaWY8) (canal oficial, 2,07 M suscriptores): 59.241 vistas en 7,7 h (7.694/h), unas 4,4 veces la mediana de vistas por hora de sus otras cuatro subidas de las últimas 36 h (1.760/h). Medido el 04-nov a las 16:40.
+  - Actualización del 05-nov (ciclo 7): el video oficial acelera a 201.510 vistas en 15,8 h (12.754/h), 5,8 veces la mediana de las subidas de Westcol en 36 h (2.184/h). Una resubida del paseo, ['ME FUI DE COMPRAS CON MI ROBOT | WESTCOL'](https://www.youtube.com/watch?v=tCJwIypEfDs) (Aida Victoria Stream, 16,8 K suscriptores), lleva 164.003 vistas en 30,7 h: 9,8 veces sus suscriptores. Ningún otro creador en español lo ha replicado (búsqueda 'robot Westcol', 36 h).
+  - Los canales de recortes ya sacan el mismo paseo: ['WESTCOL SE VA DE COMPRAS CON SU ROBOT EN UN CENTRO COMERCIAL'](https://www.youtube.com/watch?v=puqAwRUWeB4) (juan diego mm, 21.248 vistas en 22,4 h) y ['REYDELACITY Y WESTCOL LLEVAN SU ROBOT DE COMPRAS… ¡LA GENTE SE VUELVE LOCA!'](https://www.youtube.com/watch?v=88zpuVrOrMU) (ElReyWithTheClips, 13.733 en 22,7 h). Medido el 04-nov.
+  - En inglés, el humanoide que pasea entre desconocidos ya fue viral en TikTok: el "Rizzbot", un Unitree G1 con sombrero vaquero, en Austin, Nueva York y West Hollywood ([Daily Dot](https://dailydot.com/rizzbot-explainer), [Supercar Blondie](https://supercarblondie.com/tech/new-york-talking-humanoid-rizzbot/)). Es una señal relacionada, sin cifras propias y de 2025: en inglés el formato está gastado; en español está por estrenar.
+  - El robot ya es noticia por sí solo: le pegó a Westcol en un directo con Blessd en octubre y costó más de 330 millones de pesos según [El País](https://www.elpais.com.co/entretenimiento/westcol-gasto-mas-de-330-millones-en-un-robot-humanoide-para-stream-fighters-5-asi-sera-su-pelea-0259.html).
+- **Plataformas objetivo y duración:** TikTok, Reels y Shorts; vertical de 25-45 s. Para el Clipero: los tramos del paseo con reacciones de la gente, del video oficial y del VOD de Kick 'ENTRENANDO MI ROBOT'.
+- **Ventana estimada:** hasta el 14-nov (Stream Fighters 5). La curiosidad por el robot crece con la previa y se agota unas 48 h después de la pelea. Confianza: baja (una sola pieza original en español).
+- **Guion esqueleto:**
+  - 0-2 s (gancho, con texto en pantalla): el robot entrando a un centro comercial y el texto "Le costó 100.000 dólares… y lo sacó a la calle".
+  - Desarrollo (3-30 s): tres reacciones seguidas, cada una con su tarjeta ("el que sale corriendo", "el que le pide una foto", "el niño que lo saluda"), y la frase de Westcol que explique para qué es el robot (la pelea del 14-nov contra Blessd).
+  - Final (30-45 s): "¿Tú qué harías si te lo cruzas? 1: foto, 2: salir corriendo". Cierre: "El 14 pelea contra el robot de Blessd".
+- **Título, descripción y hashtags sugeridos:**
+  - Título: "Westcol sacó a la calle su robot de 100.000 dólares y la gente reaccionó así"
+  - Descripción: "El robot que pelea el 14 de noviembre en Stream Fighters 5 salió de compras. ¿Qué harías tú?"
+  - Hashtags: #Westcol #Robot #StreamFighters5 #Medellín #Kick
+- **Tres variantes por nicho:**
+  - **Streamers:** "El robot conoce a la Ganga": las reacciones de los compañeros de directo (The Chanty, Reydelacity, Samulx) la primera vez que lo ven.
+  - **Música urbana:** "Blessd frente al robot": cualquier tramo en que Blessd lo vea o hable de él antes de la pelea, con la pregunta "¿le tiene miedo?".
+  - **Empresarios:** "La cuenta del capricho": lo que cuesta el robot frente a un Lamborghini Revuelto de RR Autos (el carro que Westcol fue a ver el 03-nov) o frente a un apartamento en Medellín, con la plantilla de paradoja o comparación de los cortos de Diego RR (candidato `formato-matematica-del-lujo`). Atribuye siempre las cifras.
+- **Riesgos:**
+  - Derechos: solo recortes del Clipero de fuentes publicadas por Westcol o sus canales de recortes, sin la música de fondo del centro comercial.
+  - Sensibilidad: no expongas a menores ni a desconocidos que se nieguen a salir; si alguien se asusta, que no sea burla. No inventes capacidades del robot.
+  - Precisión: el precio cambia según la fuente (100.000 dólares según Westcol; más de 330 millones de pesos según El País): atribúyelo.
+  - Dependencia del gen perecedero: después del 16-nov la plantilla sirve para cualquier objeto o personaje anómalo en la calle (un superdeportivo, un disfraz), cambiando el tema.
+- **Cómo saber si funcionó:** a las 24 h, al menos 3 veces la mediana de vistas de la cuenta, retención de al menos el 55 % a los 3 s y comentarios que respondan la pregunta binaria en al menos el 1 % de las vistas.

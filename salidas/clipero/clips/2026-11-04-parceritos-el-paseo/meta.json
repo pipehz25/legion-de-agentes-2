@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-parceritos-el-paseo",
+    "url_fuente":  "https://www.youtube.com/watch?v=4hGozORt3Ds",
+    "video_id":  "4hGozORt3Ds",
+    "inicio":  153.45,
+    "fin":  174.86,
+    "inicio_hms":  "0:02:33",
+    "duracion_seg":  21.4,
+    "gancho":  "¿La mejor película colombiana de la historia?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  63,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -15.6,
+                  "entrada_tp":  -2.67,
+                  "salida_lufs":  -14.8,
+                  "salida_tp":  -1.07
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-el-paseo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-parceritos-el-paseo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-parceritos-el-paseo/revision.jpg",
+    "creado":  "2026-11-04T17:15:22.8369729-05:00"
+}

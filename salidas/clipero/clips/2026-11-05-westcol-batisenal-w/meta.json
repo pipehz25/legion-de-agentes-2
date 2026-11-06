@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-batisenal-w",
+    "url_fuente":  "https://www.youtube.com/watch?v=LgnQHaFVvyo",
+    "video_id":  "LgnQHaFVvyo",
+    "inicio":  65.37,
+    "fin":  90.62,
+    "inicio_hms":  "0:01:05",
+    "duracion_seg":  25.3,
+    "gancho":  "Westcol quiere una batiseñal en Medellín",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  104,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.22,
+                  "entrada_tp":  -6.23,
+                  "salida_lufs":  -14.37,
+                  "salida_tp":  -1.01
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-batisenal-w/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-batisenal-w/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-batisenal-w/revision.jpg",
+    "creado":  "2026-11-05T23:29:36.4287876-05:00"
+}

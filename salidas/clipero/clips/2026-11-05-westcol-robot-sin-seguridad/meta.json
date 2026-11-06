@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-robot-sin-seguridad",
+    "url_fuente":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+    "video_id":  "Xrwm98iaWY8",
+    "inicio":  40.49,
+    "fin":  100.9,
+    "inicio_hms":  "0:00:40",
+    "duracion_seg":  60.4,
+    "gancho":  "Westcol le quitará la seguridad al robot",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  225,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.5,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.85,
+                  "entrada_tp":  -6.39,
+                  "salida_lufs":  -14.46,
+                  "salida_tp":  -1.04
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-robot-sin-seguridad/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-robot-sin-seguridad/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-robot-sin-seguridad/revision.jpg",
+    "creado":  "2026-11-05T22:57:13.2597704-05:00"
+}

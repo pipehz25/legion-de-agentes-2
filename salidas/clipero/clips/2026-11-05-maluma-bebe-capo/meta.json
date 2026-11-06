@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-maluma-bebe-capo",
+    "url_fuente":  "https://www.youtube.com/watch?v=iNxDQVDIer8",
+    "video_id":  "iNxDQVDIer8",
+    "inicio":  2933.87,
+    "fin":  2980.92,
+    "inicio_hms":  "0:48:53",
+    "duracion_seg":  47.1,
+    "gancho":  "Maluma: en Argentina le tiraron un bebé",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  138,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.99,
+                  "entrada_tp":  -5.99,
+                  "salida_lufs":  -14.14,
+                  "salida_tp":  -1
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-maluma-bebe-capo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-maluma-bebe-capo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-maluma-bebe-capo/revision.jpg",
+    "creado":  "2026-11-05T23:03:23.4263848-05:00"
+}

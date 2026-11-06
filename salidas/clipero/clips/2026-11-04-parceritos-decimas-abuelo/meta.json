@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-04-parceritos-decimas-abuelo",
+    "url_fuente":  "https://www.youtube.com/watch?v=4hGozORt3Ds",
+    "video_id":  "4hGozORt3Ds",
+    "inicio":  2162.77,
+    "fin":  2229.62,
+    "inicio_hms":  "0:36:02",
+    "duracion_seg":  66.9,
+    "gancho":  "Lokillo le escribió estas décimas a su abuelo",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  192,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.86,
+                  "entrada_tp":  -8.87,
+                  "salida_lufs":  -13.88,
+                  "salida_tp":  -1.01
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-04-parceritos-decimas-abuelo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-04-parceritos-decimas-abuelo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-04-parceritos-decimas-abuelo/revision.jpg",
+    "creado":  "2026-11-04T16:49:20.5861962-05:00"
+}

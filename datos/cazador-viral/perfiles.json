@@ -1,12 +1,15 @@
 {
-  "actualizado": "2026-11-03T17:55:00-05:00",
+  "actualizado": "2026-11-06T01:10:00-05:00",
   "notas": [
     "Creado en el ciclo 3 (2026-11-01) con la lista del usuario (config.perfiles). Los @handle de YouTube fallan en yt-dlp: usa siempre el channel_url con id UC....",
     "Las redes sociales (Instagram, TikTok, X) de los cantantes no se verificaron, por falta de presupuesto web: quedan en null y no se adivinan. Excepciones: el Instagram de Peso Pluma (@pesopluma), leído el 02-nov, y las redes de Westcol, tomadas el 03-nov de la descripción de su canal oficial. Los Instagram de los tres empresarios los confirmó el usuario el 01-nov: @rrautosdiego, @sospinagu y @sebastiansuaarez0. Instagram se lee con WebFetch sin iniciar sesión (nombre, bio, seguidores y enlaces), aunque a veces no carga (@lonchedehuevito, 02-nov), y el Clipero no puede transcribirlo.",
     "Ciclo 4 (02-nov): 'canal' puede no ver una subida muy reciente. No listó 'PARADIXE (REMIX)' de Feid, publicado 3,5 h antes, porque la pestaña de videos aún no lo mostraba y la extracción completa lo atribuye a otro id (UCc3e8O2V5_7OA300ursDyFQ, sin pestaña de videos). Para los cantantes, completa siempre con 'buscar \"<nombre>\" -Hoy -Detalle' o '-Recientes -Detalle'.",
     "Ciclo 4: en 'canal', el resultado '(0 subidas)' con archivo significa que hubo subidas dentro del margen de 84 h, pero ninguna dentro de las 36 h. El listado de Kick funciona y está al día. Ojo: Kick repite títulos entre directos ('FIESTA DE HALLOWEEN CON PUDINES' de Willito el 29-oct y el 02-nov son dos VOD distintos): compara siempre el id.",
     "Ciclo 5 (03-nov): Stream Fighters 5, el sábado 14-nov en el Coliseo MedPlus (Bogotá), une a casi todos los perfiles: Westcol contra Blessd con robots humanoides, Willito y Lonche contra The Chanty e Incógnito, y Kris R en la parte musical (https://www.vanguardia.com/colombia/2026/10/28/stream-fighters-5-en-el-coliseo-medplus-cartelera-confirmada-pelea-con-robots-y-todo-lo-que-debe-saber/). Hasta el 14-nov, todo lo que hablen de la pelea es prioritario.",
-    "Candidatos a similares (máximo 2 por ciclo; en el ciclo 5 no se añadió ninguno porque no quedaba presupuesto de YouTube para resolver sus canales): Incógnito (compañero de The Chanty en Stream Fighters 5; nombre ambiguo, hay que confirmar quién es); Ovy On The Drums (W Sound 08-10 con Westcol, 'Godzila' con J Balvin, 'AMISTA' y 'Mirame' con Blessd en el top 200 de Spotify CO el 01-nov); Hades66 (W Sound 10); 'Daren', rival de El Agropecuario en Stream Fighters 5 (comprobar si es Daren Ramirez, el canal de negocios que entrevistó a Diego RR Autos); Yolo Aventuras (con Lonche en el Ferrari); La Ganga (el grupo de Westcol); David Vélez (Nubank)."
+    "Ciclo 6 (04-nov): similares añadidos: Reydelacity (resuelto; sale con Westcol 4 veces en 24 h) y Fuerza Regida (sin_resolver: falta su canal oficial). Ids resueltos de canales de recortes: WestcolClips UC7YszLbtw0hmnXdLgvVkCmg y juan diego mm UCzgmXFoIqWFvNt3JPCEJwDw. Para el ciclo 7, el radar barato necesita 22 revisiones con Reydelacity (YouTube y Kick): turna Santiago Ospina y Diego RR Autos live (sin subidas desde julio y desde el 02-nov) para no pasar de 20.",
+    "Ciclo 7 (05-nov, 00:27-01:10): radar de 20 revisiones sin Santiago Ospina, LoncheWey, Lonche y Willito ni DiegoRRAutosCLIPS (turno). Similar añadido: Ovy On The Drums (resuelto: UC9vR20I0Qp-FRZvF4iXjcfQ; canal de la W Sound: UCWOVPbJfZ_g1JslVi_OFGfQ). Fuerza Regida resuelto: UCFLI6KAjrKRtydD7KqiYvAw (no quedó revisión para mirar sus subidas). Reydelacity pelea contra Wegotkicks en Stream Fighters 5 (según la cartelera de la prensa). Para el ciclo 8: revisar Fuerza Regida y Ovy y turnar Ryan Castro, J Balvin o Peso Pluma (llevan 4 ciclos sin nada).",
+    "Ciclo 8 (06-nov, 00:27-01:10): radar de 20 revisiones sin Ryan Castro, J Balvin, W Sound ni Diego RR en Kick (turno; los cantantes se cubrieron con 'buscar -Hoy'). 'canal' falló de forma silenciosa tres veces: no listó 'WINDOW SHOPPER' de Blessd (300.001 vistas en 5,6 h), saltó '¿CUANTO DINERO GANO LA PLENA?' de Westcol con el error 'Sign in to confirm you're not a bot' (XcgyVpbHNlw) y dio 0 subidas en Diego RR AUTOS aunque la review del Revuelto (a8YPYk1CTJk, 04-nov 20:44) estaba dentro de las 36 h. Hasta que se arregle, completa SIEMPRE con 'buscar -Hoy -Detalle' a todos los perfiles. Similar añadido: Samulx (resuelto; canal UC5uLQrHH1ZAcK4rsOhodvnw y Kick kick.com/samulx, 510,9 K seguidores). Para el ciclo 9: revisar Ryan Castro, J Balvin y la W Sound; turnar Fuerza Regida, Ovy, Santiago Ospina y LoncheWey (sin subidas en 84 h).",
+    "Candidatos a similares (máximo 2 por ciclo; Manuel Turizo (06-nov: 'COMO FUERA' con J Balvin, 6.172 vistas/h; una sola señal); en el ciclo 5 no se añadió ninguno porque no quedaba presupuesto de YouTube para resolver sus canales): Incógnito (compañero de The Chanty en Stream Fighters 5; nombre ambiguo, hay que confirmar quién es); Ovy On The Drums (W Sound 08-10 con Westcol, 'Godzila' con J Balvin, 'AMISTA' y 'Mirame' con Blessd en el top 200 de Spotify CO el 01-nov); Hades66 (W Sound 10); 'Daren', rival de El Agropecuario en Stream Fighters 5 (comprobar si es Daren Ramirez, el canal de negocios que entrevistó a Diego RR Autos); Yolo Aventuras (con Lonche en el Ferrari); La Ganga (el grupo de Westcol); David Vélez (Nubank)."
   ],
   "perfiles": [
     {
@@ -22,10 +25,13 @@
       "verificacion": "La búsqueda de YouTube 'Maluma' (01-nov) devuelve este canal con sus videos oficiales: 'Felices los 4' (1.995 M de vistas), 'Hawái' (1.239 M) y 'Borro Cassette' (1.380 M).",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-03T17:24:00-05:00",
+      "ultima_revision": "2026-11-06T00:35:00-05:00",
       "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h (02-nov y 03-nov). La última es 'Maluma, Shakira - WATER (Official Lyric Video)', de hacia el 26-oct. 'Maluma -Hoy' (03-nov) solo trae mixes y letras de terceros; además asomó un directo por empezar (gz_1BGsThL4) de canal desconocido. 'Cuatro Babys' #73 y 'Borro Cassette' #101 en Spotify CO (01-nov).",
-      "apariciones_en_ventana": []
+      "nota": "Ciclo 8 (06-nov): sin subidas en su canal (nada en 84 h). Aparece en persona en 'MALUMA DA DETALLES DE SU GIRA... Y MUESTRA EL MALUCHE ¡IMPRESENTABLES EN VIVO!' (LOS40 Colombia, directo de 4 h 24 min, 17.501 vistas en 14 h, 1.250/h), comprobado por el título. Spotify CO del 04-nov: 'Borro Cassette' #79 (+19) y 'Cuatro Babys' #80 (-16). Los 'Sleeping Music' con su nombre son mixes de terceros. Ciclo 7 (05-nov): sin subidas en 36 h en su canal, pero aparece en persona (por teléfono) en FM Luzu de LUZU TV, un programa de streaming argentino: 'MALUMA NOS LLAMÓ EN VIVO' (62 min, 7.639 vistas/h) y el corte 'MALUMA VE FM LUZU Y NOS LLAMÓ EN VIVO + ¿CUÁNDO VIENE A ARGENTINA?' (14 min, 606/h). Spotify CO del 03-nov: 4 entradas, la mejor #64 (-4). Ciclo 6 (04-nov): sin subidas en 36 h (no se hizo búsqueda de apariciones por presupuesto). 'Cuatro Babys' #60 (+13) en Spotify CO (02-nov). Ciclo 5: sin subidas en 36 h (02-nov y 03-nov). La última es 'Maluma, Shakira - WATER (Official Lyric Video)', de hacia el 26-oct. 'Maluma -Hoy' (03-nov) solo trae mixes y letras de terceros; además asomó un directo por empezar (gz_1BGsThL4) de canal desconocido. 'Cuatro Babys' #73 y 'Borro Cassette' #101 en Spotify CO (01-nov).",
+      "apariciones_en_ventana": [
+        { "url": "https://www.youtube.com/watch?v=aH9XiHrHjYE", "titulo": "MALUMA DA DETALLES DE SU GIRA... Y MUESTRA EL MALUCHE ¡IMPRESENTABLES EN VIVO!", "canal": "LOS40 Colombia", "publicado": "2026-11-05T10:35:00-05:00", "vistas": 17501, "aparece": true, "nota": "Directo de radio de 4 h 24 min; hora de publicación deducida de horas_desde" },
+        { "url": "https://www.youtube.com/watch?v=iNxDQVDIer8", "titulo": "#FMLUZU | MALUMA NOS LLAMÓ EN VIVO + FERBO EN CONTRA DE DOMI Y EL EQUIPO ROSA + VARONES CON TALENTO", "canal": "LUZU TV", "publicado": "2026-11-04T16:50:00-05:00", "vistas": 60346, "aparece": true, "nota": "Sale por llamada telefónica en directo" }
+      ]
     },
     {
       "nombre": "J Balvin",
@@ -40,9 +46,11 @@
       "verificacion": "La búsqueda de YouTube 'J Balvin' (01-nov) devuelve este canal con sus videos oficiales: 'Ay Vamos' (2.290 M de vistas), '6 AM' (1.334 M) y 'Safari' (1.420 M).",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-03T17:24:30-05:00",
-      "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h (02-nov y 03-nov). 'J Balvin -Hoy' (03-nov) solo trae mashups y letras de terceros, más dos estrenos programados de canal desconocido (hRjgoJpsjZ8, en 17 h, y P7Vwk9sYisU, en 2 días): comprobar en el próximo ciclo si son suyos. Está en el W Sound 09 ('Godzila') con Westcol y Ovy On The Drums.",
+      "ultima_revision": "2026-11-06T00:45:00-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=EQGVGXypBdQ", "titulo": "COMO FUERA - MT Manuel Turizo x J Balvin | Video Oficial", "publicado": "2026-11-05T18:56:00-05:00", "vistas": 35797, "nota": "En el canal de Manuel Turizo, no en el suyo. Videoclip de 3 min: 6.172 vistas/h a las 5,8 h. No es fuente larga" }
+      ],
+      "nota": "Ciclo 8 (06-nov): su canal no se revisó (turno). 'J Balvin -Hoy' trae el estreno 'COMO FUERA' de Manuel Turizo con él (6.172/h); sin apariciones largas. 'Reykon rompe el silencio sobre Karol G, Maluma y J Balvin' (Caracol Televisión) es chisme de TV: excluido. Spotify CO del 04-nov: 'LA CANCIÓN' #54 (+16) y 'No Me Conoce - Remix' #133 (+55). Ciclo 7 (05-nov): sin subidas en 36 h ni apariciones en persona ('J Balvin -Hoy': mixes, letras y un video de chisme excluido). La web no encuentra estrenos suyos para noviembre. Ciclo 6 (04-nov): sin subidas en 36 h ni apariciones en persona. El estreno hRjgoJpsjZ8 era un video con letra de 'Ahora Dice' en el canal HOT CHILI, no suyo. 'Le diseñé la casa a J Balvin y a James' (Tiempo de Calidad Podcast, 87 min, 22 vistas por hora) es un arquitecto que habla de él; él no sale. 'LA CANCIÓN' #81 (+17) en Spotify CO (02-nov). Ciclo 5: sin subidas en 36 h (02-nov y 03-nov). 'J Balvin -Hoy' (03-nov) solo trae mashups y letras de terceros, más dos estrenos programados de canal desconocido (hRjgoJpsjZ8, en 17 h, y P7Vwk9sYisU, en 2 días): comprobar en el próximo ciclo si son suyos. Está en el W Sound 09 ('Godzila') con Westcol y Ovy On The Drums.",
       "apariciones_en_ventana": []
     },
     {
@@ -60,9 +68,9 @@
       "verificacion": "La búsqueda de YouTube 'Kris R cantante' (01-nov) devuelve el canal 'Kris R.' con sus videos oficiales: 'GANAS' (50,5 M), 'GAMINA' (30,3 M) y '4LIFE' (12,9 M).",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-03T17:23:30-05:00",
+      "ultima_revision": "2026-11-06T00:41:00-05:00",
       "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h ni apariciones en persona ('Kris R -Hoy', 03-nov: solo type beats e instrumentales). Canta en Stream Fighters 5 (14-nov; Publimetro 14-sep y Vanguardia 28-oct) y tiene concierto el 20-nov en Medellín. 'GAMINA' #9 en Spotify CO (01-nov). Un video de Factos Del Género (59 vistas) menciona un 'Hades vs Cris R' sin verificar. El podcast de ElWerik no vuelve como fuente.",
+      "nota": "Ciclo 8 (06-nov): sin subidas en 84 h ni apariciones en persona ('Kris R -Hoy': letras de 'GAMINA', type beats y el álbum ETDK 2 resubido). Spotify CO del 04-nov: 15 entradas; 'GAMINA' #8 (+3), 'TUKI TUKI' #22 (+13) y '4 Life' #46 (+17). Ciclo 7 (05-nov): sin subidas ni apariciones en persona ('Kris R -Hoy': solo las instrumentales de ETDK 2 de Zetta The Producer). Spotify CO del 03-nov: 15 entradas, casi todas subiendo ('GAMINA' #11, y saltos de +21, +30 y +41). Ciclo 6 (04-nov): sin subidas en 36 h ni apariciones en persona. Zetta The Producer subió el 04-nov las instrumentales de todo 'EL TRAP DE KOLOMBIA 2' (ETDK 2), un álbum que salió el 15-oct (Noticias RCN, https://www.noticiasrcn.com/tendencias/kris-r-nuevo-album-rumores-con-karina-garcia-1070510): no es nuevo. Su catálogo sube en Spotify CO (02-nov): '4 Life' +31, 'PODERES' con Blessd +37, 'RIKO' +11, 'GAMINA' #9. Ojo: la prensa mezcla el álbum con rumores de pareja con Karina García (personaje de reality): excluido. Ciclo 5: sin subidas en 36 h ni apariciones en persona ('Kris R -Hoy', 03-nov: solo type beats e instrumentales). Canta en Stream Fighters 5 (14-nov; Publimetro 14-sep y Vanguardia 28-oct) y tiene concierto el 20-nov en Medellín. 'GAMINA' #9 en Spotify CO (01-nov). Un video de Factos Del Género (59 vistas) menciona un 'Hades vs Cris R' sin verificar. El podcast de ElWerik no vuelve como fuente.",
       "apariciones_en_ventana": []
     },
     {
@@ -80,9 +88,11 @@
       "verificacion": "La búsqueda de YouTube 'Blessd' (01-nov) devuelve el canal 'SIEMPRE BLESSD 💙' con sus videos oficiales: 'YOGURCITO' (193 M), 'SUPERSTAR' (77,5 M) y 'MERO TOTE' (40,1 M).",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-03T17:22:30-05:00",
-      "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h ni apariciones en persona. 'Blessd -Hoy' (03-nov) solo trae instrumentales de 'EL PEOR HOMBRE DEL MUNDO', un álbum de junio de 2026 (no es nuevo). Pelea contra Westcol con robots humanoides en Stream Fighters 5 (14-nov): sus apariciones en directos de Westcol serán prioritarias. 'CAPCANA COCOA' #6, 'MERO TOTE' #8 y 'SUPERSTAR' #13 en Spotify CO (01-nov). 'Blessd entrevista' mezcla resultados religiosos en inglés.",
+      "ultima_revision": "2026-11-06T00:37:00-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=--NSkksdvV0", "titulo": "WINDOW SHOPPER | BLESSD ( Video Oficial )", "publicado": "2026-11-05T19:00:00-05:00", "vistas": 300001, "nota": "Videoclip de 3 min: 53.572 vistas/h a las 5,6 h. 'canal' no lo listó (0 subidas); salió con 'buscar -Hoy'. La prensa no lo cubre todavía (Blu Radio presentaba 'ELLA' como su último estreno de 2026, 17-sep). No es fuente larga" }
+      ],
+      "nota": "Ciclo 8 (06-nov): estrena 'WINDOW SHOPPER' (videoclip, 53.572 vistas/h). Primeras réplicas: una reacción (EL CIERVO REACCIONA, 16 vistas en 1,1 h), letras (Silvia Zc, 155/h) y un karaoke. Sin apariciones largas en persona. 'El Barrio Antioquia de Medellín le hizo monumento a su Blessd' (Alerta, 5 min, 20 vistas): nota curiosa, sin tracción. Spotify CO del 04-nov: 16 entradas; 'CAPCANA COCOA' #4 y 'YOGURCITO' #45 (+17). Ciclo 7 (05-nov): sin subidas ni apariciones en persona ('Blessd -Hoy': oraciones en inglés e instrumentales). Spotify CO del 03-nov: 'CAPCANA COCOA' #4 (+1) y 18 entradas en el top 200. La web no trae noticias suyas de noviembre. Ciclo 6 (04-nov): sin subidas en 36 h ni apariciones en persona. 'Blessd -Hoy' mezcla oraciones en inglés ('blessed'), type beats e instrumentales; 'Un Poco de todo se hablo blessd twister y rene' (Sitio Musical, directo de 2 h 22 min, 33 vistas por hora) parece hablar de él, no con él: no se pasa. Spotify CO del 02-nov: 'CAPCANA COCOA' #5 (+1), 'MERO TOTE' #10, 'SUPERSTAR' #12 y otras 12 canciones en el top 200. Su pelea de robots contra Westcol es el 14-nov: el robot de Westcol salió a la calle el 03-nov. Ciclo 5: 'Blessd -Hoy' (03-nov) solo trae instrumentales de 'EL PEOR HOMBRE DEL MUNDO', un álbum de junio de 2026 (no es nuevo). Pelea contra Westcol con robots humanoides en Stream Fighters 5 (14-nov): sus apariciones en directos de Westcol serán prioritarias. 'CAPCANA COCOA' #6, 'MERO TOTE' #8 y 'SUPERSTAR' #13 en Spotify CO (01-nov). 'Blessd entrevista' mezcla resultados religiosos en inglés.",
       "apariciones_en_ventana": []
     },
     {
@@ -98,9 +108,9 @@
       "verificacion": "La búsqueda de YouTube 'Ryan Castro' (01-nov) devuelve este canal con sus videos oficiales: 'Monastery' con Feid (575 M), 'EL RITMO QUE NOS UNE' (193 M) y 'HOPI SENDÉ (Live Session - Medellín, Comuna 13) [2026]'.",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-03T17:22:45-05:00",
+      "ultima_revision": "2026-11-06T00:44:00-05:00",
       "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h en su canal. Nuevo: jugó en el Juego de las Estrellas de baloncesto de Nicky Jam (vlog de EL BORI BARBER TV, 03-nov). El Awooween (31-oct) queda en saturación: las réplicas nuevas no rinden (vlog de PaulitaS, 34 vistas en 17,7 h; 'el chisme de su palco' de Vibra, 4 vistas) y CityTv ya cubre el desmonte de El Campín. 'LA VILLA' #24 (-3), 'SANKA' #44 (+5) y 'BRINCAITO' #54 (-24) en Spotify CO (01-nov).",
+      "nota": "Ciclo 8 (06-nov): su canal no se revisó (turno). 'Ryan Castro -Hoy': solo mixes, letras y el Awooween (quemado). Spotify CO del 04-nov: 10 entradas, casi todas bajando ('LA VILLA' -17, 'Ojalá' -13); sube 'Se Le Ve' de Kybba (+23). Ciclo 7 (05-nov): sin subidas ni apariciones nuevas ('Ryan Castro -Hoy': letras y 4 partes del Awooween de Boletería Medellín, 2-3 vistas/h). Spotify CO del 03-nov: 12 entradas, varias subiendo (+22, +36, +41). Ciclo 6 (04-nov): sin subidas en 36 h ni apariciones en persona nuevas. 'Ryan Castro -Hoy' solo trae letras y lo último del Awooween, que ya no rinde: 'Ryan Castro botó la casa por la ventana en El Campín' (Alerta, 64,9 K suscriptores, 15 vistas por hora) y un recorte de 2 h 11 min de un asistente (13 vistas por hora). Spotify CO del 02-nov: 'LA VILLA' #28 (-4), 'BRINCAITO' #37 (+17) y 'SANKA' #77 (-33). Ciclo 5: sin subidas en 36 h en su canal. Nuevo: jugó en el Juego de las Estrellas de baloncesto de Nicky Jam (vlog de EL BORI BARBER TV, 03-nov). El Awooween (31-oct) queda en saturación: las réplicas nuevas no rinden (vlog de PaulitaS, 34 vistas en 17,7 h; 'el chisme de su palco' de Vibra, 4 vistas) y CityTv ya cubre el desmonte de El Campín. 'LA VILLA' #24 (-3), 'SANKA' #44 (+5) y 'BRINCAITO' #54 (-24) en Spotify CO (01-nov).",
       "apariciones_en_ventana": [
         { "url": "https://www.youtube.com/watch?v=8-llmUumPqE", "titulo": "El Juego de las Estrellas de Nicky Jam | Ñejo, Ryan Castro, Xander Zayas, Carlos Arroyo y más", "canal": "EL BORI BARBER TV", "publicado": "2026-11-03T12:06:06-05:00", "vistas": 1398, "aparece": true, "nota": "La descripción dice que jugó en la cancha; el vlog es de un barbero y puede que salga poco" }
       ]
@@ -123,9 +133,9 @@
       "verificacion": "La búsqueda de YouTube 'Peso Pluma' (02-nov) devuelve el canal 'Peso Pluma' con sus videos oficiales: 'NUEVA VIDA' (685 M de vistas), 'Hollywood' con Estevan Plazola (518 M), 'LA PATRULLA' con Neton Vega (315 M) y 'RUBICON' (293 M). Instagram @pesopluma, leído el 02-nov: verificado, 15,7 M de seguidores y nombre visible 'La Doble P'. No se le encontró Kick ni Twitch. Ojo: los podcasts llamados 'Peso Pluma' en Apple Podcasts son series hechas con IA (Inception Point AI), no entrevistas suyas.",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-03T17:23:45-05:00",
+      "ultima_revision": "2026-11-06T00:46:00-05:00",
       "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h ni apariciones en persona. 'Peso Pluma -Hoy' y 'Peso Pluma entrevista -Recientes' (03-nov) solo traen letras, canciones hechas con IA 'estilo Peso Pluma' (La DoubleP, BelicoGPT, Corridos pIAkosones) y videos de terceros donde él no sale. 'HOLLYWOOD' #172 en Spotify CO (01-nov).",
+      "nota": "Ciclo 8 (06-nov): sin subidas en 84 h ni apariciones en persona ('Peso Pluma -Hoy': letras, canciones de IA de BelicoGPT y mixes). 'HOLLYWOOD' #137 (+9) en Spotify CO (04-nov). Ciclo 7 (05-nov): sin subidas ni apariciones en persona ('Peso Pluma -Hoy': canciones de IA 'estilo Peso Pluma', type beats y mixes). La web no trae nada suyo de noviembre. Ciclo 6 (04-nov): sin subidas en 36 h en su canal. 'HOLLYWOOD' #140 (+32) en Spotify CO (02-nov). Fuerza Regida, de su misma escena, sube en TikTok México con 'Suzuki' (GTA VI) y se añade como similar. Ciclo 5: sin subidas en 36 h ni apariciones en persona. 'Peso Pluma -Hoy' y 'Peso Pluma entrevista -Recientes' (03-nov) solo traen letras, canciones hechas con IA 'estilo Peso Pluma' (La DoubleP, BelicoGPT, Corridos pIAkosones) y videos de terceros donde él no sale. 'HOLLYWOOD' #172 en Spotify CO (01-nov).",
       "apariciones_en_ventana": []
     },
     {
@@ -171,9 +181,9 @@
       "verificacion": "Instagram @sospinagu confirmado por el usuario (01-nov): Santiago Ospina Gutierrez, verificado, 359 K seguidores, bio 'Empresario multisectorial, papá y esposo / ING CIVIL / Construyo edificios, casas de lujo, marcas y sueños'. La 'X' es XHobbies: el canal de YouTube 'Santi Ospina' (UCB6mKhj6nBrBnUB0D6EHGUg) publica '¿QUÉ PASÓ CON XHOBBIES? | SOSPINAGU' (93 min), con su mismo @, y Camino al Éxito lo presenta como 'Santiago Ospina (X Hobbies)'.",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-03T17:25:00-05:00",
+      "ultima_revision": "2026-11-06T00:32:00-05:00",
       "ultimas_subidas": [],
-      "nota": "Sin subidas en 36 h en 'Santi Ospina' (02-nov y 03-nov). El canal está poco activo desde alrededor del 02-jul-2026 y él publica sobre todo en Instagram. Candidato a turnarse (revisión cada dos ciclos) si el presupuesto de revisiones no alcanza.",
+      "nota": "Ciclo 8 (06-nov): sin subidas en 84 h. La búsqueda web ('Santiago Ospina sospinagu XHobbies') no encuentra prensa ni entrevistas de 2026. Ciclo 6 (04-nov): sin subidas en 36 h. Ciclo 5: sin subidas en 36 h en 'Santi Ospina' (02-nov y 03-nov). El canal está poco activo desde alrededor del 02-jul-2026 y él publica sobre todo en Instagram. Candidato a turnarse (revisión cada dos ciclos) si el presupuesto de revisiones no alcanza.",
       "apariciones_en_ventana": []
     },
     {
@@ -203,10 +213,14 @@
       "verificacion": "Instagram @rrautosdiego confirmado por el usuario (01-nov), verificado, con 113 K seguidores y bio 'CEO @rrautos @rrprestigevip @diegorrautos'. El canal 'Diego RR AUTOS' publica entregas de autos de lujo, el 'PODCAST RR AUTOS' y contenido del concesionario. Kick kick.com/diegorrautos (03-nov): existe, 4,7 K seguidores, desconectado; coincide con su segunda cuenta de Instagram (@diegorrautos, citada en su bio) y con la descripción del canal 'Diego RR Autos live' ('Directos en kick: Diegorrautos'). WebFetch no lista sus VOD y yt-dlp no encontró ninguno en 84 h.",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-03T17:39:00-05:00",
-      "ultimas_subidas": [],
-      "nota": "Nuevo en el ciclo 5: hace directos en Kick, y canales pequeños los suben a YouTube. Lo nuevo en la ventana son dos directos recortados (Lamborghini Revuelto y Lamborghini Temerario) con tracción mínima, pero los cortos de DiegoRRAutosCLIPS con cifras en forma de paradoja o comparación rinden 40-60 veces la mediana de ese canal (candidato 'formato-matematica-del-lujo'). Evitar el corto '¿Cómo identificar a una mujer cazafortunas?' (estereotipo).",
+      "ultima_revision": "2026-11-06T00:43:00-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=XNV661HoYQ8", "titulo": "RESPONDIENDO TODO SOBRE EL LAMBORGHINI REVUELTO | DIEGO RR", "publicado": "2026-11-05T19:01:00-05:00", "vistas": 6, "nota": "En Diego RR Autos live; 18,6 min. Hora deducida de horas_desde" },
+        { "url": "https://www.youtube.com/watch?v=a8YPYk1CTJk", "titulo": "REVIEW DEL ÚNICO LAMBORGHINI REVUELTO DE COLOMBIA🇨🇴", "publicado": "2026-11-04T20:44:08-05:00", "vistas": 622, "nota": "13 min, 159 vistas/h a las 3,9 h. La miniatura (logo de RR AUTOS) muestra el mismo Revuelto naranja y el mismo salón que la miniatura de Westcol" }
+      ],
+      "nota": "Ciclo 8 (06-nov): 'canal' dio 0 subidas en 36 h en Diego RR AUTOS y en DiegoRRAutosCLIPS, aunque la review del Revuelto (04-nov 20:44) estaba dentro de la ventana: fallo de la herramienta. Nuevo: 'RESPONDIENDO TODO SOBRE EL LAMBORGHINI REVUELTO' (Diego RR Autos live, 6 vistas). Un tercero cubre el carro: 'Este LAMBORGHINI REVUELTO es el MEJOR CARRO de COLOMBIA' (Car Culture TV, https://www.youtube.com/watch?v=YE86vZUrSkg, 22 min, 593/h); falta saber si Diego sale. La web no encuentra prensa sobre RR Autos ni el Revuelto en Colombia. Kick no se revisó (turno). Ciclo 7 (05-nov): confirmado por las miniaturas que el Revuelto que fueron a ver Westcol y Reydelacity es el de RR Autos. Diego sube su review del carro y, en Diego RR Autos live, 'ASÍ ES UN DÍA CONMIGO Y EL REYDELACITY en MEDELLÍN' (18 min, 3 vistas): primer cruce comprobado por título con un streamer. Falta saber si sale en los videos de Westcol. 'Reydelacity adquiere un Lamborghini Revuelto' (Sr_severino, 38 vistas) no está confirmado: no se cita. Kick no se revisó (turno). Ciclo 6 (04-nov): sin VOD en Kick en 84 h y sin subidas en 36 h en su canal, en Diego RR Autos live ni en DiegoRRAutosCLIPS. Lo nuevo: su Lamborghini Revuelto atrae a los streamers. 'REYDELACITY Y WESTCOL CONOCEN EL PRIMER LAMBORGHINI REVUELTO DE COLOMBIA' (ElReyWithTheClips, 28.303 vistas en 21,8 h) y 'ESTE SERA MI PROXIMO SUPER DEPORTIVO' (canal oficial de Westcol, con un Revuelto naranja en un salón con el letrero 'AUTOS' en la miniatura). Es el mismo modelo que Diego presentó desde RR Autos el 02-nov ('Llegó el PRIMER Lamborghini Revuelto a Colombia'), así que casi seguro es su concesionario; falta comprobar si Diego sale en persona (el Clipero puede verlo con 'vistazo'). Nuevo en el ciclo 5: hace directos en Kick, y canales pequeños los suben a YouTube. Lo nuevo en la ventana son dos directos recortados (Lamborghini Revuelto y Lamborghini Temerario) con tracción mínima, pero los cortos de DiegoRRAutosCLIPS con cifras en forma de paradoja o comparación rinden 40-60 veces la mediana de ese canal (candidato 'formato-matematica-del-lujo'). Evitar el corto '¿Cómo identificar a una mujer cazafortunas?' (estereotipo).",
       "apariciones_en_ventana": [
+        { "url": "https://www.youtube.com/watch?v=Kbf_5gvbDIY", "titulo": "ASÍ ES UN DÍA CONMIGO Y EL REYDELACITY en MEDELLÍN | DIEGO RR", "canal": "Diego RR Autos live", "publicado": "2026-11-04T19:00:00-05:00", "vistas": 3, "aparece": true },
         { "url": "https://www.youtube.com/watch?v=3HqbgYS-hWk", "titulo": "Llegó el PRIMER Lamborghini Revuelto a Colombia 🔥 | Diego RR en RR Autos", "canal": "DiegoRRAutosCLIPS", "publicado": "2026-11-02T19:27:24-05:00", "vistas": 15, "aparece": true },
         { "url": "https://www.youtube.com/watch?v=BlYm8d2oNrY", "titulo": "TODO LO QUE NO SABÍAS DEL NUEVO LAMBORGHINI TEMERARIO | DIEGO RR", "canal": "Diego RR Autos live", "publicado": "2026-11-02T14:00:08-05:00", "vistas": 7, "aparece": true },
         { "url": "https://www.youtube.com/watch?v=sR8-cwyaqBI", "titulo": "Lamborghini Revuelto: el sucesor del Aventador | Diego RR lo muestra por dentro y por fuera", "canal": "Sream Radar", "publicado": "2026-11-03T15:11:33-05:00", "vistas": 2, "aparece": true, "nota": "Parece el mismo directo que la de DiegoRRAutosCLIPS; no se pasa al Clipero" }
@@ -232,27 +246,38 @@
         { "url": "https://www.youtube.com/channel/UCB5rTP4yAattbdxABS59TMg", "que_es": "WestClips: canal de clips de sus directos (sin subidas en 36 h el 02-nov ni el 03-nov)" },
         { "url": "https://www.youtube.com/channel/UCLO0dqi1_XNLkD6biwi-iOw", "que_es": "Westconsin: cortes largos de sus directos (títulos traducidos al inglés). Última subida hacia el 01-oct" },
         { "url": "https://www.youtube.com/channel/UCg34cRW43lvPkMGfj8TLpjA", "que_es": "Westcol Clips: solo Shorts" },
-        { "url": "https://www.youtube.com/watch?v=hc_eHyGrndY", "que_es": "WestcolClips (4.650 suscriptores): recortes largos de sus directos, con la descripción 'kick.com/westcol'. El que más le sirve al Clipero" },
-        { "url": "https://www.youtube.com/watch?v=HrCjenG44eE", "que_es": "juan diego mm (114 K suscriptores): recortes largos de sus directos" },
+        { "url": "https://www.youtube.com/channel/UC7YszLbtw0hmnXdLgvVkCmg", "que_es": "WestcolClips (4.690 suscriptores): recortes largos de sus directos, con la descripción 'kick.com/westcol'. El que más le sirve al Clipero (id resuelto el 04-nov)" },
+        { "url": "https://www.youtube.com/channel/UCzgmXFoIqWFvNt3JPCEJwDw", "que_es": "juan diego mm (114 K suscriptores): recortes largos de sus directos (id resuelto el 04-nov)" },
+        { "url": "https://www.youtube.com/channel/UCWYmI0G7R2hc3ONcSSKPWQw", "que_es": "ElReyWithTheClips (201 K suscriptores): recortes de Reydelacity, que sale con Westcol (robot y Lamborghini Revuelto, 03-nov)" },
         { "url": "https://www.youtube.com/watch?v=RPs9ahaF2Rg", "que_es": "🐢Alancitu🐢 (26,3 K suscriptores): recortes de sus directos" }
       ],
       "verificacion": "Pistas verificadas por el orquestador (2026-11-01): WestCOL es el canal oficial, donde sube directos completos, y kick.com/westcol es su Kick. Redes tomadas el 03-nov de la descripción de su canal oficial (https://www.youtube.com/watch?v=jYUMEg0M570): Kick, Facebook realwestcol, Instagram westcol y yosoywestcol, Twitter WestCOL_, Twitch westcol, y el canal WESTCOL EXCLUSIVE.",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-03T17:27:00-05:00",
+      "ultima_revision": "2026-11-06T00:34:00-05:00",
       "ultimas_subidas": [
-        { "url": "https://www.youtube.com/watch?v=jYUMEg0M570", "titulo": "HABLANDO SOBRE TEORIAS CONSPIRATIVAS | WESTCOL", "publicado": "2026-11-03T08:00:34-05:00", "vistas": 38812, "nota": "33 min en su canal oficial: 4.129 vistas por hora a las 17:27" },
-        { "url": "https://kick.com/westcol/videos/01a19dbf-c468-7bbd-9bdf-7e7a53d23a81", "titulo": "IM BACK", "publicado": "2026-11-02T14:32:33-05:00", "vistas": 421084, "nota": "Directo de regreso de 5 h 5 min, sin subtítulos (15.712 vistas por hora a las 17:21)" },
-        { "url": "https://kick.com/westcol/videos/01a1a337-1ae0-7f82-b473-4c7e6697d20e", "titulo": "ENTRENANDO MI ROBOT", "publicado": "2026-11-03T16:01:00-05:00", "vistas": 0, "nota": "En directo a las 17:21: es la preparación de su pelea de robots contra Blessd. Revisar el VOD en el próximo ciclo" }
+        { "url": "https://www.youtube.com/watch?v=XcgyVpbHNlw", "titulo": "¿CUANTO DINERO GANO LA PLENA ? 🤑 | WESTCOL", "publicado": "2026-11-05T17:46:00-05:00", "vistas": 33481, "nota": "22 min: 4.924 vistas/h a las 6,8 h, 1,9 veces la mediana de su canal en 36 h (2.631/h). 'canal' lo saltó por el error 'Sign in to confirm you're not a bot'; salió con 'buscar -Hoy'" },
+        { "url": "https://www.youtube.com/watch?v=LgnQHaFVvyo", "titulo": "ESTE ES MI NUEVO SET-UP | WESTCOL", "publicado": "2026-11-04T19:00:09-05:00", "vistas": 38442, "nota": "19 min: 6.744 vistas/h a las 5,7 h, unas 3 veces la mediana de su canal. Monitores con el logo de Lamborghini" },
+        { "url": "https://www.youtube.com/watch?v=Xrwm98iaWY8", "titulo": "SAQUE A LA CALLE POR PRIMERA VEZ A MI ROBOT DE $100.000 | WESTCOL", "publicado": "2026-11-04T09:00:07-05:00", "vistas": 201510, "nota": "60 min: 12.754 vistas/h a las 15,8 h (05-nov), 5,8 veces la mediana de sus 5 subidas de 36 h (2.184/h). 7.694/h el 04-nov a las 7,7 h: acelera" },
+        { "url": "https://www.youtube.com/watch?v=KhuFp9eIyVU", "titulo": "FUI A VER MI PROXIMO SUPER AUTO 🔥 | WESTCOL", "publicado": "2026-11-04T12:30:12-05:00", "vistas": 26646, "nota": "Retitulado (antes 'ESTE SERA MI PROXIMO SUPER DEPORTIVO'). 23 min: 2.184 vistas/h, en la mediana del canal. El salón es RR Autos (comparado con la miniatura de la review de Diego RR, 05-nov)" },
+        { "url": "https://www.youtube.com/watch?v=QRz5qEz9Azw", "titulo": "VA A HABER UNA TERCERA GUERRA MUNDIAL ?💀 | WESTCOL", "publicado": "2026-11-03T20:30:15-05:00", "vistas": 13671, "nota": "11 min; opinión sobre geopolítica: alto riesgo de desinformación, no se pasa" },
+        { "url": "https://www.youtube.com/watch?v=mtt8Q1438ic", "titulo": "ME INVITARON A SER ILUMINATI? 💀| WESTCOL", "publicado": "2026-11-03T20:30:05-05:00", "vistas": 8640, "nota": "12 min; humor sobre conspiraciones" },
+        { "url": "https://www.youtube.com/watch?v=jYUMEg0M570", "titulo": "HABLANDO SOBRE TEORIAS CONSPIRATIVAS | WESTCOL", "publicado": "2026-11-03T08:00:34-05:00", "vistas": 75111, "nota": "Ya pasado al Clipero en el ciclo 5 (2.311 vistas por hora el 04-nov)" },
+        { "url": "https://kick.com/westcol/videos/01a1a337-1ae0-7f82-b473-4c7e6697d20e", "titulo": "ENTRENANDO MI ROBOT", "publicado": "2026-11-03T16:01:00-05:00", "vistas": 407647, "nota": "VOD de 7 h 50 min, sin subtítulos: 16.639 vistas por hora a las 16:32 del 04-nov" }
       ],
-      "nota": "Vuelve a emitir a diario desde el 02-nov. Organiza Stream Fighters 5 (14-nov) y pelea contra Blessd con robots humanoides. El 'accidente aéreo en Florida' del que habló es el choque de un Learjet 60 en Palm Beach (Wikipedia en inglés, 02-nov): no cortarlo. Lo de Komanche sigue excluido; 'RESPONDE A LOS CREADORES DE CONTENIDO QUE LO CRITICARON' (MEJORES FREESTYLE RAP) no se pasa por esa razón. Westcol reaccionó a 'F.E.S.' (Omar Camacho y Víctor Mendivil), una canción que lleva el nombre de la comunidad de Lonche ('WESTCOL REACCIONA A LA CANCION DE Lonche ( FES )', 5 min, 548 vistas); no está confirmado que Lonche participe en ella.",
+      "nota": "Ciclo 8 (06-nov): sigue sin VOD nuevo en Kick (0 en 36 h; el último es 'ENTRENANDO MI ROBOT', 03-nov). Subidas en 36 h: 'CUANTO DINERO GANO LA PLENA' (4.924/h), el set-up (2.631/h a las 29,5 h) y 'FUI A VER MI PROXIMO SUPER AUTO' (1.466/h). Lo grande del día: Samulx llega a Colombia y se queda en su casa; sale en los recortes de Live Samulx, Aida Victoria Stream, WestcolClips y ElReyWithTheClips. juan diego mm: nada en 36 h. Excluidos: los videos de terceros que lo acusan (Komanche, chats; Cell™ 8.328/h, CHISME URBANO TV 2.896/h, Domidios, Egunpasa), la burla 'Los NENES STREAMERS que se creen M4LANDROS' (Sñr Jossue, 1.619/h), 'EXPONE UN NUEVO PLAN DE LA ÉLITE' (conspiración) y el rumor de captura (tunota.com, 30-oct). Ciclo 7 (05-nov): sin VOD nuevo en Kick desde 'ENTRENANDO MI ROBOT' (434.268 vistas, 13.362/h a las 32,5 h). Subió 'ESTE ES MI NUEVO SET-UP' (6.744/h) y WestcolClips 'WESTCOL RESPONDE A PREGUNTAS DE SU COMUNIDAD' (20 min). Una resubida del paseo del robot ('ME FUI DE COMPRAS CON MI ROBOT', Aida Victoria Stream, 16,8 K suscriptores) lleva 164.003 vistas en 30,7 h. ClipsWcol sube 'WESTCOL EN GUATAPÉ CON OVY ON THE DRUMS Y REYDELACITY' (27 min, fecha del directo sin comprobar). Lo de Komanche vuelve con terceros que lo acusan (NauterPlay, 6.707/h; DIEGO MEXIVERGAS): sigue excluido. 'WESTCOL MOSTRÓ SU TARJETA EN VIVO' (Don Funa) dura 8:44 y no rinde (11/h). Ciclo 6 (04-nov): el robot ya sale a la calle (centro comercial) y Westcol visita el primer Lamborghini Revuelto de Colombia con Reydelacity, el mismo carro que Diego RR presentó en directo desde RR Autos el 02-nov: cruce probable entre streamers y empresarios. 'WESTCOL, SE ACABARON TUS MENTIRAS...' (Turbo Plant, 839 K suscriptores, 4.827 vistas por hora) es un video de un tercero sobre él, donde no sale: no se pasa por el riesgo de acoso y porque no se sabe de qué acusa. 'WESTCOL FILTRA su TARJETA de CRÉDITO en STREAM' (MDA Noticias) dura 3:45: no es fuente larga. Vuelve a emitir a diario desde el 02-nov. Organiza Stream Fighters 5 (14-nov) y pelea contra Blessd con robots humanoides. El 'accidente aéreo en Florida' del que habló es el choque de un Learjet 60 en Palm Beach (Wikipedia en inglés, 02-nov): no cortarlo. Lo de Komanche sigue excluido; 'RESPONDE A LOS CREADORES DE CONTENIDO QUE LO CRITICARON' (MEJORES FREESTYLE RAP) no se pasa por esa razón. Westcol reaccionó a 'F.E.S.' (Omar Camacho y Víctor Mendivil), una canción que lleva el nombre de la comunidad de Lonche ('WESTCOL REACCIONA A LA CANCION DE Lonche ( FES )', 5 min, 548 vistas); no está confirmado que Lonche participe en ella.",
       "apariciones_en_ventana": [
-        { "url": "https://www.youtube.com/watch?v=HrCjenG44eE", "titulo": "WESTCOL TIRANDO FACTOS Y CUENTA UNA ANÉCDOTA", "canal": "juan diego mm", "publicado": "2026-11-02T18:39:19-05:00", "vistas": 43728, "aparece": true },
-        { "url": "https://www.youtube.com/watch?v=hc_eHyGrndY", "titulo": "WESTCOL DA LAS ÚLTIMAS NOTICIAS SOBRE LAS PELEAS DE STREAM FIGHTERS 5😲🤩", "canal": "WestcolClips", "publicado": "2026-11-02T18:26:46-05:00", "vistas": 25848, "aparece": true },
-        { "url": "https://www.youtube.com/watch?v=UUxoaLXE3CE", "titulo": "WESTCOL HABLA DE LA LEY DE ATRACCIÓN Y DE CÓMO ÉL LA UTILIZÓ SIEMPRE A SU FAVOR PARA SER EXITOSO 🤯", "canal": "WestcolClips", "publicado": "2026-11-02T20:07:03-05:00", "vistas": 11462, "aparece": true },
-        { "url": "https://www.youtube.com/watch?v=RPs9ahaF2Rg", "titulo": "WESTCOL REAPARECE pa HABLAR de TODO EL HATE que HA RECIBIDO y AGRADECE a STREAMERS q lo HAN APOYADO", "canal": "🐢Alancitu🐢", "publicado": "2026-11-02T17:07:59-05:00", "vistas": 2508, "aparece": true, "nota": "Métrica del 02-nov" },
-        { "url": "https://www.youtube.com/watch?v=8L8CP3xe3Qo", "titulo": "ESTOY DE REGRESO - HABLANDO DEL ACCIDENTE AÉREO EN FLORIDA Y DEL ÉXITO DE LA W SOUND CON HADES66 🤯", "canal": "WestcolClips", "publicado": "2026-11-02T16:14:28-05:00", "vistas": 9456, "aparece": true, "nota": "Ya analizada por el Clipero (ciclo 5)" },
-        { "url": "https://www.youtube.com/watch?v=MBotzCroy1Q", "titulo": "WESTCOL HABLANDO DE TODO Y HABLA DEL DISFRAZ QUE QUERÍA USAR", "canal": "juan diego mm", "publicado": "2026-11-02T16:06:54-05:00", "vistas": 4763, "aparece": true, "nota": "Ya analizada por el Clipero (ciclo 5)" }
+        { "url": "https://www.youtube.com/watch?v=XvSs7RaRxzA", "titulo": "Peleare en Stream Fighters | Westcol quiere cargar a CHIARA, Samulx", "canal": "Live Samulx", "publicado": "2026-11-05T20:11:00-05:00", "vistas": 26441, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=9kJkUgmxh10", "titulo": "Con Westcol y la Ganga en Colombia | Samulx", "canal": "Live Samulx", "publicado": "2026-11-05T19:23:00-05:00", "vistas": 28170, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=WqA-BVwzz2Q", "titulo": "SAMUELX LLEGA POR FIN A MEDELLÍN 🔥 | WESTCOL", "canal": "Aida Victoria Stream", "publicado": "2026-11-05T20:34:00-05:00", "vistas": 13625, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=0itDam7t0fg", "titulo": "SAMULX LLEGA DE SORPRESA AL PENTHOUSE DE WESTCOL 🤣 TODA LA GANGA REUNIDA EN COLOMBIA POR PRIMERA VEZ", "canal": "WestcolClips", "publicado": "2026-11-05T22:35:00-05:00", "vistas": 689, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=AiBzbElWaow", "titulo": "MOSTRANDO MI NUEVO SETEO Y MI APARTAMENTO EN EL POBLADO 🤩 NUEVOS CAMBIOS - ¿COMPRARÉ EL LAMBO? 🤯", "canal": "WestcolClips", "publicado": "2026-11-04T01:21:57-05:00", "vistas": 27817, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=ZvAsDKT4jGo", "titulo": "REYDELACITY Y WESTCOL CONOCEN EL PRIMER LAMBORGHINI REVUELTO DE COLOMBIA… ¡UNA LOCURA! 🤯🏎️", "canal": "ElReyWithTheClips", "publicado": "2026-11-03T18:52:28-05:00", "vistas": 28303, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=puqAwRUWeB4", "titulo": "WESTCOL SE VA DE COMPRAS CON SU ROBOT EN UN CENTRO COMERCIAL", "canal": "juan diego mm", "publicado": "2026-11-03T18:14:40-05:00", "vistas": 21248, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=v1Gj-XFyUK0", "titulo": "WESTCOL JUEGA GEOGUESSR CON LA GANGA 😂😂 ft Samulx, Chanty y ReyDeLaCity", "canal": "WestcolClips", "publicado": "2026-11-04T02:46:01-05:00", "vistas": 10041, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=88zpuVrOrMU", "titulo": "REYDELACITY Y WESTCOL LLEVAN SU ROBOT DE COMPRAS… ¡LA GENTE SE VUELVE LOCA! 🤖🔥", "canal": "ElReyWithTheClips", "publicado": "2026-11-03T17:59:57-05:00", "vistas": 13733, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=0DD2CRBisO8", "titulo": "REYDELACITY Y WESTCOL ENTRENAN A SU NUEVO ROBOT… ¡UNA LOCURA! 😂🤖🔥", "canal": "ElReyWithTheClips", "publicado": "2026-11-03T17:02:42-05:00", "vistas": 6242, "aparece": true, "nota": "8:20" },
+        { "url": "https://www.youtube.com/watch?v=hc_eHyGrndY", "titulo": "WESTCOL DA LAS ÚLTIMAS NOTICIAS SOBRE LAS PELEAS DE STREAM FIGHTERS 5😲🤩", "canal": "WestcolClips", "publicado": "2026-11-02T18:26:46-05:00", "vistas": 32828, "aparece": true, "nota": "Fuera de la ventana de 36 h el 04-nov; ya pasada al Clipero" }
       ]
     },
     {
@@ -281,11 +306,11 @@
       "verificacion": "Kick: kick.com/lonche, con 1,3 M de seguidores (página leída el 02-nov). Dexerto, con datos de StreamsCharts de noviembre de 2026, lo pone #13 de Kick con 1.239.064 seguidores, se llama Víctor Ordoñez y tiene 23 años (https://www.dexerto.com/kick/most-followed-kick-streamers-2890518/). La Razón dice que es de Los Mochis (Sinaloa) y que usa @LoncheDeHuevito en X (https://www.razon.com.mx/entretenimiento/2025/08/31/quien-es-lonche-y-por-que-yeri-mua-lo-hace-responsable-de-las-amenazas-de-muerte-que-recibio/). Su comunidad de seguidores se llama F.E.S. (https://www.unotv.com/entretenimiento/quien-es-lonche-de-huevito-el-streamer-detras-de-las-polemicas-amenazas-a-yeri-mua/). Los Instagram y TikTok salen de las descripciones de Lonche Chacas y de Lonche y Willito. El YouTube principal 'LoncheWey' es una inferencia: no se leyó su descripción.",
       "candidatos": [],
       "evidencia_similar": null,
-      "ultima_revision": "2026-11-03T17:26:00-05:00",
+      "ultima_revision": "2026-11-06T00:43:00-05:00",
       "ultimas_subidas": [
-        { "url": "https://kick.com/lonche/videos/01a166be-6078-7169-bf25-e3cda4a6da20", "titulo": "NOTICIA IMPACTANTE VENGAN YA LA VIDA NOS VOLVIO A SONREIR", "publicado": "2026-10-22T22:11:55-05:00", "vistas": 840043, "nota": "Sigue siendo su último VOD en Kick (03-nov: nada en 84 h)" }
+        { "url": "https://kick.com/lonche/videos/01a166be-6078-7169-bf25-e3cda4a6da20", "titulo": "NOTICIA IMPACTANTE VENGAN YA LA VIDA NOS VOLVIO A SONREIR", "publicado": "2026-10-22T22:11:55-05:00", "vistas": 840043, "nota": "Sigue siendo su último VOD en Kick (04-nov: nada en 84 h)" }
       ],
-      "nota": "No emite en Kick desde el 22-oct; LoncheWey, Lonche y Willito y Lonche Chacas no subieron nada suyo en 36 h. No hay apariciones en persona en la ventana. The Chanty, su rival en Stream Fighters 5 (14-nov, con Willito contra The Chanty e Incógnito), subió 'LONCHE ES MALA PAGA' (945 vistas por hora), donde Lonche solo sale en una foto. La canción 'F.E.S.' (Omar Camacho y Víctor Mendivil) lleva el nombre de su comunidad; la prensa no confirma la relación.",
+      "nota": "Ciclo 8 (06-nov): sigue sin VOD en Kick y sin subidas en LoncheWey (nada en 84 h en ninguno). 'La História de LONCHE y Sus Inicios | Documental' (APShow, 31 min, 52/h) habla de él, no sale: no se pasa. La prensa decía que en la pelea de Willito, Lonche y The Chanty faltaba un cuarto peleador por anunciar; Samulx se presenta el 05-nov como 'peleador sorpresa' de Stream Fighters 5 (sin confirmar que sea ese combate). Ciclo 7 (05-nov): sigue sin VOD en Kick (nada en 84 h). 'Lonche Willito -Hoy' solo trae material de Willito. LoncheWey y Lonche y Willito no se revisaron (turno). Ciclo 6 (04-nov): sigue sin emitir y sin subidas en LoncheWey ni en Lonche y Willito. La prensa no explica la pausa (lo último: el 16-oct prometió tapar baches en Los Mochis, https://www.tiempo.com.mx/espectaculos/lonche-de-huevito-prometio-tapar-baches-los-mochis/). Willito habla de comprarse un jet 'para ir a Los Mochis' (Lonche Chacas, 03-nov). 'Clips de Willito' (42 K suscriptores) sube 'HICE el EJERCICIO MÁS EXTREMO con JUJU en ESTADOS UNIDOS | WILLITO LONCHE' (73 min, 56 vistas por hora): parece material viejo de un viaje juntos, sin fecha comprobada; no se pasa. No emite en Kick desde el 22-oct; LoncheWey, Lonche y Willito y Lonche Chacas no subieron nada suyo en 36 h. No hay apariciones en persona en la ventana. The Chanty, su rival en Stream Fighters 5 (14-nov, con Willito contra The Chanty e Incógnito), subió 'LONCHE ES MALA PAGA' (945 vistas por hora), donde Lonche solo sale en una foto. La canción 'F.E.S.' (Omar Camacho y Víctor Mendivil) lleva el nombre de su comunidad; la prensa no confirma la relación.",
       "apariciones_en_ventana": []
     },
     {
@@ -303,12 +328,12 @@
       "verificacion": "La búsqueda de YouTube 'Feid' (02-nov) devuelve el canal 'Feid' (UCoMlNw7o21I7LqL4OsjSYAg) con sus videos oficiales: 'Classy 101' con Young Miko (669 M de vistas), 'Normal' (558 M), 'Ferxxo 100' (323 M) y 'PARADIXE' con El Americano 4KT y Pirlo (7,95 M). Su pestaña de videos funciona con yt-dlp. Instagram sin verificar.",
       "candidatos": [],
       "evidencia_similar": "Colabora con los perfiles: 'Monastery' con Ryan Castro (575 M), 'Mentira' con Ryan Castro y '+57' con Blessd, Ryan Castro y J Balvin. 'PARADIXE' fue #2 en Spotify Colombia con 352.409 reproducciones diarias (31-oct) y sigue #2 el 01-nov (274.598); '50 MIL PIEX' con Granuja es #7 (+2). No fue invitado en el Awooween de Ryan Castro (Aria Vega salió disfrazada de él).",
-      "ultima_revision": "2026-11-03T17:23:15-05:00",
+      "ultima_revision": "2026-11-06T00:31:00-05:00",
       "ultimas_subidas": [
         { "url": "https://www.youtube.com/watch?v=YXvFLBjTCQA", "titulo": "PARADIXE (REMIX)", "publicado": "2026-11-01T17:02:55-05:00", "vistas": 792002, "nota": "Videoclip de 4:20; fuera de la ventana desde la mañana del 03-nov. No es fuente para clips" }
       ],
       "apariciones_en_ventana": [],
-      "nota": "Sin subidas ni apariciones en persona en 36 h ('Feid -Hoy', 03-nov). Las reacciones al remix siguen rindiendo (OVELTIME, 41.084 vistas en 22 h). Un video de 2 vistas dice que Feid se suma a los Latin Grammy 2026 como artista: sin verificar. El chisme 'Feid y Karol G siguen juntos' sigue excluido."
+      "nota": "Ciclo 8 (06-nov): sin subidas en 84 h en su canal (no se hizo búsqueda de apariciones). Spotify CO del 04-nov: 'PARADIXE' #2 (=, 296.782), el remix #6 (=) y '50 MIL PIEX' #9 (=). Ciclo 7 (05-nov): sin subidas ni apariciones en persona ('Feid -Hoy': letras y type beats). Spotify CO del 03-nov: 'PARADIXE' #2 (310.464), el remix baja a #6 (-2) y '50 MIL PIEX' #9. Ciclo 6 (04-nov): sin subidas en 36 h en su canal. 'PARADIXE - REMIX' entra #4 en Spotify CO (163.353 reproducciones el 02-nov); 'PARADIXE' sigue #2 y '50 MIL PIEX' #8. Ciclo 5: sin subidas ni apariciones en persona en 36 h ('Feid -Hoy', 03-nov). Las reacciones al remix siguen rindiendo (OVELTIME, 41.084 vistas en 22 h). Un video de 2 vistas dice que Feid se suma a los Latin Grammy 2026 como artista: sin verificar. El chisme 'Feid y Karol G siguen juntos' sigue excluido."
     },
     {
       "nombre": "The Chanty",
@@ -327,8 +352,14 @@
       "verificacion": "Enlaces tomados de la descripción de sus videos del 01-nov y del 03-nov (https://www.youtube.com/watch?v=In4GYQNFCnk), con Kick, Instagram, TikTok y Facebook (https://www.facebook.com/Elchantyyt).",
       "candidatos": [],
       "evidencia_similar": "Streamer de Kick de Medellín (240 K suscriptores en YouTube). Apareció en la búsqueda 'Westcol' del 01-nov y se disfrazó de Blessd y Ryan Castro ('LA GANGA REACCIONA A NUESTRO DISFRAZ DE BLESSD Y RYAN', 29.212 vistas). En Stream Fighters 5 (14-nov) pelea con Incógnito contra Willito y Lonche (Vanguardia, 28-oct).",
-      "ultima_revision": "2026-11-03T17:23:00-05:00",
+      "ultima_revision": "2026-11-06T00:33:00-05:00",
+      "nota": "Ciclo 8 (06-nov): sin VOD nuevo en Kick; el de fútbol del 04-nov baja a 1.063 vistas/h (33.489 a las 31,5 h). No se revisó su YouTube (presupuesto). Ciclo 7 (05-nov): VOD nuevo de Kick 'GANO EL REAL EN GRECIA, ARSENAL TMB…' (5 h, 31.995 vistas en 7,6 h, 4.210/h; 5 veces el anterior). Sus subidas a YouTube del 04-nov suben a 213-625 vistas/h. Ciclo 6 (04-nov): 5 subidas a YouTube con la Ganga ('LA GANGA HA VUELTO', Mimic Party, adivinar el país) y de compras con su mamá; todas entre 171 y 488 vistas por hora. VOD de Kick 'COMPRAS CON MI MAMÁ Y MOTO MOTO…' (3 h 34 min): 24.279 vistas, 1.140 por hora, muy por debajo de su VOD del 02-nov (28.068/h). Sale en el GeoGuessr de Westcol (WestcolClips, 04-nov).",
       "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=7iMtcewyyqI", "titulo": "LA GANGA HA VUELTO, PARCHANDO CON LA GANGA", "publicado": "2026-11-04T11:32:12-05:00", "vistas": 2491, "nota": "13 min, 488 vistas por hora" },
+        { "url": "https://www.youtube.com/watch?v=H-DQtooRs4Y", "titulo": "IMITANDO MEMES COLOMBIANOS CON LA GANGA EN MIMIC PARTY", "publicado": "2026-11-04T11:58:37-05:00", "vistas": 1205, "nota": "19 min, 262 vistas por hora" },
+        { "url": "https://www.youtube.com/watch?v=dSSD5sFFfRQ", "titulo": "IRL DE COMPRAS CON MI MAMÁ (ME VA A DEJAR EN LA QUIEBRA)", "publicado": "2026-11-04T11:17:05-05:00", "vistas": 1655, "nota": "19 min, 312 vistas por hora" },
+        { "url": "https://www.youtube.com/watch?v=XuVxnsB8byw", "titulo": "ADIVINANDO EL PAIS CON LA GANGA", "publicado": "2026-11-04T12:25:40-05:00", "vistas": 720, "nota": "9 min, 171 vistas por hora" },
+        { "url": "https://kick.com/chanty/videos/01a1a3e8-6980-79da-a8fa-423c7ff240f4", "titulo": "COMPRAS CON MI MAMÁ Y MOTO MOTO, MÁS TARDE VIDEOGAMES GANGUIL | EL #2 DE COLOMBIA| LLEGUEN |", "publicado": "2026-11-03T19:14:40-05:00", "vistas": 24279, "nota": "VOD de Kick de 3 h 34 min, sin subtítulos" },
         { "url": "https://kick.com/chanty/videos/01a19eda-2578-7603-ac9e-c90adb91e4b1", "titulo": "HABLANDO DE LO QUE SE VIENE ESTA SEMANA | EL #2 DE COLOMBIA| LLEGUEN | !RS", "publicado": "2026-11-02T19:40:59-05:00", "vistas": 609086, "nota": "VOD de 3 h en Kick, sin subtítulos: 28.068 vistas por hora a las 17:22" },
         { "url": "https://www.youtube.com/watch?v=In4GYQNFCnk", "titulo": "LONCHE ES MALA PAGA", "publicado": "2026-11-03T10:51:55-05:00", "vistas": 6238, "nota": "8:43; habla de Lonche, que solo sale en una foto" },
         { "url": "https://www.youtube.com/watch?v=8FGMh-yni8w", "titulo": "SOY EL MEJOR EST4FADOR DE FAMOSOS | scam with your friends", "publicado": "2026-11-03T11:34:59-05:00", "vistas": 4683, "nota": "28 min de juego con cámara" },
@@ -356,14 +387,115 @@
       "verificacion": "Kick y redes tomados de las descripciones de los videos de Lonche Chacas (https://www.youtube.com/watch?v=L6Q2hwgXhYY) y de Lonche y Willito (https://www.youtube.com/watch?v=F9pDqP0A1wE), que enlazan kick.com/willito, @willitooo_ y @.willito. Sin canal propio de YouTube encontrado.",
       "candidatos": [],
       "evidencia_similar": "Compañero habitual de Lonche: comparten canal de YouTube ('Lonche y Willito', 112 K suscriptores) y directos (Guatapé, Japón, Los Ángeles). En Stream Fighters 5 (14-nov) pelea junto a Lonche contra The Chanty e Incógnito (Vanguardia, 28-oct). En La Razón aparece como 'su amigo Willito'.",
-      "ultima_revision": "2026-11-03T17:22:00-05:00",
+      "ultima_revision": "2026-11-06T00:43:00-05:00",
       "ultimas_subidas": [
-        { "url": "https://kick.com/willito/videos/01a19f7c-7058-7aa8-9ed8-47bd4f6d5b1f", "titulo": "FIESTA DE HALLOWEEN CON PUDINES | VEN YA!!", "publicado": "2026-11-02T22:38:15-05:00", "vistas": 133890, "nota": "VOD nuevo de 4 h (mismo título que el del 29-oct, otro id), sin subtítulos: 7.160 vistas por hora a las 17:22" }
+        { "url": "https://kick.com/willito/videos/01a1a40a-d600-7299-85f7-6ab433448973", "titulo": "FIESTA DE HALLOWEEN CON PUDINES | VEN YA!!", "publicado": "2026-11-03T19:52:16-05:00", "vistas": 140974, "nota": "Otro VOD nuevo de 5 h con el mismo título (tercer id distinto), sin subtítulos: 6.810 vistas por hora a las 16:33 del 04-nov" },
+        { "url": "https://kick.com/willito/videos/01a19f7c-7058-7aa8-9ed8-47bd4f6d5b1f", "titulo": "FIESTA DE HALLOWEEN CON PUDINES | VEN YA!!", "publicado": "2026-11-02T22:38:15-05:00", "vistas": 133890, "nota": "Ciclo 5; fuera de la ventana" }
       ],
       "apariciones_en_ventana": [
-        { "url": "https://www.youtube.com/watch?v=VgOHa7fQ0zU", "titulo": "VOLVI CON ODETTE O NO? *aclaracion* | Willito", "canal": "Lonche Chacas", "publicado": "2026-11-03T12:23:29-05:00", "vistas": 3446, "aparece": true }
+        { "url": "https://www.youtube.com/watch?v=eqZU8kLhncM", "titulo": "ME COMPRARE un JET PRIVADO PARA IR A los MOCHIS | Willito", "canal": "Lonche Chacas", "publicado": "2026-11-03T19:55:43-05:00", "vistas": 18326, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=VgOHa7fQ0zU", "titulo": "VOLVI CON ODETTE O NO? *aclaracion* | Willito", "canal": "Lonche Chacas", "publicado": "2026-11-03T12:23:29-05:00", "vistas": 17985, "aparece": true, "nota": "Ya pasada al Clipero en el ciclo 5" }
       ],
-      "nota": "Añadido como similar en el ciclo 4. Vuelve a emitir en Kick el 02-nov por la noche."
+      "nota": "Ciclo 8 (06-nov): sin VOD nuevo en Kick en 36 h. Aparece en 'Quebraron A Willito Y Juju' (Willito Live, https://www.youtube.com/watch?v=s7V2XuY8oS8, 64 min, 145/h; fecha del directo sin comprobar) y 'WILLITO HABLA DE SUS NUEVOS CARROS Y NUEVA CASA' (NMarcial, 13,5 min, 6 vistas). Ciclo 7 (05-nov): sin VOD nuevo en Kick (el último es la fiesta de Halloween del 03-nov: 153.036 vistas, 5.332/h). Lonche Chacas sube 'HICE EL MASAJE MAS EXTREMO DEL MUNDO con MI AMIGA y JAY' (82 min, 885/h), que parece material del viaje a EE. UU. ('Clips de Willito' subió 'ME HICE el MASAJE MÁS EXTREMO con JUJU en ESTADOS UNIDOS'). 'NOCHE DE TABLE DANCE EN NUEVA YORK' (La Lonchiza) no se pasa. Añadido como similar en el ciclo 4. Vuelve a emitir en Kick el 02-nov por la noche y el 03-nov."
+    },
+    {
+      "nombre": "Reydelacity",
+      "nicho": "streamers y creadores",
+      "origen": "similar",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UCmFt6w70AupTFs_VGzDUknA",
+        "kick": "https://kick.com/reydelacity/videos",
+        "twitch": null,
+        "instagram": "https://www.instagram.com/reydelacity",
+        "tiktok": null, "x": null
+      },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UCWYmI0G7R2hc3ONcSSKPWQw", "que_es": "ElReyWithTheClips (201 K suscriptores): recortes largos de sus directos; la descripción enlaza su Kick, su Instagram y su YouTube @ReyDeLaCity" },
+        { "url": "https://www.youtube.com/channel/UCV9A0Hj87UUxHFDy1jE6O7g", "que_es": "JustJuxx333_: más recortes suyos (con Laja y Tyking)" }
+      ],
+      "verificacion": "La descripción de los videos de ElReyWithTheClips (https://www.youtube.com/watch?v=ZvAsDKT4jGo, leída con yt-dlp el 04-nov) enlaza kick.com/reydelacity, instagram.com/reydelacity y youtube.com/@ReyDeLaCity. La búsqueda 'Reydelacity' (04-nov) devuelve el canal 'ReyDeLaCity' (UCmFt6w70AupTFs_VGzDUknA) con 'HARDEN SE MOLESTA CONMIGO Y MINI LAJA…' (519.467 vistas). Kick leído el 04-nov: 190,1 K seguidores, desconectado. País sin confirmar: sus recortes lo muestran en Puerto Rico (YvngChimi, 'the projects') y ahora en Medellín con Westcol.",
+      "candidatos": [],
+      "evidencia_similar": "Sale con Westcol 4 veces en 24 h: entrenan el robot (https://www.youtube.com/watch?v=0DD2CRBisO8), lo llevan de compras (https://www.youtube.com/watch?v=88zpuVrOrMU, 13.733 vistas), ven el primer Lamborghini Revuelto de Colombia (https://www.youtube.com/watch?v=ZvAsDKT4jGo, 28.303 vistas en 21,8 h) y juegan GeoGuessr con la Ganga, junto a The Chanty y Samulx (https://www.youtube.com/watch?v=v1Gj-XFyUK0, WestcolClips). Mismo estilo: streamer de Kick de IRL y calle.",
+      "ultima_revision": "2026-11-06T00:42:00-05:00",
+      "ultimas_subidas": [
+        { "url": "https://kick.com/reydelacity/videos/01a1a8d8-34c0-7878-b6ac-518d5aa95b84", "titulo": "FALTA MENOS PARA LA PELEA🥊🐐 l STAKE", "publicado": "2026-11-04T18:15:04-05:00", "vistas": 54040, "nota": "VOD de 5 h 41 min: 8.444 vistas/h a las 6,4 h, 4,4 veces el anterior" },
+        { "url": "https://kick.com/reydelacity/videos/01a1a3de-47c0-7836-ad3a-7f6910fa7ca8", "titulo": "ESTAMOSS EN COLOMBIAAA l STAKE", "publicado": "2026-11-03T19:03:36-05:00", "vistas": 57010, "nota": "VOD de 5 h 6 min: 1.926 vistas/h a las 29,6 h" }
+      ],
+      "apariciones_en_ventana": [
+        { "url": "https://www.youtube.com/watch?v=ZvAsDKT4jGo", "titulo": "REYDELACITY Y WESTCOL CONOCEN EL PRIMER LAMBORGHINI REVUELTO DE COLOMBIA… ¡UNA LOCURA! 🤯🏎️", "canal": "ElReyWithTheClips", "publicado": "2026-11-03T18:52:28-05:00", "vistas": 28303, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=88zpuVrOrMU", "titulo": "REYDELACITY Y WESTCOL LLEVAN SU ROBOT DE COMPRAS… ¡LA GENTE SE VUELVE LOCA! 🤖🔥", "canal": "ElReyWithTheClips", "publicado": "2026-11-03T17:59:57-05:00", "vistas": 13733, "aparece": true }
+      ],
+      "nota": "Ciclo 8 (06-nov): sin VOD nuevo en Kick ('FALTA MENOS PARA LA PELEA' baja a 1.856/h a las 30,3 h). Se reencuentra con la Ganga y Samulx el 05-nov: '¡SAMULX LLEGA A COLOMBIA! REYDELACITY SE REENCUENTRA CON LA GANGA' (ElReyWithTheClips, 2.697/h, 3,4 veces su recorte anterior) y 'Que harías por la VISA' (Live Samulx, 1.255/h). ReyMomentos (UCiRZYlLcApcwWXV-JuOsGuQ) es otro canal de recortes suyo: 'CON QUIEN ENTRO EN MI PELEA CON LAJA O LILNAAY' (42 min, 189/h). Ciclo 7 (05-nov): su canal propio no tiene subidas en 36 h; en Kick emite a diario con publicidad de Stake (casino en línea: no cortar tramos de apuestas). Pelea contra Wegotkicks en Stream Fighters 5 (cartelera de la prensa, vía búsqueda web; https://www.minuto30.com/amp/stream-fighters-5-sorprende-con-su-cartelera-estos-son-los-10-enfrentamientos-que-tendra-el-evento/1719098/). ElReyWithTheClips sube 'REYDELACITY REACCIONA A LOS VIDEOS DE IA DE LAJA VS TYKING' (1.195/h). Sale con Diego RR ('ASÍ ES UN DÍA CONMIGO Y EL REYDELACITY en MEDELLÍN') y con Westcol y Ovy On The Drums en Guatapé (ClipsWcol, fecha sin comprobar). 'EL ROBOT DE WESTCOL CASI MATA A ELREY DE LA CITY' (Rey De la city_2, 27 min, 49/h). Añadido como similar en el ciclo 6."
+    },
+    {
+      "nombre": "Fuerza Regida",
+      "nicho": "música urbana: cantantes jóvenes",
+      "origen": "similar",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UCFLI6KAjrKRtydD7KqiYvAw",
+        "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null
+      },
+      "canales_relacionados": [],
+      "verificacion": "Resuelto el 05-nov: 'buscar \"Fuerza Regida\"' sin filtro de fecha devuelve el canal 'FUERZA REGIDA' (UCFLI6KAjrKRtydD7KqiYvAw) con sus videos oficiales: 'MARLBORO ROJO' (551,8 M de vistas), 'EXCESOS' (433 M), 'COQUETA' con Grupo Frontera (281 M) y 'ANSIEDAD' (258 M). Redes sin verificar.",
+      "candidatos": [],
+      "evidencia_similar": "Grupo de corridos tumbados de San Bernardino liderado por Jesús Ortiz Paz (JOP), de la misma escena que Peso Pluma. Sube en las tendencias del nicho: 'Suzuki (from GTA VI: The Album)' es #3 en TikTok México con 175 K videos y +4.000 al día (https://tokchart.com/es-mx/audios-de-tiktok, 04-nov) y está en el índice de 30 días de revid (20,1 M de vistas); en Spotify CO del 02-nov tiene 'COQUETA' #19, 'EXCESOS' #39 (+17), 'ANSIEDAD' #101 (+40) y el estreno 'PERO NO TE ENAMORES' #178 (NEW) (https://kworb.net/spotify/country/co_daily.html).",
+      "ultima_revision": "2026-11-06T00:31:00-05:00",
+      "ultimas_subidas": [],
+      "apariciones_en_ventana": [],
+      "nota": "Ciclo 8 (06-nov): primera revisión del canal: sin subidas en 84 h. 'Suzuki' sigue #3 en TikTok México y acelera (185 K videos, +9.900 al día; tokchart, 05-nov). Spotify CO del 04-nov: 8 entradas; 'EXCESOS' #30 (+11), 'Marlboro Rojo' #55 (+31) y 'Suzuki' #100 (+19). El remix 'Cuando No Era Cantante' con El Bogueto es #13 (+1). Ciclo 7 (05-nov): canal resuelto; sus subidas no se revisaron (presupuesto de revisiones agotado): revisar en el ciclo 8. Sigue en alza: 'Suzuki' #3 en TikTok México (175 K videos, +4.000 al día) y un 'Audio original' suyo #10 (40 K, +1.300); 11 entradas en Spotify CO del 03-nov, la mejor #14 ('Cuando No Era Cantante RMX' con El Bogueto, Anuel AA y Yung Beef). Añadido como similar en el ciclo 6. 'Jesús Ortiz de Fuerza Regida sorprende con radical cambio de look' (Hoy Día, Telemundo) es farándula de TV de 3 min: no entra."
+    },
+    {
+      "nombre": "Ovy On The Drums",
+      "nicho": "música urbana: cantantes jóvenes",
+      "origen": "similar",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UC9vR20I0Qp-FRZvF4iXjcfQ",
+        "kick": null, "twitch": null, "instagram": null, "tiktok": null, "x": null
+      },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UCWOVPbJfZ_g1JslVi_OFGfQ", "que_es": "W Sound: el canal de la serie que produce con Westcol ('W Sound 10 \"HAPPY MONDAY\" - Hades66, Westcol, Ovy On The Drums', 7,17 M de vistas)" }
+      ],
+      "verificacion": "La búsqueda 'Ovy On The Drums' (05-nov) devuelve el canal 'Ovy On The Drums' (UC9vR20I0Qp-FRZvF4iXjcfQ) con 'Inolvidable' con Beéle (544,9 M de vistas) y 'NUBES' (39,9 M), más sus colaboraciones en los canales de Blessd ('MÍRAME', 434,6 M) y de KAROL G ('+57', con J Balvin, Maluma, Ryan Castro, Blessd y Feid). Productor colombiano (https://en.wikipedia.org/wiki/Ovy_on_the_Drums). Redes sin verificar.",
+      "candidatos": [],
+      "evidencia_similar": "Aparece una y otra vez junto a los perfiles: produce la W Sound de Westcol ('Happy Monday - W Sound 10' es #5 en Spotify CO con 169.025 reproducciones el 03-nov, +2; https://kworb.net/spotify/country/co_daily.html), colabora con Blessd ('MÍRAME', 'CASI ALGO') y con J Balvin, Maluma, Ryan Castro y Feid en '+57', y sale con Westcol y Reydelacity en Guatapé ('WESTCOL EN GUATAPÉ CON OVY ON THE DRUMS Y REYDELACITY', ClipsWcol, https://www.youtube.com/watch?v=2jRWP5Dc9Qc, 04-nov; fecha del directo sin comprobar). Tiene 7 entradas en Spotify CO.",
+      "ultima_revision": "2026-11-06T00:31:00-05:00",
+      "ultimas_subidas": [],
+      "apariciones_en_ventana": [
+        { "url": "https://www.youtube.com/watch?v=2jRWP5Dc9Qc", "titulo": "WESTCOL EN GUATAPÉ CON OVY ON THE DRUMS Y REYDELACITY | WESTCOL", "canal": "ClipsWcol", "publicado": "2026-11-04T18:00:00-05:00", "vistas": 0, "aparece": true, "nota": "Fecha del directo sin comprobar" }
+      ],
+      "nota": "Ciclo 8 (06-nov): primera revisión de su canal: sin subidas en 84 h. La W Sound no se revisó (turno). Westcol sube '¿CUANTO DINERO GANO LA PLENA?' (4.924/h), sobre 'La Plena - W Sound 05' (con Beéle y Ovy), que sube 42 puestos en Spotify CO (#96, 04-nov); 'Happy Monday - W Sound 10' sigue #5 (171.989). Tiene 7 entradas en Spotify CO. Añadido como similar en el ciclo 7."
+    },
+    {
+      "nombre": "Samulx",
+      "nicho": "streamers y creadores",
+      "origen": "similar",
+      "estado": "resuelto",
+      "cuentas": {
+        "youtube": "https://www.youtube.com/channel/UC5uLQrHH1ZAcK4rsOhodvnw",
+        "kick": "https://kick.com/samulx/videos",
+        "twitch": null, "instagram": null, "tiktok": null, "x": null
+      },
+      "canales_relacionados": [
+        { "url": "https://www.youtube.com/channel/UC_QMehFu0V1NvILdJfa8l5w", "que_es": "Live Samulx: recortes de sus directos ('Peleare en Stream Fighters', 'Con Westcol y la Ganga en Colombia'). No se comprobó si es suyo o de un fan" }
+      ],
+      "verificacion": "La búsqueda 'Samulx' (06-nov) devuelve el canal 'Samulx' (UC5uLQrHH1ZAcK4rsOhodvnw), que sube en primera persona 'POR FIN ESTOY EN COLOMBIA CONOCIENDO LA CASA DE WEST' y 'VOY A PELEAR EN STREAM FIGHTERS 5 MI PRIMERA PELEA EN COLOMBIA'. Kick kick.com/samulx leído el 06-nov: existe, 510,9 K seguidores, desconectado; la página no da bio ni redes. País sin confirmar (llega a Colombia 'por primera vez' y habla de la visa). Redes sin verificar.",
+      "candidatos": [],
+      "evidencia_similar": "Miembro de la Ganga de Westcol: juega GeoGuessr con Westcol, The Chanty y Reydelacity (https://www.youtube.com/watch?v=v1Gj-XFyUK0, 04-nov), llega a la casa de Westcol el 05-nov (https://www.youtube.com/watch?v=hD58PIkuFVA, 43.218 vistas en 4,5 h, 9.604/h) y sale con Westcol y Reydelacity en tres recortes más en 24 h (Live Samulx, ElReyWithTheClips, WestcolClips). Pelea en Stream Fighters 5 ('SAMULX ES EL PELEADOR SORPRESA DE STREAM FIGHTERS 5', WestcolClips, https://www.youtube.com/watch?v=XS_nD_Os9cs).",
+      "ultima_revision": "2026-11-06T00:47:00-05:00",
+      "ultimas_subidas": [
+        { "url": "https://www.youtube.com/watch?v=hD58PIkuFVA", "titulo": "POR FIN ESTOY EN COLOMBIA 🙂🇨🇴 CONOCIENDO LA CASA DE WEST | Samulx", "publicado": "2026-11-05T20:17:00-05:00", "vistas": 43218, "nota": "26 min, 9.604/h a las 4,5 h" },
+        { "url": "https://www.youtube.com/watch?v=Oo1s6VzMkD8", "titulo": "VOY A PELEAR EN STREAM FIGHTERS 5 😯 MI PRIMERA PELEA EN COLOMBIA | Samulx", "publicado": "2026-11-05T23:18:00-05:00", "vistas": 1196, "nota": "14 min, 797/h a las 1,5 h" }
+      ],
+      "apariciones_en_ventana": [
+        { "url": "https://www.youtube.com/watch?v=XvSs7RaRxzA", "titulo": "Peleare en Stream Fighters | Westcol quiere cargar a CHIARA, Samulx", "canal": "Live Samulx", "publicado": "2026-11-05T20:11:00-05:00", "vistas": 26441, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=9kJkUgmxh10", "titulo": "Con Westcol y la Ganga en Colombia | Samulx", "canal": "Live Samulx", "publicado": "2026-11-05T19:23:00-05:00", "vistas": 28170, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=2XgP-WLx1vI", "titulo": "Que harías por la VISA 😂 | Parchando con Westcol y Rey, Samulx", "canal": "Live Samulx", "publicado": "2026-11-05T12:29:00-05:00", "vistas": 15439, "aparece": true },
+        { "url": "https://www.youtube.com/watch?v=6w5HrPESPrY", "titulo": "¡SAMULX LLEGA A COLOMBIA! REYDELACITY SE REENCUENTRA CON LA GANGA… ¡SE JUNTARON TODOS!", "canal": "ElReyWithTheClips", "publicado": "2026-11-05T19:11:00-05:00", "vistas": 15105, "aparece": true }
+      ],
+      "nota": "Añadido como similar en el ciclo 8. Posible (sin confirmar): sea el cuarto peleador que faltaba anunciar en el combate de Willito y Lonche contra The Chanty e 'Incógnito'. La web no tiene notas sobre él."
     }
   ]
 }

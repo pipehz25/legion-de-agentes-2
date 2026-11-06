@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-dinero-parqueado",
+    "url_fuente":  "https://www.youtube.com/watch?v=LgnQHaFVvyo",
+    "video_id":  "LgnQHaFVvyo",
+    "inicio":  923.73,
+    "fin":  952.3,
+    "inicio_hms":  "0:15:23",
+    "duracion_seg":  28.6,
+    "gancho":  "A Westcol le desespera el dinero parqueado",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  128,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -23,
+                  "entrada_tp":  -14.84,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -5.84
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-dinero-parqueado/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-dinero-parqueado/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-dinero-parqueado/revision.jpg",
+    "creado":  "2026-11-05T23:09:23.8819444-05:00"
+}

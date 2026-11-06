@@ -1,7 +1,7 @@
 {
-    "actualizado":  "2026-11-03T22:20:00-05:00",
-    "ciclo":  5,
-    "ultimo_ciclo_cazador":  4,
+    "actualizado":  "2026-11-06T01:30:00-05:00",
+    "ciclo":  7,
+    "ultimo_ciclo_cazador":  7,
     "fuentes":  [
                     {
                         "id":  "LYEB5ioD_pY",
@@ -36,7 +36,7 @@
                         "url":  "https://www.youtube.com/watch?v=Z1VUghXaEIM",
                         "titulo":  "Concierto Ryan Castro | 31 de Octubre 2026 | Estadio El Campín Bogotá | Awooween (4K)",
                         "analizado":  "2026-11-03",
-                        "resultado":  "3 clips (fuegos-final 74, estadio-lleno 70, a-todo-volumen 69) + 1 producido que queda propuesto (arranque, 59: abre con el presentador) | encargo directo del usuario, 3-nov 22:00-22:15: cortado SIN SUBTÍTULOS con autorización expresa del usuario solo esta vez | sin texto (transcripcion_origen: ninguno; whisper no instalado) | vistazo hecho el 2-nov (5 hojas, 1 cuadro cada 20 s) + volumen.json | OJO: las marcas de las hojas van ~10 s por delante de la imagen (fps=1/20 muestra el último cuadro de cada ventana; el de '0:20' es de ~0:30): sumar ~10 s | estructura: presentador en la entrada 0:00-~0:25; cuenta regresiva ~0:30; show hasta ~45:15; salida 45:20-46:24 | más volumen: 25:50-26:40 (máx. −8,5 LUFS en 26:20), 15:00-16:00, 1:50-2:30 y 43:40-45:10 (fuegos) | 29.668 vistas el 3-nov 22:01 (12.942 el 1-nov) | La Vuelta Reacciones (135 suscriptores); la marca de agua @LaVueltaVlogs es de su canal hermano La Vuelta Vlogs | no nombrar invitados (no identificables sin audio); Feid NO estuvo (Aria Vega iba disfrazada de él)"
+                        "resultado":  "3 clips (fuegos-final 74, estadio-lleno 70, a-todo-volumen 69) + 1 producido que queda propuesto (arranque, 59: abre con el presentador) | encargo directo del usuario, 3-nov 22:00-22:15: cortado SIN SUBTÍTULOS con autorización expresa del usuario solo esta vez | sin texto (transcripcion_origen: ninguno; whisper no instalado) | vistazo hecho el 2-nov (5 hojas, 1 cuadro cada 20 s) + volumen.json | OJO: las marcas de las hojas van ~10 s por delante de la imagen (fps=1/20 muestra el último cuadro de cada ventana; el de \u00270:20\u0027 es de ~0:30): sumar ~10 s | estructura: presentador en la entrada 0:00-~0:25; cuenta regresiva ~0:30; show hasta ~45:15; salida 45:20-46:24 | más volumen: 25:50-26:40 (máx. −8,5 LUFS en 26:20), 15:00-16:00, 1:50-2:30 y 43:40-45:10 (fuegos) | 29.668 vistas el 3-nov 22:01 (12.942 el 1-nov) | La Vuelta Reacciones (135 suscriptores); la marca de agua @LaVueltaVlogs es de su canal hermano La Vuelta Vlogs | no nombrar invitados (no identificables sin audio); Feid NO estuvo (Aria Vega iba disfrazada de él)"
                     },
                     {
                         "id":  "tLTcYKphXdw",
@@ -92,16 +92,127 @@
                         "url":  "https://www.youtube.com/watch?v=bip8ttg-VeE",
                         "titulo":  "Lalo Ocampo - Tóxico (video oficial)",
                         "analizado":  "2026-11-02",
-                        "resultado":  "4 clips (intro-celos-aire, coro-eres-mia, celos-completo, verso-mando-la-ubi) | encargo directo del usuario el 2-nov (fuera de ciclo; no aplican duración mínima ni tipo de fuente) | canal Lalo Ocampo (1.480), en fuentes_autorizadas desde el 2-nov: derechos autorizado | video musical de 174 s publicado el 31-oct, 411 vistas, 60 likes y 36 comentarios a las 20:30 del 2-nov | sin picos ni marcas en comentarios | transcripción leída entera (20 líneas; subtítulos automáticos de YouTube, buenos) | estructura: intro 0:00-0:08, gancho de los celos 0:08-0:30 y 2:07-2:28, coro 'eres mía' 0:31-0:52 y 1:24-1:45, verso 1 0:52-1:23, verso 2 1:46-2:02, final instrumental con créditos 2:28-2:54 | visual: hoja de contactos de 1 cuadro cada 3 s; secuencia de primeros planos en 2:09-2:24 | palabras-rev.json: pa→pa', mi→mí (2:01), 'Nadie se mi amor'→'Nadie (…) mi amor' (escuchar) | máster muy alto: entrada de +0,5 a +1,8 dBTP en 3 clips | hay una pista de audio 'Tóxico' en 'Release - Topic' (ZkvoB6zB9P8, 174 s)"
+                        "resultado":  "4 clips (intro-celos-aire, coro-eres-mia, celos-completo, verso-mando-la-ubi) | encargo directo del usuario el 2-nov (fuera de ciclo; no aplican duración mínima ni tipo de fuente) | canal Lalo Ocampo (1.480), en fuentes_autorizadas desde el 2-nov: derechos autorizado | video musical de 174 s publicado el 31-oct, 411 vistas, 60 likes y 36 comentarios a las 20:30 del 2-nov | sin picos ni marcas en comentarios | transcripción leída entera (20 líneas; subtítulos automáticos de YouTube, buenos) | estructura: intro 0:00-0:08, gancho de los celos 0:08-0:30 y 2:07-2:28, coro \u0027eres mía\u0027 0:31-0:52 y 1:24-1:45, verso 1 0:52-1:23, verso 2 1:46-2:02, final instrumental con créditos 2:28-2:54 | visual: hoja de contactos de 1 cuadro cada 3 s; secuencia de primeros planos en 2:09-2:24 | palabras-rev.json: pa→pa\u0027, mi→mí (2:01), \u0027Nadie se mi amor\u0027→\u0027Nadie (…) mi amor\u0027 (escuchar) | máster muy alto: entrada de +0,5 a +1,8 dBTP en 3 clips | hay una pista de audio \u0027Tóxico\u0027 en \u0027Release - Topic\u0027 (ZkvoB6zB9P8, 174 s)"
                     },
-                    { "id": "8L8CP3xe3Qo", "url": "https://www.youtube.com/watch?v=8L8CP3xe3Qo", "titulo": "ESTOY DE REGRESO - HABLANDO DEL ACCIDENTE AÉREO EN FLORIDA Y DEL ÉXITO DE LA W SOUND CON HADES66", "analizado": "2026-11-02", "resultado": "5 clips (8-anos-sin-irse, que-sigue-lonche, w-sound-700mil, w-sound-espana en el ciclo 5; ganga-chanty el 3-nov, después de que la descarga se colgara el 2-nov) | fuente_para_clips #1 del Cazador (ciclo 4), perfil Westcol, recorte del directo IM BACK (Kick, 2-nov) | WestcolClips (4.600), publicado 2-nov 16:14, 982 s, 9.793 vistas a las 21:01 (2.056/h a las 20:49 según el Cazador) | sin picos ni marcas | transcripción leída entera (124 líneas) | tramos: 0:00-4:11 regreso, Stream Fighters, W Sound y la ganga; 4:29-9:03 accidente aéreo (tragedia con nueve personas a bordo, descartado); 13:16-16:22 bloque Komanche (= MBotzCroy1Q 0:00-2:13, descartado) | el éxito colombiano comparado sale 'Picuichao' en los subtítulos (posible 'Apambichao', sin confirmar): (…) y escuchar | palabras-rev.json: 41 cambios (Street→Stream, Jades→Hades, Chanti→Chanty, Cris Rre→Kris R, lonche→Lonche…)" },
-                    { "id": "MBotzCroy1Q", "url": "https://www.youtube.com/watch?v=MBotzCroy1Q", "titulo": "WESTCOL HABLANDO DE TODO Y HABLA DEL DISFRAZ QUE QUERÍA USAR", "analizado": "2026-11-02", "resultado": "3 clips (disfraz-presidente, cuerpo-35-anos, tweet-conejita) + 1 propuesto que no se pudo cortar (fechas-colombia) + 3 propuestos para revisión humana (bloque Komanche) (ciclo 5) | fuente_para_clips #2 del Cazador (ciclo 4), perfil Westcol, recorte del directo IM BACK | juan diego mm (114.000), publicado 2-nov 16:06, 1.520 s, 5.067 vistas a las 21:03 | sin picos ni marcas | transcripción leída entera (194 líneas) | empieza en el bloque Komanche (su 0:00 = 14:09 de 8L8CP3xe3Qo, desfase ~851 s); 0:00-19:06 es la respuesta a la polémica por la muerte de Komanche (exclusión); lo único y aprovechable es 19:06-25:11 (Halloween, disfraz, edad) | PASÓ A PRIVADO hacia las 22:10 del 2-nov ('Private video'): el enlace de crédito de sus clips ya no funciona; acreditar el directo de Kick | palabras-rev.json: fun→funa, broto/disfr/con Rada/con ría→(…), Trás→Tras" },
-                    { "id": "RPs9ahaF2Rg", "url": "https://www.youtube.com/watch?v=RPs9ahaF2Rg", "titulo": "WESTCOL REAPARECE pa HABLAR de TODO EL HATE que HA RECIBIDO y AGRADECE a STREAMERS q lo HAN APOYADO", "analizado": "2026-11-02", "resultado": "sin momentos (ciclo 5) | fuente_para_clips del Cazador (ciclo 4), perfil Westcol | 🐢Alancitu🐢 (26.300), publicado 2-nov 17:07, 829 s, 2.634 vistas a las 21:03 | sin picos ni marcas | transcripción leída entera (118 líneas) | es una reacción de un tercero (voz de España) encima del tramo del 'hate' del directo IM BACK: lee tuits que llaman 'asesino' a Westcol y dice 'igual ya falleció' (caso Komanche). Todo lo de Westcol está más limpio en MBotzCroy1Q 0:00-12:16 y es exclusión (tragedia)" },
-                    { "id": "L6Q2hwgXhYY", "url": "https://www.youtube.com/watch?v=L6Q2hwgXhYY", "titulo": "SUBI A YOLO A mi NUEVO FERRARI y ESTO PASO | Lonche", "analizado": "2026-11-02", "resultado": "sin momentos (ciclo 5) | fuente_para_clips del Cazador (ciclo 4), perfil Lonche | Lonche Chacas, publicado 1-nov 15:36, 2.792 s, 20.316 vistas a las 21:06 | sin picos ni marcas | transcripción leída entera (380 líneas) | directo de semanas atrás (lleva 'un mes' con el Ferrari; dice que irá a CDMX el 8-nov) | SATURADO: el paseo de Yolo y Nando está en al menos 10 subidas (LoncheWey 43.221, LONCHEVIP 16.481, Lonche 14.252, La Lonchiza 11.105 vistas; recorte de 182 s en Poderosas Aventuras). El mejor momento (reacción de Yolo, 22:15) da 64 | 'el verdadero sueño americano' (42:51) repite lonche-sueno-americano" },
-                    { "id": "asaeBTxVfFU", "url": "https://www.youtube.com/watch?v=asaeBTxVfFU", "titulo": "Compré un ROLLS ROYCE CULLINAN MANSORY", "analizado": "2026-11-02", "resultado": "sin momentos (ciclo 5) | fuente_para_clips del Cazador (ciclo 4), perfil Lonche | Lonche Kick (806), publicado 1-nov 17:31, 1.990 s | sin picos ni marcas | transcripción leída entera (224 líneas): casi todo visual, diálogo en inglés con el personal del concesionario y corridos de fondo; máximo 62 ('Mansory, mi próximo carro', 11:01). En la transcripción dice 'mi próximo carro', no que lo compró" },
-                    { "id": "TGZYr7VNzio", "url": "https://www.youtube.com/watch?v=TGZYr7VNzio", "titulo": "ASÍ es VIVIR un DÍA de CHILL en LOS ANGELES | Lonche", "analizado": "2026-11-02", "resultado": "1 clip (sueno-americano) + 1 producido que queda propuesto (taco-bell: 64 tras la revisión visual, Lonche solo se oye) (ciclo 5) | fuente_para_clips del Cazador (ciclo 4), perfil Lonche | Lonche PRIME (1.960), publicado 1-nov 19:09, 2.938 s, 344 vistas | sin picos ni marcas | transcripción leída entera (452 líneas) | IRL en Los Ángeles: casi todo conduciendo (cámara de tablero), vulgar, con un casino frente a Stake, Willo en un club de striptease y la perrita | palabras-rev.json: tacobel→Taco Bell (8)" },
-                    { "id": "OqsKq4thcZA", "url": "https://www.youtube.com/watch?v=OqsKq4thcZA", "titulo": "WESTCOL REACCIONANDO A LOS TIK TOKS MÁS VIRALES", "analizado": "2026-11-02", "resultado": "2 clips (motosierra-carton, deje-la-hierba) (ciclo 5) | fuente_para_clips del Cazador (ciclo 4), perfil Westcol, prioridad mínima | Clipskick04 (9), publicado 1-nov 16:58, 793 s, 2 vistas | sin picos ni marcas | transcripción leída entera (119 líneas) | directo anterior a la pausa (habla de la W Sound en el top de Colombia) | casi todo son TikToks ajenos con música; Westcol solo en la cámara pequeña salvo cuando enseña el teléfono | palabras-rev.json: Cris→Kris, shaban→shadowban, conorr→gonorrea" },
-                    { "id": "XMLQv5JNuK0", "url": "https://www.youtube.com/watch?v=XMLQv5JNuK0", "titulo": "LONCHE REACCIONANDO A VÍCTOR MENDIVIL Y OMAR CAMACHO", "analizado": "2026-11-02", "resultado": "1 clip (seis-cifras) (ciclo 5) | fuente_para_clips del Cazador (ciclo 4), perfil Lonche | Clipskick04 (9), publicado 1-nov 17:19, 537 s, 1 vista | sin picos ni marcas | transcripción leída entera (67 líneas) | Lonche reacciona a 'FES' (Víctor Mendivil y Omar Camacho), una canción sobre él y su comunidad (2:54-5:39, música con derechos) | palabras-rev.json: kick→Kick" }
+                    {
+                        "id":  "8L8CP3xe3Qo",
+                        "url":  "https://www.youtube.com/watch?v=8L8CP3xe3Qo",
+                        "titulo":  "ESTOY DE REGRESO - HABLANDO DEL ACCIDENTE AÉREO EN FLORIDA Y DEL ÉXITO DE LA W SOUND CON HADES66",
+                        "analizado":  "2026-11-02",
+                        "resultado":  "5 clips (8-anos-sin-irse, que-sigue-lonche, w-sound-700mil, w-sound-espana en el ciclo 5; ganga-chanty el 3-nov, después de que la descarga se colgara el 2-nov) | fuente_para_clips #1 del Cazador (ciclo 4), perfil Westcol, recorte del directo IM BACK (Kick, 2-nov) | WestcolClips (4.600), publicado 2-nov 16:14, 982 s, 9.793 vistas a las 21:01 (2.056/h a las 20:49 según el Cazador) | sin picos ni marcas | transcripción leída entera (124 líneas) | tramos: 0:00-4:11 regreso, Stream Fighters, W Sound y la ganga; 4:29-9:03 accidente aéreo (tragedia con nueve personas a bordo, descartado); 13:16-16:22 bloque Komanche (= MBotzCroy1Q 0:00-2:13, descartado) | el éxito colombiano comparado sale \u0027Picuichao\u0027 en los subtítulos (posible \u0027Apambichao\u0027, sin confirmar): (…) y escuchar | palabras-rev.json: 41 cambios (Street→Stream, Jades→Hades, Chanti→Chanty, Cris Rre→Kris R, lonche→Lonche…)"
+                    },
+                    {
+                        "id":  "MBotzCroy1Q",
+                        "url":  "https://www.youtube.com/watch?v=MBotzCroy1Q",
+                        "titulo":  "WESTCOL HABLANDO DE TODO Y HABLA DEL DISFRAZ QUE QUERÍA USAR",
+                        "analizado":  "2026-11-02",
+                        "resultado":  "3 clips (disfraz-presidente, cuerpo-35-anos, tweet-conejita) + 1 propuesto que no se pudo cortar (fechas-colombia) + 3 propuestos para revisión humana (bloque Komanche) (ciclo 5) | fuente_para_clips #2 del Cazador (ciclo 4), perfil Westcol, recorte del directo IM BACK | juan diego mm (114.000), publicado 2-nov 16:06, 1.520 s, 5.067 vistas a las 21:03 | sin picos ni marcas | transcripción leída entera (194 líneas) | empieza en el bloque Komanche (su 0:00 = 14:09 de 8L8CP3xe3Qo, desfase ~851 s); 0:00-19:06 es la respuesta a la polémica por la muerte de Komanche (exclusión); lo único y aprovechable es 19:06-25:11 (Halloween, disfraz, edad) | PASÓ A PRIVADO hacia las 22:10 del 2-nov (\u0027Private video\u0027): el enlace de crédito de sus clips ya no funciona; acreditar el directo de Kick | palabras-rev.json: fun→funa, broto/disfr/con Rada/con ría→(…), Trás→Tras"
+                    },
+                    {
+                        "id":  "RPs9ahaF2Rg",
+                        "url":  "https://www.youtube.com/watch?v=RPs9ahaF2Rg",
+                        "titulo":  "WESTCOL REAPARECE pa HABLAR de TODO EL HATE que HA RECIBIDO y AGRADECE a STREAMERS q lo HAN APOYADO",
+                        "analizado":  "2026-11-02",
+                        "resultado":  "sin momentos (ciclo 5) | fuente_para_clips del Cazador (ciclo 4), perfil Westcol | 🐢Alancitu🐢 (26.300), publicado 2-nov 17:07, 829 s, 2.634 vistas a las 21:03 | sin picos ni marcas | transcripción leída entera (118 líneas) | es una reacción de un tercero (voz de España) encima del tramo del \u0027hate\u0027 del directo IM BACK: lee tuits que llaman \u0027asesino\u0027 a Westcol y dice \u0027igual ya falleció\u0027 (caso Komanche). Todo lo de Westcol está más limpio en MBotzCroy1Q 0:00-12:16 y es exclusión (tragedia)"
+                    },
+                    {
+                        "id":  "L6Q2hwgXhYY",
+                        "url":  "https://www.youtube.com/watch?v=L6Q2hwgXhYY",
+                        "titulo":  "SUBI A YOLO A mi NUEVO FERRARI y ESTO PASO | Lonche",
+                        "analizado":  "2026-11-02",
+                        "resultado":  "sin momentos (ciclo 5) | fuente_para_clips del Cazador (ciclo 4), perfil Lonche | Lonche Chacas, publicado 1-nov 15:36, 2.792 s, 20.316 vistas a las 21:06 | sin picos ni marcas | transcripción leída entera (380 líneas) | directo de semanas atrás (lleva \u0027un mes\u0027 con el Ferrari; dice que irá a CDMX el 8-nov) | SATURADO: el paseo de Yolo y Nando está en al menos 10 subidas (LoncheWey 43.221, LONCHEVIP 16.481, Lonche 14.252, La Lonchiza 11.105 vistas; recorte de 182 s en Poderosas Aventuras). El mejor momento (reacción de Yolo, 22:15) da 64 | \u0027el verdadero sueño americano\u0027 (42:51) repite lonche-sueno-americano"
+                    },
+                    {
+                        "id":  "asaeBTxVfFU",
+                        "url":  "https://www.youtube.com/watch?v=asaeBTxVfFU",
+                        "titulo":  "Compré un ROLLS ROYCE CULLINAN MANSORY",
+                        "analizado":  "2026-11-02",
+                        "resultado":  "sin momentos (ciclo 5) | fuente_para_clips del Cazador (ciclo 4), perfil Lonche | Lonche Kick (806), publicado 1-nov 17:31, 1.990 s | sin picos ni marcas | transcripción leída entera (224 líneas): casi todo visual, diálogo en inglés con el personal del concesionario y corridos de fondo; máximo 62 (\u0027Mansory, mi próximo carro\u0027, 11:01). En la transcripción dice \u0027mi próximo carro\u0027, no que lo compró"
+                    },
+                    {
+                        "id":  "TGZYr7VNzio",
+                        "url":  "https://www.youtube.com/watch?v=TGZYr7VNzio",
+                        "titulo":  "ASÍ es VIVIR un DÍA de CHILL en LOS ANGELES | Lonche",
+                        "analizado":  "2026-11-02",
+                        "resultado":  "1 clip (sueno-americano) + 1 producido que queda propuesto (taco-bell: 64 tras la revisión visual, Lonche solo se oye) (ciclo 5) | fuente_para_clips del Cazador (ciclo 4), perfil Lonche | Lonche PRIME (1.960), publicado 1-nov 19:09, 2.938 s, 344 vistas | sin picos ni marcas | transcripción leída entera (452 líneas) | IRL en Los Ángeles: casi todo conduciendo (cámara de tablero), vulgar, con un casino frente a Stake, Willo en un club de striptease y la perrita | palabras-rev.json: tacobel→Taco Bell (8)"
+                    },
+                    {
+                        "id":  "OqsKq4thcZA",
+                        "url":  "https://www.youtube.com/watch?v=OqsKq4thcZA",
+                        "titulo":  "WESTCOL REACCIONANDO A LOS TIK TOKS MÁS VIRALES",
+                        "analizado":  "2026-11-02",
+                        "resultado":  "2 clips (motosierra-carton, deje-la-hierba) (ciclo 5) | fuente_para_clips del Cazador (ciclo 4), perfil Westcol, prioridad mínima | Clipskick04 (9), publicado 1-nov 16:58, 793 s, 2 vistas | sin picos ni marcas | transcripción leída entera (119 líneas) | directo anterior a la pausa (habla de la W Sound en el top de Colombia) | casi todo son TikToks ajenos con música; Westcol solo en la cámara pequeña salvo cuando enseña el teléfono | palabras-rev.json: Cris→Kris, shaban→shadowban, conorr→gonorrea"
+                    },
+                    {
+                        "id":  "XMLQv5JNuK0",
+                        "url":  "https://www.youtube.com/watch?v=XMLQv5JNuK0",
+                        "titulo":  "LONCHE REACCIONANDO A VÍCTOR MENDIVIL Y OMAR CAMACHO",
+                        "analizado":  "2026-11-02",
+                        "resultado":  "1 clip (seis-cifras) (ciclo 5) | fuente_para_clips del Cazador (ciclo 4), perfil Lonche | Clipskick04 (9), publicado 1-nov 17:19, 537 s, 1 vista | sin picos ni marcas | transcripción leída entera (67 líneas) | Lonche reacciona a \u0027FES\u0027 (Víctor Mendivil y Omar Camacho), una canción sobre él y su comunidad (2:54-5:39, música con derechos) | palabras-rev.json: kick→Kick"
+                    },
+                    {
+                        "id":  "4hGozORt3Ds",
+                        "url":  "https://www.youtube.com/watch?v=4hGozORt3Ds",
+                        "titulo":  "LOS PARCERITOS - CAP. 13: EL POETA",
+                        "analizado":  "2026-11-04",
+                        "resultado":  "14 clips (ciclo 6) | encargo expreso del usuario (Los Parceritos: Lokillo y JP; capítulos aunque pasen de 7 días) | canal Los Parceritos (168.000), publicado 2026-06-25, 2.954 s, 443.528 vistas y 10.531 likes | 8 picos (22:39 1,0; 37:55 0,96; 45:18 0,83; 30:32 0,77; 33:29; 27:05; 3:26; 46:17) y 8 marcas en comentarios (36:00: 8 menciones, 321 likes, décimas de Lokillo a su abuelo) | transcripción leída entera (344 líneas) | invitado Ubeimar Ríos (protagonista de \u0027Un poeta\u0027); en plano: Lokillo (gorra y gafas, derecha), Ubeimar (centro) y JP (izquierda; tiene primeros planos grabados en otro set con luz morada y placa de YouTube: es edición del programa, no anuncio) | palabras-rev.json: 37 cambios (Hatin→Jattin, diomedia→Diomedes, Nietzsche→Niche en el chiste del grupo, Pisarnik→Pizarnik, Barbajacop→Barba Jacob, trajo→trago, Beyar→Ubeimar…; ininteligibles como (…))"
+                    },
+                    {
+                        "id":  "o1uyVvIu4xc",
+                        "url":  "https://www.youtube.com/watch?v=o1uyVvIu4xc",
+                        "titulo":  "LOS PARCERITOS - CAP. 15: EL CHISPUS",
+                        "analizado":  "2026-11-04",
+                        "resultado":  "error: sin subtítulos por HTTP 429 de YouTube (análisis y único reintento). REINTENTAR en el ciclo siguiente (no saltar). resumen.json sí existe: publicado 2026-07-09, 2.956 s, 730.401 vistas; picos 14:17 (1,0), 16:15, 39:25, 20:12, 8:22; comentarios 28:55 (\u0027yo sé que no soy capaz con ese operativo, pero yo me le mido\u0027, 218 likes), 11:48 (73), 34:34 (\u0027voy a tener un hijo y no voy a saber de quién es\u0027, 46)"
+                    },
+                    {
+                        "id":  "1Bh6DHUOHJg",
+                        "url":  "https://www.youtube.com/watch?v=1Bh6DHUOHJg",
+                        "titulo":  "LOS PARCERITOS - CAP. 14: EL ABOGADO",
+                        "analizado":  "2026-11-04",
+                        "resultado":  "error: sin subtítulos por HTTP 429 de YouTube (análisis y único reintento). REINTENTAR en el ciclo siguiente (no saltar). resumen.json: publicado 2026-07-02, 3.410 s, 393.130 vistas; picos 39:47 (1,0), 15:20 (0,95), 52:52 (0,91); comentarios 33:14, 42:04 y 41:30 (\u0027con Uribe\u0027: revisar política), 11:00 (\u0027lo mata un firme por la patria\u0027)"
+                    },
+                    {
+                        "id":  "L9QEpJfbWvo",
+                        "url":  "https://www.youtube.com/watch?v=L9QEpJfbWvo",
+                        "titulo":  "LOS PARCERITOS - RECAP. SHOW BARCELONA",
+                        "analizado":  "2026-11-04",
+                        "resultado":  "error: sin subtítulos por HTTP 429 de YouTube (sin reintento). REINTENTAR en el ciclo siguiente (no saltar). resumen.json: publicado 2026-10-16, 3.553 s, 680.764 vistas, sin picos; comentarios 33:12 (\u0027la mejor parte\u0027), 26:44, 9:02, 44:50"
+                    },
+                    {
+                        "id":  "Xrwm98iaWY8",
+                        "url":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+                        "titulo":  "SAQUE A LA CALLE POR PRIMERA VEZ A MI ROBOT DE $100.000 | WESTCOL",
+                        "analizado":  "2026-11-05",
+                        "resultado":  "3 clips (robot-sin-seguridad, robot-ascensor, robot-piquete) + 5 propuestos (4 sin cortar por el bloqueo de YouTube del 6-nov) | fuente_para_clips #1 del Cazador (ciclo 7) | WestCOL (2,07 M), 4-nov 09:00, 3.601 s, 407.349 vistas a las 22:44 del 5-nov | sin picos, 8 marcas en comentarios (16:35 ascensor x2, 13:27, 51:33…) | transcripción leída entera (557 líneas) | \u0027Rey\u0027 es Reydelacity (títulos de ElReyWithTheClips) | robot = \u0027Ian\u0027 | no cortar reacciones de desconocidos (señoras, turistas) ni tramos con niños | palabras-rev.json: Roboc→RoboCop, Diana→Ian, rob/robó→robot, ray→Rey, mar→man, esparrón→sparring…"
+                    },
+                    {
+                        "id":  "LgnQHaFVvyo",
+                        "url":  "https://www.youtube.com/watch?v=LgnQHaFVvyo",
+                        "titulo":  "ESTE ES MI NUEVO SET-UP | WESTCOL",
+                        "analizado":  "2026-11-05",
+                        "resultado":  "4 clips (negocio-blessd-discoteca, dinero-parqueado, precio-lambo-bajara, batisenal-w) + 2 propuestos | fuente_para_clips del Cazador (ciclo 7) | WestCOL, 4-nov 19:00, 1.156 s, 76.467 vistas | sin picos, 1 marca | transcripción leída entera (154 líneas) | \u0027el Bendito\u0027 = Blessd | palabras-rev.json: tajó→Tahoe (escuchar), Cris→Kris, Wescol→Westcol, Latan→Latam, cifras con punto de miles"
+                    },
+                    {
+                        "id":  "KhuFp9eIyVU",
+                        "url":  "https://www.youtube.com/watch?v=KhuFp9eIyVU",
+                        "titulo":  "FUI A VER MI PROXIMO SUPER AUTO 🔥 | WESTCOL",
+                        "analizado":  "2026-11-05",
+                        "resultado":  "2 clips (regateo-revuelto, revuelto-beneficio-tributario) + 2 propuestos | fuente_para_clips del Cazador (ciclo 7) | WestCOL, 4-nov 12:30, 1.373 s | sin picos ni marcas | transcripción leída entera (182 líneas) | en RR Autos: Diego (barba, gafas, camiseta negra) y Rey/\u0027cachondo\u0027 (gorra roja, camiseta blanca) | palabras-rev.json: paté→Patek, cangui→(…), cifras con punto"
+                    },
+                    {
+                        "id":  "iNxDQVDIer8",
+                        "url":  "https://www.youtube.com/watch?v=iNxDQVDIer8",
+                        "titulo":  "#FMLUZU | MALUMA NOS LLAMÓ EN VIVO + FERBO EN CONTRA DE DOMI Y EL EQUIPO ROSA + VARONES CON TALENTO",
+                        "analizado":  "2026-11-05",
+                        "resultado":  "2 clips (maluma-bebe-capo, maluma-loco-por-girar) + 4 propuestos | fuente_para_clips del Cazador (ciclo 7), perfil Maluma | LUZU TV (3,39 M), directo 4-nov 16:50, 3.751 s, 63.522 vistas a las 22:49 del 5-nov | sin picos ni marcas | transcripción leída entera en el tramo de Maluma (43:33-58:01; el resto es el programa argentino) | Maluma en videollamada, se ve y se oye bien | palabras-rev.json: orden de palabras arreglado en 55:37-55:43"
+                    },
+                    {
+                        "id":  "o1uyVvIu4xc",
+                        "url":  "https://www.youtube.com/watch?v=o1uyVvIu4xc",
+                        "titulo":  "LOS PARCERITOS - CAP. 15: EL CHISPUS",
+                        "analizado":  "2026-11-05",
+                        "resultado":  "0 clips + 3 propuestos (65-67) | reintento logrado del 429 del ciclo 6 (encargo del usuario) | 731.204 vistas | 8 picos y 6 marcas | transcripción leída entera (398 líneas) | invitada: la periodista Erika Zapata | casi todo el capítulo es sexual (besos, fotos, squirt): todos los picos caen en tramos descartados | palabras-rev.json creado"
+                    }
                 ],
     "momentos":  [
                      {
@@ -1296,74 +1407,1221 @@
                          "clip":  null,
                          "motivo":  "Final instrumental sin letra (plano de la cruz y créditos del video). Sin autonomía"
                      },
-                     { "fuente": "8L8CP3xe3Qo", "inicio": 6.89, "fin": 50.94, "estado": "cortado", "clip": "2026-11-02-westcol-8-anos-sin-irse", "motivo": "revelacion, 74 (ciclo 5): 'en 8 años nunca me había ido tanto tiempo' + mes de Stream Fighters con '95% de la boletería vendida'. Sale antes de 'responder toda esta *** que hemos recibido' (caso Komanche). Street→Stream en palabras-rev" },
-                     { "fuente": "OqsKq4thcZA", "inicio": 571.41, "fin": 634.2, "estado": "cortado", "clip": "2026-11-02-westcol-motosierra-carton", "motivo": "revelacion, 73 (ciclo 5): Instagram le limita los directos '226 días' por la foto con Kris R y una motosierra 'de cartón'. Muestra el aviso en el teléfono. Sale antes de 'Me jodieron' (la herramienta habría arrastrado 'No, la verdad')" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 1303.45, "fin": 1335.54, "estado": "cortado", "clip": "2026-11-02-westcol-disfraz-presidente", "motivo": "humor, 72 (ciclo 5): el disfraz de Halloween que no usó (de presidente, con sus amigos de escoltas). Sale antes del 'francotirador' (lectura ambigua)" },
-                     { "fuente": "XMLQv5JNuK0", "inicio": 429.81, "fin": 481.78, "estado": "cortado", "clip": "2026-11-02-lonche-seis-cifras", "motivo": "revelacion, 72 (ciclo 5): 'solamente hay un número uno y es el que gana más… con mis seis cifras a la semana estoy bien'" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 1405.09, "fin": 1449.86, "estado": "cortado", "clip": "2026-11-02-westcol-cuerpo-35-anos", "motivo": "humor, 71 (ciclo 5): una pastillita para quitarse un año; 'mi cuerpo tiene 35 años: no tengo hombro, no tengo rodilla, no tengo muela'" },
-                     { "fuente": "TGZYr7VNzio", "inicio": 2568.57, "fin": 2611.7, "estado": "cortado", "clip": "2026-11-02-lonche-sueno-americano", "motivo": "frase, 71 (ciclo 5): 'el día que mi comunidad se sienta feliz por un chisme, ese día me retiro… el verdadero sueño americano, a base de esfuerzo'. Sale antes de 'y no de joterías' (insulto). Su cara solo sale en el último tercio (antes, manos al volante)" },
-                     { "fuente": "8L8CP3xe3Qo", "inicio": 227.93, "fin": 251.22, "estado": "cortado", "clip": "2026-11-02-westcol-que-sigue-lonche", "motivo": "frase, 70 (ciclo 5): Westcol sobre Lonche, '¿qué sigue después de ese carro?… la gente dice qué envidia'. Lonche no sale; 'se case' como (…)" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 1144.97, "fin": 1200.3, "estado": "cortado", "clip": "2026-11-02-westcol-tweet-conejita", "motivo": "humor, 70 (ciclo 5): el tuit 'prefiero recoger a mi hijo de la cárcel que a mi hija vestida de conejita' y sus tres primas de conejitas ese mismo año. Empieza en 'Eh, 31 de octubre' y sale antes de 'desde los 15'" },
-                     { "fuente": "OqsKq4thcZA", "inicio": 510.81, "fin": 561.7, "estado": "cortado", "clip": "2026-11-02-westcol-deje-la-hierba", "motivo": "revelacion, 67 (ciclo 5; 69 antes de la revisión visual): 'yo dejé la hierba… tengo que cortarla de raíz porque si no me domina'. En pantalla, un TikTok ajeno en pausa; Westcol solo en la cámara pequeña" },
-                     { "fuente": "8L8CP3xe3Qo", "inicio": 96.53, "fin": 157.54, "estado": "cortado", "clip": "2026-11-02-westcol-w-sound-700mil", "motivo": "revelacion, 68 (ciclo 5): la canción de Hades66 hizo 700.000 streams en un día y superó el máximo de un éxito colombiano (487.000). El título de ese éxito va como (…) (subtítulos: 'Picuichao'; probablemente 'Apambichao', sin confirmar): escuchar antes de publicar" },
-                     { "fuente": "8L8CP3xe3Qo", "inicio": 181.97, "fin": 227.82, "estado": "cortado", "clip": "2026-11-02-westcol-ganga-chanty", "motivo": "humor, 68 (ciclo 5; cortado el 3-nov a las 22:17 por encargo del usuario, en 2 min): 'lo que pasa cuando el líder de la ganga se acuesta a dormir': The Chanty con nueva dupla, Leandro 'desaparecido' (broma). El 2-nov la descarga se colgó dos veces. Escuchar: los subtítulos repiten 'Sí, pilla lo que pasa cuando'" },
-                     { "fuente": "8L8CP3xe3Qo", "inicio": 672.81, "fin": 736.38, "estado": "cortado", "clip": "2026-11-02-westcol-w-sound-espana", "motivo": "humor, 67 (ciclo 5): su teoría de por qué la W Sound pegó en España ('los españoles son personas con muchos modales… acostumbrados a Kris R')" },
-                     { "fuente": "TGZYr7VNzio", "inicio": 1249.13, "fin": 1266.02, "estado": "propuesto", "clip": "2026-11-02-lonche-taco-bell", "motivo": "frase, 64 tras la revisión visual (67 antes) (ciclo 5): 'los mejores tacos son de Taco Bell, le duela a quien le duela'. Producido (16,9 s), pero Lonche solo se oye: se ve su mano y el tablero de noche. Queda propuesto en clips.json: decide el usuario. No volver a cortar" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 1253.85, "fin": 1301.94, "estado": "propuesto", "clip": null, "motivo": "emotivo, 66 (ciclo 5): 'otros países tienen mejor economía… pero aquí en Colombia, cuando son fechas importantes, no fallamos'. NO SE PUDO CORTAR: MBotzCroy1Q pasó a privado hacia las 22:10 del 2-nov ('Private video'). Cortarlo del VOD de Kick 'IM BACK' cuando se localice el minuto (whisper)" },
-                     { "fuente": "8L8CP3xe3Qo", "inicio": 251.5, "fin": 271, "estado": "descartado", "clip": null, "motivo": "'Ese caseip… está pagando rico', 'el prejet'. Ininteligible y puede ser un patrocinador" },
-                     { "fuente": "8L8CP3xe3Qo", "inicio": 271, "fin": 543, "estado": "descartado", "clip": null, "motivo": "'Accidente aéreo en Florida': un jet privado con nueve personas que cae en picada ('quedaron los restos'); muestra el video, habla del audio de los pasajeros y de teorías sobre 'armamento militar' en la zona. No le pasó a Westcol: tragedia con víctimas (§6). No se recorta" },
-                     { "fuente": "8L8CP3xe3Qo", "inicio": 543, "fin": 575, "estado": "descartado", "clip": null, "motivo": "'Los creadores de contenido damos opiniones… todo el mundo cambió de la nada'. Ironía que responde a la polémica del caso Komanche; fuera de contexto cambia de sentido" },
-                     { "fuente": "8L8CP3xe3Qo", "inicio": 586, "fin": 622, "estado": "descartado", "clip": null, "motivo": "56, la abuela que vio una bruja en una escoba. Transcripción rota" },
-                     { "fuente": "8L8CP3xe3Qo", "inicio": 622, "fin": 665, "estado": "descartado", "clip": null, "motivo": "'Humor black' con un chiste vulgar sobre su tía. Familiares (personas privadas)" },
-                     { "fuente": "8L8CP3xe3Qo", "inicio": 772, "fin": 796, "estado": "descartado", "clip": null, "motivo": "58, 'la necesidad hace que la gente haga muchas cosas'. Corto y depende del tramo de España" },
-                     { "fuente": "8L8CP3xe3Qo", "inicio": 796, "fin": 982, "estado": "descartado", "clip": null, "motivo": "'Toda esta situación… no voy a hablar más': su respuesta a la polémica tras la muerte de Komanche (25-oct). Tragedia (§6; el Cazador pidió dejar fuera todo lo que la toque). Es el mismo tramo que MBotzCroy1Q 0:00-2:13" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 0, "fin": 498, "estado": "descartado", "clip": null, "motivo": "Respuesta a la polémica por la muerte de Komanche: 'yo no tenía una relación cercana', la comunidad W Reals, los streamers que lo llamaron, 'busqué a las personas que agrandaron el problema… cometí un error'. Tragedia (§6)" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 498, "fin": 609, "estado": "propuesto", "clip": null, "motivo": "Revisión humana. 'Westcol es un hashtag que te va a generar visitas… el 50% me menciona por beneficio propio… ¿quién le dijo que si yo soy una *** usted es la bestia?'. Frase fuerte, pero responde a quienes lo criticaron tras la muerte de Komanche: no se corta sin que una persona lo decida" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 609, "fin": 794, "estado": "descartado", "clip": null, "motivo": "'A todas las personas que piensan que yo le acabé la carrera a otra persona… usted es un fracasadito'. Habla de Komanche, fallecido el 25-oct. Nunca" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 794, "fin": 853, "estado": "propuesto", "clip": null, "motivo": "Revisión humana. 'Yo era la oveja negra del streaming… ¿Cómo nació Stream Fighters? No nos invitaban a ninguna velada… hicimos nuestro propio evento'. Historia propia, pero es parte de su réplica a quienes lo culpan por el caso Komanche ('para darle clases a los que no se han dado cuenta del camino')" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 853, "fin": 911, "estado": "descartado", "clip": null, "motivo": "'Hablo de las personas que salieron a tirar *** aprovechando el momento'. Caso Komanche" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 911, "fin": 948, "estado": "propuesto", "clip": null, "motivo": "Revisión humana. Los binoculares: 'streamer desde 2016, posición 239.000, siete viewers, seis son bots'. El tramo más gracioso del bloque, pero se burla de quienes lo criticaron tras la muerte de Komanche" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 948, "fin": 1146, "estado": "descartado", "clip": null, "motivo": "Resto de la respuesta al caso Komanche ('sosténgamelo en la cara', 'encarar el problema como hombres', agradecimientos a la FES y a la W Reals) y un chiste vulgar sobre su comunidad" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 1201, "fin": 1253, "estado": "descartado", "clip": null, "motivo": "'Una mujer en Colombia… eso empieza desde los 15 con esos disfraces' de conejita. Sexualiza a menores (§6)" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 1336, "fin": 1376, "estado": "descartado", "clip": null, "motivo": "Final del disfraz ('andando con un francotirador por allá') y 'en noviembre ya se acabó el año'. El francotirador junto a un disfraz de presidente se puede leer mal; lo demás es débil" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 1456, "fin": 1473, "estado": "descartado", "clip": null, "motivo": "55, 'anuncios importantes' de Stream Fighters sin datos" },
-                     { "fuente": "MBotzCroy1Q", "inicio": 1473, "fin": 1520, "estado": "descartado", "clip": null, "motivo": "'Estoy flaco' y la foto de 'la W cancelada' que lleva tatuada. La 'W cancelada' viene de la campaña por el caso Komanche, y repite la idea de cuerpo-35-anos" },
-                     { "fuente": "RPs9ahaF2Rg", "inicio": 0, "fin": 829, "estado": "descartado", "clip": null, "motivo": "Reacción de un tercero encima del tramo del 'hate' (caso Komanche). Nada de Westcol que no esté más limpio en MBotzCroy1Q; tragedia (§6)" },
-                     { "fuente": "L6Q2hwgXhYY", "inicio": 1335, "fin": 1385, "estado": "descartado", "clip": null, "motivo": "64 (fuerza 18, autonomía 17, gancho 14, relevancia 12, frescura 3): reacción de Yolo al acelerar ('así se sintió el de Interestelar', 'somos 10 segundos más jóvenes'). Saturado (§4): al menos 10 subidas del mismo paseo, hasta 43.221 vistas; sin arbitraje de idioma" },
-                     { "fuente": "L6Q2hwgXhYY", "inicio": 1292, "fin": 1312, "estado": "descartado", "clip": null, "motivo": "60, '¿pensaste que te ibas a comprar un Ferrari?… trabajo, siempre se puede'. Corto, transcripción confusa ('la BR', 'mi Burus') y saturado" },
-                     { "fuente": "L6Q2hwgXhYY", "inicio": 1025, "fin": 1095, "estado": "descartado", "clip": null, "motivo": "58, precio del Ferrari y del SF90. Cifras ilegibles ('$5,000 600,000', '$,000'): no se usan" },
-                     { "fuente": "L6Q2hwgXhYY", "inicio": 1450, "fin": 1590, "estado": "descartado", "clip": null, "motivo": "Chiste sexual ('imagínate una mujer') y '140 millas… te comiste como 1000 multas'. Conducción temeraria en vía pública; además saturado" },
-                     { "fuente": "L6Q2hwgXhYY", "inicio": 1706, "fin": 1733, "estado": "descartado", "clip": null, "motivo": "60, queja de los vecinos por el ruido. Débil y saturado" },
-                     { "fuente": "L6Q2hwgXhYY", "inicio": 1915, "fin": 1970, "estado": "descartado", "clip": null, "motivo": "60, la policía en Estados Unidos frente a la de México. No se sabe con seguridad quién habla" },
-                     { "fuente": "L6Q2hwgXhYY", "inicio": 327, "fin": 389, "estado": "descartado", "clip": null, "motivo": "Cámaras robóticas 'tipo reality… como la de La Casa de los Famosos'. Toca un reality (exclusión) y es débil" },
-                     { "fuente": "L6Q2hwgXhYY", "inicio": 2562, "fin": 2622, "estado": "descartado", "clip": null, "motivo": "'El verdadero sueño americano… carrera limpia y orgánica'. Misma idea que lonche-sueno-americano, que es más completo; con música de fondo" },
-                     { "fuente": "asaeBTxVfFU", "inicio": 661, "fin": 718, "estado": "descartado", "clip": null, "motivo": "62, 'mira lo que voy a comprar… Mansory… es como estar en una nube'. Transcripción rota y depende de lo visual" },
-                     { "fuente": "asaeBTxVfFU", "inicio": 1687, "fin": 1733, "estado": "descartado", "clip": null, "motivo": "61, 'mucha aura esa troca… más que el Ferrari' y la llegada a Hermès" },
-                     { "fuente": "asaeBTxVfFU", "inicio": 0, "fin": 78, "estado": "descartado", "clip": null, "motivo": "55, 'pinche Lonche, tenía razón', 'algún día'. Empieza a media frase" },
-                     { "fuente": "asaeBTxVfFU", "inicio": 1797, "fin": 1885, "estado": "descartado", "clip": null, "motivo": "Corrido con derechos de fondo" },
-                     { "fuente": "TGZYr7VNzio", "inicio": 2612, "fin": 2644, "estado": "descartado", "clip": null, "motivo": "'Y no de joterías' (insulto homófobo) y 'viejas faranduleras… viejas pendejas'. Queda fuera del corte de lonche-sueno-americano" },
-                     { "fuente": "TGZYr7VNzio", "inicio": 2660, "fin": 2696, "estado": "descartado", "clip": null, "motivo": "'El sueño americano… una vida estable, buenos amigos… ¿qué más le puedo pedir?'. Misma idea que lonche-sueno-americano; se corta el mejor" },
-                     { "fuente": "TGZYr7VNzio", "inicio": 2369, "fin": 2417, "estado": "descartado", "clip": null, "motivo": "Oferta de un casino ('$10,000 más que Stake') y 'no me falta tanto para un Bugatti'. Promoción de apuestas" },
-                     { "fuente": "TGZYr7VNzio", "inicio": 1851, "fin": 2009, "estado": "descartado", "clip": null, "motivo": "Willo en un club de striptease (contenido sexual de un tercero) y 'no hay manera que el Willo se avente 24 horas' (55)" },
-                     { "fuente": "TGZYr7VNzio", "inicio": 1199, "fin": 1226, "estado": "descartado", "clip": null, "motivo": "'Benitos Tacos Shop… se ve bien miserable'. Burla a un negocio con nombre; el clip de Taco Bell empieza después" },
-                     { "fuente": "TGZYr7VNzio", "inicio": 460, "fin": 491, "estado": "descartado", "clip": null, "motivo": "58, la Urus sucia ('qué vergüenza tener una de 400.000 para asco')" },
-                     { "fuente": "TGZYr7VNzio", "inicio": 123, "fin": 300, "estado": "descartado", "clip": null, "motivo": "La perrita 'destroyer' (52, vulgar) y una broma sexual con 'la Bubu'" },
-                     { "fuente": "OqsKq4thcZA", "inicio": 33, "fin": 51, "estado": "descartado", "clip": null, "motivo": "64, 'no puedo juntarme con el Bendito… cada stream una funa'. No se sabe a qué TikTok reacciona ni se puede confirmar que hable de Blessd" },
-                     { "fuente": "OqsKq4thcZA", "inicio": 59, "fin": 137, "estado": "descartado", "clip": null, "motivo": "Leandro 'deja la marihuana' y su video de creatina. Drogas de un tercero" },
-                     { "fuente": "OqsKq4thcZA", "inicio": 286, "fin": 364, "estado": "descartado", "clip": null, "motivo": "TikTok de una modelo webcam. Contenido sexual de una persona privada" },
-                     { "fuente": "OqsKq4thcZA", "inicio": 686, "fin": 790, "estado": "descartado", "clip": null, "motivo": "La chiva ('beber más alcohol que todos'), la W Sound 'número uno en YouTube y Apple Music' (repite westcol-w-sound-700mil) y el alcance limitado (repite westcol-motosierra-carton)" },
-                     { "fuente": "XMLQv5JNuK0", "inicio": 0, "fin": 57, "estado": "descartado", "clip": null, "motivo": "60, '10 Lambos, 10 Corvettes, 20 TRX'. No se sabe a qué cifra reacciona" },
-                     { "fuente": "XMLQv5JNuK0", "inicio": 112, "fin": 166, "estado": "descartado", "clip": null, "motivo": "64, 'los empresarios más grandes nos buscan… no tenemos un pasado oscuro'. Misma idea que lonche-sueno-americano" },
-                     { "fuente": "XMLQv5JNuK0", "inicio": 174, "fin": 339, "estado": "descartado", "clip": null, "motivo": "Canción 'FES' (Víctor Mendivil y Omar Camacho). Música con derechos" },
-                     { "fuente": "XMLQv5JNuK0", "inicio": 482, "fin": 530, "estado": "descartado", "clip": null, "motivo": "63, 'los que dejan un legado son los number one… ser el papá de varios'. Repite la idea de lonche-seis-cifras" },
-                     { "fuente": "Z1VUghXaEIM", "inicio": 2618, "fin": 2663, "estado": "cortado", "clip": "2026-11-03-awooween-fuegos-final", "motivo": "emotivo, 74 (encargo 3-nov, sin subtítulos): fuegos artificiales, llamas y láseres al final del show; pirotecnia en los 4 cuadros de la revisión; 43:40 y 44:10 entre los 12 tramos más fuertes (−9,4 LUFS). Entrada de audio saturada (+0,31 dBTP). Ver y escuchar antes de publicar" },
-                     { "fuente": "Z1VUghXaEIM", "inicio": 903, "fin": 948, "estado": "cortado", "clip": "2026-11-03-awooween-estadio-lleno", "motivo": "reaccion, 70 (encargo 3-nov, sin subtítulos): artistas en la pasarela lateral frente a las gradas llenas de linternas; 15:10-15:40 entre los tramos más fuertes (−9,0 LUFS en 15:20) tras una pausa en 14:30-14:50. No se identifica a los artistas: no nombrar a nadie" },
-                     { "fuente": "Z1VUghXaEIM", "inicio": 1553, "fin": 1598, "estado": "cortado", "clip": "2026-11-03-awooween-a-todo-volumen", "motivo": "reaccion, 69 (encargo 3-nov, sin subtítulos): el tramo de más volumen de todo el concierto (25:50-26:40, máx. −8,5 LUFS en 26:20); abre con un espectáculo de láseres sobre el estadio y sigue con el escenario principal y el público" },
-                     { "fuente": "Z1VUghXaEIM", "inicio": 107, "fin": 152, "estado": "descartado", "clip": null, "motivo": "Primer tema a todo volumen (2:00 es el 4.º tramo más fuerte, −9,1 LUFS). Repite la idea de a-todo-volumen, que es más fuerte y abre con láseres; tampoco se puede afirmar que sea el arranque (el video está editado: 46 min de un show de más de 2 h)" },
-                     { "fuente": "Z1VUghXaEIM", "inicio": 1160, "fin": 1280, "estado": "descartado", "clip": null, "motivo": "Columnas de fuego (~19:30) y fuegos artificiales (~21:10). Repiten la idea de fuegos-final, que tiene pirotecnia en todo el clip" },
-                     { "fuente": "Z1VUghXaEIM", "inicio": 2400, "fin": 2430, "estado": "descartado", "clip": null, "motivo": "Escenario B con linternas (~40:10). Repite la idea de estadio-lleno" },
-                     { "fuente": "Z1VUghXaEIM", "inicio": 2545, "fin": 2600, "estado": "descartado", "clip": null, "motivo": "61, mucha gente en el escenario (~42:30). Sin audio no se sabe quiénes son: el único gancho posible ('los invitados') nombraría o insinuaría a personas no identificadas" },
-                     { "fuente": "Z1VUghXaEIM", "inicio": 650, "fin": 690, "estado": "descartado", "clip": null, "motivo": "60, bailarines disfrazados en el escenario (~11:00). Volumen medio (de −11,4 a −12,1 LUFS) y sin gancho propio" },
-                     { "fuente": "Z1VUghXaEIM", "inicio": 20.5, "fin": 65, "estado": "propuesto", "clip": "2026-11-03-awooween-arranque", "motivo": "reaccion, 59 tras la revisión (encargo 3-nov): la cuenta regresiva y el estadio a oscuras con linternas. Producido dos veces (18-63 y 20,5-65) y en las dos abre con el presentador hablando en la entrada (las marcas del vistazo iban ~10 s por delante). Queda propuesto en clips.json. Para un corte limpio: -Inicio 29 -Fin 74 (no se hizo: solo se permite un recorte)" }
+                     {
+                         "fuente":  "8L8CP3xe3Qo",
+                         "inicio":  6.89,
+                         "fin":  50.94,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-westcol-8-anos-sin-irse",
+                         "motivo":  "revelacion, 74 (ciclo 5): \u0027en 8 años nunca me había ido tanto tiempo\u0027 + mes de Stream Fighters con \u002795% de la boletería vendida\u0027. Sale antes de \u0027responder toda esta *** que hemos recibido\u0027 (caso Komanche). Street→Stream en palabras-rev"
+                     },
+                     {
+                         "fuente":  "OqsKq4thcZA",
+                         "inicio":  571.41,
+                         "fin":  634.2,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-westcol-motosierra-carton",
+                         "motivo":  "revelacion, 73 (ciclo 5): Instagram le limita los directos \u0027226 días\u0027 por la foto con Kris R y una motosierra \u0027de cartón\u0027. Muestra el aviso en el teléfono. Sale antes de \u0027Me jodieron\u0027 (la herramienta habría arrastrado \u0027No, la verdad\u0027)"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  1303.45,
+                         "fin":  1335.54,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-westcol-disfraz-presidente",
+                         "motivo":  "humor, 72 (ciclo 5): el disfraz de Halloween que no usó (de presidente, con sus amigos de escoltas). Sale antes del \u0027francotirador\u0027 (lectura ambigua)"
+                     },
+                     {
+                         "fuente":  "XMLQv5JNuK0",
+                         "inicio":  429.81,
+                         "fin":  481.78,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-lonche-seis-cifras",
+                         "motivo":  "revelacion, 72 (ciclo 5): \u0027solamente hay un número uno y es el que gana más… con mis seis cifras a la semana estoy bien\u0027"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  1405.09,
+                         "fin":  1449.86,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-westcol-cuerpo-35-anos",
+                         "motivo":  "humor, 71 (ciclo 5): una pastillita para quitarse un año; \u0027mi cuerpo tiene 35 años: no tengo hombro, no tengo rodilla, no tengo muela\u0027"
+                     },
+                     {
+                         "fuente":  "TGZYr7VNzio",
+                         "inicio":  2568.57,
+                         "fin":  2611.7,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-lonche-sueno-americano",
+                         "motivo":  "frase, 71 (ciclo 5): \u0027el día que mi comunidad se sienta feliz por un chisme, ese día me retiro… el verdadero sueño americano, a base de esfuerzo\u0027. Sale antes de \u0027y no de joterías\u0027 (insulto). Su cara solo sale en el último tercio (antes, manos al volante)"
+                     },
+                     {
+                         "fuente":  "8L8CP3xe3Qo",
+                         "inicio":  227.93,
+                         "fin":  251.22,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-westcol-que-sigue-lonche",
+                         "motivo":  "frase, 70 (ciclo 5): Westcol sobre Lonche, \u0027¿qué sigue después de ese carro?… la gente dice qué envidia\u0027. Lonche no sale; \u0027se case\u0027 como (…)"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  1144.97,
+                         "fin":  1200.3,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-westcol-tweet-conejita",
+                         "motivo":  "humor, 70 (ciclo 5): el tuit \u0027prefiero recoger a mi hijo de la cárcel que a mi hija vestida de conejita\u0027 y sus tres primas de conejitas ese mismo año. Empieza en \u0027Eh, 31 de octubre\u0027 y sale antes de \u0027desde los 15\u0027"
+                     },
+                     {
+                         "fuente":  "OqsKq4thcZA",
+                         "inicio":  510.81,
+                         "fin":  561.7,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-westcol-deje-la-hierba",
+                         "motivo":  "revelacion, 67 (ciclo 5; 69 antes de la revisión visual): \u0027yo dejé la hierba… tengo que cortarla de raíz porque si no me domina\u0027. En pantalla, un TikTok ajeno en pausa; Westcol solo en la cámara pequeña"
+                     },
+                     {
+                         "fuente":  "8L8CP3xe3Qo",
+                         "inicio":  96.53,
+                         "fin":  157.54,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-westcol-w-sound-700mil",
+                         "motivo":  "revelacion, 68 (ciclo 5): la canción de Hades66 hizo 700.000 streams en un día y superó el máximo de un éxito colombiano (487.000). El título de ese éxito va como (…) (subtítulos: \u0027Picuichao\u0027; probablemente \u0027Apambichao\u0027, sin confirmar): escuchar antes de publicar"
+                     },
+                     {
+                         "fuente":  "8L8CP3xe3Qo",
+                         "inicio":  181.97,
+                         "fin":  227.82,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-westcol-ganga-chanty",
+                         "motivo":  "humor, 68 (ciclo 5; cortado el 3-nov a las 22:17 por encargo del usuario, en 2 min): \u0027lo que pasa cuando el líder de la ganga se acuesta a dormir\u0027: The Chanty con nueva dupla, Leandro \u0027desaparecido\u0027 (broma). El 2-nov la descarga se colgó dos veces. Escuchar: los subtítulos repiten \u0027Sí, pilla lo que pasa cuando\u0027"
+                     },
+                     {
+                         "fuente":  "8L8CP3xe3Qo",
+                         "inicio":  672.81,
+                         "fin":  736.38,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-02-westcol-w-sound-espana",
+                         "motivo":  "humor, 67 (ciclo 5): su teoría de por qué la W Sound pegó en España (\u0027los españoles son personas con muchos modales… acostumbrados a Kris R\u0027)"
+                     },
+                     {
+                         "fuente":  "TGZYr7VNzio",
+                         "inicio":  1249.13,
+                         "fin":  1266.02,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-02-lonche-taco-bell",
+                         "motivo":  "frase, 64 tras la revisión visual (67 antes) (ciclo 5): \u0027los mejores tacos son de Taco Bell, le duela a quien le duela\u0027. Producido (16,9 s), pero Lonche solo se oye: se ve su mano y el tablero de noche. Queda propuesto en clips.json: decide el usuario. No volver a cortar"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  1253.85,
+                         "fin":  1301.94,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "emotivo, 66 (ciclo 5): \u0027otros países tienen mejor economía… pero aquí en Colombia, cuando son fechas importantes, no fallamos\u0027. NO SE PUDO CORTAR: MBotzCroy1Q pasó a privado hacia las 22:10 del 2-nov (\u0027Private video\u0027). Cortarlo del VOD de Kick \u0027IM BACK\u0027 cuando se localice el minuto (whisper)"
+                     },
+                     {
+                         "fuente":  "8L8CP3xe3Qo",
+                         "inicio":  251.5,
+                         "fin":  271,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Ese caseip… está pagando rico\u0027, \u0027el prejet\u0027. Ininteligible y puede ser un patrocinador"
+                     },
+                     {
+                         "fuente":  "8L8CP3xe3Qo",
+                         "inicio":  271,
+                         "fin":  543,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Accidente aéreo en Florida\u0027: un jet privado con nueve personas que cae en picada (\u0027quedaron los restos\u0027); muestra el video, habla del audio de los pasajeros y de teorías sobre \u0027armamento militar\u0027 en la zona. No le pasó a Westcol: tragedia con víctimas (§6). No se recorta"
+                     },
+                     {
+                         "fuente":  "8L8CP3xe3Qo",
+                         "inicio":  543,
+                         "fin":  575,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Los creadores de contenido damos opiniones… todo el mundo cambió de la nada\u0027. Ironía que responde a la polémica del caso Komanche; fuera de contexto cambia de sentido"
+                     },
+                     {
+                         "fuente":  "8L8CP3xe3Qo",
+                         "inicio":  586,
+                         "fin":  622,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "56, la abuela que vio una bruja en una escoba. Transcripción rota"
+                     },
+                     {
+                         "fuente":  "8L8CP3xe3Qo",
+                         "inicio":  622,
+                         "fin":  665,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Humor black\u0027 con un chiste vulgar sobre su tía. Familiares (personas privadas)"
+                     },
+                     {
+                         "fuente":  "8L8CP3xe3Qo",
+                         "inicio":  772,
+                         "fin":  796,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, \u0027la necesidad hace que la gente haga muchas cosas\u0027. Corto y depende del tramo de España"
+                     },
+                     {
+                         "fuente":  "8L8CP3xe3Qo",
+                         "inicio":  796,
+                         "fin":  982,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Toda esta situación… no voy a hablar más\u0027: su respuesta a la polémica tras la muerte de Komanche (25-oct). Tragedia (§6; el Cazador pidió dejar fuera todo lo que la toque). Es el mismo tramo que MBotzCroy1Q 0:00-2:13"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  0,
+                         "fin":  498,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Respuesta a la polémica por la muerte de Komanche: \u0027yo no tenía una relación cercana\u0027, la comunidad W Reals, los streamers que lo llamaron, \u0027busqué a las personas que agrandaron el problema… cometí un error\u0027. Tragedia (§6)"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  498,
+                         "fin":  609,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "Revisión humana. \u0027Westcol es un hashtag que te va a generar visitas… el 50% me menciona por beneficio propio… ¿quién le dijo que si yo soy una *** usted es la bestia?\u0027. Frase fuerte, pero responde a quienes lo criticaron tras la muerte de Komanche: no se corta sin que una persona lo decida"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  609,
+                         "fin":  794,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027A todas las personas que piensan que yo le acabé la carrera a otra persona… usted es un fracasadito\u0027. Habla de Komanche, fallecido el 25-oct. Nunca"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  794,
+                         "fin":  853,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "Revisión humana. \u0027Yo era la oveja negra del streaming… ¿Cómo nació Stream Fighters? No nos invitaban a ninguna velada… hicimos nuestro propio evento\u0027. Historia propia, pero es parte de su réplica a quienes lo culpan por el caso Komanche (\u0027para darle clases a los que no se han dado cuenta del camino\u0027)"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  853,
+                         "fin":  911,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Hablo de las personas que salieron a tirar *** aprovechando el momento\u0027. Caso Komanche"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  911,
+                         "fin":  948,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "Revisión humana. Los binoculares: \u0027streamer desde 2016, posición 239.000, siete viewers, seis son bots\u0027. El tramo más gracioso del bloque, pero se burla de quienes lo criticaron tras la muerte de Komanche"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  948,
+                         "fin":  1146,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Resto de la respuesta al caso Komanche (\u0027sosténgamelo en la cara\u0027, \u0027encarar el problema como hombres\u0027, agradecimientos a la FES y a la W Reals) y un chiste vulgar sobre su comunidad"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  1201,
+                         "fin":  1253,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Una mujer en Colombia… eso empieza desde los 15 con esos disfraces\u0027 de conejita. Sexualiza a menores (§6)"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  1336,
+                         "fin":  1376,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Final del disfraz (\u0027andando con un francotirador por allá\u0027) y \u0027en noviembre ya se acabó el año\u0027. El francotirador junto a un disfraz de presidente se puede leer mal; lo demás es débil"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  1456,
+                         "fin":  1473,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "55, \u0027anuncios importantes\u0027 de Stream Fighters sin datos"
+                     },
+                     {
+                         "fuente":  "MBotzCroy1Q",
+                         "inicio":  1473,
+                         "fin":  1520,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Estoy flaco\u0027 y la foto de \u0027la W cancelada\u0027 que lleva tatuada. La \u0027W cancelada\u0027 viene de la campaña por el caso Komanche, y repite la idea de cuerpo-35-anos"
+                     },
+                     {
+                         "fuente":  "RPs9ahaF2Rg",
+                         "inicio":  0,
+                         "fin":  829,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Reacción de un tercero encima del tramo del \u0027hate\u0027 (caso Komanche). Nada de Westcol que no esté más limpio en MBotzCroy1Q; tragedia (§6)"
+                     },
+                     {
+                         "fuente":  "L6Q2hwgXhYY",
+                         "inicio":  1335,
+                         "fin":  1385,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64 (fuerza 18, autonomía 17, gancho 14, relevancia 12, frescura 3): reacción de Yolo al acelerar (\u0027así se sintió el de Interestelar\u0027, \u0027somos 10 segundos más jóvenes\u0027). Saturado (§4): al menos 10 subidas del mismo paseo, hasta 43.221 vistas; sin arbitraje de idioma"
+                     },
+                     {
+                         "fuente":  "L6Q2hwgXhYY",
+                         "inicio":  1292,
+                         "fin":  1312,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, \u0027¿pensaste que te ibas a comprar un Ferrari?… trabajo, siempre se puede\u0027. Corto, transcripción confusa (\u0027la BR\u0027, \u0027mi Burus\u0027) y saturado"
+                     },
+                     {
+                         "fuente":  "L6Q2hwgXhYY",
+                         "inicio":  1025,
+                         "fin":  1095,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, precio del Ferrari y del SF90. Cifras ilegibles (\u0027$5,000 600,000\u0027, \u0027$,000\u0027): no se usan"
+                     },
+                     {
+                         "fuente":  "L6Q2hwgXhYY",
+                         "inicio":  1450,
+                         "fin":  1590,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Chiste sexual (\u0027imagínate una mujer\u0027) y \u0027140 millas… te comiste como 1000 multas\u0027. Conducción temeraria en vía pública; además saturado"
+                     },
+                     {
+                         "fuente":  "L6Q2hwgXhYY",
+                         "inicio":  1706,
+                         "fin":  1733,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, queja de los vecinos por el ruido. Débil y saturado"
+                     },
+                     {
+                         "fuente":  "L6Q2hwgXhYY",
+                         "inicio":  1915,
+                         "fin":  1970,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, la policía en Estados Unidos frente a la de México. No se sabe con seguridad quién habla"
+                     },
+                     {
+                         "fuente":  "L6Q2hwgXhYY",
+                         "inicio":  327,
+                         "fin":  389,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Cámaras robóticas \u0027tipo reality… como la de La Casa de los Famosos\u0027. Toca un reality (exclusión) y es débil"
+                     },
+                     {
+                         "fuente":  "L6Q2hwgXhYY",
+                         "inicio":  2562,
+                         "fin":  2622,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027El verdadero sueño americano… carrera limpia y orgánica\u0027. Misma idea que lonche-sueno-americano, que es más completo; con música de fondo"
+                     },
+                     {
+                         "fuente":  "asaeBTxVfFU",
+                         "inicio":  661,
+                         "fin":  718,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, \u0027mira lo que voy a comprar… Mansory… es como estar en una nube\u0027. Transcripción rota y depende de lo visual"
+                     },
+                     {
+                         "fuente":  "asaeBTxVfFU",
+                         "inicio":  1687,
+                         "fin":  1733,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "61, \u0027mucha aura esa troca… más que el Ferrari\u0027 y la llegada a Hermès"
+                     },
+                     {
+                         "fuente":  "asaeBTxVfFU",
+                         "inicio":  0,
+                         "fin":  78,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "55, \u0027pinche Lonche, tenía razón\u0027, \u0027algún día\u0027. Empieza a media frase"
+                     },
+                     {
+                         "fuente":  "asaeBTxVfFU",
+                         "inicio":  1797,
+                         "fin":  1885,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Corrido con derechos de fondo"
+                     },
+                     {
+                         "fuente":  "TGZYr7VNzio",
+                         "inicio":  2612,
+                         "fin":  2644,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Y no de joterías\u0027 (insulto homófobo) y \u0027viejas faranduleras… viejas pendejas\u0027. Queda fuera del corte de lonche-sueno-americano"
+                     },
+                     {
+                         "fuente":  "TGZYr7VNzio",
+                         "inicio":  2660,
+                         "fin":  2696,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027El sueño americano… una vida estable, buenos amigos… ¿qué más le puedo pedir?\u0027. Misma idea que lonche-sueno-americano; se corta el mejor"
+                     },
+                     {
+                         "fuente":  "TGZYr7VNzio",
+                         "inicio":  2369,
+                         "fin":  2417,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Oferta de un casino (\u0027$10,000 más que Stake\u0027) y \u0027no me falta tanto para un Bugatti\u0027. Promoción de apuestas"
+                     },
+                     {
+                         "fuente":  "TGZYr7VNzio",
+                         "inicio":  1851,
+                         "fin":  2009,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Willo en un club de striptease (contenido sexual de un tercero) y \u0027no hay manera que el Willo se avente 24 horas\u0027 (55)"
+                     },
+                     {
+                         "fuente":  "TGZYr7VNzio",
+                         "inicio":  1199,
+                         "fin":  1226,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Benitos Tacos Shop… se ve bien miserable\u0027. Burla a un negocio con nombre; el clip de Taco Bell empieza después"
+                     },
+                     {
+                         "fuente":  "TGZYr7VNzio",
+                         "inicio":  460,
+                         "fin":  491,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "58, la Urus sucia (\u0027qué vergüenza tener una de 400.000 para asco\u0027)"
+                     },
+                     {
+                         "fuente":  "TGZYr7VNzio",
+                         "inicio":  123,
+                         "fin":  300,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "La perrita \u0027destroyer\u0027 (52, vulgar) y una broma sexual con \u0027la Bubu\u0027"
+                     },
+                     {
+                         "fuente":  "OqsKq4thcZA",
+                         "inicio":  33,
+                         "fin":  51,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, \u0027no puedo juntarme con el Bendito… cada stream una funa\u0027. No se sabe a qué TikTok reacciona ni se puede confirmar que hable de Blessd"
+                     },
+                     {
+                         "fuente":  "OqsKq4thcZA",
+                         "inicio":  59,
+                         "fin":  137,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Leandro \u0027deja la marihuana\u0027 y su video de creatina. Drogas de un tercero"
+                     },
+                     {
+                         "fuente":  "OqsKq4thcZA",
+                         "inicio":  286,
+                         "fin":  364,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "TikTok de una modelo webcam. Contenido sexual de una persona privada"
+                     },
+                     {
+                         "fuente":  "OqsKq4thcZA",
+                         "inicio":  686,
+                         "fin":  790,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "La chiva (\u0027beber más alcohol que todos\u0027), la W Sound \u0027número uno en YouTube y Apple Music\u0027 (repite westcol-w-sound-700mil) y el alcance limitado (repite westcol-motosierra-carton)"
+                     },
+                     {
+                         "fuente":  "XMLQv5JNuK0",
+                         "inicio":  0,
+                         "fin":  57,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, \u002710 Lambos, 10 Corvettes, 20 TRX\u0027. No se sabe a qué cifra reacciona"
+                     },
+                     {
+                         "fuente":  "XMLQv5JNuK0",
+                         "inicio":  112,
+                         "fin":  166,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, \u0027los empresarios más grandes nos buscan… no tenemos un pasado oscuro\u0027. Misma idea que lonche-sueno-americano"
+                     },
+                     {
+                         "fuente":  "XMLQv5JNuK0",
+                         "inicio":  174,
+                         "fin":  339,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Canción \u0027FES\u0027 (Víctor Mendivil y Omar Camacho). Música con derechos"
+                     },
+                     {
+                         "fuente":  "XMLQv5JNuK0",
+                         "inicio":  482,
+                         "fin":  530,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, \u0027los que dejan un legado son los number one… ser el papá de varios\u0027. Repite la idea de lonche-seis-cifras"
+                     },
+                     {
+                         "fuente":  "Z1VUghXaEIM",
+                         "inicio":  2618,
+                         "fin":  2663,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-03-awooween-fuegos-final",
+                         "motivo":  "emotivo, 74 (encargo 3-nov, sin subtítulos): fuegos artificiales, llamas y láseres al final del show; pirotecnia en los 4 cuadros de la revisión; 43:40 y 44:10 entre los 12 tramos más fuertes (−9,4 LUFS). Entrada de audio saturada (+0,31 dBTP). Ver y escuchar antes de publicar"
+                     },
+                     {
+                         "fuente":  "Z1VUghXaEIM",
+                         "inicio":  903,
+                         "fin":  948,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-03-awooween-estadio-lleno",
+                         "motivo":  "reaccion, 70 (encargo 3-nov, sin subtítulos): artistas en la pasarela lateral frente a las gradas llenas de linternas; 15:10-15:40 entre los tramos más fuertes (−9,0 LUFS en 15:20) tras una pausa en 14:30-14:50. No se identifica a los artistas: no nombrar a nadie"
+                     },
+                     {
+                         "fuente":  "Z1VUghXaEIM",
+                         "inicio":  1553,
+                         "fin":  1598,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-03-awooween-a-todo-volumen",
+                         "motivo":  "reaccion, 69 (encargo 3-nov, sin subtítulos): el tramo de más volumen de todo el concierto (25:50-26:40, máx. −8,5 LUFS en 26:20); abre con un espectáculo de láseres sobre el estadio y sigue con el escenario principal y el público"
+                     },
+                     {
+                         "fuente":  "Z1VUghXaEIM",
+                         "inicio":  107,
+                         "fin":  152,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Primer tema a todo volumen (2:00 es el 4.º tramo más fuerte, −9,1 LUFS). Repite la idea de a-todo-volumen, que es más fuerte y abre con láseres; tampoco se puede afirmar que sea el arranque (el video está editado: 46 min de un show de más de 2 h)"
+                     },
+                     {
+                         "fuente":  "Z1VUghXaEIM",
+                         "inicio":  1160,
+                         "fin":  1280,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Columnas de fuego (~19:30) y fuegos artificiales (~21:10). Repiten la idea de fuegos-final, que tiene pirotecnia en todo el clip"
+                     },
+                     {
+                         "fuente":  "Z1VUghXaEIM",
+                         "inicio":  2400,
+                         "fin":  2430,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Escenario B con linternas (~40:10). Repite la idea de estadio-lleno"
+                     },
+                     {
+                         "fuente":  "Z1VUghXaEIM",
+                         "inicio":  2545,
+                         "fin":  2600,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "61, mucha gente en el escenario (~42:30). Sin audio no se sabe quiénes son: el único gancho posible (\u0027los invitados\u0027) nombraría o insinuaría a personas no identificadas"
+                     },
+                     {
+                         "fuente":  "Z1VUghXaEIM",
+                         "inicio":  650,
+                         "fin":  690,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, bailarines disfrazados en el escenario (~11:00). Volumen medio (de −11,4 a −12,1 LUFS) y sin gancho propio"
+                     },
+                     {
+                         "fuente":  "Z1VUghXaEIM",
+                         "inicio":  20.5,
+                         "fin":  65,
+                         "estado":  "propuesto",
+                         "clip":  "2026-11-03-awooween-arranque",
+                         "motivo":  "reaccion, 59 tras la revisión (encargo 3-nov): la cuenta regresiva y el estadio a oscuras con linternas. Producido dos veces (18-63 y 20,5-65) y en las dos abre con el presentador hablando en la entrada (las marcas del vistazo iban ~10 s por delante). Queda propuesto en clips.json. Para un corte limpio: -Inicio 29 -Fin 74 (no se hizo: solo se permite un recorte)"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  2162.77,
+                         "fin":  2229.62,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-decimas-abuelo",
+                         "motivo":  "emotivo, 79 (ciclo 6): Lokillo lee las décimas a su abuelo (murió en marzo de 2026); 8 menciones del minuto 36 (321 likes). Termina en \u0027dándome la bendición\u0027; la última décima queda fuera"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  1360.81,
+                         "fin":  1414.21,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-filosofo-o-reggaetonero",
+                         "motivo":  "humor, 77 (ciclo 6): \u0027¿filósofo, poeta o reguetonero?\u0027 (Nietzsche \u0027del Grupo Niche\u0027, Pizarnik, letra vulgar). Pico 22:39 (1,0). \u0027Rincón. Fred Rón\u0027 como (…): escuchar"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  1798.69,
+                         "fin":  1854.37,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-billete-diomedes",
+                         "motivo":  "humor, 72 (ciclo 6): billete de 100.000: Gómez Jattin y \u0027Diomedes, porque ese no lo cambiaba nadie\u0027. Pico 30:32 (0,77). \u0027Diomedes\u0027: escuchar"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  294.13,
+                         "fin":  310.66,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-poeta-corre-feo",
+                         "motivo":  "humor, 72 (ciclo 6): \u0027¿usted por qué corre tan feo?\u0027 \u0027Porque no sé correr, hermano\u0027"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  2101.73,
+                         "fin":  2160.3,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-billete-popo",
+                         "motivo":  "humor, 71 (ciclo 6): el billete que cae en la taza, \u0027depende si lo necesito mucho\u0027"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  1597.61,
+                         "fin":  1624.98,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-flor-abeja",
+                         "motivo":  "humor, 71 (ciclo 6): \u0027si tú fueras una flor y yo una abeja… no nos da, profe\u0027"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  491.41,
+                         "fin":  550.34,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-borracho-ensayo",
+                         "motivo":  "historia, 71 (ciclo 6): llegó borracho al ensayo y Simón Mesa: \u0027que en la película esté así, pero sin tomarse un solo trago\u0027. Pico 8:22"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  2494.29,
+                         "fin":  2524.82,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-profesor-sobra",
+                         "motivo":  "frase, 70 (ciclo 6): \u0027sobra el profesor que lleva 40 años con el mismo librito amarillo\u0027. \u0027pruebo\u0027 como (…)"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  2038.21,
+                         "fin":  2069.22,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-novela-mas-corta",
+                         "motivo":  "humor, 70 (ciclo 6): \u0027Soy hijo de mi hermano. Esa es mi tragedia\u0027"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  153.45,
+                         "fin":  174.86,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-el-paseo",
+                         "motivo":  "humor, 68 (ciclo 6): \u0027¿la mejor película colombiana?\u0027 \u0027He visto cinco y las cinco son El paseo\u0027"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  1995.41,
+                         "fin":  2032.58,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-poesia-protesta",
+                         "motivo":  "humor, 67 (ciclo 6): poema de Carlos Enrique Ortiz y la respuesta vulgar. Pico 33:29"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  1498.89,
+                         "fin":  1542.22,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-poema-cuarto-oscuro",
+                         "motivo":  "emotivo, 66 (ciclo 6): \u0027La poesía es como un cuarto a oscuras\u0027, texto inédito de Ubeimar. \u0027Le, lee mar ríos\u0027 → \u0027U… Ubeimar Ríos\u0027: escuchar"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  403.49,
+                         "fin":  434.06,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-vomitar-premios",
+                         "motivo":  "historia, 66 (ciclo 6): corrió hasta vomitar y le predijeron premios como mejor actor"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  1098.61,
+                         "fin":  1138.98,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-04-parceritos-fracaso-objetividad",
+                         "motivo":  "frase, 65 (ciclo 6): \u0027¿qué se necesita para aceptar el fracaso?\u0027 \u0027Objetividad\u0027"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  575,
+                         "fin":  620,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "63, \u0027¿qué es el licor?… fuente de inspiración y uno de los más grandes problemas\u0027 + \u0027aguardientico para los nervios\u0027. Bajo el umbral"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  637,
+                         "fin":  711,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "64, juego \u0027¿corre o no corre?\u0027 (testigo de Jehová, \u0027tres costeñitas que son costeñitos\u0027). Bajo el umbral; bromas religiosas y de género que conviene revisar"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  1631,
+                         "fin":  1762,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "64, décima de Chespirito a Florinda Meza recitada por un anfitrión (28:38-29:22). Bajo el umbral"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  2423,
+                         "fin":  2456,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "63, rey nacional de la trova a los 15 años (2011) y los profesores que lo \u0027machacaban\u0027. Bajo el umbral"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  2856,
+                         "fin":  2912,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "63, trova de despedida (\u0027pago un millón de pesos solo para verlo corriendo\u0027), con música de fondo del programa. Bajo el umbral"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  206,
+                         "fin":  236,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Pico 3:26 (0,34): \u0027la gordita que rodó\u0027, burla del cuerpo de una actriz (Rebeca Andrade). Expone a una tercera persona"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  820,
+                         "fin":  930,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Escena del desnudo (los dobles, \u0027casting para un pene\u0027). Contenido sexual explícito"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  2381,
+                         "fin":  2416,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Tráigame un cuchillo que me voy a matar\u0027 en primero de primaria. Alusión a autolesión de un niño (§6)"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  2598,
+                         "fin":  2667,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Broma sobre el squirt y \u0027a los niños les deberían enseñar con práctica\u0027. Sexualiza a menores (§6). También 46:21-46:34 y el cierre 48:32-48:59"
+                     },
+                     {
+                         "fuente":  "4hGozORt3Ds",
+                         "inicio":  16,
+                         "fin":  78,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, trova de presentación sobre música de fondo. Bajo el umbral"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  40.49,
+                         "fin":  100.9,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-westcol-robot-sin-seguridad",
+                         "motivo":  "revelacion, 83 (ciclo 7): le quitarán la seguridad al robot para Stream Fighters; \u0027le arrancó un dedo a un trabajador\u0027"
+                     },
+                     {
+                         "fuente":  "LgnQHaFVvyo",
+                         "inicio":  994.37,
+                         "fin":  1048.66,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-westcol-negocio-blessd-discoteca",
+                         "motivo":  "historia, 83 (ciclo 7): le dio su camioneta a Blessd (\u0027el Bendito\u0027) a cambio de 3 canciones en su discoteca. \u0027Tahoe\u0027 corregido: escuchar"
+                     },
+                     {
+                         "fuente":  "iNxDQVDIer8",
+                         "inicio":  2933.87,
+                         "fin":  2980.92,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-maluma-bebe-capo",
+                         "motivo":  "historia, 81 (ciclo 7): en Argentina le tiraron un bebé de 6 meses al capó del carro"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  968.93,
+                         "fin":  1007.38,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-westcol-robot-ascensor",
+                         "motivo":  "humor, 80 (ciclo 7): primera vez del robot en un ascensor, \u0027morimos todos\u0027 (comentarios 16:35 y 16:45). Entrada saturada: escuchar"
+                     },
+                     {
+                         "fuente":  "LgnQHaFVvyo",
+                         "inicio":  923.73,
+                         "fin":  952.3,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-westcol-dinero-parqueado",
+                         "motivo":  "frase, 80 (ciclo 7): \u0027me desespera tener dinero parqueado… 3.000 millones para hacer 10.000\u0027"
+                     },
+                     {
+                         "fuente":  "KhuFp9eIyVU",
+                         "inicio":  832.19,
+                         "fin":  886.5,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-westcol-regateo-revuelto",
+                         "motivo":  "confrontacion, 79 (ciclo 7): regateo del Revuelto: \u0027háblame en dólares, el peso es pobreza\u0027, descuento de la ganga"
+                     },
+                     {
+                         "fuente":  "KhuFp9eIyVU",
+                         "inicio":  293.98,
+                         "fin":  339.95,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-revuelto-beneficio-tributario",
+                         "motivo":  "consejo, 76 (ciclo 7): Diego (RR Autos) explica el beneficio tributario del híbrido a Westcol"
+                     },
+                     {
+                         "fuente":  "LgnQHaFVvyo",
+                         "inicio":  515.49,
+                         "fin":  554.7,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-westcol-precio-lambo-bajara",
+                         "motivo":  "prediccion, 75 (ciclo 7): el Revuelto bajará a 2.000 millones en 2-3 meses"
+                     },
+                     {
+                         "fuente":  "LgnQHaFVvyo",
+                         "inicio":  65.37,
+                         "fin":  90.62,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-westcol-batisenal-w",
+                         "motivo":  "revelacion, 75 (ciclo 7): quiere una batiseñal de la W en el cielo de Medellín"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  2643.89,
+                         "fin":  2670.5,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-westcol-robot-piquete",
+                         "motivo":  "humor, 75 (ciclo 7): \u0027ese robot tiene más piquete que todo el mundo\u0027. Entrada saturada: escuchar"
+                     },
+                     {
+                         "fuente":  "iNxDQVDIer8",
+                         "inicio":  3059.97,
+                         "fin":  3115.42,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-maluma-loco-por-girar",
+                         "motivo":  "frase, 75 (ciclo 7): \u0027que no me escuche mi mujer… estoy loco por irme a girar\u0027"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  1198.4,
+                         "fin":  1254.5,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "humor, 74: \u0027¿puede entrar un robot a la tienda?… tiene mala fama\u0027. No se cortó: YouTube bloqueó la descarga (bot check) el 6-nov. Id previsto 2026-11-05-westcol-robot-tienda"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  457.4,
+                         "fin":  520.4,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "humor, 73: combo de boxeo del robot, \u0027¿quién lo hace mejor, el robot o este man?\u0027 (Rey = Reydelacity según ElReyWithTheClips). Bloqueo de YouTube. Id previsto 2026-11-05-robot-boxeo-reydelacity"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  2010.5,
+                         "fin":  2057,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "humor, 73: el robot vestido, \u0027es como mi hijo, me siento orgulloso\u0027. Bloqueo de YouTube"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  2376.5,
+                         "fin":  2418.3,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "reaccion, 72: saltos del robot dentro de la tienda y aplausos. Bloqueo de YouTube"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  0,
+                         "fin":  29.95,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "revelacion, 70: \u0027la guarida se nos fue\u0027 (desmontan la guarida). No es noticia en prensa. Pendiente de corte"
+                     },
+                     {
+                         "fuente":  "LgnQHaFVvyo",
+                         "inicio":  830,
+                         "fin":  857.4,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "consejo, 72: \u0027en el momento que haces esa compra perdiste $300.000\u0027. Bloqueo de YouTube. Ya titulado por La Ganga Clips TV (4 vistas)"
+                     },
+                     {
+                         "fuente":  "LgnQHaFVvyo",
+                         "inicio":  289.7,
+                         "fin":  322.4,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "frase, 71: \u0027apartamento de retiro de streamer… en Latam no han llegado a este nivel\u0027. Pendiente de corte"
+                     },
+                     {
+                         "fuente":  "KhuFp9eIyVU",
+                         "inicio":  1145.8,
+                         "fin":  1180.3,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "frase, 72: así pagaría el Lambo (Hammer + 1.000 palos + crédito), \u0027es un hombre estratégico\u0027. Bloqueo de YouTube"
+                     },
+                     {
+                         "fuente":  "KhuFp9eIyVU",
+                         "inicio":  973.1,
+                         "fin":  1031,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "humor, 71: \u0027un hombre de verdad tendría un carro en cada ciudad… para eso tengo a Diego que me presta los carros\u0027. Hablantes por confirmar. Pendiente"
+                     },
+                     {
+                         "fuente":  "iNxDQVDIer8",
+                         "inicio":  3436.1,
+                         "fin":  3463.7,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "frase, 71: \u0027si la gente quiere amar a Juan Luis primero que a Maluma, esa es la prioridad\u0027. Bloqueo de YouTube"
+                     },
+                     {
+                         "fuente":  "iNxDQVDIer8",
+                         "inicio":  2673.9,
+                         "fin":  2697,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "reaccion, 70: \u0027¿Sos Maluma?\u0027 \u0027Afirmativo\u0027. Bloqueo de YouTube"
+                     },
+                     {
+                         "fuente":  "iNxDQVDIer8",
+                         "inicio":  3316.3,
+                         "fin":  3343.2,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "revelacion, 68: \u0027me voy a pasar un tiempo largo [en Argentina]… es más pronto de lo que esperan\u0027. Palabras reordenadas en palabras-rev.json. Pendiente"
+                     },
+                     {
+                         "fuente":  "iNxDQVDIer8",
+                         "inicio":  3215.1,
+                         "fin":  3255.4,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "frase, 67: Bizarrap \u0027no sabía que era tan buena gente… muchos martinis\u0027. Pendiente"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  259.1,
+                         "fin":  330.5,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "historia, 67: Erika Zapata dio su primer beso a los 28 (tutoriales de YouTube, \u0027me dejaron después\u0027). Pico 4:26. Pendiente de corte (cuota de tiempo y bloqueo)"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  2295.3,
+                         "fin":  2325,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "emotivo, 67: Lokillo, el escenario \u0027fue como un bálsamo\u0027 el día de la muerte de su abuelo. Pendiente"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  1423.9,
+                         "fin":  1472.8,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "emotivo, 65: Erika Zapata, se burlaban de ella por frentona y montañera, \u0027hoy me siento orgullosa\u0027. Varias palabras como (…). Pendiente"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  637,
+                         "fin":  675,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Robot \u0027no está a la venta… juguete peligroso… un puño al carro le hace un hueco\u0027. Repite la idea de robot-sin-seguridad"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  706,
+                         "fin":  750,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Autodestrucción y \u0027si se vuelve loco en Stream Fighters\u0027. Repite la idea de robot-sin-seguridad"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  780,
+                         "fin":  810,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Señora asustada por el robot (comentario 13:27). Expone a una persona privada"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  2450,
+                         "fin":  2480,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Patadas del robot con niños alrededor (\u0027niños, no vean esto\u0027). Menores"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  2925,
+                         "fin":  2945,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Chiste sexual sobre robots"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  2970,
+                         "fin":  3000,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Burla del inglés de unos turistas noruegos. Personas privadas"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  3083,
+                         "fin":  3111,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, colchón para el robot (comentario 51:33 sobre la mirada de una señora). Débil y expone a terceros"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  3253,
+                         "fin":  3268,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, \u0027¿si el robot atraca, a quién meten preso? Al papá\u0027. Bajo el umbral"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  1810,
+                         "fin":  1833,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, bolso de \u002730 millones\u0027 y \u0027parezco un gota a gota\u0027. Cifra confusa"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  1889,
+                         "fin":  1913,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, Mota estilista y Kris R (\u0027le gustan mucho los conjuntos\u0027). Hablantes mezclados"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  219,
+                         "fin":  264,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, Rey pagaría el primer arriendo del warehouse. Confuso"
+                     },
+                     {
+                         "fuente":  "Xrwm98iaWY8",
+                         "inicio":  1491,
+                         "fin":  1503,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, \u0027ese robot me está quitando todo el brillo\u0027. Demasiado corto y transcripción rota"
+                     },
+                     {
+                         "fuente":  "LgnQHaFVvyo",
+                         "inicio":  128,
+                         "fin":  158,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, specs del set (RTX, 240 Hz, 120 GB). Modelo de tarjeta mal transcrito (cifra)"
+                     },
+                     {
+                         "fuente":  "LgnQHaFVvyo",
+                         "inicio":  606,
+                         "fin":  636,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Híbrido paga menos impuestos que un Rolls Royce Cullinan. Repite la idea de revuelto-beneficio-tributario"
+                     },
+                     {
+                         "fuente":  "LgnQHaFVvyo",
+                         "inicio":  685,
+                         "fin":  731,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Precio de un carro en Colombia, Urus, crédito en USA. Repite la idea de precio-lambo-bajara"
+                     },
+                     {
+                         "fuente":  "LgnQHaFVvyo",
+                         "inicio":  1077,
+                         "fin":  1096,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "60, a Lonche le ofrecieron el Revuelto. Débil"
+                     },
+                     {
+                         "fuente":  "KhuFp9eIyVU",
+                         "inicio":  1065,
+                         "fin":  1112,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, \u0027el precio del Revuelto lo puso usted\u0027. Confuso sin contexto"
+                     },
+                     {
+                         "fuente":  "KhuFp9eIyVU",
+                         "inicio":  565,
+                         "fin":  584,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "64, pieza de fibra de carbono de 40.000 dólares. Bajo el umbral"
+                     },
+                     {
+                         "fuente":  "KhuFp9eIyVU",
+                         "inicio":  763,
+                         "fin":  776,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, \u0027no hay G-Wagon 2027 en ningún concesionario de Colombia\u0027. Corto y bajo el umbral"
+                     },
+                     {
+                         "fuente":  "KhuFp9eIyVU",
+                         "inicio":  1235,
+                         "fin":  1245,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Los impuestos van a subir, los está poniendo el Presi\u0027. Política, corto"
+                     },
+                     {
+                         "fuente":  "iNxDQVDIer8",
+                         "inicio":  2774,
+                         "fin":  2805,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "61, mates y consejos de Juanfer Quintero. Bajo el umbral"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  218,
+                         "fin":  258,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "62, consecuencias de hablar así \u0027en el plano sentimental\u0027; termina en una broma sexual del anfitrión (\u0027más tocada que timbre de sordo\u0027)"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  660,
+                         "fin":  1010,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Picos 14:17 (1,0) y 16:15 (0,74): los \u0027chispus\u0027 (besos) con bromas sexuales explícitas y una broma sobre el síndrome de Down (12:34). No se recorta"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  470,
+                         "fin":  530,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Pico 8:22: cirugía de pecho y fotos. Contenido sexual"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  1190,
+                         "fin":  1245,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Pico 20:12: fotos \u0027escotadas\u0027. Contenido sexual"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  1700,
+                         "fin":  1760,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Comentario 28:55 (218 likes): \u0027con ese operativo me le mido\u0027. Pregunta sexual explícita"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  1820,
+                         "fin":  1870,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Definición de squirt. Contenido sexual"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  2350,
+                         "fin":  2560,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Picos 39:25 y 44:50: fotos íntimas y besos. Contenido sexual explícito"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  2062,
+                         "fin":  2085,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, \u0027voy a tener un hijo y no sé de quién es\u0027 (comentario 34:34). Depende del contexto de los besos"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  1377,
+                         "fin":  1401,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, el periodista \u0027demasiado evidente\u0027 del trancón. Bajo el umbral"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  156,
+                         "fin":  192,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, sus expresiones virales (\u0027pollos en un galpón\u0027). Bajo el umbral; su historia ya está en entrevistas largas (Jhovanoty 1,03 M, La Kalle 206.842)"
+                     },
+                     {
+                         "fuente":  "o1uyVvIu4xc",
+                         "inicio":  1026,
+                         "fin":  1062,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Ser diferente tiene consecuencias\u0027. Repite la idea de erika-frentona (propuesto)"
+                     }
                  ]
 }
