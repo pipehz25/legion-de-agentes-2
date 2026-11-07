@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-lonche-un-ano-despues",
+    "url_fuente":  "https://www.youtube.com/watch?v=XcgyVpbHNlw",
+    "video_id":  "XcgyVpbHNlw",
+    "inicio":  1128.81,
+    "fin":  1163.98,
+    "inicio_hms":  "0:18:48",
+    "duracion_seg":  35.2,
+    "gancho":  "Así llegó Lonche hace un año",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  110,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.1,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.71,
+                  "entrada_tp":  -7.7,
+                  "salida_lufs":  -14.02,
+                  "salida_tp":  -1.09
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-lonche-un-ano-despues/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-lonche-un-ano-despues/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-lonche-un-ano-despues/revision.jpg",
+    "creado":  "2026-11-06T12:28:22.7542384-05:00"
+}

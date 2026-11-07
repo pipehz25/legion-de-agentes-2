@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-westcol-cuanto-hizo-la-plena",
+    "url_fuente":  "https://www.youtube.com/watch?v=XcgyVpbHNlw",
+    "video_id":  "XcgyVpbHNlw",
+    "inicio":  616.57,
+    "fin":  673.14,
+    "inicio_hms":  "0:10:16",
+    "duracion_seg":  56.6,
+    "gancho":  "¿Cuánto dinero hizo La Plena?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  189,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -22.21,
+                  "entrada_tp":  -9.5,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -1.29
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-westcol-cuanto-hizo-la-plena/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-westcol-cuanto-hizo-la-plena/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-westcol-cuanto-hizo-la-plena/revision.jpg",
+    "creado":  "2026-11-06T12:25:05.2429058-05:00"
+}

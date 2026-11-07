@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-westcol-pago-por-reaccionar",
+    "url_fuente":  "https://www.youtube.com/watch?v=XcgyVpbHNlw",
+    "video_id":  "XcgyVpbHNlw",
+    "inicio":  37.97,
+    "fin":  89.1,
+    "inicio_hms":  "0:00:37",
+    "duracion_seg":  51.2,
+    "gancho":  "Lo que paga una disquera por reaccionar",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  171,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.62,
+                  "entrada_tp":  -7.96,
+                  "salida_lufs":  -13.91,
+                  "salida_tp":  -1.34
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-westcol-pago-por-reaccionar/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-westcol-pago-por-reaccionar/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-westcol-pago-por-reaccionar/revision.jpg",
+    "creado":  "2026-11-06T12:35:30.2392849-05:00"
+}

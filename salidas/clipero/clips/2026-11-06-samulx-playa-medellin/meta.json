@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-samulx-playa-medellin",
+    "url_fuente":  "https://www.youtube.com/watch?v=hD58PIkuFVA",
+    "video_id":  "hD58PIkuFVA",
+    "inicio":  892.61,
+    "fin":  913.54,
+    "inicio_hms":  "0:14:52",
+    "duracion_seg":  21,
+    "gancho":  "Lo primero que Samulx quiere ver en Medellín",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  67,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -13.52,
+                  "entrada_tp":  -6.18,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -7.19
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-samulx-playa-medellin/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-samulx-playa-medellin/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-samulx-playa-medellin/revision.jpg",
+    "creado":  "2026-11-06T12:17:42.5826843-05:00"
+}

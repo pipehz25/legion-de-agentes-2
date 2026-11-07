@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-robot-boxeo",
+    "url_fuente":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+    "video_id":  "Xrwm98iaWY8",
+    "inicio":  457.33,
+    "fin":  521.26,
+    "inicio_hms":  "0:07:37",
+    "duracion_seg":  63.9,
+    "gancho":  "¿Quién boxea mejor: el robot o él?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  155,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -12.56,
+                  "entrada_tp":  -0.04,
+                  "salida_lufs":  -13.94,
+                  "salida_tp":  -1.48
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-robot-boxeo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-robot-boxeo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-robot-boxeo/revision.jpg",
+    "creado":  "2026-11-06T13:18:13.0130259-05:00"
+}

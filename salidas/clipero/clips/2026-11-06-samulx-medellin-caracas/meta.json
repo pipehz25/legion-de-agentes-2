@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-samulx-medellin-caracas",
+    "url_fuente":  "https://www.youtube.com/watch?v=hD58PIkuFVA",
+    "video_id":  "hD58PIkuFVA",
+    "inicio":  1214.45,
+    "fin":  1250.6,
+    "inicio_hms":  "0:20:14",
+    "duracion_seg":  36.2,
+    "gancho":  "¿Medellín se parece a Caracas?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  104,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -14.51,
+                  "entrada_tp":  -6.03,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -5.52
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-samulx-medellin-caracas/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-samulx-medellin-caracas/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-samulx-medellin-caracas/revision.jpg",
+    "creado":  "2026-11-06T12:10:44.2812600-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-samulx-sorpresa-filtrada",
+    "url_fuente":  "https://www.youtube.com/watch?v=hD58PIkuFVA",
+    "video_id":  "hD58PIkuFVA",
+    "inicio":  189.21,
+    "fin":  229.66,
+    "inicio_hms":  "0:03:09",
+    "duracion_seg":  40.5,
+    "gancho":  "La llegada sorpresa que se filtró",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  149,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -13.58,
+                  "entrada_tp":  -5.81,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -6.23
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-samulx-sorpresa-filtrada/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-samulx-sorpresa-filtrada/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-samulx-sorpresa-filtrada/revision.jpg",
+    "creado":  "2026-11-06T12:13:35.7717213-05:00"
+}

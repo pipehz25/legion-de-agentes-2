@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-samulx-peleador-sorpresa",
+    "url_fuente":  "https://www.youtube.com/watch?v=XvSs7RaRxzA",
+    "video_id":  "XvSs7RaRxzA",
+    "inicio":  455.65,
+    "fin":  507.3,
+    "inicio_hms":  "0:07:35",
+    "duracion_seg":  51.7,
+    "gancho":  "Samulx confirma: pelea en Stream Fighters 5",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  144,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -8.56,
+                  "entrada_tp":  0.78,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -4.71
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-samulx-peleador-sorpresa/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-samulx-peleador-sorpresa/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-samulx-peleador-sorpresa/revision.jpg",
+    "creado":  "2026-11-06T12:02:10.5359423-05:00"
+}

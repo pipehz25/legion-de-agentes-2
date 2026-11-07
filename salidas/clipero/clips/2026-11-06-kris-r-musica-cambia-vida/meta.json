@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-kris-r-musica-cambia-vida",
+    "url_fuente":  "https://www.youtube.com/watch?v=XcgyVpbHNlw",
+    "video_id":  "XcgyVpbHNlw",
+    "inicio":  127.17,
+    "fin":  154.9,
+    "inicio_hms":  "0:02:07",
+    "duracion_seg":  27.8,
+    "gancho":  "Cómo la música le cambió la vida a Kris R",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  103,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.21,
+                  "entrada_tp":  -8.66,
+                  "salida_lufs":  -14.16,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-kris-r-musica-cambia-vida/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-kris-r-musica-cambia-vida/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-kris-r-musica-cambia-vida/revision.jpg",
+    "creado":  "2026-11-06T12:48:21.3526875-05:00"
+}

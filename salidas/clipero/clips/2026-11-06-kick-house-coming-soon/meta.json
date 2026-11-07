@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-kick-house-coming-soon",
+    "url_fuente":  "https://www.youtube.com/watch?v=hD58PIkuFVA",
+    "video_id":  "hD58PIkuFVA",
+    "inicio":  374.65,
+    "fin":  406.98,
+    "inicio_hms":  "0:06:14",
+    "duracion_seg":  32.3,
+    "gancho":  "La Ganga anuncia la Kick House",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  126,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -13.68,
+                  "entrada_tp":  -6.23,
+                  "salida_lufs":  -13.99,
+                  "salida_tp":  -6.57
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-kick-house-coming-soon/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-kick-house-coming-soon/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-kick-house-coming-soon/revision.jpg",
+    "creado":  "2026-11-06T12:16:03.1366160-05:00"
+}

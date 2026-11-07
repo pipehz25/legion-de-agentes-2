@@ -1,7 +1,7 @@
 {
-    "actualizado":  "2026-11-06T01:30:00-05:00",
-    "ciclo":  7,
-    "ultimo_ciclo_cazador":  7,
+    "actualizado":  "2026-11-07T17:55:00-05:00",
+    "ciclo":  8,
+    "ultimo_ciclo_cazador":  9,
     "fuentes":  [
                     {
                         "id":  "LYEB5ioD_pY",
@@ -212,6 +212,41 @@
                         "titulo":  "LOS PARCERITOS - CAP. 15: EL CHISPUS",
                         "analizado":  "2026-11-05",
                         "resultado":  "0 clips + 3 propuestos (65-67) | reintento logrado del 429 del ciclo 6 (encargo del usuario) | 731.204 vistas | 8 picos y 6 marcas | transcripción leída entera (398 líneas) | invitada: la periodista Erika Zapata | casi todo el capítulo es sexual (besos, fotos, squirt): todos los picos caen en tramos descartados | palabras-rev.json creado"
+                    },
+                    {
+                        "id":  "XvSs7RaRxzA",
+                        "url":  "https://www.youtube.com/watch?v=XvSs7RaRxzA",
+                        "titulo":  "Peleare en Stream Fighters | Westcol quiere cargar a CHIARA, Samulx",
+                        "analizado":  "2026-11-06",
+                        "resultado":  "4 clips (peleador-sorpresa 88, ganga-el-que-pierde 78, me-quedo-en-colombia 78, tour-por-colombia 75) (ciclo 8) | fuente_para_clips #3 del Cazador (ciclo 9), oportunidad tema-stream-fighters-5 | Live Samulx, publicado 5-nov ~20:10, 619 s, 44.070 vistas (2.880/h) | sin picos ni marcas | transcripción leída entera (90 líneas) | 0:23-2:30 es Westcol con la bebé Chiara: no se recorta | el video de anuncio va en 7:35-7:58 | palabras-rev.json: Tur→Tour, Chanti→Chanty, una palabra como (…) | el primer render de ganga-el-que-pierde salió con 1 cuadro de video (fallo de ffmpeg al cortar dos seguidos en la misma llamada): recortado una vez"
+                    },
+                    {
+                        "id":  "hD58PIkuFVA",
+                        "url":  "https://www.youtube.com/watch?v=hD58PIkuFVA",
+                        "titulo":  "POR FIN ESTOY EN COLOMBIA 🙂🇨🇴 CONOCIENDO LA CASA DE WEST | Samulx",
+                        "analizado":  "2026-11-06",
+                        "resultado":  "4 clips (medellin-caracas 76, sorpresa-filtrada 74, kick-house-coming-soon 73, playa-medellin 73) (ciclo 8) | fuente_para_clips #2 del Cazador (ciclo 9), oportunidad tema-samulx-llega-a-colombia | canal Samulx (186.000), publicado 5-nov ~20:17, 1.582 s, 104.791 vistas a las 11:52 del 6-nov | sin picos, 3 marcas en comentarios (12:11, 16:14, 20:17; 1 mención cada una) | transcripción leída entera (227 líneas) | muy vulgar: la guarida (24:00-26:15) y \u0027noche de chicos\u0027 son bromas sexuales | la bebé sale nombrada en 8:24 | palabras-rev.json: King/Kous→Kick (House), comin/soun→coming/soon, Caraca→Caracas; ininteligibles como (…)"
+                    },
+                    {
+                        "id":  "APiCfb3IXF4",
+                        "url":  "https://www.youtube.com/watch?v=APiCfb3IXF4",
+                        "titulo":  "WEST CONOCE A CHIARA POR PRIMERA VEZ 😍 CHARLANDO CON TODA LA GANGA REUNIDA",
+                        "analizado":  "2026-11-06",
+                        "resultado":  "sin momentos (ciclo 8) | fuente_para_clips del Cazador (ciclo 9) | canal Samulx, publicado 5-nov ~22:05, 1.212 s, 28.604 vistas | sin picos, 2 marcas (17:14, 19:13) | transcripción leída entera (170 líneas): 4:50-17:15 son bromas sexuales explícitas; 17:15-20:00 es la bebé (repite XvSs7RaRxzA 0:00-2:30); lo demás, planes y el Revuelto con hablantes confusos (máximo 63)"
+                    },
+                    {
+                        "id":  "9kJkUgmxh10",
+                        "url":  "https://www.youtube.com/watch?v=9kJkUgmxh10",
+                        "titulo":  "Con Westcol y la Ganga en Colombia | Samulx",
+                        "analizado":  "2026-11-06",
+                        "resultado":  "sin clips: duplicado (ciclo 8) | fuente_para_clips del Cazador (ciclo 9) | Live Samulx, 642 s, 30.547 vistas | transcripción leída entera (90 líneas): es hD58PIkuFVA 2:21-12:40 (desfase ~141 s); se cortó desde el canal de Samulx"
+                    },
+                    {
+                        "id":  "XcgyVpbHNlw",
+                        "url":  "https://www.youtube.com/watch?v=XcgyVpbHNlw",
+                        "titulo":  "¿CUANTO DINERO GANO LA PLENA ? 🤑 | WESTCOL",
+                        "analizado":  "2026-11-06",
+                        "resultado":  "7 clips (cuanto-hizo-la-plena 85, pago-por-reaccionar 77, lonche-un-ano-despues 76, si-fuera-mexicano 75, kris-r-musica-cambia-vida 73, ovy-cancion-en-pelicula 73, bad-bunny-luian-historia 69) + 2 propuestos para revisión humana (Cris Valencia) (ciclo 8) | fuente_para_clips #4 del Cazador (ciclo 9), perfil Westcol | WestCOL (2,07 M), publicado 5-nov ~17:46, 1.336 s, 39.884 vistas | sin picos, 1 marca (7:18) | transcripción leída entera (172 líneas) | tres cámaras (dos en otra sala, una en el set de la casa de Westcol); hablantes sin identificar por la cara | 4:37-9:30 es la réplica a Cris Valencia (regalías de \u0027Ya no volverás\u0027): propuesta para revisión humana, porque responde a críticas en plena polémica de Komanche | 20:47-21:20 vulgar sobre el público mexicano: no | palabras-rev.json: Criser→Kris R, Obi→Ovy, Wiiscalifa→Wiz Khalifa, Bboni/Baboni→Bad Bunny, Luyan/Luan/Lou→Luian, Roy→Rolls, cifras con punto de miles; ininteligibles como (…)"
                     }
                 ],
     "momentos":  [
@@ -2241,19 +2276,19 @@
                      },
                      {
                          "fuente":  "Xrwm98iaWY8",
-                         "inicio":  1198.4,
-                         "fin":  1254.5,
-                         "estado":  "propuesto",
-                         "clip":  null,
-                         "motivo":  "humor, 74: \u0027¿puede entrar un robot a la tienda?… tiene mala fama\u0027. No se cortó: YouTube bloqueó la descarga (bot check) el 6-nov. Id previsto 2026-11-05-westcol-robot-tienda"
+                         "inicio":  1198.29,
+                         "fin":  1255.02,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-westcol-robot-tienda",
+                         "motivo":  "humor, 72 (cortado en el ciclo 8 tras el bloqueo del ciclo 7): ¿puede entrar un robot a la tienda? El empleado de la tienda sale de perfil: ver antes de publicar"
                      },
                      {
                          "fuente":  "Xrwm98iaWY8",
-                         "inicio":  457.4,
-                         "fin":  520.4,
-                         "estado":  "propuesto",
-                         "clip":  null,
-                         "motivo":  "humor, 73: combo de boxeo del robot, \u0027¿quién lo hace mejor, el robot o este man?\u0027 (Rey = Reydelacity según ElReyWithTheClips). Bloqueo de YouTube. Id previsto 2026-11-05-robot-boxeo-reydelacity"
+                         "inicio":  457.33,
+                         "fin":  521.26,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-westcol-robot-boxeo",
+                         "motivo":  "humor, 72 (ciclo 8): combo de boxeo del robot, ¿quién lo hace mejor?"
                      },
                      {
                          "fuente":  "Xrwm98iaWY8",
@@ -2285,7 +2320,7 @@
                          "fin":  857.4,
                          "estado":  "propuesto",
                          "clip":  null,
-                         "motivo":  "consejo, 72: \u0027en el momento que haces esa compra perdiste $300.000\u0027. Bloqueo de YouTube. Ya titulado por La Ganga Clips TV (4 vistas)"
+                         "motivo":  "consejo, 70: \u0027en el momento que haces esa compra perdiste $300.000\u0027. Ciclo 8: el corte falló (ffmpeg dentro de yt-dlp, código 3436169992). Reintentar en el ciclo 9"
                      },
                      {
                          "fuente":  "LgnQHaFVvyo",
@@ -2293,15 +2328,15 @@
                          "fin":  322.4,
                          "estado":  "propuesto",
                          "clip":  null,
-                         "motivo":  "frase, 71: \u0027apartamento de retiro de streamer… en Latam no han llegado a este nivel\u0027. Pendiente de corte"
+                         "motivo":  "frase, 69: \u0027apartamento de retiro de streamer\u0027. Ciclo 8: la descarga se colgó ~28 h y el clip salió truncado (21,5 s de 29,9; sin la frase del gancho): se borró. Reintentar en el ciclo 9 (id 2026-11-05-westcol-retiro-de-streamer)"
                      },
                      {
                          "fuente":  "KhuFp9eIyVU",
-                         "inicio":  1145.8,
-                         "fin":  1180.3,
-                         "estado":  "propuesto",
-                         "clip":  null,
-                         "motivo":  "frase, 72: así pagaría el Lambo (Hammer + 1.000 palos + crédito), \u0027es un hombre estratégico\u0027. Bloqueo de YouTube"
+                         "inicio":  1145.67,
+                         "fin":  1180.76,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-westcol-asi-pagaria-el-lambo",
+                         "motivo":  "frase, 71 (ciclo 8): así pagaría el Lambo, es un hombre estratégico"
                      },
                      {
                          "fuente":  "KhuFp9eIyVU",
@@ -2313,27 +2348,27 @@
                      },
                      {
                          "fuente":  "iNxDQVDIer8",
-                         "inicio":  3436.1,
-                         "fin":  3463.7,
-                         "estado":  "propuesto",
-                         "clip":  null,
-                         "motivo":  "frase, 71: \u0027si la gente quiere amar a Juan Luis primero que a Maluma, esa es la prioridad\u0027. Bloqueo de YouTube"
+                         "inicio":  3435.58,
+                         "fin":  3464.13,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-maluma-juan-luis-primero",
+                         "motivo":  "emotivo, 71 (ciclo 8): si la gente quiere amar a Juan Luis primero que a Maluma"
                      },
                      {
                          "fuente":  "iNxDQVDIer8",
-                         "inicio":  2673.9,
+                         "inicio":  2671.37,
                          "fin":  2697,
-                         "estado":  "propuesto",
-                         "clip":  null,
-                         "motivo":  "reaccion, 70: \u0027¿Sos Maluma?\u0027 \u0027Afirmativo\u0027. Bloqueo de YouTube"
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-maluma-sos-maluma",
+                         "motivo":  "reaccion, 69 (ciclo 8): ¿Sos Maluma? Afirmativo"
                      },
                      {
                          "fuente":  "iNxDQVDIer8",
-                         "inicio":  3316.3,
-                         "fin":  3343.2,
-                         "estado":  "propuesto",
-                         "clip":  null,
-                         "motivo":  "revelacion, 68: \u0027me voy a pasar un tiempo largo [en Argentina]… es más pronto de lo que esperan\u0027. Palabras reordenadas en palabras-rev.json. Pendiente"
+                         "inicio":  3316.18,
+                         "fin":  3343.83,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-05-maluma-tiempo-largo-argentina",
+                         "motivo":  "revelacion, 69 (ciclo 8): me voy a pasar un tiempo largo, más pronto de lo que esperan"
                      },
                      {
                          "fuente":  "iNxDQVDIer8",
@@ -2622,6 +2657,294 @@
                          "estado":  "descartado",
                          "clip":  null,
                          "motivo":  "\u0027Ser diferente tiene consecuencias\u0027. Repite la idea de erika-frentona (propuesto)"
+                     },
+                     {
+                         "fuente":  "XvSs7RaRxzA",
+                         "inicio":  455.65,
+                         "fin":  507.3,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-samulx-peleador-sorpresa",
+                         "motivo":  "revelacion, 88 (ciclo 8): \u0027soy el peleador sorpresa de Stream Fighters… el 14 de noviembre en Bogotá\u0027 + confirmación en directo"
+                     },
+                     {
+                         "fuente":  "XvSs7RaRxzA",
+                         "inicio":  513.89,
+                         "fin":  538.02,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-ganga-el-que-pierde-se-sale",
+                         "motivo":  "revelacion, 78 (ciclo 8): \u0027cuatro peleadores… el que pierde se sale de la ganga\u0027. Primer render salió con 1 cuadro de video (fallo de ffmpeg); recortado una vez"
+                     },
+                     {
+                         "fuente":  "XvSs7RaRxzA",
+                         "inicio":  565.05,
+                         "fin":  591.54,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-samulx-me-quedo-en-colombia",
+                         "motivo":  "frase, 78 (ciclo 8): \u0027me voy a quedar aquí un tiempo… la gente que no creía en mí\u0027. Termina antes de la mención a \u0027Desafío\u0027"
+                     },
+                     {
+                         "fuente":  "XvSs7RaRxzA",
+                         "inicio":  271.93,
+                         "fin":  318.82,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-samulx-tour-por-colombia",
+                         "motivo":  "revelacion, 75 (ciclo 8): \u0027nunca había pisado Colombia… mentira, Cartagena\u0027 + tour por Colombia en stream"
+                     },
+                     {
+                         "fuente":  "XvSs7RaRxzA",
+                         "inicio":  327,
+                         "fin":  350,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "67, \u0027yo no tengo pesos… ¿has pagado algo? Nunca\u0027. Bajo prioridad; tope de tiempo del ciclo"
+                     },
+                     {
+                         "fuente":  "XvSs7RaRxzA",
+                         "inicio":  23,
+                         "fin":  145,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Westcol carga a Chiara, la bebé de Samulx: no se recortan menores"
+                     },
+                     {
+                         "fuente":  "XvSs7RaRxzA",
+                         "inicio":  191,
+                         "fin":  230,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027¿cómo te sientes para la pelea?\u0027 deriva en bromas sexuales"
+                     },
+                     {
+                         "fuente":  "XvSs7RaRxzA",
+                         "inicio":  539,
+                         "fin":  563,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Apuesta con Wegotkicks (\u0027en cuatro en el ring\u0027): humillación sexual"
+                     },
+                     {
+                         "fuente":  "hD58PIkuFVA",
+                         "inicio":  1214.45,
+                         "fin":  1250.6,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-samulx-medellin-caracas",
+                         "motivo":  "humor, 76 (ciclo 8): Medellín se parece a Caracas, \u0027tengo agenda para 2080\u0027"
+                     },
+                     {
+                         "fuente":  "hD58PIkuFVA",
+                         "inicio":  189.21,
+                         "fin":  229.66,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-samulx-sorpresa-filtrada",
+                         "motivo":  "humor, 74 (ciclo 8): \u0027todo el mundo ya sabía que era mentira… me filtraron\u0027. Mismo tramo en 9kJkUgmxh10 0:47"
+                     },
+                     {
+                         "fuente":  "hD58PIkuFVA",
+                         "inicio":  374.65,
+                         "fin":  406.98,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-kick-house-coming-soon",
+                         "motivo":  "revelacion, 73 (ciclo 8): \u0027Kick House coming soon… Sami se va a quedar mucho tiempo\u0027"
+                     },
+                     {
+                         "fuente":  "hD58PIkuFVA",
+                         "inicio":  892.61,
+                         "fin":  913.54,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-samulx-playa-medellin",
+                         "motivo":  "humor, 73 (ciclo 8): lo primero que quiere conocer en Medellín: \u0027arena, palmeras, como playa\u0027"
+                     },
+                     {
+                         "fuente":  "hD58PIkuFVA",
+                         "inicio":  488.5,
+                         "fin":  501.6,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "70, \u002711 años sin conocer otro país… llegué como un pajarito\u0027. 13 s: demasiado corto; lo que sigue es sobre la bebé y una \u0027teoría\u0027 de que uno de la Ganga va a morir"
+                     },
+                     {
+                         "fuente":  "hD58PIkuFVA",
+                         "inicio":  1329,
+                         "fin":  1360,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "68, Lonche le debe 500 y \u0027lo voy a matar en el ring\u0027; hablantes confusos, sigue con especulación sobre el peleador"
+                     },
+                     {
+                         "fuente":  "hD58PIkuFVA",
+                         "inicio":  1371,
+                         "fin":  1416,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "66, \u0027todavía la gente piensa que vos sos el que vas a pelear… no es él\u0027. Sin autonomía; hablantes confusos"
+                     },
+                     {
+                         "fuente":  "hD58PIkuFVA",
+                         "inicio":  846,
+                         "fin":  888,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Imagina que me capturen y llegue violado\u0027: estereotipo de inseguridad"
+                     },
+                     {
+                         "fuente":  "hD58PIkuFVA",
+                         "inicio":  1433,
+                         "fin":  1580,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "La guarida: bromas sexuales explícitas"
+                     },
+                     {
+                         "fuente":  "hD58PIkuFVA",
+                         "inicio":  0,
+                         "fin":  130,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Intro y montaje de la caída del stream (prank): largo y depende de lo visual; el desenlace está en sorpresa-filtrada"
+                     },
+                     {
+                         "fuente":  "APiCfb3IXF4",
+                         "inicio":  26,
+                         "fin":  86,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "63, \u0027¿el Revuelto ya está vendido? muestre la transacción\u0027. Hablantes por confirmar y transcripción rota"
+                     },
+                     {
+                         "fuente":  "APiCfb3IXF4",
+                         "inicio":  253,
+                         "fin":  262,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Fecha de la Kick House \u0027después de Stream Fighters\u0027: 9 s, demasiado corto (el adelanto está en kick-house-coming-soon)"
+                     },
+                     {
+                         "fuente":  "APiCfb3IXF4",
+                         "inicio":  290,
+                         "fin":  1040,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Bromas sexuales explícitas (iniciación, \u0027el helicóptero\u0027, etc.)"
+                     },
+                     {
+                         "fuente":  "APiCfb3IXF4",
+                         "inicio":  1037,
+                         "fin":  1212,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Westcol carga a Chiara (la bebé): no se recortan menores. Repite XvSs7RaRxzA 0:00-2:30"
+                     },
+                     {
+                         "fuente":  "9kJkUgmxh10",
+                         "inicio":  0,
+                         "fin":  642,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Duplicado: es hD58PIkuFVA 2:21-12:40 (desfase ~141 s), ya cortado desde el canal de Samulx"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  616.57,
+                         "fin":  673.14,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-westcol-cuanto-hizo-la-plena",
+                         "motivo":  "revelacion, 85 (ciclo 8): \u0027¿cuánto dinero hizo La Plena?… por ahí 6 millones… 1.000 millones en Spotify, 3 millones de dólares\u0027. Cifras suyas, sin verificar"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  1128.81,
+                         "fin":  1163.98,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-lonche-un-ano-despues",
+                         "motivo":  "historia, 76 (ciclo 8): Lonche llegó \u0027como un vagabundo\u0027 a una fiesta hace un año; \u0027un año después… Ferrari, Rolls Royce\u0027"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  37.97,
+                         "fin":  89.1,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-westcol-pago-por-reaccionar",
+                         "motivo":  "revelacion, 77 (ciclo 8): \u0027$200.000 en la música no es nada… una disquera me ha pagado $10.000 por reaccionar un tema\u0027; \u0027Rey, le falta cancha\u0027"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  431,
+                         "fin":  475,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "Revisión humana. 78: réplica a Cris Valencia (\u0027le pagamos su videoclip, los pasajes, le creamos el canal… a los dos días que pegó el tema se fue a hacer entrevistas a decir que éramos una *** de la nada\u0027). Responde a críticas de un artista en plena polémica de Komanche (\u0027ahorita que me tiran ***… no puede decir que soy una mala persona\u0027): mismo criterio que el bloque Komanche de MBotzCroy1Q. Ya hay 5 recortes largos con pocas vistas (máx. 175)"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  508,
+                         "fin":  550,
+                         "estado":  "propuesto",
+                         "clip":  null,
+                         "motivo":  "Revisión humana junto con el anterior. 72: \u0027a Cris Valencia le iban a dar medio millón de dólares… yo no quise ser parte del proyecto… jamás recibí 1.000 pesos\u0027"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  276,
+                         "fin":  350,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "Cris Valencia \u0027se operó el rostro\u0027, las regalías de \u0027Ya no volverás\u0027: burla y acusaciones a un tercero"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  175,
+                         "fin":  234,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "66, \u0027Arcángel dijo que le pagan 3 millones por disco… la W Sound, mínimo 10 (…) por el 20%\u0027. Cifras de terceros y una ininteligible"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  988,
+                         "fin":  1032,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "66, ¿cuánto pagó GTA 6 por las canciones de Chimbala y Omega? \u0027Creo que nada\u0027. Especulación sin respuesta; bajo prioridad"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  1247,
+                         "fin":  1290,
+                         "estado":  "descartado",
+                         "clip":  null,
+                         "motivo":  "\u0027Los creadores se la chupan a México… tacos deliciosos\u0027: vulgar y puede ofender a la audiencia mexicana"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  1166.05,
+                         "fin":  1229.46,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-westcol-si-fuera-mexicano",
+                         "motivo":  "frase, 75 (ciclo 8): \u0027si hubiera nacido en México tendría 15-20 millones de seguidores… número uno en México un millón de streams, en Colombia 300.000\u0027"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  127.17,
+                         "fin":  154.9,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-kris-r-musica-cambia-vida",
+                         "motivo":  "frase, 73 (ciclo 8): \u0027Kris R ya con tres cadenas, dos G-Wagon… la música en un segundito te cambia la vida\u0027"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  726.37,
+                         "fin":  753.38,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-ovy-cancion-en-pelicula",
+                         "motivo":  "consejo, 73 (ciclo 8): Ovy: \u0027lo que más deja dinero es que pongan una canción tuya en una película\u0027"
+                     },
+                     {
+                         "fuente":  "XcgyVpbHNlw",
+                         "inicio":  873.29,
+                         "fin":  910.82,
+                         "estado":  "cortado",
+                         "clip":  "2026-11-06-bad-bunny-luian-historia",
+                         "motivo":  "historia, 69 (ciclo 8): Bad Bunny le habría recomprado su porcentaje a DJ Luian (\u0027no tengo los números exactos… creo que 3 millones\u0027). Versión sin confirmar"
                      }
                  ]
 }

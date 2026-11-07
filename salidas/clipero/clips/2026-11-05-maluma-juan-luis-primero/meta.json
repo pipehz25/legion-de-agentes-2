@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-maluma-juan-luis-primero",
+    "url_fuente":  "https://www.youtube.com/watch?v=iNxDQVDIer8",
+    "video_id":  "iNxDQVDIer8",
+    "inicio":  3435.58,
+    "fin":  3464.13,
+    "inicio_hms":  "0:57:15",
+    "duracion_seg":  28.6,
+    "gancho":  "Maluma: Juan Luis primero que Maluma",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  95,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.29,
+                  "entrada_tp":  -6.36,
+                  "salida_lufs":  -13.82,
+                  "salida_tp":  -1.07
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-maluma-juan-luis-primero/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-maluma-juan-luis-primero/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-maluma-juan-luis-primero/revision.jpg",
+    "creado":  "2026-11-06T13:20:16.3269208-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-samulx-tour-por-colombia",
+    "url_fuente":  "https://www.youtube.com/watch?v=XvSs7RaRxzA",
+    "video_id":  "XvSs7RaRxzA",
+    "inicio":  271.93,
+    "fin":  318.82,
+    "inicio_hms":  "0:04:31",
+    "duracion_seg":  46.9,
+    "gancho":  "Samulx planea un tour por Colombia",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  148,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -10.92,
+                  "entrada_tp":  -1.04,
+                  "salida_lufs":  -14.01,
+                  "salida_tp":  -4.32
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-samulx-tour-por-colombia/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-samulx-tour-por-colombia/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-samulx-tour-por-colombia/revision.jpg",
+    "creado":  "2026-11-06T12:20:23.3537435-05:00"
+}

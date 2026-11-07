@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-maluma-tiempo-largo-argentina",
+    "url_fuente":  "https://www.youtube.com/watch?v=iNxDQVDIer8",
+    "video_id":  "iNxDQVDIer8",
+    "inicio":  3316.18,
+    "fin":  3343.83,
+    "inicio_hms":  "0:55:16",
+    "duracion_seg":  27.7,
+    "gancho":  "Maluma: \u0027más pronto de lo que esperan\u0027",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  73,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.15,
+                  "entrada_tp":  -3.6,
+                  "salida_lufs":  -13.7,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-maluma-tiempo-largo-argentina/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-maluma-tiempo-largo-argentina/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-maluma-tiempo-largo-argentina/revision.jpg",
+    "creado":  "2026-11-06T13:23:47.5403813-05:00"
+}

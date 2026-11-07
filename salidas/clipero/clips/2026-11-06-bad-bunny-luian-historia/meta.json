@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-bad-bunny-luian-historia",
+    "url_fuente":  "https://www.youtube.com/watch?v=XcgyVpbHNlw",
+    "video_id":  "XcgyVpbHNlw",
+    "inicio":  873.29,
+    "fin":  910.82,
+    "inicio_hms":  "0:14:33",
+    "duracion_seg":  37.6,
+    "gancho":  "Bad Bunny y Luian: la historia que cuentan",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  131,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -21.38,
+                  "entrada_tp":  -8.64,
+                  "salida_lufs":  -14.12,
+                  "salida_tp":  -1.26
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-bad-bunny-luian-historia/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-bad-bunny-luian-historia/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-bad-bunny-luian-historia/revision.jpg",
+    "creado":  "2026-11-06T13:30:49.4544107-05:00"
+}

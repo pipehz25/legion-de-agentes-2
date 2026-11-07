@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-06-ovy-cancion-en-pelicula",
+    "url_fuente":  "https://www.youtube.com/watch?v=XcgyVpbHNlw",
+    "video_id":  "XcgyVpbHNlw",
+    "inicio":  726.37,
+    "fin":  753.38,
+    "inicio_hms":  "0:12:06",
+    "duracion_seg":  27,
+    "gancho":  "Lo que más dinero deja en la música",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  92,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.4,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.41,
+                  "entrada_tp":  -6.02,
+                  "salida_lufs":  -14.9,
+                  "salida_tp":  -1.01
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-06-ovy-cancion-en-pelicula/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-06-ovy-cancion-en-pelicula/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-06-ovy-cancion-en-pelicula/revision.jpg",
+    "creado":  "2026-11-06T12:52:40.6903191-05:00"
+}

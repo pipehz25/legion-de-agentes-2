@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-asi-pagaria-el-lambo",
+    "url_fuente":  "https://www.youtube.com/watch?v=KhuFp9eIyVU",
+    "video_id":  "KhuFp9eIyVU",
+    "inicio":  1145.67,
+    "fin":  1180.76,
+    "inicio_hms":  "0:19:05",
+    "duracion_seg":  35.1,
+    "gancho":  "Así pagaría Westcol el Lamborghini",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  120,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.5,
+                  "limitador":  true,
+                  "entrada_lufs":  -19.97,
+                  "entrada_tp":  -6.47,
+                  "salida_lufs":  -14.32,
+                  "salida_tp":  -1
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-asi-pagaria-el-lambo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-asi-pagaria-el-lambo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-asi-pagaria-el-lambo/revision.jpg",
+    "creado":  "2026-11-06T13:28:01.4132844-05:00"
+}
