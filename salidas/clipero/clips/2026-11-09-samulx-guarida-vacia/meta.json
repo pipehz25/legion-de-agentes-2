@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-samulx-guarida-vacia",
+    "url_fuente":  "https://www.youtube.com/watch?v=nug3h47QoTY",
+    "video_id":  "nug3h47QoTY",
+    "inicio":  533.41,
+    "fin":  575.46,
+    "inicio_hms":  "0:08:53",
+    "duracion_seg":  42,
+    "gancho":  "Samulx conoce la guarida... ya vacía",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  99,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -12.73,
+                  "entrada_tp":  -0.9,
+                  "salida_lufs":  -13.71,
+                  "salida_tp":  -2.17
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-samulx-guarida-vacia/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-samulx-guarida-vacia/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-samulx-guarida-vacia/revision.jpg",
+    "creado":  "2026-11-09T16:12:00.1026022-05:00"
+}

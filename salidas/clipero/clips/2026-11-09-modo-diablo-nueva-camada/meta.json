@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-modo-diablo-nueva-camada",
+    "url_fuente":  "https://www.youtube.com/watch?v=m6P9-CnFt4k",
+    "video_id":  "m6P9-CnFt4k",
+    "inicio":  787.21,
+    "fin":  826.66,
+    "inicio_hms":  "0:13:07",
+    "duracion_seg":  39.5,
+    "gancho":  "Modo Diablo a la nueva camada",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  147,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -18.06,
+                  "entrada_tp":  -5.1,
+                  "salida_lufs":  -13.78,
+                  "salida_tp":  -1.04
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-modo-diablo-nueva-camada/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-modo-diablo-nueva-camada/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-modo-diablo-nueva-camada/revision.jpg",
+    "creado":  "2026-11-09T16:14:30.3608375-05:00"
+}

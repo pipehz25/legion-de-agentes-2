@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-robot-salto",
+    "url_fuente":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+    "video_id":  "Xrwm98iaWY8",
+    "inicio":  2376.85,
+    "fin":  2418.54,
+    "inicio_hms":  "0:39:36",
+    "duracion_seg":  41.7,
+    "gancho":  "A ver si el robot rompe el techo",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  72,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11,
+                  "entrada_tp":  1.07,
+                  "salida_lufs":  -13.59,
+                  "salida_tp":  -1.93
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-robot-salto/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-robot-salto/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-robot-salto/revision.jpg",
+    "creado":  "2026-11-09T16:32:59.0562794-05:00"
+}

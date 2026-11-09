@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-perderias-300mil",
+    "url_fuente":  "https://www.youtube.com/watch?v=LgnQHaFVvyo",
+    "video_id":  "LgnQHaFVvyo",
+    "inicio":  829.65,
+    "fin":  858.5,
+    "inicio_hms":  "0:13:49",
+    "duracion_seg":  28.8,
+    "gancho":  "Lo que pierdes al comprar ese carro",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  115,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.13,
+                  "entrada_tp":  -14.5,
+                  "salida_lufs":  -13.98,
+                  "salida_tp":  -6.38
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-perderias-300mil/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-perderias-300mil/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-perderias-300mil/revision.jpg",
+    "creado":  "2026-11-09T16:51:02.8352453-05:00"
+}

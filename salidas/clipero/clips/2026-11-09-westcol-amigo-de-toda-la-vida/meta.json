@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-westcol-amigo-de-toda-la-vida",
+    "url_fuente":  "https://www.youtube.com/watch?v=nug3h47QoTY",
+    "video_id":  "nug3h47QoTY",
+    "inicio":  5.21,
+    "fin":  58.3,
+    "inicio_hms":  "0:00:05",
+    "duracion_seg":  53.1,
+    "gancho":  "Westcol, antes de recoger a Samulx",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  167,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.42,
+                  "entrada_tp":  -4.51,
+                  "salida_lufs":  -14.03,
+                  "salida_tp":  -1.09
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-westcol-amigo-de-toda-la-vida/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-westcol-amigo-de-toda-la-vida/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-westcol-amigo-de-toda-la-vida/revision.jpg",
+    "creado":  "2026-11-09T15:56:47.1655915-05:00"
+}

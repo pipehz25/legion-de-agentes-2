@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-westcol-plaza-3-am",
+    "url_fuente":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+    "video_id":  "O5LzrzMAbXM",
+    "inicio":  4116.89,
+    "fin":  4160.54,
+    "inicio_hms":  "1:08:36",
+    "duracion_seg":  43.7,
+    "gancho":  "El primer trabajo de Westcol en Medellín",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  142,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -10.92,
+                  "entrada_tp":  1.03,
+                  "salida_lufs":  -14.06,
+                  "salida_tp":  -2.06
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-westcol-plaza-3-am/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-westcol-plaza-3-am/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-westcol-plaza-3-am/revision.jpg",
+    "creado":  "2026-11-09T15:32:37.0308919-05:00"
+}

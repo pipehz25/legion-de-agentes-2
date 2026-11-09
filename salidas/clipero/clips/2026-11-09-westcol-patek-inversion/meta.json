@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-westcol-patek-inversion",
+    "url_fuente":  "https://www.youtube.com/watch?v=ybjXHgxGBMo",
+    "video_id":  "ybjXHgxGBMo",
+    "inicio":  362.01,
+    "fin":  385.1,
+    "inicio_hms":  "0:06:02",
+    "duracion_seg":  23.1,
+    "gancho":  "Westcol: los relojes son inversión",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  89,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -20.29,
+                  "entrada_tp":  -12.89,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -6.8
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-westcol-patek-inversion/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-westcol-patek-inversion/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-westcol-patek-inversion/revision.jpg",
+    "creado":  "2026-11-09T15:22:14.4695747-05:00"
+}

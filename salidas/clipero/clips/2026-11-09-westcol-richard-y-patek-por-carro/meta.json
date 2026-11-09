@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-westcol-richard-y-patek-por-carro",
+    "url_fuente":  "https://www.youtube.com/watch?v=ybjXHgxGBMo",
+    "video_id":  "ybjXHgxGBMo",
+    "inicio":  1045.77,
+    "fin":  1078.34,
+    "inicio_hms":  "0:17:25",
+    "duracion_seg":  32.6,
+    "gancho":  "No le trajeron el carro y compró esto",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  107,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -20.9,
+                  "entrada_tp":  -12.63,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -5.95
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-westcol-richard-y-patek-por-carro/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-westcol-richard-y-patek-por-carro/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-westcol-richard-y-patek-por-carro/revision.jpg",
+    "creado":  "2026-11-09T15:13:11.3007676-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-westcol-robot-motosierra",
+    "url_fuente":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+    "video_id":  "S5v1BWnXdaI",
+    "inicio":  600.93,
+    "fin":  653.58,
+    "inicio_hms":  "0:10:00",
+    "duracion_seg":  52.6,
+    "gancho":  "Westcol le puso una motosierra a su robot",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  215,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.83,
+                  "entrada_tp":  -13.1,
+                  "salida_lufs":  -13.97,
+                  "salida_tp":  -5.27
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-westcol-robot-motosierra/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-westcol-robot-motosierra/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-westcol-robot-motosierra/revision.jpg",
+    "creado":  "2026-11-09T14:48:33.2568805-05:00"
+}

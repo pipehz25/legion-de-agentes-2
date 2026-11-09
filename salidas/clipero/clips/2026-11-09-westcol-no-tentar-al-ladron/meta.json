@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-westcol-no-tentar-al-ladron",
+    "url_fuente":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+    "video_id":  "O5LzrzMAbXM",
+    "inicio":  1987.17,
+    "fin":  2011.42,
+    "inicio_hms":  "0:33:07",
+    "duracion_seg":  24.3,
+    "gancho":  "Westcol: \u0027no es justificar al ladrón, pero…\u0027",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  84,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -12.02,
+                  "entrada_tp":  0.69,
+                  "salida_lufs":  -14.08,
+                  "salida_tp":  -1.29
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-westcol-no-tentar-al-ladron/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-westcol-no-tentar-al-ladron/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-westcol-no-tentar-al-ladron/revision.jpg",
+    "creado":  "2026-11-09T17:19:18.1814157-05:00"
+}

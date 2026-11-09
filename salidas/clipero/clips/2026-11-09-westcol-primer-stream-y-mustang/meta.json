@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-westcol-primer-stream-y-mustang",
+    "url_fuente":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+    "video_id":  "O5LzrzMAbXM",
+    "inicio":  4182.57,
+    "fin":  4213.06,
+    "inicio_hms":  "1:09:42",
+    "duracion_seg":  30.5,
+    "gancho":  "Aquí hizo su primer stream con Arcángel",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  98,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.4,
+                  "entrada_tp":  1.33,
+                  "salida_lufs":  -13.8,
+                  "salida_tp":  -1.29
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-westcol-primer-stream-y-mustang/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-westcol-primer-stream-y-mustang/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-westcol-primer-stream-y-mustang/revision.jpg",
+    "creado":  "2026-11-09T17:16:23.7702812-05:00"
+}

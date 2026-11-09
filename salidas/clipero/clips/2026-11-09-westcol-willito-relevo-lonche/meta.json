@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-westcol-willito-relevo-lonche",
+    "url_fuente":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+    "video_id":  "S5v1BWnXdaI",
+    "inicio":  372.05,
+    "fin":  404.82,
+    "inicio_hms":  "0:06:12",
+    "duracion_seg":  32.8,
+    "gancho":  "¿Willito no le dará relevo a Lonche?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  129,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -21.68,
+                  "entrada_tp":  -13.98,
+                  "salida_lufs":  -14,
+                  "salida_tp":  -6.32
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-westcol-willito-relevo-lonche/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-westcol-willito-relevo-lonche/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-westcol-willito-relevo-lonche/revision.jpg",
+    "creado":  "2026-11-09T14:51:17.3679458-05:00"
+}

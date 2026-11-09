@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-maluma-bizarrap-martinis",
+    "url_fuente":  "https://www.youtube.com/watch?v=iNxDQVDIer8",
+    "video_id":  "iNxDQVDIer8",
+    "inicio":  3214.98,
+    "fin":  3254.43,
+    "inicio_hms":  "0:53:34",
+    "duracion_seg":  39.5,
+    "gancho":  "Maluma: \u0027no sabía que era tan buena gente\u0027",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  110,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.3,
+                  "limitador":  true,
+                  "entrada_lufs":  -20.29,
+                  "entrada_tp":  -7.07,
+                  "salida_lufs":  -14.36,
+                  "salida_tp":  -1.08
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-maluma-bizarrap-martinis/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-maluma-bizarrap-martinis/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-maluma-bizarrap-martinis/revision.jpg",
+    "creado":  "2026-11-09T17:21:48.1861013-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-parceritos-lokillo-balsamo",
+    "url_fuente":  "https://www.youtube.com/watch?v=o1uyVvIu4xc",
+    "video_id":  "o1uyVvIu4xc",
+    "inicio":  2295.17,
+    "fin":  2325.32,
+    "inicio_hms":  "0:38:15",
+    "duracion_seg":  30.2,
+    "gancho":  "Lokillo, el día que perdió a su abuelo",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  114,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.45,
+                  "entrada_tp":  -4.32,
+                  "salida_lufs":  -14.39,
+                  "salida_tp":  -1.07
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-parceritos-lokillo-balsamo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-parceritos-lokillo-balsamo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-parceritos-lokillo-balsamo/revision.jpg",
+    "creado":  "2026-11-09T17:31:03.0489526-05:00"
+}

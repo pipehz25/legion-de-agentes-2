@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-robot-como-mi-hijo",
+    "url_fuente":  "https://www.youtube.com/watch?v=Xrwm98iaWY8",
+    "video_id":  "Xrwm98iaWY8",
+    "inicio":  2010.49,
+    "fin":  2057,
+    "inicio_hms":  "0:33:30",
+    "duracion_seg":  46.5,
+    "gancho":  "Westcol vistió a su robot",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  121,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.55,
+                  "entrada_tp":  0.36,
+                  "salida_lufs":  -14.09,
+                  "salida_tp":  -2.1
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-robot-como-mi-hijo/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-robot-como-mi-hijo/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-robot-como-mi-hijo/revision.jpg",
+    "creado":  "2026-11-09T16:05:43.1973396-05:00"
+}

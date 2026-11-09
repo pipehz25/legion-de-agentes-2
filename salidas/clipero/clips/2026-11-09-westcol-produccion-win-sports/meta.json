@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-westcol-produccion-win-sports",
+    "url_fuente":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+    "video_id":  "S5v1BWnXdaI",
+    "inicio":  100.13,
+    "fin":  127.38,
+    "inicio_hms":  "0:01:40",
+    "duracion_seg":  27.2,
+    "gancho":  "Stream Fighters 5: producción de Win Sports",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  75,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.26,
+                  "entrada_tp":  -14.29,
+                  "salida_lufs":  -13.95,
+                  "salida_tp":  -6.11
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-westcol-produccion-win-sports/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-westcol-produccion-win-sports/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-westcol-produccion-win-sports/revision.jpg",
+    "creado":  "2026-11-09T15:00:34.5701891-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-carro-en-cada-ciudad",
+    "url_fuente":  "https://www.youtube.com/watch?v=KhuFp9eIyVU",
+    "video_id":  "KhuFp9eIyVU",
+    "inicio":  973.03,
+    "fin":  1031.68,
+    "inicio_hms":  "0:16:13",
+    "duracion_seg":  58.6,
+    "gancho":  "¿Un carro en cada ciudad?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  182,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -12.5,
+                  "entrada_tp":  0,
+                  "salida_lufs":  -13.93,
+                  "salida_tp":  -1.5
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-carro-en-cada-ciudad/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-carro-en-cada-ciudad/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-carro-en-cada-ciudad/revision.jpg",
+    "creado":  "2026-11-09T16:45:25.4497170-05:00"
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-duki-remix-murio",
+    "url_fuente":  "https://www.youtube.com/watch?v=m6P9-CnFt4k",
+    "video_id":  "m6P9-CnFt4k",
+    "inicio":  744.41,
+    "fin":  778.78,
+    "inicio_hms":  "0:12:24",
+    "duracion_seg":  34.4,
+    "gancho":  "Duki enterró el remix que prometió",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  132,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -17.68,
+                  "entrada_tp":  -4.81,
+                  "salida_lufs":  -14.07,
+                  "salida_tp":  -1.13
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-duki-remix-murio/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-duki-remix-murio/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-duki-remix-murio/revision.jpg",
+    "creado":  "2026-11-09T16:22:40.3367096-05:00"
+}

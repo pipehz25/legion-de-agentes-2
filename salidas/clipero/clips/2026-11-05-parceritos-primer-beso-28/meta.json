@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-parceritos-primer-beso-28",
+    "url_fuente":  "https://www.youtube.com/watch?v=o1uyVvIu4xc",
+    "video_id":  "o1uyVvIu4xc",
+    "inicio":  258.58,
+    "fin":  330.82,
+    "inicio_hms":  "0:04:18",
+    "duracion_seg":  72.2,
+    "gancho":  "Su primer beso fue a los 28",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  252,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  true,
+                  "entrada_lufs":  -12.78,
+                  "entrada_tp":  -0.23,
+                  "salida_lufs":  -14.06,
+                  "salida_tp":  -1.45
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-parceritos-primer-beso-28/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-parceritos-primer-beso-28/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-parceritos-primer-beso-28/revision.jpg",
+    "creado":  "2026-11-09T17:28:40.7855843-05:00"
+}

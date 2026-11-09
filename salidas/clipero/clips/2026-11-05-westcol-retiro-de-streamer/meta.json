@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-05-westcol-retiro-de-streamer",
+    "url_fuente":  "https://www.youtube.com/watch?v=LgnQHaFVvyo",
+    "video_id":  "LgnQHaFVvyo",
+    "inicio":  289.25,
+    "fin":  323.58,
+    "inicio_hms":  "0:04:49",
+    "duracion_seg":  34.3,
+    "gancho":  "Westcol: apartamento de retiro de streamer",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  126,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14.2,
+                  "limitador":  true,
+                  "entrada_lufs":  -16.87,
+                  "entrada_tp":  -3.72,
+                  "salida_lufs":  -14.3,
+                  "salida_tp":  -1.05
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-05-westcol-retiro-de-streamer/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-05-westcol-retiro-de-streamer/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-05-westcol-retiro-de-streamer/revision.jpg",
+    "creado":  "2026-11-09T17:01:23.5407318-05:00"
+}

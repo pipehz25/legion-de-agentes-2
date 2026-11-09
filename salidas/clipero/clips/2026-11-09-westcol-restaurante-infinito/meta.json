@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-westcol-restaurante-infinito",
+    "url_fuente":  "https://www.youtube.com/watch?v=O5LzrzMAbXM",
+    "video_id":  "O5LzrzMAbXM",
+    "inicio":  1594.97,
+    "fin":  1649.58,
+    "inicio_hms":  "0:26:34",
+    "duracion_seg":  54.6,
+    "gancho":  "¿Un restaurante gratis para la gente de la calle?",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  212,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -11.76,
+                  "entrada_tp":  1.18,
+                  "salida_lufs":  -14.05,
+                  "salida_tp":  -1.08
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-westcol-restaurante-infinito/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-westcol-restaurante-infinito/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-westcol-restaurante-infinito/revision.jpg",
+    "creado":  "2026-11-09T15:40:58.5641805-05:00"
+}

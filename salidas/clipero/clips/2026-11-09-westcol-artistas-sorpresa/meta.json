@@ -1,0 +1,26 @@
+{
+    "id":  "2026-11-09-westcol-artistas-sorpresa",
+    "url_fuente":  "https://www.youtube.com/watch?v=S5v1BWnXdaI",
+    "video_id":  "S5v1BWnXdaI",
+    "inicio":  305.81,
+    "fin":  340.14,
+    "inicio_hms":  "0:05:05",
+    "duracion_seg":  34.3,
+    "gancho":  "El truco de los artistas sorpresa",
+    "subtitulos":  "rev",
+    "palabras_subtituladas":  145,
+    "modo":  "desenfoque",
+    "audio":  {
+                  "normalizacion":  "linear",
+                  "objetivo_lufs":  -14,
+                  "limitador":  false,
+                  "entrada_lufs":  -22.01,
+                  "entrada_tp":  -14.26,
+                  "salida_lufs":  -13.92,
+                  "salida_tp":  -6.51
+              },
+    "archivo":  "salidas/clipero/clips/2026-11-09-westcol-artistas-sorpresa/clip.mp4",
+    "portada":  "salidas/clipero/clips/2026-11-09-westcol-artistas-sorpresa/portada.jpg",
+    "revision":  "salidas/clipero/clips/2026-11-09-westcol-artistas-sorpresa/revision.jpg",
+    "creado":  "2026-11-09T14:54:14.9032867-05:00"
+}
